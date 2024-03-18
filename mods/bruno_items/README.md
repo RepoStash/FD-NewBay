@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- PLACEHOLDER
+- https://github.com/RepoStash/FD-NewBay/pull/1
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
