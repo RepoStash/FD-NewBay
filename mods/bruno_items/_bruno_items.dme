@@ -9,4 +9,6 @@
 #include "code/accessory.dm"
 #include "code/suit.dm"
 
+#include "code/weapon.dm"
+
 #endif
