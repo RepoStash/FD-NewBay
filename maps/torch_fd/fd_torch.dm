@@ -241,6 +241,7 @@
 	#include "../../mods/accent_labels/_accent_labels.dme"
 	#include "../../mods/additional_biomods/_additional_biomods.dme"
 	#include "../../mods/ascent/_ascent.dme"
+	#include "../../mods/bruno_items/_bruno_items.dme"
 	#include "../../mods/combat_stances/_combat_stances.dme"
 	#include "../../mods/conference_holopads/_conference_holopads.dme"
 	#include "../../mods/hestia_missiles/_hestia_missiles.dme"
