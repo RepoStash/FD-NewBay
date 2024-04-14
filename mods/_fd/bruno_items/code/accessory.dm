@@ -35,10 +35,10 @@
 	slot_flags = SLOT_MASK | SLOT_TIE
 
 /obj/item/clothing/accessory/scarf/shemagh/get_mob_overlay(mob/user_mob, slot)
-    . = ..()
+	. = ..()
 
-    if(istype(loc, /obj/item/clothing/suit/space/void/exploration))
-        return overlay_image(accessory_icons[slot], "shemagh_fat", color, RESET_COLOR)
+	if(istype(loc, /obj/item/clothing/suit/space/void/exploration))
+		return overlay_image(accessory_icons[slot], "shemagh_fat", color, RESET_COLOR)
 
 /obj/item/clothing/accessory/scarf/shouldercape
 	name = "shoulder cape"
