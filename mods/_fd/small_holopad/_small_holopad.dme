@@ -1,0 +1,11 @@
+#ifndef MODPACK_SMALL_HOLOPAD
+#define MODPACK_SMALL_HOLOPAD
+
+#include "_small_holopad.dm"
+
+#include "code/holopad.dm"
+#include "code/holopad_override.dm"
+// Далее просто включай свой код
+// #include "code/something.dm"
+
+#endif
