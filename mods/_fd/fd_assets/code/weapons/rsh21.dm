@@ -3,6 +3,7 @@
 /obj/item/gun/projectile/revolver/rsh21
 	name = "RSH-21"
 	icon_state = "rsh12"
+	icon = 'mods/_fd/fd_assets/icons/obj/items/rsh21.dmi'
 	caliber = CALIBER_RIFLE_RUSSIA
 	ammo_type = /obj/item/ammo_casing/rifle/russia
 	desc = "A modern assault revolver that has been adapted for firing at medium and long distances. The RS12 is its direct predecessor, but in comparison with it it has a lower recoil, a larger drum for 6 rounds, and a built-in gyro stabilizer. It has two mounting straps on the bottom and top."
