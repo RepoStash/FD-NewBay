@@ -1,0 +1,7 @@
+/obj/machinery/hologram/holopad/bullet_act(obj/item/projectile/P)
+	..()
+	for(var/mob/M in masters)
+		remove_holo(M)
+	if(connected)
+		end_call()
+		visible_message("Holopad shuts down as \the [P] hits it!")

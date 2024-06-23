@@ -233,7 +233,7 @@
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
 	#include "../../mods/screentips/_screentips.dme"
-	#include "../../mods/tajara/_tajara.dme"
+//	#include "../../mods/tajara/_tajara.dme"
 	#include "../../mods/sauna_props/_sauna_props.dme"
 	#include "../../mods/wyccbay_optimization/_wyccbay_optimization.dme"
 
@@ -265,6 +265,7 @@
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
 	#include "../../mods/_fd/old_space_cannons/_old_space_cannons.dme"
 	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
+	#include "../../mods/_fd/small_holopad/_small_holopad.dme"
 	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
 
 	#include "../../mods/_fd/_maps/airfield/_airfield.dme"
