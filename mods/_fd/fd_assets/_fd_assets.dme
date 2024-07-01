@@ -7,7 +7,6 @@
 
 #include "code/clothing/badges.dm"
 #include "code/clothing/clothing_under.dm"
-#include "code/clothing/ec_additional_suits.dm"
 #include "code/clothing/ftu_voidsuits.dm"
 
 #include "code/machinery/ai_slipper.dm"
@@ -43,17 +42,14 @@
 #include "code/turfs/wall_types.dm"
 
 #include "code/weapons/automatic_shotgun.dm"
-#include "code/weapons/k342.dm"
 #include "code/weapons/mech_mounted.dm"
 #include "code/weapons/rsh21.dm"
 #include "code/weapons/sledgehammer.dm"
 
-#include "code/chief_steward.dm"
 #include "code/fd_sofa_override.dm"
 #include "code/floor_decals.dm"
 #include "code/fullscreen.dm"
 #include "code/loadout.dm"
-#include "code/research_guard.dm"
 #include "code/skills.dm"
 #include "code/~TO_MAKE.dm"
 

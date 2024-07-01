@@ -1,0 +1,25 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"c" = (/obj/structure/rubble,/turf/template_noop,/area/template_noop)
+"k" = (/obj/structure/rubble,/obj/structure/rubble,/turf/template_noop,/area/template_noop)
+"s" = (/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"x" = (/turf/simulated/mineral/volcanic,/area/template_noop)
+"z" = (/obj/structure/rubble,/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"D" = (/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"G" = (/obj/structure/fd/skull2,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"H" = (/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"I" = (/obj/decal/cleanable/ash,/turf/template_noop,/area/template_noop)
+"M" = (/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"P" = (/obj/structure/fd/ribs,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+
+(1,1,1) = {"
+assxxassaa
+ssaxxasGsa
+ssassaaMsa
+aacssassaa
+aHDsaaaaca
+acsDssaaDc
+Iaaasssaxs
+asaPssscka
+ssassaazHc
+asaaaaasDa
+"}

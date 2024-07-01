@@ -1,0 +1,68 @@
+"a" = (/turf/template_noop,/area/map_template/build/build3)
+"b" = (/obj/structure/table/marble,/obj/random/cash,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"c" = (/obj/random/junk,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"e" = (/obj/structure/table/marble,/obj/random/junk,/obj/decal/cleanable/dirt,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"f" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"g" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/liquid_fuel,/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"h" = (/turf/template_noop,/area/template_noop)
+"i" = (/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"j" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"l" = (/obj/structure/table/marble,/obj/random/loot,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"m" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"n" = (/obj/structure/table/marble,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"o" = (/obj/random/trash,/obj/decal/cleanable/dirt,/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"p" = (/obj/random/junk,/obj/decal/cleanable/dirt,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"r" = (/obj/icarus_irradiate{name = "Desert Temple Radiation Spawner"; radiation_power = 35; req_range = 7},/turf/simulated/wall/golddiamond,/area/map_template/build/build3)
+"s" = (/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"t" = (/obj/decal/cleanable/filth,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"u" = (/obj/decal/cleanable/dirt,/obj/random/maintenance,/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"v" = (/turf/simulated/wall/sandstone,/area/map_template/build/build3)
+"x" = (/obj/decal/cleanable/greenglow,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"y" = (/obj/random/junk,/turf/template_noop,/area/template_noop)
+"z" = (/turf/simulated/wall/uranium,/area/map_template/build/build3)
+"A" = (/obj/random/material,/obj/decal/cleanable/dirt,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"C" = (/obj/structure/mob_spawner{name = "spider nest"; thing_to_spawn = /obj/effect/spider/spiderling},/turf/template_noop,/area/map_template/build/build3)
+"D" = (/obj/decal/cleanable/dirt,/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"E" = (/obj/decal/cleanable/dirt,/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"F" = (/obj/structure/table/marble,/obj/random/maintenance,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"G" = (/obj/structure/table/marble,/obj/random/cash,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"H" = (/obj/random/junk,/turf/template_noop,/area/map_template/build/build3)
+"I" = (/obj/random/trash,/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"L" = (/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"M" = (/obj/machinery/door/unpowered/simple/sandstone{name = "sandstone door"},/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"N" = (/obj/structure/table/marble,/obj/random/junk,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"O" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"P" = (/turf/simulated/mineral/random/high_chance,/area/template_noop)
+"Q" = (/obj/structure/mob_spawner{name = "spider nest"; thing_to_spawn = /obj/effect/spider/spiderling},/turf/template_noop,/area/template_noop)
+"S" = (/turf/simulated/wall/gold,/area/map_template/build/build3)
+"T" = (/turf/simulated/mineral/random/high_chance,/area/map_template/build/build3)
+"U" = (/obj/structure/table/marble,/obj/random/junk,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"V" = (/obj/random/trash,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"W" = (/obj/structure/table/marble,/obj/random/junk,/obj/random/cash,/obj/decal/cleanable/dirt,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+"X" = (/obj/machinery/door/unpowered/simple/sandstone{name = "sandstone door"},/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"Y" = (/obj/machinery/door/unpowered/simple/sandstone{name = "sandstone door"},/obj/decal/cleanable/dirt,/turf/simulated/floor/asteroid,/area/map_template/build/build3)
+"Z" = (/obj/structure/table/marble,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build3)
+
+(1,1,1) = {"
+hhhhhhyhhhhhhyhQPPPhh
+hhvavavavavHvavTvTvPh
+hvvavavavavavavTvTvvh
+yaTvvvvvvvvvvvvvvvTTh
+hvvvzzzzzzzzzzzzzvvvh
+PTTvzmiiimmmiIiizvaah
+PvvvzmvvvvMvvvvizvvvh
+PTTvzmvlZpjxNGvmzvaah
+PvvvzmvGgfVLEWvmzvvvh
+QTTvzivpOLSpfxvizvHah
+hvvvzXvVxSrSxjvYzvvvh
+haTvzivEpcSfpfvszvaah
+yvvvzovUfAxgtFvmzvvvh
+haavzmvnbEffeZvmzvaay
+hvvvzmvvvvvvvvvmzvvvh
+yaavzsimmmmiiioizvaah
+hvvvzzzzvimuvzzzzvvvh
+PTTvvvvvvmoivvvvvvCah
+PvvTvavTvYvYvTvTvavvh
+PPvTvavTvIDmvTvHvavyh
+hPPPhyhhvmmivPPhhhhhh
+"}

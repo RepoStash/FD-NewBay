@@ -8,7 +8,9 @@
 	known_ships = list(
 		/obj/overmap/visitable/ship/landable/exploration_shuttle,
 		/obj/overmap/visitable/ship/landable/aquila,
-		/obj/overmap/visitable/ship/landable/guppy
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/butterfly,
+		/obj/overmap/visitable/ship/landable/bubble
 	)
 
 	initial_restricted_waypoints = list(
@@ -94,7 +96,9 @@
 	known_ships = list(
 		/obj/overmap/visitable/ship/torch,
 		/obj/overmap/visitable/ship/landable/aquila,
-		/obj/overmap/visitable/ship/landable/guppy
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/butterfly,
+		/obj/overmap/visitable/ship/landable/bubble
 	)
 
 /obj/overmap/visitable/ship/landable/aquila
@@ -109,7 +113,9 @@
 	known_ships = list(
 		/obj/overmap/visitable/ship/torch,
 		/obj/overmap/visitable/ship/landable/exploration_shuttle,
-		/obj/overmap/visitable/ship/landable/guppy
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/butterfly,
+		/obj/overmap/visitable/ship/landable/bubble
 	)
 
 /obj/overmap/visitable/ship/landable/guppy
@@ -125,7 +131,9 @@
 	known_ships = list(
 		/obj/overmap/visitable/ship/torch,
 		/obj/overmap/visitable/ship/landable/exploration_shuttle,
-		/obj/overmap/visitable/ship/landable/aquila
+		/obj/overmap/visitable/ship/landable/aquila,
+		/obj/overmap/visitable/ship/landable/butterfly,
+		/obj/overmap/visitable/ship/landable/bubble
 	)
 
 /obj/machinery/computer/shuttle_control/explore/aquila

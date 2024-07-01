@@ -1,0 +1,65 @@
+"a" = (/obj/structure/cult/pylon,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"b" = (/obj/structure/cult/pylon,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"c" = (/obj/structure/monolith,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"d" = (/obj/structure/girder/cult,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"e" = (/obj/structure/grille/cult{name = "bloody grille"},/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"f" = (/turf/template_noop,/area/template_noop)
+"g" = (/obj/decal/cleanable/dirt,/obj/random/loot,/turf/simulated/floor/cult,/area/template_noop)
+"i" = (/obj/random/tool,/turf/simulated/floor/cult,/area/template_noop)
+"j" = (/obj/structure/window/boron_reinforced,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"k" = (/obj/item/flame/candle,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"m" = (/obj/structure/girder/cult,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"n" = (/obj/landmark/corpse/scientist,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"o" = (/obj/item/flame/candle,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"p" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"q" = (/obj/structure/window/boron_reinforced{dir = 1},/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"r" = (/obj/structure/window/boron_reinforced{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"s" = (/obj/random/junk,/turf/simulated/floor/cult,/area/template_noop)
+"t" = (/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"u" = (/obj/item/flame/match,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult,/area/template_noop)
+"w" = (/obj/structure/girder/cult,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"x" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"y" = (/obj/random/trash,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"A" = (/obj/structure/window/boron_reinforced{dir = 8},/obj/item/folder/nt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"B" = (/turf/simulated/floor/cult,/area/template_noop)
+"C" = (/mob/living/simple_animal/hostile/faithless/strong,/turf/template_noop,/area/template_noop)
+"D" = (/obj/structure/monolith,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"E" = (/obj/item/pickaxe/xeno/hand,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"F" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/cult,/area/template_noop)
+"G" = (/obj/random/junk,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"H" = (/obj/decal/cleanable/dirt,/obj/structure/closet/crate/secure/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"I" = (/obj/random/trash,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"J" = (/obj/item/bodybag,/turf/simulated/floor/cult,/area/template_noop)
+"K" = (/obj/landmark/corpse/scientist,/turf/simulated/floor/cult,/area/template_noop)
+"L" = (/obj/decal/cleanable/dirt,/obj/random/loot,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"M" = (/obj/decal/cleanable/dirt,/obj/random/medical/lite,/turf/simulated/floor/cult,/area/template_noop)
+"N" = (/obj/decal/cleanable/dirt,/obj/structure/closet/crate/secure/loot,/obj/random/loot,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"O" = (/obj/item/reagent_containers/ivbag/blood/human/oneg,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"P" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult,/area/template_noop)
+"Q" = (/obj/item/handcuffs/cable/red,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"S" = (/obj/structure/grille/cult{name = "bloody grille"},/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+"T" = (/obj/item/beartrap{alpha = 100; deployed = 1; icon_state = "beartrap1"; name = "camouflaged mechanical trap"},/turf/template_noop,/area/template_noop)
+"U" = (/obj/random/trash,/turf/simulated/floor/cult,/area/template_noop)
+"V" = (/turf/simulated/floor/cult{color = "#8F1111"},/area/template_noop)
+"W" = (/obj/structure/window/boron_reinforced,/obj/structure/window/boron_reinforced{dir = 4},/obj/structure/window/boron_reinforced{dir = 8},/obj/structure/window/boron_reinforced{dir = 1},/obj/machinery/artifact,/turf/simulated/floor/fixed/alium/ruin,/area/template_noop)
+"X" = (/obj/random/junk,/turf/template_noop,/area/template_noop)
+"Y" = (/turf/simulated/wall/cult/reinf,/area/template_noop)
+"Z" = (/mob/living/simple_animal/hostile/faithless/cult/strong,/obj/decal/cleanable/dirt,/turf/simulated/floor/cult{color = "#FF0505"},/area/template_noop)
+
+(1,1,1) = {"
+CffffYttSYTffXC
+ffTYttVDxptYfff
+ffGtLaxFVawttTf
+fYtcxVFUBVNctYf
+TSpxBPFkFFFVptf
+YpaVJoBEFkFVatY
+mxViFsZjnuFFxVm
+pDBFotrWApkFUDm
+tVxFKFpqQMFBVVS
+YtayBoBOFogVapY
+ftHVFFFoUFBxptf
+fYpcxxFBBxdctYT
+fftttaxFxbpptff
+fTfYIpVDVppYfff
+CffffYmpeYffTfC
+"}

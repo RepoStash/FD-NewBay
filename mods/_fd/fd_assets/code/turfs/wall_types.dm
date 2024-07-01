@@ -2,6 +2,7 @@
 	icon_state = "r_invinsible"
 	floor_type = /turf/simulated/floor/reinforced
 	mouse_opacity = MOUSE_OPACITY_UNCLICKABLE
+	icon = 'mods/_fd/fd_assets/icons/wall_masks.dmi'
 
 /turf/simulated/wall/invincible/New(newloc)
 	..(newloc, MATERIAL_PLASTEEL,MATERIAL_TITANIUM)
@@ -20,7 +21,8 @@
 /turf/simulated/wall/invincible/attack_hand()
 	return
 
-/turf/simulated/wall/invincible/attackby()
+/turf/simulated/wall/invincible/use_tool()
+	SHOULD_CALL_PARENT(FALSE)
 	return
 
 /turf/simulated/wall/invincible/can_melt()

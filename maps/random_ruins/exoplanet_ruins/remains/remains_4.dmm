@@ -1,0 +1,27 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/simulated/mineral/random/volcanic,/area/template_noop)
+"i" = (/obj/structure/rubble,/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"k" = (/obj/structure/rubble,/turf/template_noop,/area/template_noop)
+"n" = (/turf/simulated/floor/exoplanet/desert{color = "gray"},/area/template_noop)
+"p" = (/obj/structure/fd/scorched/orgy,/obj/icarus_irradiate{name = "Rad Wastes 5 Radiation Spawner"; radiation_power = 90; req_range = 5},/turf/simulated/floor/exoplanet/desert{color = "gray"},/area/template_noop)
+"q" = (/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"r" = (/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/desert{color = "gray"},/area/template_noop)
+"s" = (/obj/decal/cleanable/ash,/obj/structure/closet/crate/secure/loot,/turf/simulated/floor/exoplanet/desert{color = "gray"},/area/template_noop)
+"u" = (/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"v" = (/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"L" = (/turf/simulated/mineral/volcanic,/area/template_noop)
+"Z" = (/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+
+(1,1,1) = {"
+ZZavZaaLZv
+ZvvvZZLLba
+aqiZunZZLa
+ZZZnnnnnZZ
+ZLrnnnrnZa
+ZnnnpnnnZu
+kvnnnsnZva
+aZnnnnnqqa
+kaZrnZZLqa
+ZaZvnZbbka
+aaaZZaLbaa
+"}

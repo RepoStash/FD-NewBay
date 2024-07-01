@@ -1,0 +1,87 @@
+"aa" = (/turf/template_noop,/area/template_noop)
+"ab" = (/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"ac" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ad" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ae" = (/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"af" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"ag" = (/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"ah" = (/obj/decal/cleanable/generic,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ai" = (/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"aj" = (/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ak" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"al" = (/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt)
+"am" = (/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt)
+"an" = (/obj/decal/cleanable/dirt,/obj/structure/railing/mapped,/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"ao" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/railing/mapped,/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"ap" = (/obj/structure/rubble/house,/turf/template_noop,/area/template_noop)
+"aq" = (/turf/simulated/wall/r_wall,/area/map_template/shelters_alt)
+"ar" = (/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/map_template/shelters_alt)
+"as" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt)
+"at" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing_preview"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"au" = (/obj/floor_decal/techfloor/orange{dir = 9; icon_state = "techfloororange_edges"},/obj/structure/rubble/house,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"av" = (/obj/floor_decal/techfloor/orange{dir = 1; icon_state = "techfloororange_edges"},/obj/machinery/power/apc/alien{pixel_y = 27},/obj/structure/ore_box,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aw" = (/obj/floor_decal/techfloor/orange{dir = 1; icon_state = "techfloororange_edges"},/obj/structure/lift/panel{pixel_y = 27},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"ax" = (/obj/floor_decal/techfloor/orange{dir = 1; icon_state = "techfloororange_edges"},/obj/structure/mattress/dirty,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"ay" = (/obj/floor_decal/techfloor/orange{dir = 5; icon_state = "techfloororange_edges"},/obj/decal/cleanable/cobweb2,/obj/decal/cleanable/dirt,/obj/random/junk,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"az" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/map_template/shelters_alt)
+"aA" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"aB" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"aC" = (/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"aD" = (/obj/floor_decal/techfloor/orange{dir = 8; icon_state = "techfloororange_edges"},/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aE" = (/obj/floor_decal/borderfloorblack/corner{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aF" = (/obj/floor_decal/borderfloorblack{dir = 1},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aG" = (/obj/floor_decal/borderfloorblack{dir = 5},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aH" = (/obj/floor_decal/techfloor/orange{dir = 4; icon_state = "techfloororange_edges"},/obj/structure/rubble/house,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aI" = (/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"aJ" = (/obj/floor_decal/techfloor/orange{dir = 8; icon_state = "techfloororange_edges"},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/closet/crate/large,/obj/random/loot,/obj/random/loot,/obj/random/junk,/obj/random/junk,/obj/random/junk,/obj/random/junk,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aK" = (/obj/floor_decal/borderfloorblack{dir = 8; icon_state = "borderfloor_white"},/obj/floor_decal/borderfloorblack/corner{dir = 4},/obj/floor_decal/borderfloorblack/corner,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aL" = (/obj/floor_decal/borderfloorblack,/obj/floor_decal/borderfloorblack{dir = 1},/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aM" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/floor_decal/borderfloorblack/corner{dir = 1; icon_state = "borderfloorcorner_white"},/obj/floor_decal/borderfloorblack/corner{dir = 8; icon_state = "borderfloorcorner_white"},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aN" = (/obj/floor_decal/techfloor/orange{dir = 4; icon_state = "techfloororange_edges"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aO" = (/obj/decal/cleanable/dirt,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"aP" = (/obj/decal/cleanable/dirt,/obj/structure/railing/mapped{dir = 4; icon_state = "railing_preview"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"aQ" = (/obj/floor_decal/techfloor/orange{dir = 8; icon_state = "techfloororange_edges"},/obj/random/junk,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aR" = (/obj/floor_decal/borderfloorblack{dir = 10; icon_state = "borderfloor_white"},/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aS" = (/obj/floor_decal/borderfloorblack,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aT" = (/obj/floor_decal/borderfloorblack/corner{dir = 8; icon_state = "borderfloorcorner_white"},/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/tiled/techmaint,/area/map_template/shelters_alt)
+"aU" = (/obj/floor_decal/techfloor/orange{dir = 4; icon_state = "techfloororange_edges"},/obj/decal/cleanable/dirt,/obj/random/junk,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aV" = (/obj/floor_decal/techfloor/orange{dir = 10; icon_state = "techfloororange_edges"},/obj/structure/rubble/house,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aW" = (/obj/floor_decal/techfloor/orange,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aX" = (/obj/floor_decal/techfloor/orange,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/random/junk,/obj/random/junk,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aY" = (/obj/floor_decal/techfloor/orange,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"aZ" = (/obj/floor_decal/techfloor/orange{dir = 6; icon_state = "techfloororange_edges"},/obj/structure/ore_box,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"ba" = (/obj/decal/cleanable/ash,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"bb" = (/obj/floor_decal/techfloor{dir = 1},/obj/floor_decal/techfloor,/obj/machinery/door/airlock/external/bolted_open{icon_state = "open"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"bc" = (/obj/floor_decal/techfloor{dir = 1},/obj/floor_decal/techfloor,/obj/machinery/door/airlock/external/bolted,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt)
+"bd" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"be" = (/obj/structure/railing/mapped{dir = 1; icon_state = "railing_preview"},/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"bf" = (/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"bg" = (/obj/structure/rubble/house,/turf/unsimulated/floor/shuttle_ceiling,/area/template_noop)
+"bh" = (/obj/structure/lift/button{pixel_y = 32},/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"bi" = (/obj/decal/cleanable/generic,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"bj" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"bk" = (/obj/decal/cleanable/dirt,/obj/structure/rubble/house,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaabacadaeabaaaaaaaaaaaaaaaa
+aaabafafababagababaeacacafababababaaaaafaa
+aaabaeacaaaeaeahaiacaeadacaeaaaaaaaeaeafaa
+aaafaeacaiaiajaeaeacacakacaeaaaeaeaeaeafaa
+aaabaaacacacaiaiaeaeaeaeaiaeaeaeaaaeacabaa
+aaabacaaaaabagabababababababababaeadaeabaa
+aaabacaaaaabalamananaoananalalabaeadaeabaa
+aaabaeaeapabamaqaqaqaqaraqaqasafacacaaabaa
+agabaeaaaeabatarauavawaxayazaAaBacaeaeabab
+aeaCadaeaeabataraDaEaFaGaHaraAafaeaaaeaead
+acaeaIacaeabataqaJaKaLaMaNaqaOabacaeaeacae
+aeacaeaaaiabaParaQaRaSaTaUaraOabacajaaaaaa
+abafaeaaacagaParaVaWaXaYaZaqbaabaeacaiaaab
+aaafaeaIacagalaqaqbbbcbcaqaqalabaibdaaabaa
+aaafaiaaaeabamasbebfbgbgbealalabaaajaiabaa
+aaabaaaaaeabagagafababagaabhaaabaeajaeabaa
+aaabaaaeaeaiajacadaeaeaeaaaaapaaaeaeaeafaa
+aaaaaeaaaeacajacaeaeaeaiadaeapapaeahaeabaa
+aaaaaaaeaeadacacaiaeaaaeacajajaiaeacaeabaa
+aaabafaBbiabababaaaaaaaeaaafbjafababababaa
+aaaaaaaaaaaaaaaaabaaaaaabkaaaaaaaaaaaaaaaa
+"}

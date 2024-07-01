@@ -43,7 +43,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 
 /mob/living/Destroy()
 	if (ai_holder)
-		GLOB.stat_set_event.unregister(src, ai_holder, /datum/ai_holder/proc/holder_stat_change)
+		GLOB.stat_set_event.unregister(src, ai_holder, TYPE_PROC_REF(/datum/ai_holder, holder_stat_change))
 		QDEL_NULL(ai_holder)
 	return ..()
 
@@ -113,7 +113,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 		QDEL_NULL(src)
 		return
 	manage_processing(AI_PROCESSING)
-	GLOB.stat_set_event.register(holder, src, .proc/holder_stat_change)
+	GLOB.stat_set_event.register(holder, src, PROC_REF(holder_stat_change))
 
 	if (cooperative)
 		build_faction_friends()
@@ -149,7 +149,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 /// Set the AI as 'busy' for a specific length of time.
 /datum/ai_holder/proc/set_busy_delay(time)
 	set_busy(TRUE)
-	addtimer(new Callback(src, .proc/set_busy, FALSE), time)
+	addtimer(new Callback(src, PROC_REF(set_busy), FALSE), time)
 
 /**
  * Makes this ai holder not get processed.
@@ -188,6 +188,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 
 /// 'Tactical' processes such as moving a step, meleeing an enemy, firing a projectile, and other fairly cheap actions that need to happen quickly.
 /datum/ai_holder/proc/handle_tactics()
+	set background = TRUE
 	if (holder.key && !autopilot)
 		return
 	if (!is_disabled())
@@ -196,6 +197,7 @@ if (!(datum.process_flags & AI_FASTPROCESSING)) { \
 
 /// 'Strategical' processes that are more expensive on the CPU and so don't get run as often as the above proc, such as A* pathfinding or robust targeting.
 /datum/ai_holder/proc/handle_strategicals()
+	set background = TRUE
 	if (holder.key && !autopilot)
 		return
 	if (!is_disabled())

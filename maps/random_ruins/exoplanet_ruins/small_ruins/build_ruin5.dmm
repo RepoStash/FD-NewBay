@@ -1,0 +1,62 @@
+"a" = (/obj/item/stack/material/uranium,/obj/item/stack/material/uranium{pixel_x = 12},/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"b" = (/obj/random/junk,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"c" = (/obj/item/stack/material/uranium/ten,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"d" = (/obj/gibspawner/human,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"e" = (/obj/decal/cleanable/vomit,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"g" = (/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"h" = (/obj/item/stack/material/tritium/ten,/obj/item/paper/rad_wastes{pixel_x = -10},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"i" = (/obj/decal/cleanable/liquid_fuel,/obj/item/stack/material/uranium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"j" = (/obj/decal/cleanable/greenglow,/obj/random/clipboard,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"k" = (/obj/decal/cleanable/greenglow,/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"l" = (/obj/icarus_irradiate{name = "Rad Wastes 5 Radiation Spawner"; radiation_power = 90; req_range = 5},/obj/item/stack/material/tritium{pixel_y = 13},/obj/item/stack/material/aliumium/ten,/obj/structure/closet/crate,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/fixed/alium/ruin,/area/map_template/build/build5)
+"m" = (/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"n" = (/obj/decal/cleanable/dirt,/obj/item/stack/material/deuterium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"o" = (/obj/item/stack/material/uranium,/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"p" = (/obj/item/stack/material/tritium,/obj/random/loot,/obj/structure/window/reinforced,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"q" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"r" = (/obj/decal/cleanable/liquid_fuel,/obj/item/stack/material/deuterium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"s" = (/obj/structure/closet/crate/uranium,/obj/item/stack/material/tritium/ten,/obj/random/loot,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"t" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"u" = (/obj/decal/cleanable/dirt,/obj/item/stack/material/uranium,/obj/item/pen,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"v" = (/obj/gibspawner/robot,/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"w" = (/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"y" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/greenglow,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"A" = (/obj/decal/cleanable/liquid_fuel,/obj/decal/cleanable/dirt,/obj/item/stack/material/tritium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"B" = (/obj/item/stack/material/tritium/ten,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"C" = (/obj/decal/cleanable/liquid_fuel,/obj/decal/cleanable/dirt,/obj/random/tech_supply,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"D" = (/obj/decal/cleanable/dirt,/obj/random/contraband,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"E" = (/obj/item/stack/material/tritium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"F" = (/obj/decal/cleanable/greenglow,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"G" = (/turf/template_noop,/area/template_noop)
+"H" = (/obj/decal/cleanable/liquid_fuel,/obj/random/material,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"J" = (/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"K" = (/obj/item/stack/material/deuterium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"L" = (/obj/decal/cleanable/dirt,/obj/item/stack/material/uranium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"M" = (/obj/item/stack/material/uranium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"N" = (/obj/decal/cleanable/liquid_fuel,/obj/decal/cleanable/dirt,/obj/item/stack/material/uranium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"O" = (/turf/simulated/wall/concrete,/area/map_template/build/build5)
+"P" = (/obj/decal/cleanable/dirt,/obj/landmark/corpse/betrayed_engineer,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"R" = (/obj/decal/cleanable/liquid_fuel,/obj/random/tech_supply,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"S" = (/obj/decal/cleanable/filth,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"T" = (/obj/decal/cleanable/liquid_fuel,/obj/decal/cleanable/dirt,/obj/decal/remains{desc = "They look like non-human remains. They have a strange aura about them and faded."; name = "faded remains"},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"U" = (/obj/gibspawner/human,/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"V" = (/obj/decal/cleanable/liquid_fuel,/obj/random/material,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"W" = (/obj/item/stack/material/tritium/ten,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"Y" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/item/stack/material/deuterium,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+"Z" = (/obj/decal/cleanable/dirt,/obj/random/loot,/turf/simulated/floor/reinforced,/area/map_template/build/build5)
+
+(1,1,1) = {"
+GGOOOOOOOOOGG
+GOOKtEwbtkOOG
+OOgRktmnLLdOO
+OFtMEJcmSmetO
+OtdBFmKVgqttO
+OorZtBpFagktO
+OemmEHlDYtJtO
+OtkgjuWsmvnmO
+OEtohCbVSimyO
+OFTnPcmFttEtO
+OOYENtSJUnmOO
+GOOtFtALeFOOG
+GGOOOOOOOOOGG
+"}

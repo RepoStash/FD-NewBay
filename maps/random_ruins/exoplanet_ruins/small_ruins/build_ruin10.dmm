@@ -1,0 +1,37 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"d" = (/turf/simulated/mineral/random/volcanic,/area/template_noop)
+"e" = (/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"g" = (/obj/structure/ore_box,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"h" = (/obj/item/ore/iron{pixel_x = -7; pixel_y = -7},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"l" = (/obj/machinery/anomaly_container,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"o" = (/obj/structure/quota_harvester/mining,/turf/template_noop,/area/template_noop)
+"q" = (/turf/simulated/mineral/volcanic,/area/template_noop)
+"t" = (/obj/structure/fd/body{icon_state = "IntenSecDead1"; pixel_y = 18},/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"u" = (/obj/machinery/mining/brace{dir = 8},/turf/template_noop,/area/template_noop)
+"w" = (/obj/machinery/mining/drill,/turf/template_noop,/area/template_noop)
+"A" = (/obj/item/ore/gold{pixel_x = 8; pixel_y = 11},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"B" = (/obj/item/tank/oxygen_emergency_extended{pixel_y = -33},/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"K" = (/obj/item/ore/strangerock{pixel_x = -19; pixel_y = 5},/turf/template_noop,/area/template_noop)
+"R" = (/obj/item/spike{pixel_x = -11; pixel_y = 35},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"S" = (/obj/item/clothing/head/helmet/space/void/mining/rockanddrill{pixel_x = -9; pixel_y = 18},/obj/item/pickaxe/drill{pixel_x = 13; pixel_y = -11},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"U" = (/obj/item/pickaxe/xeno/brush{pixel_x = -48; pixel_y = -19},/turf/template_noop,/area/template_noop)
+"V" = (/obj/item/ore/coal{pixel_x = 15; pixel_y = -22},/obj/item/ore/coal{pixel_x = 5; pixel_y = -35},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"W" = (/obj/machinery/mining/brace{dir = 4},/turf/template_noop,/area/template_noop)
+
+(1,1,1) = {"
+aaaaaaaaaaaadqa
+aaaaaaqdqaaaaaa
+aaaaaqqqqqaaaaa
+aaaddqqqqqqqqaa
+aaqddqeeAqqqqaa
+aeqqhleeeteqqaa
+aeeqeeVeSReeqqa
+aaegeaUoBeaedqa
+aaaeeaaaaaeeqea
+aaaeWwuaaaeaKaa
+aqaaaaaaaaeaaaa
+aaaaaqaaaaaaaaa
+aaaaaqdaaaaaaaa
+aaaaaaqaaaaaaaa
+aaaaaaaaaaaaaaa
+"}

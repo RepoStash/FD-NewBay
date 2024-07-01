@@ -110,16 +110,17 @@
 	// --- JOB SECTION --- //
 	#include "../torch/job/torch_access.dm"
 	#include "job/torch_jobs.dm"
-	#include "../torch/job/command_jobs.dm"
-	#include "../torch/job/corporate_jobs.dm"
-	#include "../torch/job/engineering_jobs.dm"
-	#include "../torch/job/exploration_jobs.dm"
-	#include "../torch/job/medical_jobs.dm"
-	#include "../torch/job/misc_jobs.dm"
-	#include "../torch/job/research_jobs.dm"
-	#include "../torch/job/security_jobs.dm"
-	#include "../torch/job/service_jobs.dm"
-	#include "../torch/job/supply_jobs.dm"
+
+	#include "job/command_jobs.dm"
+	#include "job/corporate_jobs.dm"
+	#include "job/engineering_jobs.dm"
+	#include "job/exploration_jobs.dm"
+	#include "job/medical_jobs.dm"
+	#include "job/misc_jobs.dm"
+	#include "job/research_jobs.dm"
+	#include "job/security_jobs.dm"
+	#include "job/service_jobs.dm"
+	#include "job/supply_jobs.dm"
 
 	#include "../torch/outfits/scgec.dm"
 	#include "../torch/robot/module_flying_surveyor.dm"
@@ -135,6 +136,11 @@
 	#include "../torch/job/outfits/security_outfits.dm"
 	#include "../torch/job/outfits/service_outfits.dm"
 	#include "../torch/job/outfits/supply_outfits.dm"
+
+	// --- JOBS ADDITION --- //
+	#include "job/addition/exploration_jobs.dm"
+	#include "job/addition/research_jobs.dm"
+	#include "job/addition/service_jobs.dm"
 
 	// --- MACHINERY --- //
 	#include "../torch/machinery/apc_shuttle.dm"
@@ -158,7 +164,7 @@
 	#include "../torch/structures/signs.dm"
 
 	// --- LOADOUT --- //
-	#include "../torch/loadout/_defines.dm"
+	#include "loadout/_defines.dm"
 	#include "../torch/loadout/loadout_accessories.dm"
 	#include "../torch/loadout/loadout_ec_skillbadges.dm"
 	#include "../torch/loadout/loadout_eyes.dm"
@@ -226,7 +232,6 @@
 	#include "../../mods/jukebox_tapes/_jukebox_tapes.dme"
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
-	// #include "../../mods/resomi/_resomi.dme"
 	#include "../../mods/screentips/_screentips.dme"
 	#include "../../mods/tajara/_tajara.dme"
 	#include "../../mods/sauna_props/_sauna_props.dme"
@@ -237,8 +242,12 @@
 	// #include "../../mods/_maps/hand/_map_hand.dme" // Тоже зависим от предметов с карты Стража (инклюд над фарфлитом)
 
 		// ~NON-UPSTREAM MODS~ //
+
+	#include "../../mods/resomi_fd/_resomi.dme"
+
 	#include "../../mods/_fd/runechat/_runechat.dme"
 	#include "../../mods/_fd/fd_assets/_fd_assets.dme"
+	#include "../../mods/_fd/fd_guns/_fd_guns.dme"
 
 	#include "../../mods/_fd/accent_labels/_accent_labels.dme"
 	#include "../../mods/_fd/additional_biomods/_additional_biomods.dme"
@@ -256,6 +265,7 @@
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
 	#include "../../mods/_fd/old_space_cannons/_old_space_cannons.dme"
 	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
+	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
 
 	#include "../../mods/_fd/_maps/airfield/_airfield.dme"
 	#include "../../mods/_fd/_maps/ares/_ares.dme"
@@ -271,6 +281,18 @@
 	#include "../../mods/_fd/_maps/snow_cage/_snow_cage.dme"
 	#include "../../mods/_fd/_maps/trader_ship/_trader_ship.dme"
 	#include "../../mods/_fd/_maps/yacht/_yacht.dme"
+
+		// ~EXOPLANET RUINS~ //
+
+	#include "../random_ruins/exoplanet_ruins/small_ruins/build_ruin.dm"
+	#include "../random_ruins\exoplanet_ruins\remains\remains.dm"
+	#include "../random_ruins/exoplanet_ruins/scg_city_restored/scg_city_restored.dm"
+	#include "../random_ruins/exoplanet_ruins/scg_ruined_city/scg_ruined_city.dm"
+	#include "../random_ruins/exoplanet_ruins/railway/railway.dm"
+	#include "../random_ruins/exoplanet_ruins/pollux/station.dm"
+	#include "../random_ruins/exoplanet_ruins/shelters/shelters_alt.dm"
+	#include "../random_ruins/exoplanet_ruins/warehouse/warehouse.dm"
+
 
 	#define using_map_DATUM /datum/map/torch
 

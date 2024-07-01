@@ -1,0 +1,34 @@
+"a" = (/obj/paint/brown,/turf/simulated/wall/r_wall,/area/template_noop)
+"c" = (/obj/floor_decal/techfloor/orange{dir = 10},/obj/decal/cleanable/dirt,/obj/random/junkyard/smokes,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"g" = (/obj/floor_decal/borderfloor{dir = 8},/obj/structure/closet/crate/large,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"i" = (/obj/floor_decal/techfloor/orange{dir = 6},/obj/item/storage/cargo_containers{icon_state = "hd_r"},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"j" = (/obj/floor_decal/industrial/warning{dir = 4},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"l" = (/obj/floor_decal/techfloor/orange{dir = 6},/obj/machinery/light/small/emergency,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"n" = (/obj/paint/brown,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"t" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/template_noop)
+"v" = (/obj/floor_decal/borderfloor{dir = 4},/obj/decal/cleanable/dirt,/obj/random/trash,/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"w" = (/obj/floor_decal/borderfloor{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"y" = (/obj/floor_decal/borderfloor{dir = 8},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"A" = (/obj/floor_decal/industrial/outline/yellow,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"B" = (/obj/floor_decal/borderfloor{dir = 4},/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"E" = (/obj/floor_decal/techfloor/orange{dir = 5},/obj/machinery/light/small/emergency{dir = 1},/obj/random/trash,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"I" = (/obj/structure/catwalk,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/template_noop)
+"J" = (/obj/floor_decal/industrial/warning{dir = 8},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"K" = (/obj/floor_decal/borderfloor{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"L" = (/obj/floor_decal/borderfloor{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"M" = (/obj/floor_decal/industrial/outline/yellow,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"N" = (/obj/floor_decal/borderfloor{dir = 4},/obj/item/storage/cargo_containers{icon_state = "hd_l"},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"S" = (/obj/structure/catwalk,/obj/structure/closet/crate/large,/turf/simulated/floor/plating,/area/template_noop)
+"T" = (/obj/floor_decal/techfloor/orange{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"V" = (/obj/floor_decal/techfloor/orange{dir = 9},/obj/machinery/light/small/emergency{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"W" = (/obj/floor_decal/techfloor/orange{dir = 5},/obj/random/junkyard/handgun,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"Y" = (/obj/floor_decal/borderfloor{dir = 8},/obj/structure/closet/crate/large,/obj/random/junkyard/tool,/obj/random/junkyard/tool,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tool,/obj/random/junkyard/powercell,/obj/random/junkyard/powercell,/obj/random/junkyard/powercell,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"Z" = (/obj/floor_decal/techfloor/orange{dir = 10},/obj/machinery/light/small/emergency,/obj/item/storage/cargo_containers{icon_state = "hd_m"},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+
+(1,1,1) = {"
+aanananaaaa
+aLVWKAwTEga
+JvIStttttKj
+nNZiYMBclya
+aaaaanaaaaa
+"}

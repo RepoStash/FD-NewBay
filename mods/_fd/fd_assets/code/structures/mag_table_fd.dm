@@ -6,10 +6,11 @@
 /obj/structure/mag_unfinished
 	name = "Magnetic Table Frame"
 	desc = "It is unfinished magnetic table. Good for merchants."
-	icon = 'mods/_maps/liberia/icons/mag_tables.dmi'
+	icon = 'mods/_fd/fd_assets/icons/structures/mag_table.dmi'
 	icon_state = "magnetic_table"
 
-/obj/structure/mag_unfinished/attackby(obj/item/W as obj, mob/user as mob)
+/obj/structure/mag_unfinished/use_tool(obj/item/W as obj, mob/user as mob)
+	SHOULD_CALL_PARENT(FALSE)
 	if(istype(W, /obj/item/mag_table_plate))
 		if(do_after(user, 50))
 			new /obj/structure/table/mag(src.loc)
@@ -22,6 +23,7 @@
 /obj/structure/table/mag
 	name = "Magnetic Table"
 	desc = "It is simple magnetic table. Good for merchants."
+	icon = 'mods/_fd/fd_assets/icons/structures/mag_table.dmi'
 	icon_state = "magnetic_table_disabled"
 	var/icon_state_open = "magnetic_table_disabled"
 	var/icon_state_closed = "magnetic_table_enabled"
@@ -112,13 +114,13 @@
 	if(manipulating) return
 	manipulating = 1
 	user.visible_message("<span class='notice'>\The [user] begins dismantling \the [src].</span>",
-	                              "<span class='notice'>You begin dismantling \the [src].</span>")
+						"<span class='notice'>You begin dismantling \the [src].</span>")
 	playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
 	if(!do_after(user, 20, src))
 		manipulating = 0
 		return
 	user.visible_message("<span class='notice'>\The [user] dismantles \the [src].</span>",
-	                              "<span class='notice'>You dismantle \the [src].</span>")
+						"<span class='notice'>You dismantle \the [src].</span>")
 	new /obj/item/stack/material/plasteel/ten(src.loc)
 	new /obj/item/mag_table_plate(src.loc)
 	qdel(src)
@@ -126,3 +128,13 @@
 
 /obj/structure/table/mag/CtrlClick()
 	return
+
+/datum/stack_recipe/furniture/mag_tables
+	title = "magnetic table"
+	result_type = /obj/structure/mag_unfinished
+	req_amount = 20
+	time = 50
+
+/material/plasteel/generate_recipes(reinforce_material)
+	..()
+	. += new/datum/stack_recipe/furniture/mag_tables(src)

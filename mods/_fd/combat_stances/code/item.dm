@@ -19,7 +19,9 @@
 /obj/item/attack_self(mob/living/carbon/user)
 	. = ..()
 
-	if(melee_strikes)
+	var/obj/item/melee/I
+
+	if(melee_strikes && !istype(I, /obj/item/melee/energy/))
 		swap_stances(user)
 
 /obj/item/proc/swap_stances(mob/user)
@@ -46,16 +48,14 @@
 
 	return melee_strike
 
+/obj/item/use_before(atom/target, mob/living/user, click_parameters)
+	if(!isnull(melee_strike) && !user.skill_check(SKILL_COMBAT, SKILL_EXPERIENCED) && prob(src.fail_chance))
+		user.drop_from_inventory(src)
+		to_chat(user,"<span class = 'danger'>[user] пытается провернуть особую атаку, но [src] неуклюже валится из рук!</span>")
+	..()
+
 /obj/item/resolve_attackby(atom/atom, mob/living/user, click_params)
-	if (!atom.can_use_item(src, user, click_params))
-		return FALSE
+	..()
 
-	if(!has_melee_strike(user) || user.a_intent != I_HURT)
-		return ..()
-
-	if(user.skill_check(SKILL_COMBAT, SKILL_EXPERIENCED) || !prob(fail_chance))
+	if(has_melee_strike(user))
 		return melee_strike.do_pre_strike(user, atom, src, click_params)
-
-	user.drop_from_inventory(src)
-	to_chat(user, SPAN_DANGER("[user] пытается провернуть особую атаку, но [src] неуклюже валится из рук!"))
-	return FALSE

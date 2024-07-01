@@ -1,0 +1,113 @@
+"bf" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/girder,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"bz" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/effect{icon = 'icons/obj/structures.dmi'; icon_state = "ladder10"; mouse_opacity = 0; name = "ladder"; pixel_y = 32},/obj/effect{icon = 'icons/obj/structures.dmi'; icon_state = "ladder10"; mouse_opacity = 0; name = "ladder"; pixel_y = 12},/obj/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"bM" = (/obj/machinery/mech_recharger{base_charge_rate = 100000; desc = "Charge port for railgun, built into the floor. May be used to recharge exosuits."; name = "heavy-duty power port"; repair = 1},/obj/item/ammo_magazine/ammobox/disruptor{anchored = 1; desc = "Military grade fusion cells box, used in massive energy weapons."; name = "fusion cell's rack"; pixel_y = 3},/obj/item/ammo_magazine/ammobox/disruptor{anchored = 1; desc = "Military grade fusion cells box, used in massive energy weapons."; layer = 2.23; name = "fusion cell's rack"; pixel_y = 14},/obj/floor_decal/industrial/outline/dark_red,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"ck" = (/obj/structure/girder{cover = 100; health_max = 1000; name = "railgun base"; reinforcing = 1},/turf/simulated/wall/ocp_wall,/area/map_template/build/build16)
+"cJ" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/invincible,/area/map_template/build/build16)
+"cR" = (/obj/machinery/constructable_frame/computerframe/deconstruct{name = "planetary Railgun control"},/obj/decal/cleanable/dirt,/obj/floor_decal/industrial/outline/dark_red,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"dc" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"dj" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"ee" = (/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"eh" = (/obj/decal/cleanable/dirt,/obj/machinery/light/small{dir = 8},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/floor_decal/borderfloorblack,/obj/floor_decal/borderfloorblack{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"eX" = (/turf/simulated/floor/plating,/area/map_template/build/build16)
+"gH" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/decal/cleanable/dirt,/obj/floor_decal/borderfloorblack,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"js" = (/turf/template_noop,/area/map_template/build/build16)
+"jO" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/turf/simulated/wall/invincible,/area/map_template/build/build16)
+"lf" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/item/stack/material/uranium/ten,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"lr" = (/obj/decal/cleanable/dirt,/obj/machinery/power/terminal,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/recharger/wallcharger{dir = 4; pixel_x = -23; pixel_y = -3},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"lD" = (/obj/structure/girder,/turf/simulated/wall/ocp_wall,/area/map_template/build/build16)
+"lH" = (/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/machinery/power/debug_items/infinite_generator{alpha = 0; mouse_opacity = 0; power_generation_rate = 1000},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"lM" = (/obj/decal/cleanable/dirt,/obj/machinery/light{dir = 1},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"lR" = (/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/floor_decal/borderfloorblack{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"mc" = (/turf/simulated/wall/invincible,/area/map_template/build/build16)
+"ml" = (/turf/template_noop,/area/template_noop)
+"mz" = (/obj/wallframe_spawn/reinforced/crescent,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"mD" = (/turf/simulated/wall/ocp_wall,/area/map_template/build/build16)
+"mZ" = (/obj/structure/girder,/turf/simulated/floor/plating,/area/template_noop)
+"nc" = (/obj/machinery/computer/modular/preset/engineering,/obj/structure/window/reinforced{dir = 4},/obj/item/ammo_magazine/pistol/double{pixel_x = -16},/obj/decal/cleanable/dirt,/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"nj" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"nX" = (/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"oj" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/decal/cleanable/dirt,/obj/item/plastique,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"oC" = (/obj/machinery/power/smes/batteryrack,/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"pb" = (/obj/machinery/mech_recharger{base_charge_rate = 100000; desc = "Charge port for railgun, built into the floor. May be used to recharge exosuits."; name = "heavy-duty power port"; repair = 1},/obj/item/ammo_magazine/ammobox/disruptor{desc = "Military grade fusion cells box, used in massive energy weapons."; name = "fusion cell's rack"},/obj/floor_decal/industrial/outline/dark_red,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"pc" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/ammo_casing/rifle/used,/obj/item/ammo_casing/rifle/used{dir = 4; pixel_y = 15},/obj/item/ammo_casing/rifle/used{dir = 8; pixel_x = -6; pixel_y = -4},/obj/item/ammo_casing/rifle/used{dir = 1; pixel_x = 9; pixel_y = -6},/obj/decal/cleanable/dirt,/obj/structure/cable,/obj/machinery/power/apc/auto_access/unlocked{dir = 4; pixel_x = 24},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"pj" = (/turf/unsimulated/mineral{color = "#000000"; desc = "Do you think you're the smartest?"; name = "void"},/area/map_template/build/build16)
+"qm" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"qN" = (/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/floor_decal/borderfloorblack,/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"ro" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/catwalk,/obj/item/material/shard,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"sI" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"uu" = (/obj/floor_decal/corner/yellow/half,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"vU" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/valve{dir = 4},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"xd" = (/obj/machinery/computer/modular/preset/engineering,/obj/structure/noticeboard{pixel_y = 30},/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"xs" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"xP" = (/obj/structure/girder{cover = 100; health_max = 1000; name = "railgun base"; reinforcing = 1},/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Ay" = (/obj/wallframe_spawn/reinforced/crescent,/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 9},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"AJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"AZ" = (/obj/effect{icon = 'icons/obj/structures.dmi'; icon_state = "ladder10"; mouse_opacity = 0; name = "ladder"; pixel_y = 32},/obj/effect{icon = 'icons/obj/structures.dmi'; icon_state = "ladder10"; mouse_opacity = 0; name = "ladder"; pixel_y = 12},/turf/template_noop,/area/map_template/build/build16)
+"BH" = (/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"Ch" = (/obj/floor_decal/corner/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"Cu" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"CW" = (/obj/floor_decal/corner/yellow{dir = 10},/obj/decal/cleanable/dirt,/obj/machinery/light/small{dir = 1},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/floor_decal/borderfloorblack/corner{dir = 4},/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"Du" = (/obj/floor_decal/corner/yellow/half,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"Ep" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/machinery/power/port_gen/pacman,/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"EC" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"EY" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/decal/cleanable/dirt,/obj/machinery/light/small{dir = 4},/obj/floor_decal/borderfloorblack,/obj/floor_decal/borderfloorblack{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"FF" = (/obj/wallframe_spawn/reinforced/crescent,/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"FI" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"Gc" = (/obj/floor_decal/corner/yellow{dir = 10},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"HF" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"HY" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/decal/cleanable/dirt,/obj/floor_decal/borderfloorblack{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"In" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/stack/material/uranium/ten,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Js" = (/obj/floor_decal/corner/yellow{dir = 8},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"JU" = (/obj/structure/bed/chair/office/comfy/red{dir = 1},/obj/decal/cleanable/blood/splatter,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"KQ" = (/obj/decal/cleanable/dirt,/obj/item/material/shard,/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"KW" = (/obj/decal/cleanable/dirt,/obj/machinery/door/airlock/external,/obj/floor_decal/borderfloorblack/corner,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"Mg" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Ns" = (/obj/floor_decal/corner/yellow/half,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"NK" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/decal/cleanable/dirt,/obj/machinery/light,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"NY" = (/obj/floor_decal/corner/yellow{dir = 10},/obj/decal/cleanable/dirt,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/floor_decal/borderfloorblack{dir = 1},/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"Pu" = (/obj/machinery/power/smes/batteryrack,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Qv" = (/obj/decal/cleanable/dirt,/obj/machinery/power/breakerbox/activated,/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"QP" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"QT" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"Sm" = (/obj/decal/cleanable/dirt,/obj/machinery/power/terminal,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Uc" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"Vw" = (/obj/wallframe_spawn/reinforced/crescent,/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"VN" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/wall/invincible,/area/map_template/build/build16)
+"VY" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/random/tool,/obj/random/tool,/obj/random/tool,/obj/structure/catwalk,/obj/machinery/light{dir = 1},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"Wf" = (/obj/machinery/mech_recharger{base_charge_rate = 100000; desc = "Charge port for railgun, built into the floor. May be used to recharge exosuits."; name = "heavy-duty power port"; repair = 1},/obj/floor_decal/industrial/outline/dark_red,/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"Wv" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"WN" = (/obj/effect{dir = 1; icon = 'icons/obj/stairs.dmi'; name = "stairs"},/obj/decal/cleanable/dirt,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"WZ" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"Xm" = (/obj/item/stock_parts/circuitboard/broken{pixel_y = 11},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/map_template/build/build16)
+"XB" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"XC" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/invincible,/area/map_template/build/build16)
+"XS" = (/obj/effect{icon = 'icons/obj/stairs.dmi'; name = "stairs"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"XW" = (/obj/decal/cleanable/dirt,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"XZ" = (/obj/decal/cleanable/dirt,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/floor_decal/borderfloorblack,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+"Ym" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/railing/mapped{dir = 1; icon_state = "railing0-1"},/turf/simulated/floor/plating,/area/map_template/build/build16)
+"YA" = (/obj/decal/cleanable/dirt,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/reinforced,/area/map_template/build/build16)
+"YI" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/catwalk,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/build/build16)
+"YR" = (/obj/decal/cleanable/dirt,/obj/machinery/door/airlock/external,/turf/simulated/floor/tiled/dark/monotile,/area/map_template/build/build16)
+
+(1,1,1) = {"
+mlmcmlmlmcmlmlmcmlmlmcmlmlmcjsjsjsmcmcmc
+mcmcmcmcmcmcmcmcmcmcmcmcmcmcmcjsjsmclDmc
+mlmcpjpjpjpjpjpjpjpjpjmcmcmcjsjsjsmcmcmc
+mlmcpjpjpjlHpjpjpjpjpjAJQTmcjsjsjsjsAZjs
+mcmcmcmcmccJmcmcmcVNmcmcYmmcmcjsjsjsjsjs
+mlmcFIWvWvQPWvbzWvqmWvHFUcmcjsjsjsjsjsjs
+mlmcvUjOjOFFjOVwjOAymcmzmcmcjsjsjsmcmcmc
+mZmcbfmclMChDuuuNsuuuuJsXBmcmcjsjsmclDmc
+mcmcXCmcXZmclfCuCuCuCumcgHmcjsjsjsmcmcmc
+nXYRBHmcdjmcWZmDxPmDWZmcxsmcjsjsjsjsjsjs
+MgKWqNmcWNmcWZxPckxPWZmcXSmcjsjsjsjsjsjs
+mcmceemcehmcWZmDxPmDeXmcEYmcjsjsjsmcmcmc
+mZmcXSmcXWmceXWZWZWZWZmcxsmcmcjsjsmclDmc
+mlmclRmcWNmcmcmcmcmcmcmcXSmcjsjsjsmcmcmc
+mlmcGcCWNYmcbMbMVYcRxdncHYmcjsjsjsjsjsjs
+mcmcEpInECmcYAMgsIXmJUKQpcmcmcjsjsjsjsjs
+mlmclrnjSmmcWfpbYIojNKdcromcjsjsjsjsjsjs
+mlmcoCQvPumcmcmcXCmcmcmcmcmcjsjsjsmcmcmc
+mcmcmcmcmcmcmcmcmcmcmcmcmcmcmcjsjsmclDmc
+mlmcmlmlmcmlmlmcmlmlmcmlmlmcjsjsjsmcmcmc
+"}

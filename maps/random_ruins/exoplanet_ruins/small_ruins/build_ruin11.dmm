@@ -1,0 +1,49 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"e" = (/obj/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/template_noop)
+"f" = (/obj/floor_decal/corner/orange/border{dir = 4},/obj/floor_decal/industrial/outline/yellow,/obj/machinery/constructable_frame/computerframe{dir = 4},/turf/simulated/floor/tiled/dark,/area/template_noop)
+"g" = (/obj/floor_decal/corner/orange/border{dir = 5},/obj/structure/handrail{dir = 8},/turf/simulated/floor/tiled/dark,/area/template_noop)
+"i" = (/obj/random/junkyard/smokes,/turf/template_noop,/area/template_noop)
+"k" = (/obj/random/junk,/obj/random/junk,/turf/template_noop,/area/template_noop)
+"m" = (/obj/floor_decal/borderfloorblack{dir = 8},/obj/floor_decal/industrial/outline/yellow,/obj/decal/cleanable/dirt,/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"o" = (/obj/decal/cleanable/dirt,/obj/structure/fd/body{pixel_x = 2; pixel_y = 5},/turf/simulated/floor/plating,/area/template_noop)
+"p" = (/obj/floor_decal/corner/orange/border{dir = 6},/obj/decal/remains,/obj/structure/handrail{dir = 8},/turf/simulated/floor/tiled/dark,/area/template_noop)
+"q" = (/obj/machinery/light/small/red{dir = 1},/turf/simulated/floor/plating,/area/template_noop)
+"u" = (/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"w" = (/turf/simulated/floor/plating,/area/template_noop)
+"x" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/tiled/dark/monotile,/area/template_noop)
+"y" = (/obj/random/junk,/obj/random/junk{pixel_x = -15; pixel_y = 11},/obj/random/junk,/turf/template_noop,/area/template_noop)
+"C" = (/obj/floor_decal/corner/orange/border{dir = 10},/obj/floor_decal/industrial/outline/yellow,/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/tiled/dark/monotile,/area/template_noop)
+"D" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"E" = (/obj/random/junk,/turf/template_noop,/area/template_noop)
+"F" = (/obj/floor_decal/corner/orange/border{dir = 8},/obj/machinery/hologram/holopad/longrange,/turf/simulated/floor/tiled/dark,/area/template_noop)
+"G" = (/obj/floor_decal/corner/orange/border{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/template_noop)
+"H" = (/obj/floor_decal/corner/orange/border,/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/tiled/dark,/area/template_noop)
+"I" = (/obj/structure/closet/crate,/obj/random/relic,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/tool,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"K" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/template_noop)
+"R" = (/turf/simulated/wall/r_wall,/area/template_noop)
+"S" = (/obj/structure/closet/crate/trashcart,/obj/random/junk,/obj/random/junk,/obj/random/junk,/obj/random/junk,/obj/random/junk,/turf/template_noop,/area/template_noop)
+"T" = (/obj/decal/cleanable/dirt,/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"U" = (/obj/structure/quota_harvester,/obj/floor_decal/borderfloorblack{dir = 8},/obj/floor_decal/industrial/hatch/yellow,/obj/machinery/light/small/red{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"V" = (/obj/structure/door_assembly/door_assembly_ext,/turf/template_noop,/area/template_noop)
+"W" = (/obj/floor_decal/corner/orange/border{dir = 10},/obj/decal/cleanable/dirt,/obj/machinery/light/small/red,/turf/simulated/floor/tiled/dark,/area/template_noop)
+"X" = (/obj/machinery/suit_storage_unit/ftu,/obj/machinery/light/small/red{dir = 1},/turf/simulated/floor/plating,/area/template_noop)
+"Y" = (/obj/structure/shuttle/engine/propulsion/burst{dir = 4},/turf/simulated/floor/plating,/area/template_noop)
+"Z" = (/obj/floor_decal/corner/orange/border{dir = 9},/obj/floor_decal/industrial/outline/yellow,/obj/random/intel_console,/turf/simulated/floor/tiled/dark/monotile,/area/template_noop)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaauuaaa
+aeeRRaaEaRDYaaa
+euCXaaiRRRRuRaR
+efoFaawaqguImRY
+eRZWHwaaKGxwURY
+aeeRRRRaapuTwRa
+akaaaaaaaRRRaaR
+aaaaaaVaaaaaaaa
+aaaSaaaaaaaaaay
+aaaaaaaaaaaaaRa
+aaaaRRYaaaaaaaa
+aaaaaRRaaaaaaEa
+"}

@@ -22,10 +22,6 @@
 													FACTION_POSITRONICS_THIRDGEN_CORPORATE, \
 													FACTION_POSITRONICS_THIRDGEN_STATE)
 
-/datum/map/New()
-	available_cultural_info[TAG_FACTION] += IPC_FACTIONS_TO_ADD
-	. = ..()
-
 /datum/species/machine/New()
 	available_cultural_info[TAG_FACTION] += IPC_FACTIONS_TO_ADD
 	..()
@@ -35,19 +31,78 @@
 	var/singleton/cultural_info/faction/ipc/gen = SSculture.get_culture(prefs.cultural_info[TAG_FACTION])
 	. = istype(gen) ? (job.type in gen.valid_jobs) : ..()
 
+	if(gen.type == /singleton/cultural_info/faction/ipc/first)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/first,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/first_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/third/state)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/third,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/third_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/third/privt)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/third,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/third_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/third/corp)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/third,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/third_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/second/owned)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/second,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/second_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/second/free)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/second,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/second_gen,
+		)
+		return
+	if(gen.type == /singleton/cultural_info/faction/ipc/second/union)
+		src.has_organ = list(
+			BP_POSIBRAIN = /obj/item/organ/internal/posibrain/ipc/second,
+			BP_EYES = /obj/item/organ/internal/eyes/robot,
+			BP_COOLING = /obj/item/organ/internal/cooling_system,
+			BP_EXONET = /obj/item/organ/internal/ecs/second_gen,
+		)
+		return
+
 /obj/item/card/id
 	var/ipc_gen = null
+
+/obj/item/card/id/proc/extra_dat()
+	. = list()
 
 /mob/living/carbon/human/set_id_info(obj/item/card/id/id_card)
 	..()
 	if(is_species(SPECIES_IPC))
 		id_card.ipc_gen = get_cultural_value(TAG_FACTION)
 
-/obj/item/card/id/dat()
-	var/list/dat = list("<table><tr><td>")
+/obj/item/card/id/extra_dat()
+	. = ..()
 	if(ipc_gen)
-		dat += text("Registration: []</A><BR>\n", ipc_gen)
-	..()
+		. += "Registration: [ipc_gen]<br>"
 
 /singleton/cultural_info/faction/ipc
 	economic_power = 0.1

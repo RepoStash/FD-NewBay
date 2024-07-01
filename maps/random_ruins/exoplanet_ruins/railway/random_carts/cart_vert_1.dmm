@@ -1,0 +1,41 @@
+"a" = (/obj/paint/green,/turf/simulated/wall/r_wall,/area/space)
+"b" = (/obj/floor_decal/borderfloor,/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/industrial/warning,/obj/item/storage/cargo_containers{icon_state = "kelland_l"},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"f" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/industrial/warning{dir = 8},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/space)
+"j" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/techfloor/orange,/obj/floor_decal/industrial/warning/corner{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"k" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 8},/obj/decal/cleanable/dirt,/obj/random/trash,/turf/simulated/floor/plating,/area/space)
+"n" = (/obj/floor_decal/borderfloor{dir = 1},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"o" = (/obj/floor_decal/industrial/warning,/obj/machinery/door/airlock/hatch,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"p" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 4},/obj/structure/closet,/turf/simulated/floor/plating,/area/space)
+"q" = (/obj/floor_decal/borderfloor,/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/industrial/warning/corner{dir = 8},/obj/item/storage/cargo_containers{icon_state = "kelland_r"},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"r" = (/obj/floor_decal/borderfloor{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"s" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/techfloor/orange,/obj/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"t" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 8},/turf/simulated/floor/plating,/area/space)
+"w" = (/obj/structure/catwalk,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/space)
+"x" = (/obj/floor_decal/borderfloor,/obj/structure/closet/crate/large,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"y" = (/obj/floor_decal/industrial/hatch/yellow,/obj/structure/table/rack,/turf/simulated/floor/tiled/steel_grid,/area/space)
+"z" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/techfloor/orange,/obj/floor_decal/industrial/warning/corner{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"A" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/steel_ridged,/area/space)
+"B" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/industrial/warning{dir = 4},/obj/structure/closet/crate/large,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/turf/simulated/floor/tiled/steel_ridged,/area/space)
+"C" = (/obj/paint/green,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/space)
+"D" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/industrial/warning{dir = 8},/obj/decal/cleanable/dirt,/obj/random/junkyard/lilgun,/obj/random/junkyard/ammo,/turf/simulated/floor/tiled/steel_ridged,/area/space)
+"F" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 4},/turf/simulated/floor/plating,/area/space)
+"G" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"I" = (/obj/floor_decal/borderfloor,/obj/random/trash,/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"K" = (/obj/floor_decal/borderfloor,/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"Q" = (/obj/floor_decal/borderfloor,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"R" = (/obj/floor_decal/industrial/hatch/yellow,/obj/structure/table/rack,/obj/random/junkyard/toolbox,/turf/simulated/floor/tiled/steel_grid,/area/space)
+"Z" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/steel_ridged,/area/space)
+
+(1,1,1) = {"
+aaGaa
+aQIxC
+CtwFa
+CKbqa
+aByZa
+aAyfa
+aARDa
+ajsza
+Ckwpa
+arnra
+aaoCC
+"}

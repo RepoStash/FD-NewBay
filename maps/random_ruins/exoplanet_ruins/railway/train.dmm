@@ -1,0 +1,151 @@
+"aN" = (/obj/decal/cleanable/dirt,/obj/paint/black,/turf/simulated/wall/r_wall,/area/map_template/train)
+"aQ" = (/obj/structure/catwalk,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/map_template/train)
+"aT" = (/obj/floor_decal/techfloor{dir = 1},/obj/structure/backup_server,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"bR" = (/obj/decal/cleanable/blood/oil/streak,/turf/template_noop,/area/template_noop)
+"bZ" = (/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/techfloor/corner,/obj/structure/table/steel_reinforced,/obj/random/junkyard/cash,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"cc" = (/obj/structure/catwalk,/obj/decal/cleanable/dirt,/obj/decal/cleanable/generic,/turf/simulated/floor/plating,/area/template_noop)
+"dF" = (/obj/structure/railing/mapped{dir = 1},/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"dQ" = (/obj/paint/green,/turf/simulated/wall/r_wall,/area/template_noop)
+"et" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor/corner{dir = 4},/obj/machinery/constructable_frame/computerframe/deconstruct,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"eB" = (/obj/structure/shuttle/engine/propulsion,/turf/simulated/floor/plating,/area/map_template/train)
+"fs" = (/obj/floor_decal/borderfloor{dir = 5},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"fD" = (/obj/structure/railing/mapped{dir = 1},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"fW" = (/obj/structure/catwalk,/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/map_template/train)
+"gK" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"hk" = (/obj/floor_decal/borderfloor{dir = 5},/obj/floor_decal/industrial/warning{dir = 4},/obj/machinery/light/small/emergency{dir = 8},/turf/simulated/floor/tiled/steel_ridged,/area/map_template/train)
+"hu" = (/obj/floor_decal/borderfloor{dir = 6},/obj/floor_decal/industrial/warning{dir = 4},/obj/machinery/light/small/emergency{dir = 8},/turf/simulated/floor/tiled/steel_ridged,/area/map_template/train)
+"hQ" = (/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"id" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"ip" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"iN" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/simulated/floor/plating,/area/map_template/train)
+"je" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/structure/bed/chair/shuttle/black{dir = 8},/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"jz" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor{dir = 1},/obj/machinery/constructable_frame/computerframe/deconstruct,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"jE" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor{dir = 1},/obj/machinery/constructable_frame/machine_frame/deconstruct,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"jL" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/industrial/warning{dir = 8},/obj/structure/closet/crate,/obj/random/junkyard/bomb_supply,/obj/random/junkyard/bomb_supply,/obj/random/junkyard/advdevice,/obj/random/junkyard/powercell,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"jW" = (/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/template_noop,/area/template_noop)
+"kl" = (/obj/random/trash,/turf/template_noop,/area/template_noop)
+"kF" = (/obj/floor_decal/industrial/hatch/yellow,/obj/machinery/constructable_frame/computerframe/deconstruct{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"kJ" = (/obj/structure/catwalk,/obj/item/storage/cargo_containers{icon_state = "watatsumi_r"; layer = 4.09},/turf/simulated/floor/plating,/area/template_noop)
+"lb" = (/obj/floor_decal/techfloor/orange/corner{dir = 8},/obj/floor_decal/techfloor{dir = 1},/obj/decal/cleanable/blood/oil/streak,/obj/machinery/light/small/emergency{dir = 1},/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"ml" = (/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/techfloor,/obj/decal/cleanable/dirt,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/item/storage/belt/utility/full{pixel_x = 6; pixel_y = 15},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"mq" = (/obj/floor_decal/industrial/hatch/yellow,/obj/item/storage/cargo_containers{icon_state = "watatsumi_l"},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"mt" = (/obj/structure/catwalk,/obj/item/storage/cargo_containers{icon_state = "lockmart_l"},/obj/item/storage/cargo_containers{icon_state = "grant_lm"; layer = 4.10; pixel_y = 23},/turf/simulated/floor/plating,/area/template_noop)
+"nF" = (/obj/floor_decal/corner_steel_grid{dir = 10},/obj/floor_decal/techfloor/orange/corner{dir = 4},/obj/structure/bed/chair/wood/ebony{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/map_template/train)
+"oZ" = (/turf/template_noop,/area/template_noop)
+"pJ" = (/obj/floor_decal/industrial/hatch/yellow,/obj/item/storage/cargo_containers{icon_state = "lockmart_r"},/obj/item/storage/cargo_containers{icon_state = "grant_r"; layer = 4.10; pixel_y = 23},/obj/structure/largecrate{layer = 4.09; pixel_x = -4; pixel_y = -8},/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"pQ" = (/obj/floor_decal/techfloor/orange/corner,/obj/floor_decal/industrial/hatch/yellow,/obj/machinery/constructable_frame/computerframe/deconstruct,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"qg" = (/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/template_noop,/area/template_noop)
+"ro" = (/obj/floor_decal/techfloor/orange{dir = 5},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"sn" = (/turf/simulated/floor/plating,/area/map_template/train)
+"sp" = (/obj/wallframe_spawn/reinforced,/obj/paint/black,/turf/simulated/floor/plating,/area/map_template/train)
+"ti" = (/turf/simulated/mineral/volcanic,/area/template_noop)
+"tM" = (/obj/decal/cleanable/dirt,/obj/spawner/room/traincrash/horizontal,/turf/simulated/wall/r_wall,/area/map_template/train)
+"uM" = (/obj/item/storage/cargo_containers{icon_state = "hd_m_alt"},/turf/template_noop,/area/template_noop)
+"wR" = (/obj/random/trash,/obj/random/trash,/turf/template_noop,/area/template_noop)
+"wX" = (/obj/structure/railing/mapped,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"xp" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"yt" = (/obj/structure/railing/mapped,/turf/template_noop,/area/template_noop)
+"yv" = (/obj/item/storage/cargo_containers{icon_state = "seegson_r"; layer = 4.09},/turf/template_noop,/area/template_noop)
+"zc" = (/obj/floor_decal/industrial/hatch/yellow,/obj/structure/closet/crate/hydroponics,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"zg" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/decal/cleanable/generic,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"zO" = (/obj/structure/catwalk,/obj/item/storage/cargo_containers{icon_state = "watatsumi_m"; layer = 4.09},/turf/simulated/floor/plating,/area/template_noop)
+"zR" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/template_noop)
+"zU" = (/obj/structure/catwalk,/obj/random/trash,/obj/random/trash,/turf/simulated/floor/plating,/area/template_noop)
+"zV" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/industrial/warning/corner{dir = 4},/obj/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"AA" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/template_noop,/area/template_noop)
+"AO" = (/obj/floor_decal/techfloor/orange/corner{dir = 4},/obj/machinery/constructable_frame/machine_frame/deconstruct,/turf/simulated/floor/plating,/area/map_template/train)
+"AS" = (/obj/item/storage/cargo_containers{icon_state = "kelland_l"},/turf/template_noop,/area/template_noop)
+"Bc" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/decal/cleanable/dirt,/obj/machinery/hologram/holopad/longrange,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/map_template/train)
+"Ce" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"CQ" = (/obj/structure/closet/crate/secure/loot,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"CT" = (/obj/structure/railing/mapped{dir = 1},/turf/template_noop,/area/template_noop)
+"Dg" = (/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"Dn" = (/obj/floor_decal/borderfloor,/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning{dir = 1},/obj/floor_decal/industrial/warning,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"EC" = (/obj/floor_decal/techfloor/orange/corner,/obj/machinery/power/apc/derelict{dir = 1; pixel_y = 12},/obj/structure/cable/green{dir = 1},/turf/simulated/floor/plating,/area/map_template/train)
+"FD" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/item/storage/cargo_containers{icon_state = "trijent_m"},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"FF" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/closet/crate/medical,/obj/decal/cleanable/dirt,/obj/random/junkyard/medical/lite,/obj/random/junkyard/medical/lite,/obj/random/junkyard/medical/lite,/obj/random/junkyard/medical/lite,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"FU" = (/obj/floor_decal/industrial/hatch/yellow,/obj/item/storage/cargo_containers{icon_state = "lockmart_m"},/obj/item/storage/cargo_containers{icon_state = "grant_rm"; layer = 4.10; pixel_y = 23},/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"Gk" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/structure/closet/crate/critter,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"HX" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning,/obj/structure/closet/crate,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Ic" = (/obj/floor_decal/borderfloor{dir = 9},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Is" = (/obj/floor_decal/techfloor/orange{dir = 6},/obj/machinery/light/small/emergency{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"It" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"Je" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/item/storage/cargo_containers{icon_state = "trijent_l"},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Jy" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning,/obj/random/junkyard/tool,/obj/random/junkyard/toolbox,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"KG" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"KU" = (/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/template_noop,/area/template_noop)
+"Lt" = (/obj/floor_decal/borderfloor,/obj/floor_decal/industrial/warning{dir = 1},/obj/item/storage/cargo_containers{icon_state = "trijent_r"},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"LS" = (/obj/item/storage/cargo_containers{icon_state = "hd_l_alt"},/turf/template_noop,/area/template_noop)
+"Ml" = (/obj/paint/black,/turf/simulated/wall/r_wall,/area/map_template/train)
+"Mm" = (/obj/spawner/room/traincrash/horizontal,/turf/simulated/wall/r_wall,/area/map_template/train)
+"Mu" = (/obj/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"MC" = (/obj/wallframe_spawn/reinforced,/obj/decal/cleanable/dirt,/obj/paint/black,/turf/simulated/floor/plating,/area/map_template/train)
+"Nd" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/template_noop,/area/template_noop)
+"NH" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/industrial/warning/corner{dir = 1},/obj/floor_decal/industrial/warning/corner{dir = 8},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"NS" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/industrial/warning{dir = 8},/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"NZ" = (/obj/structure/railing/mapped,/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"OU" = (/obj/floor_decal/techfloor{dir = 4},/obj/structure/door_assembly/door_assembly_hatch,/obj/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"Pc" = (/obj/spawner/room/traincrash/vertical,/turf/simulated/wall/r_wall,/area/map_template/train)
+"Pj" = (/obj/floor_decal/corner_steel_grid{dir = 9},/obj/decal/cleanable/blood/oil/streak,/turf/simulated/floor/tiled/techfloor,/area/map_template/train)
+"PU" = (/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"PX" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/industrial/warning{dir = 4},/obj/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Rb" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/industrial/warning{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"Ri" = (/obj/item/storage/cargo_containers{icon_state = "seegson_l"; layer = 4.09},/turf/template_noop,/area/template_noop)
+"Rp" = (/obj/machinery/light/spot{dir = 4},/turf/template_noop,/area/map_template/train)
+"Rt" = (/obj/floor_decal/borderfloor,/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning{dir = 1},/obj/floor_decal/industrial/warning,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Sq" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/industrial/warning/corner{dir = 4},/obj/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled/steel_ridged,/area/map_template/train)
+"SF" = (/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"SG" = (/obj/item/storage/cargo_containers{icon_state = "hd_r_alt"},/turf/template_noop,/area/template_noop)
+"Te" = (/obj/floor_decal/industrial/outline/yellow,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"Ts" = (/obj/item/storage/cargo_containers{icon_state = "seegson_m"; layer = 4.09},/turf/template_noop,/area/template_noop)
+"TK" = (/obj/floor_decal/techfloor/orange/corner{dir = 1},/obj/floor_decal/techfloor,/obj/machinery/power/port_gen/pacman/mrs,/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"TW" = (/obj/structure/catwalk,/obj/structure/closet/crate/large,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/obj/random/junkyard/material,/obj/random/junkyard/material,/obj/random/junkyard/tech_supply,/obj/random/junkyard/tech_supply,/turf/simulated/floor/plating,/area/template_noop)
+"Uc" = (/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"Ue" = (/obj/decal/cleanable/dirt,/obj/paint/green,/turf/simulated/wall/r_wall,/area/template_noop)
+"Ug" = (/obj/structure/backup_server,/turf/simulated/floor/plating,/area/map_template/train)
+"Uh" = (/obj/structure/catwalk,/obj/random/junkyard/smokes,/turf/simulated/floor/plating,/area/template_noop)
+"Uk" = (/obj/structure/catwalk,/obj/structure/bed/chair/comfy/black,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/map_template/train)
+"Un" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/simulated/floor/plating,/area/map_template/train)
+"Uy" = (/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"Vk" = (/obj/item/storage/cargo_containers{icon_state = "kelland_r"},/turf/template_noop,/area/template_noop)
+"We" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/simulated/floor/exoplanet/barren,/area/template_noop)
+"Wf" = (/turf/simulated/wall/r_wall,/area/map_template/train)
+"Wi" = (/obj/floor_decal/industrial/hatch/yellow,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/template_noop)
+"Xh" = (/obj/floor_decal/corner_steel_grid{dir = 6},/obj/floor_decal/techfloor/orange{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/map_template/train)
+"Xx" = (/obj/floor_decal/techfloor/orange{dir = 1},/obj/floor_decal/techfloor,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/train)
+"Ya" = (/obj/structure/closet/crate/freezer/rations,/turf/template_noop,/area/template_noop)
+"Yj" = (/obj/floor_decal/borderfloor{dir = 1},/obj/floor_decal/industrial/warning,/obj/structure/closet/crate/solar_assembly,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"Yl" = (/obj/structure/shuttle/engine/propulsion{dir = 1},/turf/simulated/floor/plating,/area/map_template/train)
+
+(1,1,1) = {"
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZUcoZoZoZUcUcUcoZoZoZoZUcoZoZoZoZASVkoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZhQhQoZoZoZoZoZoZoZoZoZoZoZoZoZUcItUcUcoZoZoZItUcUchQKGKGKGoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZhQoZoZoZoZoZMloZoZoZoZhQoZoZoZoZoZoZoZoZoZoZoZoZytNZNZNZytytytwXytoZoZKGUcoZoZoZoZUcItLSuMSGoZoZMlMlMlMlMloZoZoZoZ
+RpMlMlMlMlMloZoZoZMlMlaNoZoZoZoZoZoZoZoZoZoZoZoZoZoZdQzgJeFDLtipipFFipGkdQoZoZoZoZItoZoZoZoZoZoZoZoZoZoZUnMliNoZoZoZoZoZ
+oZoZUnMlMliNhQoZoZMlMliNhQKGwRoZhQoZoZoZoZoZoZoZoZPUNSUyTWzRzRzRMuMufsUyRbDgoZhQhQUcoZUcoZoZoZUcWfWfWfWfWfWfWfWfWfWfWfoZ
+oZspMlMlMlMlMlMlMlMlMlMloZoZhQUcKGUcoZhQoZoZoZoZoZDnNHzRzRWiMumtFUpJzUzRzVDnhQhQoZKGoZoZoZoZoZytWfsnsnsnsnsnsnsnsnsnWfyt
+spMCpQIsECetjzjElbaTMlhkKUhQUchQKGhQoZoZoZoZUcoZoZqgjLUyIczcmqzOkJUhccTeidjWoZhQhQhQKGoZUcItoZRtsnsnsnsnsnsnsnsnsnsnsnRt
+spkFjePjBcaQUkfWXhsnOUSqRtoZoZoZoZUcoZoZoZoZoZoZoZoZUeCexpCeHXCeCexpJyYjUehQhQhQoZUcoZoZtitioZCTWfsnsnsnsnsnsnsnsnsnWfCT
+spspAOronFbZXxmlTKUgMlhuSFoZhQUcUcoZItItMlMlMlMlMloZoZfDCTCTCTCTCTCTCTfDoZoZoZUcoZUcoZtititioZoZMmWfWfWfWfWfWfWfWfWfWfoZ
+oZspMlMlMlMlMlMlMlMlMlMlbRoZoZoZoZoZUcUcoZUnMliNoZUcKGKGUcUcKGoZoZoZoZoZUcoZoZhQhQoZtitititioZoZoZoZoZoZUnMliNoZoZoZoZoZ
+oZoZUnMlMliNoZUcoZMlMliNhQhQKGoZoZWfWfWfWfWfWfWfWfWfWfWfoZoZhQhQoZhQUcUcUcoZoZoZtitititititioZoZoZoZoZMlMlMlMlMloZoZoZoZ
+RpMlMlMlMlMloZoZUcMlMlMloZKGoZhQytWfsnsnsnsnsnsnsnsnsnWfythQhQKGhQKGhQhQoZUcwRoZtititititioZoZtioZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZhQhQhQhQhQoZUcMloZhQoZUcUcoZRtsnsnsnsnsnsnsnsnsnsnsnRthQhQhQoZoZoZoZoZKGoZoZtitititititititioZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZKGUcoZhQoZoZoZoZoZoZoZUcdFWfsnsnsnsnsnsnsnsnsnWfCToZgKUcoZUcItoZhQhQoZoZtititititititititioZoZoZoZoZoZoZoZoZoZoZ
+oZoZkloZoZoZoZUcoZUcUcoZoZoZoZoZUctMWfWfWfWfWfWfWfWfWfWfhQoZUcoZhQoZWePXAAoZKGItoZtititititititititioZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZUcUcoZoZoZoZoZoZUcoZoZoZUnMliNoZhQKGUcoZoZoZoZoZWfWfsnWfWfhQKGtitititititititititioZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZMlMlMlMlMlUcgKYaoZoZhQoZhQWfsnsnsnWfoZoZhQoZtititititititioZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZKGhQhQUcoZhQWfsnsnsnWfoZhQKGUcoZtititititioZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZtioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZKGKGoZMloZWfsnsnsnWfoZMlhQUcoZoZoZtitioZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZtitioZoZoZoZRiTsyvoZoZoZoZoZoZoZoZoZoZoZoZKGUchQMlYlWfsnsnsnWfYlMlUcoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZtititititioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZUcItoZMlMlWfsnsnsnWfMlMlUchQoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZtitititititioZoZoZoZoZoZoZkloZoZoZoZoZoZoZoZoZoZUchQMleBWfsnsnsnWfeBMloZhQoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZtitititititioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZhQKGMloZWfsnsnsnWfCQMloZKGoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZtitititititioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZIthQoZWfsnsnsnWfoZhQhQoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZtitititioZoZoZoZoZoZoZtioZoZoZoZoZoZoZoZoZoZoZoZoZoZhQoZWfsnsnsnWfoZhQKGUcoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZtitioZoZoZoZoZtititioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZPcWfsnWfWfUcUcKGoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZtitioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZNdPXAAoZoZoZUcoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZtititioZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZUcoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+oZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZUcoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZoZ
+"}

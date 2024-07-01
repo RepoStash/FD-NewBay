@@ -1,0 +1,26 @@
+#ifndef MODPACK_FD_GUNS
+#define MODPACK_FD_GUNS
+
+// Дефайны, которых нету на билде
+#define CALIBER_BOLTER				".75"
+#define BELT_OVERLAY_HOLSTER_FD		3
+
+
+#include "code/projectiles.dm"
+#include "code/energy_battery.dm"
+#include "code/belt.dm"
+#include "code/autolathe.dm"
+
+#include "code/ammo/boxes.dm"
+#include "code/ammo/bullets.dm"
+
+#include "code/guns/automatic.dm"
+#include "code/guns/energy.dm"
+#include "code/guns/pistol.dm"
+#include "code/guns/shotgun.dm"
+#include "code/guns/sniper.dm"
+#include "code/guns/k342.dm"
+
+#undef CALIBER_BOLTER
+
+#endif

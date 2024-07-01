@@ -1,0 +1,37 @@
+"a" = (/obj/paint/sun,/turf/simulated/wall/r_wall,/area/template_noop)
+"d" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/techfloor/orange{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"e" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/techfloor/orange{dir = 8},/obj/structure/closet/crate/solar_assembly,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"f" = (/obj/floor_decal/techfloor/orange/corner{dir = 4},/obj/floor_decal/techfloor/orange/corner{dir = 1},/obj/floor_decal/techfloor/orange/corner,/obj/floor_decal/techfloor/orange/corner{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"h" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/template_noop)
+"i" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor/orange{dir = 1},/obj/structure/closet/crate/radiation_gear,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"k" = (/obj/floor_decal/industrial/warning{dir = 4},/obj/machinery/door/airlock/hatch,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"m" = (/obj/paint/sun,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"s" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor/orange{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"t" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 1},/turf/simulated/floor/plating,/area/template_noop)
+"u" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/template_noop)
+"x" = (/obj/floor_decal/techfloor/orange/corner{dir = 4},/obj/floor_decal/techfloor/orange/corner,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"y" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor/orange{dir = 1},/obj/decal/cleanable/dirt,/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"A" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/structure/closet/crate/secure/large,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/obj/random/junkyard/ammo,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"B" = (/obj/floor_decal/industrial/warning{dir = 8},/obj/machinery/door/airlock/hatch,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"C" = (/obj/floor_decal/industrial/outline/yellow,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"E" = (/obj/paint/sun,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"I" = (/obj/structure/catwalk,/obj/structure/closet/crate/medical,/obj/random/junkyard/medical,/obj/random/junkyard/medical,/obj/random/junkyard/medical,/obj/random/junkyard/medical,/obj/random/junkyard/medical,/obj/random/junkyard/medical,/turf/simulated/floor/plating,/area/template_noop)
+"J" = (/obj/structure/catwalk,/obj/structure/closet/crate/secure/gear,/obj/random/junkyard/biggun,/obj/random/junkyard/biggun,/obj/random/junkyard/biggun,/obj/random/junkyard/biggun,/turf/simulated/floor/plating,/area/template_noop)
+"K" = (/obj/structure/catwalk,/obj/machinery/light/small/emergency{dir = 1},/obj/structure/closet/crate/large,/obj/random/junkyard/loot,/obj/random/junkyard/loot,/obj/random/junkyard/loot,/obj/decal/cleanable/dirt,/obj/random/trash,/turf/simulated/floor/plating,/area/template_noop)
+"L" = (/obj/floor_decal/techfloor/orange{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"N" = (/obj/floor_decal/techfloor/orange,/obj/floor_decal/techfloor/orange{dir = 1},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"R" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/template_noop)
+"S" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/floor_decal/techfloor/orange{dir = 8},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"T" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/random/trash,/obj/random/trash,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"U" = (/obj/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/steel_ridged,/area/template_noop)
+"W" = (/obj/paint/sun,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_wall,/area/template_noop)
+"X" = (/obj/floor_decal/techfloor/orange{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+"Y" = (/obj/floor_decal/techfloor/orange/corner{dir = 1},/obj/floor_decal/techfloor/orange/corner{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/template_noop)
+
+(1,1,1) = {"
+aWaaaaaaWEE
+aLKRdCdRtAa
+BxsNfifyNYk
+aXuJSUeIhTa
+aaaaaEmEaEa
+"}

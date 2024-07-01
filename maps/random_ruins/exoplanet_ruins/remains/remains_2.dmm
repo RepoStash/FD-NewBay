@@ -1,0 +1,24 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"f" = (/obj/quicksand{layer = 2.22},/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"h" = (/obj/structure/rubble,/turf/template_noop,/area/template_noop)
+"q" = (/turf/simulated/mineral/volcanic,/area/template_noop)
+"C" = (/obj/quicksand,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"F" = (/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"G" = (/obj/structure/fd/skull,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"J" = (/obj/structure/rubble,/obj/structure/rubble,/obj/quicksand{layer = 2.22},/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"N" = (/obj/structure/rubble,/obj/structure/rubble,/obj/structure/rubble,/turf/template_noop,/area/template_noop)
+"O" = (/obj/structure/rubble,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+"V" = (/obj/structure/fd/bone,/turf/simulated/floor/exoplanet/desert,/area/template_noop)
+
+(1,1,1) = {"
+aaaqaahaaF
+aqqqaahOCa
+aqqFCChNJF
+aqaFCFahaF
+aaFVFFCFqa
+aFCCGfFFaa
+aaFFCCCFaa
+aaahCCFaaa
+aCaaaOFaaa
+aaaaahaaaa
+"}

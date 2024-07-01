@@ -1,0 +1,89 @@
+"aa" = (/turf/template_noop,/area/template_noop)
+"ab" = (/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"ac" = (/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ad" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ae" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"af" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"ag" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"ah" = (/obj/decal/cleanable/dirt,/turf/template_noop,/area/template_noop)
+"ai" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"aj" = (/obj/paint/red/dark,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"ak" = (/obj/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/map_template/shelters_alt/shelters_alt2)
+"al" = (/obj/wallframe_spawn/reinforced,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/shelters_alt/shelters_alt2)
+"am" = (/obj/paint/merc,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"an" = (/obj/floor_decal/borderfloorblack{dir = 10; icon_state = "borderfloor_white"},/obj/machinery/constructable_frame,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"ao" = (/obj/floor_decal/borderfloorblack,/obj/machinery/constructable_frame/computerframe,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"ap" = (/obj/floor_decal/borderfloorblack{dir = 6; icon_state = "borderfloor_white"},/obj/machinery/constructable_frame/computerframe,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aq" = (/obj/paint/red/dark,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"ar" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"as" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/machinery/light_construct{dir = 1; icon_state = "tube-construct-stage1"},/obj/decal/cleanable/cobweb,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"at" = (/obj/decal/cleanable/dirt,/turf/simulated/wall/ebony,/area/map_template/shelters_alt/shelters_alt2)
+"au" = (/obj/floor_decal/borderfloor{dir = 5; icon_state = "borderfloor_white"},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+"av" = (/obj/floor_decal/borderfloorblack{dir = 8; icon_state = "borderfloor_white"},/obj/machinery/light_construct{dir = 1; icon_state = "tube-construct-stage1"},/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aw" = (/obj/floor_decal/borderfloor{dir = 8; icon_state = "borderfloor_white"},/obj/decal/cleanable/generic,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+"ax" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel_ridged,/area/map_template/shelters_alt/shelters_alt2)
+"ay" = (/obj/floor_decal/borderfloor{dir = 4; icon_state = "borderfloor_white"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+"az" = (/obj/floor_decal/borderfloorblack{dir = 8; icon_state = "borderfloor_white"},/obj/machinery/power/smes/batteryrack,/obj/machinery/power/apc/alien{pixel_x = 25},/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aA" = (/obj/structure/barricade,/obj/decal/cleanable/dirt,/turf/template_noop,/area/map_template/shelters_alt/shelters_alt2)
+"aB" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aC" = (/obj/floor_decal/borderfloor{dir = 8; icon_state = "borderfloor_white"},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+"aD" = (/turf/simulated/wall/ebony,/area/map_template/shelters_alt/shelters_alt2)
+"aE" = (/obj/paint/merc,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"aF" = (/obj/structure/curtain/black,/turf/template_noop,/area/map_template/shelters_alt/shelters_alt2)
+"aG" = (/obj/structure/closet/crate/large,/obj/random/assembly,/obj/random/tech_supply,/obj/random/loot,/obj/random/loot,/obj/random/junk,/obj/random/junk,/obj/random/junk,/obj/random/loot,/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/map_template/shelters_alt/shelters_alt2)
+"aH" = (/obj/item/stool/wood,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/cobweb2,/turf/simulated/floor/wood/ebony,/area/map_template/shelters_alt/shelters_alt2)
+"aI" = (/obj/paint/merc,/turf/simulated/wall/ebony,/area/map_template/shelters_alt/shelters_alt2)
+"aJ" = (/obj/floor_decal/borderfloor{dir = 8; icon_state = "borderfloor_white"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+"aK" = (/obj/machinery/door/unpowered/simple/walnut{dir = 8; icon_state = "metal"},/turf/simulated/floor/wood/walnut,/area/map_template/shelters_alt/shelters_alt2)
+"aL" = (/turf/simulated/floor/plating,/area/map_template/shelters_alt/shelters_alt2)
+"aM" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/wood/ebony,/area/map_template/shelters_alt/shelters_alt2)
+"aN" = (/obj/structure/barricade,/turf/template_noop,/area/map_template/shelters_alt/shelters_alt2)
+"aO" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/machinery/light_construct,/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aP" = (/obj/structure/mattress,/obj/decal/cleanable/dirt,/obj/decal/cleanable/generic,/turf/simulated/floor/wood/walnut,/area/map_template/shelters_alt/shelters_alt2)
+"aQ" = (/obj/machinery/atmospherics/unary/engine{dir = 1; icon_state = "nozzle"},/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/template_noop)
+"aR" = (/obj/machinery/atmospherics/unary/engine{dir = 1; icon_state = "nozzle"},/turf/simulated/floor/plating,/area/template_noop)
+"aS" = (/obj/paint/red/dark,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"aT" = (/obj/decal/cleanable/ash,/turf/template_noop,/area/template_noop)
+"aU" = (/obj/floor_decal/borderfloorblack/cee,/obj/machinery/door/airlock/external/bolted_open{icon_state = "open"},/turf/simulated/floor/tiled/techfloor,/area/map_template/shelters_alt/shelters_alt2)
+"aV" = (/obj/machinery/atmospherics/unary/engine{dir = 1; icon_state = "nozzle"},/turf/simulated/floor/plating,/area/map_template/shelters_alt/shelters_alt2)
+"aW" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/template_noop)
+"aX" = (/obj/structure/pit/closed/grave,/obj/structure/gravemarker/cross,/turf/template_noop,/area/template_noop)
+"aY" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"aZ" = (/obj/structure/pit,/turf/template_noop,/area/template_noop)
+"ba" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/template_noop)
+"bb" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/ash,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/template_noop)
+"bc" = (/obj/paint/merc,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/wall/r_titanium,/area/map_template/shelters_alt/shelters_alt2)
+"pP" = (/obj/floor_decal/borderfloor{dir = 8; icon_state = "borderfloor_white"},/obj/decal/cleanable/dirt,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/shelters_alt/shelters_alt2)
+
+(1,1,1) = {"
+aaaaaaaaaaaaabacadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaacaaahaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaafaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabagacaaahaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabadaaaaaiaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabadaaaaaeaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaahagagaaaaaaaaaaajakalakajaaaaaaaaaaaa
+aaaaaaaaaaaaaeacacaaaaaaaaamajanaoapaqamaaaaaaaaaa
+aaaaaaaaaaaaabaracaaabaaaaamasaaatauavamaaaaaaaaaa
+aaaaaaaaaaaaabagacagabaaaaamaaawaxayazamaaaaaaaaaa
+aaaaaaaaaaaaaaacagagabaaaaaAaBaCaDatataEamaaaaaaaa
+aaaaaaaaaaaaaaaaagagabaaaaaFaaaaaDaGaHamaEaaaaaaaa
+aaaaaaaaaaaaaaaaaaacabaaaaaIaaaJaKaLaMaEamamaEaaaa
+aaaaaaaaaaaaaaacaaacabaaaaaNaOpPaDaMaPamaQaRaEamaa
+aaaaaaaaaaaEabaaacacabaaaaamaSaaaDaDajamaaaTaaaaaa
+aaaaaaaaaaaEamaaaaagabaaaaaaajamaUamajamaaaaaaaaaa
+aaaaaaaEamamaEaaagagaeaaaaaaaaaEaaamaVamaaaaaaaaaa
+aaaaambcaRaWabacacacabaaaXaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabaYaaacabaaaaaZaaaaaaaaaaaaaaaaaaaaaa
+aaaaaTaaaaaaabaaaaacabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabagagacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaeagadacabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaacagaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaacaaacabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaacaaagabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaeacaaacaeaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaeaaaaaaaeaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaabaaaaaaYabaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaagbbaeaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

@@ -1,0 +1,106 @@
+"cC" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/machinery/power/smes/buildable/preset/voxship/ship,/obj/structure/cable{d2 = 2; icon_state = "0-2"},/obj/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"cD" = (/obj/structure/bed,/obj/item/bedsheet,/obj/floor_decal/techfloor,/obj/item/clothing/gloves/vox,/obj/machinery/light/small{dir = 8},/obj/decal/cleanable/cobweb,/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"cJ" = (/obj/structure/curtain/open/bed,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"cZ" = (/obj/structure/girder,/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"eC" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/floor_decal/borderfloorblack{dir = 1},/obj/random/contraband,/obj/decal/cleanable/filth,/obj/random/trash,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"fh" = (/obj/random/junk,/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"fz" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/random/junk,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"fX" = (/obj/random/junk,/obj/random/contraband,/obj/random/contraband,/obj/structure/closet/crate/secure/gear,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"hj" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/floor_decal/corner_techfloor_gray{dir = 1},/obj/random/junk,/obj/machinery/light/small,/obj/machinery/constructable_frame/computerframe{dir = 8},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"hl" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/turf/simulated/wall/r_wall/hull/vox,/area/map_template/build/build4)
+"hp" = (/obj/random/loot,/obj/random/junk,/obj/random/junk,/obj/random/coin,/obj/structure/closet/crate,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"kA" = (/obj/structure/fuel_port,/turf/simulated/wall/r_wall/hull/vox,/area/map_template/build/build4)
+"kW" = (/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/obj/decal/cleanable/blood/splatter,/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"kX" = (/obj/structure/bed/chair/comfy/red,/obj/floor_decal/borderfloorblack{dir = 1},/obj/floor_decal/corner_techfloor_gray,/obj/decal/cleanable/filth,/obj/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"nL" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 5},/obj/structure/catwalk,/obj/random/powercell,/obj/decal/cleanable/cobweb,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"nQ" = (/obj/machinery/atmospherics/pipe/vent/high_volume{dir = 4},/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"nR" = (/obj/structure/bed,/obj/item/bedsheet/green,/obj/floor_decal/techfloor{dir = 1},/obj/random/loot,/obj/decal/cleanable/filth,/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"oc" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/floor_decal/borderfloorblack{dir = 1},/obj/structure/bed/chair,/obj/decal/cleanable/liquid_fuel,/obj/random/hat,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"oh" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/item/stack/material/rods,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"on" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/random/junk,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"oo" = (/obj/machinery/atmospherics/unary/engine,/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"ov" = (/obj/structure/bed,/obj/item/bedsheet/captain,/obj/item/clothing/suit/pirate,/obj/random/cash,/obj/decal/cleanable/blood/splatter,/turf/simulated/floor/tiled/dark/monotile/vox,/area/map_template/build/build4)
+"pk" = (/obj/machinery/atmospherics/binary/passive_gate/on{dir = 4; name = "nitrogen supply"; target_pressure = 280},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"pn" = (/obj/machinery/alarm/vox{dir = 4; pixel_x = -16},/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/decal/cleanable/liquid_fuel,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"pt" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/wall/r_wall/hull/vox,/area/map_template/build/build4)
+"pz" = (/obj/machinery/door/airlock/hatch/voxship,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"qW" = (/obj/machinery/atmospherics/unary/tank/carbon_dioxide{dir = 1},/obj/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"rv" = (/turf/simulated/wall/r_wall/hull/vox,/area/map_template/build/build4)
+"rx" = (/obj/machinery/atmospherics/unary/engine{dir = 8},/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"sq" = (/obj/random/junk,/obj/structure/table/standard,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"ug" = (/obj/structure/curtain/black,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"wa" = (/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{dir = 8},/obj/structure/catwalk,/obj/random/loot,/obj/machinery/portable_atmospherics/canister/carbon_dioxide,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"wx" = (/obj/structure/girder,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"wE" = (/obj/item/stack/material/rods,/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"zh" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; req_access = newlist()},/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/floor_decal/borderfloorblack{dir = 1},/obj/decal/cleanable/blood/splatter,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"zn" = (/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"Al" = (/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/machinery/constructable_frame/computerframe{dir = 1},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Ap" = (/obj/machinery/atmospherics/unary/vent_pump/on,/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/decal/cleanable/filth,/obj/random/maintenance,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"AB" = (/obj/floor_decal/borderfloorblack{dir = 5},/obj/random/junk,/obj/machinery/light/small{dir = 1},/obj/random/material,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Bj" = (/obj/machinery/atmospherics/binary/pump{dir = 1; name = "fuel input"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/random/junk,/obj/decal/cleanable/filth,/obj/random/toolbox,/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Cc" = (/obj/structure/table/reinforced,/obj/floor_decal/borderfloorblack{dir = 1},/obj/floor_decal/corner_techfloor_gray,/obj/random/powercell,/obj/machinery/recharger,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Cm" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 6},/obj/structure/closet/crate,/obj/item/stack/material/tritium/ten,/obj/item/tank/hydrogen,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/decal/cleanable/filth,/obj/random/glasses,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Cp" = (/obj/machinery/atmospherics/pipe/manifold/hidden/red{dir = 1},/obj/random/junk,/obj/decal/cleanable/blood/splatter,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"CM" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,/obj/machinery/meter,/obj/structure/catwalk,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"CW" = (/obj/floor_decal/techfloor{dir = 1},/obj/item/tank/nitrogen,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"Dg" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/random/coin,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"Eh" = (/obj/machinery/door/airlock/hatch/voxship,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"EQ" = (/obj/item/tank/nitrogen,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1; level = 2},/obj/floor_decal/borderfloorblack/corner{dir = 4},/obj/machinery/light/small,/obj/decal/cleanable/liquid_fuel,/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Fu" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/washing_machine,/obj/random/clothing,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"Fv" = (/obj/machinery/computer/ship/engines{dir = 1},/obj/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"GP" = (/obj/structure/bed/chair/comfy/blue,/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/decal/cleanable/filth,/obj/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Hs" = (/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"HK" = (/obj/structure/ore_box,/obj/random/ore,/obj/random/ore,/obj/random/ore,/obj/random/ore,/obj/random/ore,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"Is" = (/obj/item/stack/material/steel,/turf/template_noop,/area/template_noop)
+"IQ" = (/obj/floor_decal/techfloor,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/decal/cleanable/filth,/obj/decal/cleanable/blood/drip,/obj/decal/cleanable/filth,/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"Lm" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/obj/structure/bed/chair/comfy/beige,/obj/random/trash,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Lr" = (/obj/random/loot,/obj/random/loot,/obj/random/junk,/obj/random/contraband,/obj/structure/closet/crate/freezer,/obj/decal/cleanable/cobweb2,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"Lu" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/door/airlock/hatch/voxship,/turf/simulated/floor/tiled/dark/monotile/vox,/area/map_template/build/build4)
+"LB" = (/obj/random/coin,/obj/decal/cleanable/filth,/obj/random/obstruction,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"MH" = (/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{dir = 4},/obj/machinery/power/port_gen/pacman/mrs,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"MP" = (/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"MS" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"MT" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/floor_decal/borderfloorblack{dir = 4},/obj/random/cash,/obj/decal/cleanable/liquid_fuel,/obj/random/solgov,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"NM" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/decal/cleanable/blood/drip,/obj/decal/cleanable/liquid_fuel,/obj/random/solgov,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Or" = (/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/template_noop,/area/template_noop)
+"Pi" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/random/advdevice,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"PE" = (/obj/landmark/damager{random_dam_max = 200; random_dam_min = 120},/turf/simulated/wall/r_wall/hull/vox,/area/map_template/build/build4)
+"PI" = (/obj/wallframe_spawn/reinforced/hull/vox,/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"PJ" = (/obj/machinery/computer/ship/helm{dir = 8},/obj/floor_decal/borderfloorblack{dir = 4},/obj/floor_decal/corner_techfloor_gray{dir = 1},/obj/random/masks,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"PV" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/floor_decal/borderfloorblack{dir = 4},/obj/random/junk,/obj/decal/cleanable/filth,/obj/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Qf" = (/obj/machinery/door/window/brigdoor,/obj/floor_decal/corner_steel_grid/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/dark/vox,/area/map_template/build/build4)
+"QO" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/machinery/light/small,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Rs" = (/obj/floor_decal/borderfloorblack{dir = 5},/obj/random/lilgun,/obj/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Tw" = (/turf/simulated/wall/prepainted,/area/map_template/build/build4)
+"TF" = (/obj/structure/table/reinforced,/obj/floor_decal/corner_techfloor_gray/diagonal,/obj/random/cash,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Ub" = (/obj/machinery/shipsensors,/turf/simulated/floor/reinforced,/area/map_template/build/build4)
+"Vo" = (/obj/floor_decal/borderfloorblack{dir = 1},/obj/floor_decal/corner_techfloor_gray,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/decal/cleanable/filth,/obj/random/medical,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"VV" = (/obj/machinery/door/airlock/hatch/voxship,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Xa" = (/obj/item/stack/material/rods,/turf/template_noop,/area/template_noop)
+"Xx" = (/obj/wallframe_spawn/reinforced/hull/vox,/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/turf/simulated/floor/plating/vox,/area/map_template/build/build4)
+"XE" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/random/junk,/obj/item/material/shard{default_material = "steel"; icon_state = "shrapnellarge"},/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"YG" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/floor_decal/corner_techfloor_gray{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/random/handgun,/obj/random/trash,/turf/simulated/floor/tiled/techmaint/vox,/area/map_template/build/build4)
+"Zv" = (/turf/template_noop,/area/template_noop)
+
+(1,1,1) = {"
+ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZv
+ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZv
+ZvZvZvZvZvZvZvZvZvZvZvPEZvZvZvZvZvZvZvZv
+ZvZvZvZvZvZvZvZvrvZvZvrvooookAZvZvZvZvZv
+ZvZvZvZvZvrvZvrvrvPErvrvptptrvPEZvZvZvZv
+ZvZvZvrvPErvEhrvHKhpLrTwnLCMhlrxZvZvZvZv
+ZvZvZvZvnQXxQfoceCRsfXTwApwahlrxZvZvZvZv
+ZvZvZvZvrvrvLBXEPiMTFuTwfzcCPErvPEZvZvZv
+ZvZvPErvrvpnCppkLmPVDgLuohBjMPIsZvZvZvZv
+ZvZvZvHsPIQONMMSsqEQzhTwCmMHwxOrZvZvZvZv
+ZvZvZvrvrvTwVVTwTwTwugTwonqWPEPEXaIsZvZv
+ZvrvrvPECckXVoABTwcDIQTwTwrvPEZvZvZvZvZv
+ZvZvZvrvFvAlkWYGpzznfhcJovrvZvZvOrZvZvZv
+ZvZvPErvPIPIGPPJTwnRCWrvPIrvPEZvZvZvZvZv
+ZvrvUbZvZvPITFhjrvPIrvrvHsPEZvOrZvZvZvZv
+ZvZvZvZvZvPEPErvrvwEcZIsOrPEZvZvZvZvZvZv
+ZvZvZvZvHsPEIsPEZvZvPEZvZvZvZvZvZvZvZvZv
+ZvZvZvZvPEZvZvwxOrZvZvZvZvZvZvZvZvZvZvZv
+ZvZvZvZvZvOrZvZvIsZvZvZvZvZvZvZvZvZvZvZv
+ZvZvZvZvZvZvXaZvZvZvZvZvZvZvZvZvZvZvZvZv
+"}
