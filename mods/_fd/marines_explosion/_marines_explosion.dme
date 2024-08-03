@@ -1,0 +1,26 @@
+#ifndef MODPACK_MARINES_EXPLOSION
+#define MODPACK_MARINES_EXPLOSION
+
+#include "_marines_explosion.dm"
+
+// No neighbors
+#define NEIGHBORS_NONE		0
+// Cardinal neighborhood
+#define NEIGHBORS_CARDINAL	1
+// Ordinal neighborhood
+#define NEIGHBORS_ORDINAL	2
+// Note that NEIGHBORS_CARDINAL | NEIGHBORS_ORDINALS gives you all 8 surrounding neighbors
+
+#include "code/autocell_ss.dm"
+#include "code/auto_cell.dm"
+
+#include "code/assets.dm"
+#include "code/explosion.dm"
+// #include "code/vomit_wave.dm"
+
+
+#undef NEIGHBORS_NONE
+#undef NEIGHBORS_CARDINAL
+#undef NEIGHBORS_ORDINAL
+
+#endif
