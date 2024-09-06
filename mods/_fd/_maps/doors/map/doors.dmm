@@ -1,0 +1,383 @@
+"ad" = (/obj/floor_decal/corner_steel_grid{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"aF" = (/obj/structure/bed/grim/bad,/obj/item/reagent_containers/food/drinks/flask/barflask{pixel_x = 7; pixel_y = 7},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"aJ" = (/turf/simulated/floor/tiled/old_tile,/area/doors)
+"aQ" = (/turf/simulated/floor/exoplanet/barren,/area/doors)
+"bf" = (/obj/structure/fd/grim_walls/metal,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"bm" = (/obj/structure/fd/skull,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"bu" = (/obj/map_effect/portal/master/side_b{portal_id = "doors_6"},/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"bx" = (/obj/floor_decal/industrial/warning{dir = 8},/obj/floor_decal/corner/paleblue/border{dir = 4},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"ck" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_7"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"cR" = (/obj/floor_decal/industrial/warning,/obj/floor_decal/corner/paleblue/border{dir = 1},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"dl" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/borderfloor{dir = 4},/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"dr" = (/obj/floor_decal/corner_steel_grid{dir = 5},/obj/floor_decal/hull/corner,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"du" = (/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"dx" = (/obj/turf_fire/inferno/magical{color = "#d42e00"},/turf/simulated/floor/exoplanet/volcanic,/area/doors)
+"dM" = (/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"ea" = (/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"ec" = (/obj/structure/fd/grim_walls/metal,/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"eh" = (/obj/structure/flora/tropic/rock,/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"fg" = (/obj/floor_decal/corner/grey/three_quarters{dir = 8},/obj/machinery/washing_machine{pixel_x = 6},/obj/machinery/washing_machine{pixel_x = 6; pixel_y = 18},/obj/structure/bedsheetbin{pixel_x = 1; pixel_y = -19},/obj/structure/fd/invisible_light{how_far = 4; how_much = 0.8; what_color = "#87dacc"},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"fj" = (/obj/structure/fd/junk{icon_state = "0,1"; pixel_x = -14; pixel_y = 9},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"ft" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_2"},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"fT" = (/mob/living/simple_animal/hostile/human/fleet/warspite/security/shotgun/lethal{anchored = 1; dir = 4; move_to_delay = 9999; movement_cooldown = 9999},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"fY" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"gm" = (/obj/machinery/computer/dummy,/obj/structure/window/basic{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"gs" = (/obj/structure/flora/tree/grim/brown,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"gt" = (/obj/paint/silver,/turf/simulated/wall/invincible,/area/doors)
+"gL" = (/obj/structure/fd/junk{icon_state = "1,1"; pixel_y = -11},/obj/structure/fd/junk{icon_state = "2,1"},/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"gW" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"gZ" = (/mob/living/simple_animal/hostile/retaliate/beast/antlion/mega{anchored = 1; dir = 8; move_to_delay = 9999; movement_cooldown = 9999; name = "elite antlion"},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"hf" = (/mob/living/simple_animal/hostile/human/fleet/warspite/pilot/armor{anchored = 1; dir = 4; move_to_delay = 9999; movement_cooldown = 9999},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"hg" = (/obj/floor_decal/techfloor/orange{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"hn" = (/obj/structure/fd/placeholder,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"hN" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/corner/orange/border{dir = 4},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 4},/obj/map_effect/portal/line/side_b,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"hR" = (/obj/map_effect/portal/line/side_a{dir = 1},/obj/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"hV" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_entrance"},/obj/floor_decal/corner/grey/border,/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"id" = (/obj/floor_decal/floordetail/edgedrain{dir = 1},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"ig" = (/obj/floor_decal/corner_steel_grid{dir = 10},/obj/floor_decal/hull{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"ip" = (/obj/structure/flora/tree/jungle,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"ix" = (/obj/floor_decal/borderfloorblack{dir = 4},/obj/floor_decal/corner/grey/border{dir = 4},/obj/structure/table/woodentable/ebony,/obj/item/reagent_containers/food/snacks/checker/bishop{pixel_x = 10; pixel_y = 8},/obj/item/reagent_containers/food/snacks/checker/pawn{pixel_x = 5},/obj/structure/fake_zlvl,/obj/structure/fd/invisible_light{how_far = 5; how_much = 0.6},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"iz" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"iS" = (/obj/floor_decal/industrial/warning{dir = 8},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"iT" = (/obj/structure/ore_box,/obj/item/ore/silver{pixel_x = -13; pixel_y = -21},/obj/item/ore/silver{pixel_x = 3; pixel_y = 15},/obj/item/ore/diamond{pixel_x = 8; pixel_y = 11},/obj/item/pinpointer{pixel_x = -6; pixel_y = 10},/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"iU" = (/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"jb" = (/obj/structure/showcase{desc = "An improvised fire made from stones and sticks."; icon = 'mods/_fd/fd_assets/icons/structures/fires.dmi'; icon_state = "campfire_lit"; name = "campfire"},/obj/structure/fd/invisible_light{how_far = 3; how_much = 0.5; what_color = "#ce531e"},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"jn" = (/obj/structure/fd/invisible_light{how_far = 9; how_much = 0.8; what_color = "#d8c371"},/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"jr" = (/obj/decal/cleanable/blood,/mob/living/simple_animal/hostile/human/fleet/warspite/security/laser/lethal{anchored = 1; dir = 4; move_to_delay = 9999; movement_cooldown = 9999},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"ju" = (/obj/item/pickaxe/xeno/hand{pixel_x = -9; pixel_y = 11},/obj/item/pickaxe/xeno/one_pick{pixel_x = -13},/obj/item/device/measuring_tape,/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"jA" = (/obj/turf_fire/inferno/magical{color = "#d42e00"},/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"jC" = (/obj/floor_decal/corner/grey/border{dir = 4},/obj/structure/holoplant{pixel_y = 3},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"jJ" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_4"},/turf/simulated/floor/exoplanet/grass,/area/doors)
+"jK" = (/obj/floor_decal/corner/grey{dir = 9},/obj/structure/towel/fitness{pixel_y = 13},/obj/structure/towel/blue_stripped,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"jQ" = (/obj/floor_decal/techfloor{dir = 8},/obj/floor_decal/techfloor{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"kc" = (/mob/living/simple_animal/hostile/ghoul/froggo{anchored = 1; color = "#858585"; dir = 8; move_to_delay = 9999; movement_cooldown = 9999},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"kg" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/machinery/vending/cigarette/noprice{density = 0; pixel_y = 19},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"kh" = (/obj/structure/grille,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/obj/structure/fd/placeholder,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"kD" = (/obj/item/ore/strangerock{pixel_x = -7; pixel_y = 11},/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"kU" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/barren,/area/doors)
+"lg" = (/obj/paint/black,/turf/simulated/wall/invincible,/area/doors)
+"ll" = (/obj/floor_decal/industrial/hatch/blue,/obj/machinery/cryopod/ascent_spawn{icon_state = "cell-occupied"},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white,/area/doors)
+"lH" = (/obj/floor_decal/corner/grey/border{dir = 1},/obj/map_effect/portal/line/side_b,/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"lQ" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/blood/xeno,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"lX" = (/obj/floor_decal/borderfloorblack/corner,/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"mg" = (/obj/structure/flora/ausbushes/fullgrass,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"mo" = (/obj/decal/cleanable/spiderling_remains,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"mG" = (/obj/structure/solbanner/exo{pixel_x = -10; pixel_y = 27},/obj/structure/showcase{desc = "Make it count!"; dir = 4; icon = 'mods/_fd/_maps/doors/icons/sentry.dmi'; icon_state = "podsentry_deployed"; name = "sentry gun"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"mP" = (/obj/floor_decal/industrial/warning/corner{dir = 8},/obj/floor_decal/corner/paleblue/border{dir = 1},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"mS" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"mX" = (/turf/unsimulated/wall{color = "black"},/area/doors)
+"na" = (/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"nd" = (/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"nf" = (/obj/step_trigger/teleporter_normal{teleport_x = 92; teleport_y = 8},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"nk" = (/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"nA" = (/obj/floor_decal/corner/grey/border{dir = 8},/obj/structure/sign/poster/number4{pixel_x = -15; pixel_y = 32},/obj/structure/holoplant{pixel_y = 16},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"nR" = (/turf/simulated/floor/exoplanet/volcanic,/area/doors)
+"oa" = (/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/item/soap/grey_soap{pixel_x = 6; pixel_y = 11},/turf/simulated/floor/pool,/area/doors)
+"oq" = (/obj/structure/fd/junk{icon_state = "0,1"; pixel_x = -21; pixel_y = 8},/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"oz" = (/obj/structure/table/reinforced,/obj/structure/window/basic,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"oE" = (/obj/structure/bed/grim/bad{pixel_x = 11},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"oF" = (/obj/structure/noticeboard{pixel_y = 23},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"oZ" = (/obj/floor_decal/borderfloorblack{dir = 1},/obj/floor_decal/corner/grey/border{dir = 1},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"pg" = (/obj/floor_decal/corner_steel_grid/full{dir = 4},/obj/structure/table/reinforced,/obj/item/paper_bin{pixel_x = 7; pixel_y = 5},/obj/item/pen/multi,/obj/item/stamp/approved{pixel_x = -6; pixel_y = 12},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"pq" = (/obj/decal/cleanable/blood/xeno,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"ps" = (/obj/floor_decal/corner/grey/border{dir = 8},/obj/structure/holoplant{pixel_y = 3},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"pR" = (/obj/floor_decal/floordetail/edgedrain,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"pW" = (/obj/floor_decal/corner_steel_grid{dir = 10},/obj/floor_decal/hull/corner{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"qc" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"qd" = (/obj/floor_decal/techfloor{dir = 8},/obj/floor_decal/techfloor{dir = 4},/obj/map_effect/portal/line/side_b,/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"ql" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/corner/orange/border{dir = 4},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 4},/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"qB" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_5"},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"qE" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/corner/orange/border{dir = 8},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"qF" = (/obj/structure/flora/jungle/bush,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"qG" = (/obj/structure/fd/ribs,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"ro" = (/obj/catwalk_plated/white,/obj/structure/table/woodentable/ebony,/obj/item/board{pixel_x = -7; pixel_y = 9},/obj/item/reagent_containers/food/snacks/checker/king,/obj/structure/fake_zlvl,/turf/simulated/floor/plating,/area/doors)
+"rI" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"rM" = (/obj/map_effect/portal/master/side_b{portal_id = "doors_5"},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"rO" = (/obj/map_effect/portal/master/side_b{portal_id = "doors_2"},/turf/simulated/floor/exoplanet/brick_road,/area/doors)
+"rP" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"rU" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"rY" = (/obj/decal/cleanable/generic,/obj/map_effect/portal/master/side_b{portal_id = "doors_3"},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"sd" = (/obj/decal/cleanable/dirt,/obj/item/material/twohanded/baseballbat/metal{pixel_x = 16; pixel_y = 12},/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"sl" = (/obj/turf_fire/inferno/magical{color = "#d42e00"},/turf/simulated/floor/exoplanet/lava,/area/doors)
+"sE" = (/obj/floor_decal/borderfloorblack,/obj/floor_decal/corner/grey/border,/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"sI" = (/obj/structure/hygiene/drain/bath,/turf/simulated/floor/pool,/area/doors)
+"sJ" = (/obj/floor_decal/corner_steel_grid{dir = 6},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"tb" = (/obj/decal/cleanable/generic,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"ti" = (/obj/item/forensics/sample_kit{pixel_x = -8},/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"tk" = (/turf/simulated/floor/exoplanet/lava,/area/doors)
+"to" = (/obj/structure/showcase{desc = "Better not touch it..."; icon = 'mods/_fd/_maps/doors/icons/terrain.dmi'; icon_state = "geyser"; name = "geyser"},/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"ts" = (/obj/floor_decal/corner_steel_grid{dir = 5},/obj/floor_decal/hull/corner{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"tx" = (/obj/structure/table/standard,/obj/machinery/photocopier/faxmachine,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"tD" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/blood,/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"tQ" = (/obj/floor_decal/floordetail/edgedrain{dir = 1},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"tS" = (/obj/item/stool/padded/red{pixel_y = 19},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"ub" = (/obj/floor_decal/industrial/warning{dir = 4},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"uc" = (/mob/living/simple_animal/hostile/retaliate/beast/antlion/mega{anchored = 1; dir = 8; move_to_delay = 9999; movement_cooldown = 9999; name = "elite antlion"},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/obj/decal/cleanable/blood/xeno,/obj/decal/cleanable/blood/xeno,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"uo" = (/obj/structure/flora/tree/dead_watercourse{pixel_x = -3; pixel_y = 25},/obj/structure/fd/body{icon_state = "IntenSecDead1"; layer = 4.09; pixel_x = 2; pixel_y = 20},/obj/item/gun/projectile/automatic/battlerifle{pixel_x = 13; starts_loaded = 0},/obj/item/ammo_magazine/mil_rifle{pixel_x = -15; pixel_y = -23},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"uq" = (/obj/machinery/computer/dummy{dir = 1},/obj/structure/window/basic,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"uO" = (/obj/structure/fd/cave_flora{desc = "Just some grass, nothing more."; icon_state = "grass6"; name = "flora"},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"vl" = (/obj/catwalk_plated/dark,/turf/simulated/floor/plating,/area/doors)
+"vr" = (/obj/floor_decal/industrial/hatch/blue,/obj/machinery/cryopod/ascent_spawn{icon_state = "cell-off"},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white,/area/doors)
+"vs" = (/obj/floor_decal/floordetail/edgedrain,/obj/structure/hygiene/faucet{dir = 1},/turf/simulated/floor/pool,/area/doors)
+"vB" = (/mob/living/simple_animal/hostile/retaliate/beast/antlion/mega{anchored = 1; dir = 8; move_to_delay = 9999; movement_cooldown = 9999; name = "elite antlion"},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/obj/decal/cleanable/blood/xeno,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"vT" = (/obj/floor_decal/corner/grey/three_quarters,/obj/structure/fd/invisible_light{how_far = 4; how_much = 0.8; what_color = "#87dacc"},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"wb" = (/obj/structure/rubble,/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"wf" = (/obj/structure/fd/bone{pixel_y = 22},/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"wt" = (/obj/catwalk_plated,/turf/simulated/floor/plating,/area/doors)
+"wz" = (/obj/floor_decal/corner/grey/three_quarters{dir = 1},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"wI" = (/obj/floor_decal/spline/plain/grey{dir = 1},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"wO" = (/obj/decal/cleanable/dirt,/obj/item/material/twohanded/spear{pixel_x = 12; pixel_y = 14},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"wU" = (/obj/floor_decal/industrial/hatch/yellow,/obj/structure/table/reinforced,/obj/item/modular_computer/laptop/preset/records{pixel_y = 9},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"wW" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/corner/orange/border{dir = 8},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 8},/obj/map_effect/portal/master/side_b{portal_id = "doors_4"},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"xe" = (/obj/machinery/computer/dummy,/obj/structure/window/basic{dir = 1},/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"xg" = (/obj/structure/fd/junk{icon_state = "2,1"; pixel_x = 6; pixel_y = 11},/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"xv" = (/obj/floor_decal/techfloor/orange,/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"xA" = (/obj/decal/cleanable/blood/oil/streak,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"xI" = (/obj/floor_decal/floordetail/edgedrain,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/simulated/floor/pool,/area/doors)
+"xJ" = (/obj/turf_fire/inferno/magical{color = "#d42e00"},/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"xO" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_1"},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"ya" = (/obj/floor_decal/spline/plain/grey,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"yn" = (/turf/simulated/floor/exoplanet/desert,/area/doors)
+"yp" = (/obj/structure/closet/grim/wood_crate,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"ys" = (/obj/item/clothing/head/hardhat/firefighter{pixel_x = -9; pixel_y = 3},/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"yy" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/blood/drip{pixel_x = -13; pixel_y = 25},/turf/simulated/floor/exoplanet/barren,/area/doors)
+"yA" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"yQ" = (/obj/machinery/disposal,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"yT" = (/mob/living/simple_animal/hostile/human/fleet/warspite{anchored = 1; dir = 4; move_to_delay = 9999; movement_cooldown = 9999},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"zl" = (/obj/structure/showcase{desc = "Better not touch it..."; icon = 'mods/_fd/_maps/doors/icons/terrain.dmi'; icon_state = "geyser"; name = "geyser"},/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"zA" = (/obj/wallframe_spawn/reinforced,/obj/paint/silver,/obj/structure/fd/placeholder,/turf/simulated/floor/plating,/area/doors)
+"zF" = (/obj/catwalk_plated/dark,/obj/machinery/power/apc/hyper{dir = 4; pixel_x = 19},/turf/simulated/floor/plating,/area/doors)
+"zW" = (/obj/floor_decal/techfloor/orange{dir = 1},/obj/machinery/papershredder{density = 0; pixel_x = 8; pixel_y = 15},/obj/machinery/photocopier{density = 0; pixel_x = -10; pixel_y = 14},/obj/item/paper,/obj/item/paper{pixel_x = 10; pixel_y = -18},/obj/item/paper{pixel_x = -8; pixel_y = -4},/obj/item/shreddedp{pixel_x = 4; pixel_y = -7},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"Am" = (/obj/floor_decal/techfloor/orange/corner{dir = 1},/obj/floor_decal/borderfloor{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"Aw" = (/obj/floor_decal/borderfloor{dir = 8},/obj/floor_decal/corner/orange/border{dir = 8},/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 8},/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_3"},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"AC" = (/obj/structure/showcase{density = 0; desc = "What the hell happened here..."; icon = 'mods/_fd/_maps/doors/icons/ms_bones.dmi'; icon_state = "0,1"; name = "human bones"; pixel_x = 14; pixel_y = 23},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"AH" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"AS" = (/obj/structure/showcase{desc = "An improvised fire made inside the empty barrel."; icon = 'mods/_fd/fd_assets/icons/structures/fires.dmi'; icon_state = "fire_barrel_lit"; name = "fire barrel"; pixel_x = -6},/obj/item/stool/padded/red{pixel_x = 10; pixel_y = 22},/obj/structure/fd/invisible_light{how_far = 1; how_much = 0.5; what_color = "#ce531e"},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"AX" = (/obj/floor_decal/borderfloorblack,/obj/floor_decal/corner/grey/border,/obj/structure/fd/aaaa/eyes{desc = "You feel...nervous"; icon_state = "quiet_ghost"; name = "strange man"; pixel_x = -14},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Bp" = (/obj/floor_decal/industrial/warning{dir = 8},/obj/floor_decal/corner/paleblue/border{dir = 4},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"Bu" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/borderfloor{dir = 4},/obj/map_effect/portal/line/side_b,/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"BF" = (/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"BG" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/fd/junk{icon_state = "1,1"; pixel_y = 10},/obj/decal/cleanable/blood/drip{pixel_x = -22; pixel_y = 25},/turf/simulated/floor/exoplanet/grass,/area/doors)
+"BH" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"BJ" = (/obj/structure/flora/tree/grim/brown,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"BL" = (/obj/floor_decal/techfloor/orange{dir = 8},/obj/floor_decal/borderfloor{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"BN" = (/obj/floor_decal/spline/plain/grey{dir = 4},/obj/floor_decal/corner/grey/border{dir = 8},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"BV" = (/turf/simulated/floor/tiled/techfloor,/area/doors)
+"BZ" = (/obj/floor_decal/techfloor{dir = 8},/obj/floor_decal/techfloor{dir = 4},/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"Cn" = (/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"Cz" = (/obj/floor_decal/industrial/warning{dir = 4},/obj/floor_decal/corner/paleblue/border{dir = 8},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"CK" = (/obj/floor_decal/industrial/warning/corner{dir = 8},/obj/floor_decal/corner/paleblue/border{dir = 5},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"CL" = (/obj/structure/flora/ausbushes/ywflowers,/obj/decal/cleanable/dirt,/mob/living/simple_animal/passive/crab,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Da" = (/obj/structure/fd/cave_decor{density = 1; icon_state = "support"; layer = 3; name = "wooden support"; pixel_x = 9; pixel_y = 27},/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"Dp" = (/turf/simulated/floor/exoplanet/windswept,/area/doors)
+"DL" = (/obj/item/plastique{pixel_y = -19},/obj/structure/fd/invisible_light{how_far = 9; how_much = 0.5; what_color = "#693734"},/turf/simulated/floor/exoplanet/volcanic,/area/doors)
+"Eh" = (/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/brick_road,/area/doors)
+"EI" = (/obj/structure/fd/invisible_light{how_far = 9; how_much = 0.5; what_color = "#817e6e"},/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"Fn" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"Ft" = (/obj/structure/fd/junk{icon_state = "2,1"},/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"FH" = (/obj/decal/cleanable/dirt,/mob/living/simple_animal/hostile/retaliate/beast/antlion/mega{anchored = 1; dir = 8; move_to_delay = 9999; movement_cooldown = 9999; name = "elite antlion"},/obj/forcefield{desc = "This isn't right."; icon_state = "malf-scanline"; layer = 4; name = "ERROR"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"FM" = (/obj/structure/showcase{desc = "Better not touch it..."; icon = 'mods/_fd/_maps/doors/icons/terrain.dmi'; icon_state = "geyser"; name = "geyser"},/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"FQ" = (/obj/structure/bed/grim/bad{pixel_x = 1; pixel_y = 12},/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal{pixel_x = -9; pixel_y = 36},/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal{pixel_x = -6; pixel_y = 31},/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal{pixel_x = 11; pixel_y = 37},/obj/item/reagent_containers/food/drinks/teapot{pixel_x = 6; pixel_y = 22},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"Gk" = (/obj/decal/cleanable/blood,/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"Gx" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"Gy" = (/obj/floor_decal/industrial/warning/corner{dir = 1},/obj/floor_decal/corner/paleblue/border,/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"GG" = (/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"GR" = (/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"GZ" = (/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"Hj" = (/obj/structure/showcase{density = 0; desc = "What the hell happened here..."; icon = 'mods/_fd/_maps/doors/icons/ms_bones.dmi'; icon_state = "1,1"; name = "human bones"; pixel_x = -5; pixel_y = 12},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"Ib" = (/obj/structure/flora/tree/dead_watercourse{pixel_x = 9; pixel_y = 19},/obj/structure/fd/body{icon_state = "TNCDead3"; layer = 4.09; pixel_x = -6; pixel_y = 32},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"ID" = (/obj/floor_decal/techfloor/orange,/obj/structure/bed/chair/padded/blue,/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"II" = (/obj/structure/fake_zlvl,/obj/structure/fd/invisible_light{how_far = 5; how_much = 0.3; what_color = "#2e8119"},/turf/simulated/floor/tiled/white,/area/doors)
+"Jd" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"Jm" = (/obj/structure/fd/junk{icon_state = "0,1"; pixel_x = -21; pixel_y = 8},/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"JD" = (/obj/structure/showcase{density = 0; desc = "Some propaganda..."; icon = 'mods/_fd/_maps/doors/icons/signs.dmi'; icon_state = "mars"; name = "neon sign"; pixel_x = -5; pixel_y = 30},/obj/structure/fd/invisible_light{how_far = 2; how_much = 0.7; what_color = "#ff5e19"},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"JH" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/desert,/area/doors)
+"JW" = (/obj/floor_decal/corner/grey/three_quarters{dir = 4},/obj/machinery/vending/lavatory,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"JX" = (/obj/structure/fd/junk{icon_state = "1,1"; pixel_y = 10},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"Kd" = (/obj/structure/flora/ausbushes/fernybush,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Kf" = (/mob/living/simple_animal/aquatic/fish/grump{anchored = 1; dir = 4; movement_cooldown = 9999; pixel_x = -10; pixel_y = 17},/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"Km" = (/obj/structure/fd/junk{icon_state = "0,2"; pixel_y = 17},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"Ky" = (/obj/floor_decal/techfloor/orange/corner{dir = 8},/obj/floor_decal/borderfloor{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"KG" = (/obj/floor_decal/techfloor/orange,/obj/machinery/papershredder{density = 0; layer = 4; pixel_x = 8; pixel_y = -2},/obj/machinery/photocopier{density = 0; layer = 4; pixel_x = -10; pixel_y = -6},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"KK" = (/obj/floor_decal/corner/grey/border{dir = 1},/obj/map_effect/portal/master/side_b{portal_id = "doors_1"},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"KN" = (/obj/structure/fd/cave_flora{desc = "Just some grass, nothing more."; icon_state = "grass6"; name = "flora"},/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"Lc" = (/obj/floor_decal/industrial/warning/corner{dir = 4},/obj/floor_decal/corner/paleblue/border,/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"Lg" = (/obj/floor_decal/industrial/warning/corner{dir = 1},/obj/floor_decal/corner/paleblue/border{dir = 6},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"Li" = (/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white,/area/doors)
+"Lk" = (/obj/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"LE" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"LR" = (/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"LX" = (/obj/structure/flora/ausbushes/grassybush,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Mc" = (/obj/structure/table/glass,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Mm" = (/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"My" = (/obj/structure/showcase{alpha = 150; density = 0; desc = "Some random ADs..."; icon = 'mods/_fd/_maps/doors/icons/signs_large.dmi'; icon_state = "med-left"; layer = 4; name = "neon billboard"; pixel_x = -4; pixel_y = -6},/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"MC" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"MN" = (/obj/structure/rubble,/obj/structure/rubble,/obj/structure/rubble,/turf/simulated/floor/exoplanet/water/shallow{color = "#2f661e"},/area/doors)
+"MU" = (/turf/simulated/floor/exoplanet/brick_road,/area/doors)
+"MW" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"Nj" = (/obj/floor_decal/techfloor/orange{dir = 1},/obj/structure/bed/chair/padded/blue{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/doors)
+"Nn" = (/obj/floor_decal/corner/grey{dir = 5},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Np" = (/obj/structure/rubble,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"Nx" = (/obj/decal/cleanable/dirt,/obj/structure/showcase{density = 0; desc = "What the hell happened here..."; icon = 'mods/_fd/_maps/doors/icons/ms_bones.dmi'; icon_state = "4,1"; name = "human bones"; pixel_x = 6; pixel_y = -13},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"NQ" = (/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"Ol" = (/obj/decal/cleanable/dirt,/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"Om" = (/obj/structure/table/reinforced,/obj/structure/window/basic{dir = 1},/obj/item/paper_bin{pixel_x = -5; pixel_y = 6},/obj/item/pen/multi{pixel_x = 6},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"OB" = (/obj/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"OR" = (/turf/simulated/floor/plating,/area/doors)
+"Pi" = (/obj/machinery/washing_machine{pixel_x = -6},/obj/machinery/washing_machine{pixel_x = -6; pixel_y = 18},/obj/item/towel/random{pixel_x = -8; pixel_y = 29},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Pw" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"PJ" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/wet_stone,/area/doors)
+"PP" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"PS" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/dirt,/obj/structure/fd/invisible_light{how_far = 9; how_much = 0.8; what_color = "#e08a2d"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"PU" = (/obj/structure/table/glass,/obj/item/reagent_containers/food/drinks/cans/waterbottle{pixel_x = -1; pixel_y = 18},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"PY" = (/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Qa" = (/obj/floor_decal/corner_steel_grid{dir = 5},/obj/floor_decal/hull,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"Qi" = (/obj/floor_decal/corner/grey{dir = 10},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"QK" = (/obj/overmap/visitable/sector/doors,/turf/unsimulated/wall{color = "black"},/area/doors)
+"QM" = (/turf/simulated/floor/pool,/area/doors)
+"QU" = (/obj/floor_decal/industrial/warning/corner,/obj/floor_decal/corner/paleblue/border{dir = 1},/obj/structure/fake_zlvl,/obj/structure/fd/placeholder,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"Rn" = (/obj/structure/fd/grim_walls/rock{color = "#9e897e"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"Ro" = (/obj/map_effect/portal/line/side_b,/turf/simulated/floor/tiled/techfloor,/area/doors)
+"Rs" = (/obj/step_trigger/teleporter_normal{teleport_x = 93; teleport_y = 8},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"Rw" = (/obj/structure/flora/tree/jungle/small,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Rz" = (/obj/structure/coatrack{pixel_x = -9; pixel_y = 27},/obj/structure/coatrack{icon_state = "coat_cmo"; pixel_x = -9; pixel_y = 26},/obj/structure/towel/ilove{pixel_y = 9},/obj/structure/ironing_board{pixel_x = 6; pixel_y = 13},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"RH" = (/obj/floor_decal/floordetail/edgedrain{dir = 1},/obj/structure/hygiene/faucet,/turf/simulated/floor/pool,/area/doors)
+"RI" = (/obj/decal/cleanable/blood/drip{pixel_x = -8; pixel_y = 14},/turf/simulated/floor/exoplanet/barren,/area/doors)
+"RV" = (/obj/step_trigger/teleporter_normal{teleport_x = 94; teleport_y = 8},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"RY" = (/obj/structure/grille,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/decal/cleanable/dirt,/obj/structure/fd/placeholder,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"RZ" = (/obj/floor_decal/borderfloorblack{dir = 1},/obj/floor_decal/corner/grey/border{dir = 1},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Sq" = (/obj/floor_decal/borderfloor{dir = 4},/obj/floor_decal/corner/orange/border{dir = 4},/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/obj/floor_decal/spline/plain/black{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"Ss" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/ppflowers,/turf/simulated/floor/exoplanet/grass,/area/doors)
+"Sy" = (/obj/map_effect/portal/master/side_b{portal_id = "doors_8"},/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"SW" = (/obj/structure/fd/junk{icon_state = "2,2"},/turf/simulated/floor/exoplanet/brick_road,/area/doors)
+"Te" = (/obj/floor_decal/corner/grey/border{dir = 4},/obj/structure/holoplant{pixel_y = 16},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"Tj" = (/obj/structure/fd/grim_walls/metal,/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"TC" = (/obj/machinery/computer/dummy{dir = 1},/obj/structure/window/basic,/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"TF" = (/obj/decal/cleanable/dirt,/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"TR" = (/obj/floor_decal/corner_steel_grid{dir = 6},/obj/structure/filingcabinet,/obj/structure/filingcabinet{pixel_x = 10},/obj/structure/filingcabinet{pixel_x = -10},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"TZ" = (/obj/floor_decal/corner/grey{dir = 5},/obj/item/clothing/under/bathrobe{pixel_x = 7},/turf/simulated/floor/tiled/old_tile,/area/doors)
+"UG" = (/obj/structure/fd/building_stuff{pixel_x = 9; pixel_y = -16},/turf/simulated/floor/exoplanet/water/shallow,/area/doors)
+"UY" = (/obj/decal/cleanable/blood/oil/streak,/turf/simulated/floor/exoplanet/gravel,/area/doors)
+"Vn" = (/obj/decal/cleanable/blood/tracks/footprints{color = "red"; dir = 8; icon_state = "human2"; pixel_x = -5; pixel_y = 9},/obj/decal/cleanable/blood/drip{pixel_x = -6; pixel_y = 5},/turf/simulated/floor/exoplanet/barren,/area/doors)
+"Wb" = (/obj/map_effect/portal/line/side_a{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"We" = (/obj/floor_decal/spline/plain/grey{dir = 8},/obj/floor_decal/corner/grey/border{dir = 4},/turf/simulated/floor/tiled/old_cargo,/area/doors)
+"Wv" = (/obj/floor_decal/corner_steel_grid/full{dir = 1},/obj/structure/table/reinforced,/obj/item/folder/blue{pixel_x = 4; pixel_y = 16},/obj/item/paper,/obj/item/paper{pixel_x = -5},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"Wx" = (/obj/structure/closet/crate/large,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"WE" = (/obj/floor_decal/industrial/warning{dir = 4},/obj/floor_decal/corner/paleblue/border{dir = 8},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"WI" = (/obj/decal/cleanable/spiderling_remains{pixel_x = -16; pixel_y = 10},/obj/decal/cleanable/blood,/turf/simulated/floor/exoplanet/desert{color = "#965f43"},/area/doors)
+"WT" = (/obj/map_effect/portal/master/side_a{dir = 1; portal_id = "doors_6"},/turf/simulated/floor/exoplanet/grim_dirt,/area/doors)
+"Xf" = (/obj/floor_decal/industrial/warning/corner{dir = 4},/obj/floor_decal/corner/paleblue/border{dir = 10},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"Xx" = (/obj/floor_decal/borderfloorblack/corner{dir = 4},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"Xy" = (/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+"Xz" = (/obj/floor_decal/industrial/warning{dir = 1},/obj/floor_decal/corner/paleblue/border,/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"XB" = (/obj/floor_decal/industrial/warning/corner,/obj/floor_decal/corner/paleblue/border{dir = 9},/obj/structure/fake_zlvl,/turf/simulated/floor/tiled/white/monotile,/area/doors)
+"XD" = (/obj/floor_decal/corner/grey/full,/turf/simulated/floor/tiled/old_tile,/area/doors)
+"XY" = (/obj/structure/fd/invisible_light{how_far = 3; how_much = 0.9; what_color = "#29a809"},/turf/simulated/floor/exoplanet/concrete,/area/doors)
+"Ye" = (/obj/floor_decal/corner_steel_grid{dir = 10},/obj/floor_decal/hull/corner{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"Yg" = (/obj/structure/showcase{alpha = 150; density = 0; desc = "Symbol of some strangly familiar corp..."; icon = 'mods/_fd/_maps/doors/icons/signs_large.dmi'; icon_state = "startech"; layer = 4; name = "neon billboard"; pixel_x = -32; pixel_y = 10},/obj/structure/fd/invisible_light{how_far = 5; how_much = 0.9; what_color = "#ff9d19"},/turf/simulated/floor/exoplanet/concrete/reinforced/road,/area/doors)
+"Yv" = (/obj/map_effect/portal/master/side_b{portal_id = "doors_7"},/turf/simulated/floor/tiled/techfloor,/area/doors)
+"YB" = (/obj/decal/cleanable/dirt,/obj/decal/cleanable/blood/tracks/footprints{color = "red"; dir = 8; icon_state = "human2"; pixel_x = 2; pixel_y = 5},/obj/decal/cleanable/blood/drip{pixel_x = -10; pixel_y = 8},/obj/decal/cleanable/blood/drip{pixel_x = 10; pixel_y = 18},/obj/decal/cleanable/blood/drip{pixel_x = 8; pixel_y = 7},/turf/simulated/floor/exoplanet/desert,/area/doors)
+"Zy" = (/obj/turf_fire/inferno/magical{color = "#d42e00"},/turf/simulated/floor/exoplanet/wet_stone2,/area/doors)
+
+(1,1,1) = {"
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXYvBuRomXmXmXmXmXmXmXmXmXmXmXmXmXmXbuAHMCmXmXmXmXmXmXmXmXmXmXmXmXmXmXSyFnPwmXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmX
+mXmXmXyQrPoFvlBLzFgtoZoZmXmXmXmXmXmXmXmXXyXyDpDpXynRtkslslmXmXmXmXmXmXmXmXNQNQizfYfYizNQNQNQmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXgmOmxevlBLvlzAdMdMmXmXmXmXmXmXmXmXXyzlDpDpnktktkslnRmXmXmXmXmXmXmXmXNQNQizfYlQizRnNQNQmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXNjzWNjhgAmwUzAdMdMmXmXmXmXmXmXmXmXxJkDjuDpDpnRsltknRmXmXmXmXmXmXmXmXqGmojrNQNQMWFHNQucmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXdrQaQaQatsWvzAlXAXmXmXmXmXmXmXmXmXDptiDpDpiTysdxtknkmXmXmXmXmXmXmXmXWxmGNQizizvBNQNQNQmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXsJvlvlvladTRgtixromXmXmXmXmXmXmXmXDpXyXynRDLDpnRnRjAmXmXmXmXmXmXmXmXyThfNQfYPSNQNQgZpqmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXpWigigigYepgzAXxRZmXmXmXmXmXmXmXmXDpXyXytknRnknktoZymXmXmXmXmXmXmXmXNQfTNQizpqNQNQWINQmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXIDKGIDxvKywUzAdMdMmXmXmXmXmXmXmXmXnRdxtkslXynknkxJDpmXmXmXmXmXmXmXmXGkWxNQizizbmNQNQgZmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXuqozTCvlBLvlzAdMdMmXmXmXmXmXmXmXmXsltksldxXyXynkDpxJmXmXmXmXmXmXmXmXRnNQNQizwfmoNQNQpqmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXtxyABVvlBLvlgtsEsEmXmXmXmXmXmXmXmXsltknRXyDpnkFMnkDpmXmXmXmXmXmXmXmXNQNQNQNQizizNQNQNQmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmXmXmXmXmXmXORORORORORORORORORmXmXmX
+mXmXmXmXmXmXqBdlWbmXmXmXmXmXmXmXmXmXmXmXmXmXmXXynkDpmXmXmXmXmXmXmXmXmXmXmXmXmXmXckBHeamXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmXmXmXmXmXmXmXmXmXORORORmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXKKlHlHmXmXmXmXmXmXmXmXmXmXmXmXmXmXrOrIPPmXmXmXmXmXmXmXmXmXmXmXmXmXmXrYOlGxmXmXmXmXmXmXmXmXmXmXmXmXmXmXwWqdhNmXmXmXmXmXmXmXmXmXmXmXmXmXmXaQynPYmXmXmXmXmXmXmXmXmXmXmXmXmXmXrMrIrImXmXmXmXmXmX
+mXmXmXfgPinAyayayaTeaJwzmXmXmXmXmXmXmXmXGGKNGGMUSWnaGGuOnamXmXmXmXmXmXmXmXlglglgMyLETFlgORORmXmXmXmXmXmXmXmXXBcRmPqEjQSqQUcRCKmXmXmXmXmXmXmXmXqFPYPYynynKdPYynBFmXmXmXmXmXmXmXmXGGGGGGGGGGnaHjnawbmXmXmX
+mXmXmXXDTZBNtQRHidWeNnXDmXmXmXmXmXmXmXmXgsGGnaMUnaMUGGGGnamXmXmXmXmXmXmXmXduGZRYXYMmGZlgORORmXmXmXmXmXmXmXmXWElliSqEwtSqubvrBpmXmXmXmXmXmXmXmXaQaQRwynJHynBFBFBFmXmXmXmXmXmXmXmXxAuoqcGGbfnkwbMNwbmXmXmX
+mXmXmXOBaJBNgWsIndWeRzLkmXmXmXmXmXmXmXmXGGGGnanaMUMUGGGGnamXmXmXmXmXmXmXmXsdtDhnMmLEGZlgORORmXmXmXmXmXmXmXmXWELibxqEwtSqCzLiBpmXmXmXmXmXmXmXmXkUmgJHynaQBFBFBFBFmXmXmXmXmXmXmXmXmSnananknkLRwbwbiUmXmXmX
+mXmXmXOBMcBNgWQMndWeMcLkmXmXmXmXmXmXmXmXypoEnanaMUnaGGkcuOmXmXmXmXmXmXmXmXlglglgGZMmGZlgORORmXmXmXmXmXmXmXmXWEvrbxqEjQSqCzvrBpmXmXmXmXmXmXmXmXRIVnyywOKfehBFBFBFmXmXmXmXmXmXmXmXnananknkxgwbLRLRwbmXmXmX
+mXmXmXOBMcBNgWQMndWeMcLkmXmXmXmXmXmXmXmXFQjbGGGGnaMUGGgsGGmXmXmXmXmXmXmXmXORORlgGZYgTFlglglgmXmXmXmXmXmXmXmXWEIIbxqEwtSqCzIIBpmXmXmXmXmXmXmXmXaQPYBGYBjnUGBFBFBFmXmXmXmXmXmXmXmXGGqcnaPJEIgLJmLRLRmXmXmX
+mXmXmXjKMcBNgWQMndWePULkmXmXmXmXmXmXmXmXGGaFGGMUGGMUGGGGGGmXmXmXmXmXmXmXmXORORlgGZMmTFkgkhJDmXmXmXmXmXmXmXmXWEvrbxqEjQSqCzllBpmXmXmXmXmXmXmXmXaQPYCLynJHDaFtBFBFmXmXmXmXmXmXmXmXnanaGGNpnkLRLRLRLRmXmXmX
+mXmXmXOBaJBNoasIndWeaJLkmXmXmXmXmXmXmXmXnaGGnaMUnanaGGGGGGmXmXmXmXmXmXmXmXORORlgASMmGZlglglgmXmXmXmXmXmXmXmXWELibxqEwtSqCzLiBpmXmXmXmXmXmXmXmXipPYPYqFynBFBFBFBFmXmXmXmXmXmXmXmXACNxmSnaUYLRLRoqLRmXmXmX
+mXmXmXXDQiBNpRvsxIWeQiXDmXmXmXmXmXmXmXmXJXGGGGMUnauOBJGGGGmXmXmXmXmXmXmXmXORORlgtSLEGZlgORORmXmXmXmXmXmXmXmXWEvriSqEwtSqubvrBpmXmXmXmXmXmXmXmXSsPYynynynfjBFBFBFmXmXmXmXmXmXmXmXTjmSGGqcIbecwbMNwbmXmXmX
+mXmXmXvTaJpswIwIwIjCaJJWmXmXmXmXmXmXmXmXGGKmGGMUMUnanauOGGmXmXmXmXmXmXmXmXORORlgTFtbGZlgORORmXmXmXmXmXmXmXmXXfXzGyqEjQSqLcXzLgmXmXmXmXmXmXmXmXPYLXaQnfRsRVBFBFBFmXmXmXmXmXmXmXmXnananaUYPJnkLRwbiUmXmXmX
+mXmXmXmXmXmXhVhRhRmXmXmXmXmXmXmXmXmXmXmXmXmXmXxOEhEhmXmXmXmXmXmXmXmXmXmXmXmXmXmXftJdrUmXmXmXmXmXmXmXmXmXmXmXmXmXmXAwBZqlmXmXmXmXmXmXmXmXmXmXmXmXmXmXjJGRGRmXmXmXmXmXmXmXmXmXmXmXmXmXmXWTCnCnmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+mXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+QKmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmX
+"}

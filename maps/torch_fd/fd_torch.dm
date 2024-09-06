@@ -298,6 +298,7 @@
 	#include "../../mods/_fd/_maps/gccv_ulyanovsk/_ulyanovsk.dme"
 	#include "../../mods/_fd/_maps/khizriel/_khizriel.dme"
 	#include "../../mods/_fd/_maps/dead_sea/_dead_sea.dme"
+	#include "../../mods/_fd/_maps/doors/_doors.dme"
 
 
 		// ~EXOPLANET RUINS~ //

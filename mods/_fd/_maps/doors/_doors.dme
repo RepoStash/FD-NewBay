@@ -1,0 +1,8 @@
+#ifndef MODPACK_DOORS
+#define MODPACK_DOORS
+
+#include "_doors.dm"
+
+#include "map/map_code.dm"
+
+#endif
