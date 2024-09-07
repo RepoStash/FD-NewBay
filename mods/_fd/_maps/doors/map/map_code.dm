@@ -26,6 +26,7 @@
 	icon_state = "x2"
 	name = "light"
 	desc = "Just a light source, emmiting light you want."
+	invisibility = 101
 	anchored = TRUE
 	density = FALSE
 
