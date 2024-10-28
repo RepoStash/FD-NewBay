@@ -110,6 +110,10 @@
 			SPAN_NOTICE("You start recharging \the [A] with \the [src].")
 		)
 		if (istype(A, /obj/item/gun/energy))
+			var/obj/item/gun/energy/gun = A
+			if(gun.disposable)
+				to_chat(user, SPAN_WARNING("There is no charging port on \the [gun]!"))
+				return TRUE
 			length = 3 SECONDS
 			if (user.get_skill_value(SKILL_WEAPONS) <= SKILL_TRAINED)
 				length += rand(1, 3) SECONDS
@@ -189,7 +193,7 @@
 	return ..()
 
 /obj/item/inducer/borg/on_update_icon()
-	. = ..()
+	..()
 	AddOverlays(image("icons/obj/guns/gui.dmi","safety[safety()]"))
 
 /obj/item/inducer/borg/verb/toggle_safety(mob/user)

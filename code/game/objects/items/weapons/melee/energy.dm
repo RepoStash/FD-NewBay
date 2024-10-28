@@ -27,7 +27,6 @@
 
 
 /obj/item/melee/energy/on_update_icon()
-	. = ..()
 	if(active)
 		icon_state = active_icon
 	else
@@ -347,3 +346,7 @@
 	origin_tech = list(TECH_MAGNET = 3)
 	active_attack_verb = list("attacked", "chopped", "cleaved", "torn", "cut")
 	hitsound = 'sound/weapons/blade1.ogg'
+
+
+/obj/item/melee/energy/machete/IsHatchet()
+	return TRUE

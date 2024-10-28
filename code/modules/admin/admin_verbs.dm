@@ -47,6 +47,7 @@ var/global/list/admin_verbs_admin = list(
 	/client/proc/cmd_admin_visible_narrate,
 	/client/proc/cmd_admin_audible_narrate,
 	/client/proc/cmd_admin_local_narrate,
+	/client/proc/cmd_admin_legion_narrate,
 	/client/proc/cmd_admin_world_narrate,	//sends text to all players with no padding,
 	/client/proc/cmd_admin_create_centcom_report,
 	/client/proc/check_ai_laws,			//shows AI and borg laws,
@@ -215,7 +216,7 @@ var/global/list/admin_verbs_debug = list(
 	/client/proc/reload_webhooks,
 	/client/proc/toggle_planet_repopulating,
 	/client/proc/spawn_exoplanet,
-	/client/proc/profiler_start
+	/client/proc/profiler_init_verb
 	)
 
 var/global/list/admin_verbs_paranoid_debug = list(
@@ -254,6 +255,7 @@ var/global/list/admin_verbs_hideable = list(
 	/client/proc/cmd_admin_visible_narrate,
 	/client/proc/cmd_admin_audible_narrate,
 	/client/proc/cmd_admin_local_narrate,
+	/client/proc/cmd_admin_legion_narrate,
 	/client/proc/cmd_admin_world_narrate,
 	/client/proc/play_local_sound,
 	/client/proc/play_sound,

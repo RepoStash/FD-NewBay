@@ -345,6 +345,7 @@
 		addtimer(new Callback(user, TYPE_PROC_REF(/mob/living, jump_layer_shift_end)), 2)
 
 
+
 /obj/structure/railing/slam_into(mob/living/L)
 	var/turf/target_turf = get_turf(src)
 	if (target_turf == get_turf(L))

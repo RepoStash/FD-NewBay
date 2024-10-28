@@ -153,7 +153,7 @@
 	charge.charges--
 	var/obj/item/grenade/new_grenade = new charge.product_type(get_turf(H))
 	H.visible_message(SPAN_DANGER("[H] launches \a [new_grenade]!"))
-	log_and_message_admins("fired a grenade ([new_grenade.name]) from a rigsuit grenade launcher.")
+	log_and_message_admins("fired a grenade ([new_grenade.name]) from a rigsuit grenade launcher.", H)
 	new_grenade.activate(H)
 	new_grenade.throw_at(target,fire_force,fire_distance)
 
@@ -255,7 +255,7 @@
 	return TRUE
 
 /obj/item/rig_module/mounted/ballistic/accepts_item(obj/item/input, mob/living/user)
-	var /obj/item/rig/rig = get_rig(src)
+	var/obj/item/rig/rig = get_rig(src)
 
 	if (!istype(input) || !istype(user) || !rig)
 		return FALSE

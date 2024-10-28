@@ -66,8 +66,10 @@ GLOBAL_LIST_EMPTY(diversion_junctions)
 	if (ismob(G.affecting))
 		var/mob/GM = G.affecting
 		var/mob/user = G.assailant
-		user.visible_message(SPAN_DANGER("\The [user] starts putting \the [GM.name] into the disposal."))
-		if (do_after(user, 2 SECONDS, src, DO_PUBLIC_UNIQUE))
+		if (!user_can_move_target_inside(G.affecting, user))
+			return
+		user.visible_message(SPAN_DANGER("\The [user] starts putting \the [GM] into the disposal."))
+		if (do_after(user, 2 SECONDS, src, DO_PUBLIC_UNIQUE) && user_can_move_target_inside(GM, user))
 			if (GM.client)
 				GM.client.perspective = EYE_PERSPECTIVE
 				GM.client.eye = src
@@ -704,7 +706,7 @@ GLOBAL_LIST_EMPTY(diversion_junctions)
 		dirs = list( direction, turn(direction, -45), turn(direction, 45))
 	else
 		dirs = GLOB.alldirs.Copy()
-	addtimer(new Callback(src, PROC_REF(streak), dirs), 0)
+	addtimer(new Callback(src, .proc/streak, dirs), 0)
 
 /obj/decal/cleanable/blood/gibs/robot/pipe_eject(direction)
 	var/list/dirs
@@ -712,4 +714,4 @@ GLOBAL_LIST_EMPTY(diversion_junctions)
 		dirs = list( direction, turn(direction, -45), turn(direction, 45))
 	else
 		dirs = GLOB.alldirs.Copy()
-	addtimer(new Callback(src, PROC_REF(streak), dirs), 0)
+	addtimer(new Callback(src, .proc/streak, dirs), 0)

@@ -14,7 +14,8 @@
 		/datum/mil_branch/alien,
 		/datum/mil_branch/skrell_fleet,
 		/datum/mil_branch/iccgn,
-		/datum/mil_branch/scga
+		/datum/mil_branch/scga,
+		/datum/mil_branch/auf
 	)
 
 	spawn_branch_types = list(
@@ -25,7 +26,8 @@
 		/datum/mil_branch/alien,
 		/datum/mil_branch/skrell_fleet,
 		/datum/mil_branch/iccgn,
-		/datum/mil_branch/scga
+		/datum/mil_branch/scga,
+		/datum/mil_branch/auf
 	)
 
 	species_to_branch_blacklist = list(
@@ -136,9 +138,11 @@
 
 	assistant_job = /datum/job/crew
 
-	min_skill = list(	SKILL_HAULING = SKILL_BASIC,
-						SKILL_SCIENCE = SKILL_BASIC,
-						SKILL_EVA     = SKILL_BASIC)
+	min_skill = list( // 4 points
+		SKILL_HAULING = SKILL_BASIC, // 1 point
+		SKILL_SCIENCE = SKILL_BASIC, // 2 points
+		SKILL_EVA = SKILL_BASIC // 1 point
+	)
 
 /datum/mil_branch/fleet
 	name = "Fleet"
@@ -190,9 +194,11 @@
 	)
 
 	assistant_job = /datum/job/crew
-	min_skill = list(	SKILL_HAULING = SKILL_BASIC,
-						SKILL_WEAPONS = SKILL_BASIC,
-						SKILL_EVA     = SKILL_BASIC)
+	min_skill = list( // 4 points
+		SKILL_HAULING = SKILL_BASIC, // 1 point
+		SKILL_WEAPONS = SKILL_BASIC, // 2 points
+		SKILL_EVA = SKILL_BASIC // 1 point
+	)
 
 
 /datum/mil_branch/civilian

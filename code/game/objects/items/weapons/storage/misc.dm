@@ -31,6 +31,8 @@
 		/obj/item/material/shard/caltrop/tack = 6
 	)
 
+
+
 /obj/item/storage/box/donut
 	icon = 'icons/obj/food/food_storage.dmi'
 	icon_state = "donutbox"
@@ -193,7 +195,6 @@
 	startswith = list(/obj/item/clothing/mask/chewable/candy/lolli/weak_meds = 15)
 
 /obj/item/storage/medical_lolli_jar/on_update_icon()
-	. = ..()
 	if(length(contents))
 		icon_state = "lollijar"
 	else

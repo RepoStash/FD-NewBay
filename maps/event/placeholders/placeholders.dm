@@ -116,7 +116,7 @@ Middle-Click / Ctrl-Click - Jump a placeholder to a point and deselect it
 	else if (parameters["middle"] || modifier)
 		new /obj/ftl (get_turf(selected))
 		new /obj/ftl (get_turf(atom))
-		addtimer(new Callback(src, PROC_REF(RevealShip), selected, atom.x, atom.y), 2 SECONDS)
+		addtimer(new Callback(src, .proc/RevealShip, selected, atom.x, atom.y), 2 SECONDS)
 		animate(selected, time = 0.5 SECONDS)
 		animate(alpha = 0, time = 0.5 SECONDS)
 		selected = null
@@ -281,6 +281,13 @@ Middle-Click / Ctrl-Click - Jump a placeholder to a point and deselect it
 	icon_state = "sf-eagle-ii"
 	speed = 0.2
 
+
+/obj/overmap/visitable/placeholder/scg_shikra
+	name = "Shikra-Model Recon Fighter"
+	desc = "A strike craft made to fill in the gap between the Kestrel, and the Eagle-II. It has since been shifted into a recon role, with its mini-AWACS suite and EM stealth capabilities, sacrificing some of its payload."
+	icon = 'scg-32.dmi'
+	icon_state = "sf-shikra"
+	speed = 0.1
 
 /obj/overmap/visitable/placeholder/scg_hermes
 	name = "Hermes-Model Utility Pod"

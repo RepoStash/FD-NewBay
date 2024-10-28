@@ -92,7 +92,7 @@
 			break
 	projection = new projection_type(target)
 	projection.set_source(current_slide)
-	GLOB.moved_event.register(src, src, PROC_REF(check_projections))
+	GLOB.moved_event.register(src, src, .proc/check_projections)
 	set_light(1, 0.1, COLOR_WHITE) //Bit of light
 	update_icon()
 

@@ -71,7 +71,7 @@
 				continue
 			turf_targets += T
 	if (!LAZYLEN(turf_targets))
-		addtimer(new Callback(src, PROC_REF(emerge), 2 SECONDS))
+		addtimer(new Callback(src, .proc/emerge, 2 SECONDS))
 		return
 	var/turf/T = pick(turf_targets)
 	if (T && !incapacitated())

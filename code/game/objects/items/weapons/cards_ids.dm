@@ -46,6 +46,42 @@
 
 	return ..()
 
+/obj/item/card/party/cen/fet
+	name = "party card"
+	desc = "A card showing membership in the Citizens for Free Enterprise & Trade party."
+	icon_state = "party_cen"
+	slot_flags = SLOT_ID
+
+/obj/item/card/party/cen/pac
+	name = "party card"
+	desc = "A card showing membership in the Progressive Alliance of Citizens."
+	icon_state = "party_cen"
+	slot_flags = SLOT_ID
+
+/obj/item/card/party/lef/ugl
+	name = "party card"
+	desc = "A card showing membership in the United Green-Left of Sol party."
+	icon_state = "party_lef"
+	slot_flags = SLOT_ID
+
+/obj/item/card/party/lef/ldd
+	name = "party card"
+	desc = "A card showing membership in the Leftists for Direct Democracy & Freedom party."
+	icon_state = "party_lef"
+	slot_flags = SLOT_ID
+
+/obj/item/card/party/rig/sfr
+	name = "party card"
+	desc = "A card showing membership in the Solarians for Freedom & Rights party."
+	icon_state = "party_rig"
+	slot_flags = SLOT_ID
+
+/obj/item/card/party/rig/osn
+	name = "party card"
+	desc = "A card showing membership in the Order of Solarian Nations."
+	icon_state = "party_rig"
+	slot_flags = SLOT_ID
+
 /obj/item/card/operant_card
 	name = "operant registration card"
 	icon_state = "warrantcard_civ"
@@ -162,23 +198,28 @@
 
 var/global/const/NO_EMAG_ACT = -50
 
-/obj/item/card/emag/resolve_attackby(atom/A, mob/user)
-	var/used_uses = A.emag_act(uses, user, src)
-	if(used_uses == NO_EMAG_ACT)
-		return ..(A, user)
+
+/obj/item/card/emag/use_before(atom/target, mob/living/user, click_parameters)
+	var/used_uses = target.emag_act(uses, user, src)
+	if (used_uses == NO_EMAG_ACT)
+		return ..()
 
 	uses -= used_uses
-	A.add_fingerprint(user)
-	if(used_uses)
-		log_and_message_admins("emagged \an [A].")
+	target.add_fingerprint(user, tool = src)
+	if (used_uses)
+		log_and_message_admins("emagged \a [target].", user)
 
-	if(uses<1)
-		user.visible_message(SPAN_WARNING("\The [src] fizzles and sparks - it seems it's been used once too often, and is now spent."))
+	if (uses < 1)
+		user.visible_message(
+			SPAN_WARNING("\The [user]'s [name] fizzles and sparks."),
+			SPAN_WARNING("\The [name] fizzles and sparks - it seems it's been used once too often, and is now spent.")
+		)
 		var/obj/item/card/emag_broken/junk = new(user.loc)
-		junk.add_fingerprint(user)
+		transfer_fingerprints_to(junk)
 		qdel(src)
+		user.put_in_active_hand(junk)
+	return TRUE
 
-	return 1
 
 /obj/item/card/emag/Initialize()
 	. = ..()
@@ -468,6 +509,14 @@ var/global/const/NO_EMAG_ACT = -50
 /obj/item/card/id/synthetic/New()
 	access = GLOB.using_map.synth_access.Copy()
 	..()
+
+/obj/item/card/id/synthetic/ai
+	name = "\improper AI ID"
+	desc = "All-access module for the AI."
+
+/obj/item/card/id/synthetic/ai/New()
+	..()
+	access = get_all_station_access() + access_synth
 
 /obj/item/card/id/centcom
 	name = "\improper CentCom. ID"

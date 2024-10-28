@@ -43,7 +43,7 @@ var/global/bomb_set
 	if(timing)
 		playsound(loc, 'sound/items/timer.ogg',50)
 		if(world.time > timeleft)
-			addtimer(new Callback(src, PROC_REF(explode)), 0)
+			addtimer(new Callback(src, .proc/explode), 0)
 		SSnano.update_uis(src)
 
 /obj/machinery/nuclearbomb/use_tool(obj/item/O, mob/living/user, list/click_params)
@@ -412,9 +412,9 @@ var/global/bomb_set
 		var/turf/T = pick_area_turf(/area/maintenance, list(GLOBAL_PROC_REF(is_station_turf), GLOBAL_PROC_REF(not_turf_contains_dense_objects)))
 		if(T)
 			var/obj/D = new /obj/item/disk/nuclear(T)
-			log_and_message_admins("[src], the last authentication disk, has been destroyed. Spawning [D] at ([D.x], [D.y], [D.z]).", location = T)
+			log_and_message_admins("[src], the last authentication disk, has been destroyed. Spawning [D] at ([D.x], [D.y], [D.z]).", user = null, location = T)
 		else
-			log_and_message_admins("[src], the last authentication disk, has been destroyed. Failed to respawn disc!")
+			log_and_message_admins("[src], the last authentication disk, has been destroyed. Failed to respawn disc!", user = null)
 	return ..()
 
 //====the nuclear football (holds the disk and instructions)====

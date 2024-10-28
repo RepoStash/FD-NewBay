@@ -106,7 +106,7 @@
 	var/aw_EPR = FALSE
 
 	var/list/threshholds = list( // List of lists defining the amber/red labeling threshholds in readouts. Numbers are minminum red and amber and maximum amber and red, in that order
-		list("name" = SUPERMATTER_DATA_EER,         "min_h" = -1, "min_l" = -1,  "max_l" = 150,  "max_h" = 300),
+		list("name" = SUPERMATTER_DATA_EER,         "min_h" = -1, "min_l" = -1,  "max_l" = 1100,  "max_h" = 1300),
 		list("name" = SUPERMATTER_DATA_TEMPERATURE, "min_h" = -1, "min_l" = -1,  "max_l" = 4000, "max_h" = 5000),
 		list("name" = SUPERMATTER_DATA_PRESSURE,    "min_h" = -1, "min_l" = -1,  "max_l" = 5000, "max_h" = 10000),
 		list("name" = SUPERMATTER_DATA_EPR,         "min_h" = -1, "min_l" = 1.0, "max_l" = 2.5,  "max_h" = 4.0)
@@ -193,7 +193,7 @@
 	if(exploded)
 		return
 
-	log_and_message_admins("Supermatter delaminating at [x] [y] [z]")
+	log_and_message_admins("Supermatter delaminating at [x] [y] [z]", null, src)
 	anchored = TRUE
 	grav_pulling = 1
 	exploded = 1
@@ -589,7 +589,7 @@
 			power *= 3
 		if(EX_ACT_LIGHT)
 			power *= 2
-	log_and_message_admins("WARN: Explosion near the Supermatter! New EER: [power].")
+	log_and_message_admins("WARN: Explosion near the Supermatter! New EER: [power].", null, src)
 
 /obj/machinery/power/supermatter/shard //Small subtype, less efficient and more sensitive, but less boom.
 	name = "supermatter shard"
@@ -617,7 +617,7 @@
 
 /obj/machinery/power/supermatter/randomsample/Initialize()
 	. = ..()
-	nitrogen_retardation_factor = rand(0.01, 1)	//Higher == N2 slows reaction more
+	nitrogen_retardation_factor = Frand(0.01, 1)	//Higher == N2 slows reaction more
 	thermal_release_modifier = rand(100, 1000000)		//Higher == more heat released during reaction
 	phoron_release_modifier = rand(0, 100000)		//Higher == less phoron released by reaction
 	oxygen_release_modifier = rand(0, 100000)		//Higher == less oxygen released at high temperature/power

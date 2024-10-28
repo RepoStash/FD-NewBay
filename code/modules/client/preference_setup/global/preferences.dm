@@ -288,9 +288,9 @@ var/global/list/_client_preferences_by_type
 	default_value = GLOB.PREF_HIGH
 
 /datum/client_preference/graphics_quality/changed(mob/preference_mob, new_value)
-	if(preference_mob?.client)
-		for(var/atom/movable/renderer/R as anything in preference_mob.renderers)
-			R.GraphicsUpdate()
+	if (preference_mob?.client)
+		for (var/atom/movable/renderer/renderer as anything in preference_mob.rdr_to_plane)
+			renderer.GraphicsUpdate()
 
 /datum/client_preference/goonchat
 	description = "Use Goon Chat"
@@ -337,6 +337,18 @@ var/global/list/_client_preferences_by_type
 	options = list(GLOB.PREF_SHORT, GLOB.PREF_LONG)
 	default_value = GLOB.PREF_SHORT
 
+
+/datum/client_preference/toggle_run
+	description = "Shift toggles run (vs hold to run)"
+	key = "TOGGLE_RUN"
+	options = list(GLOB.PREF_YES, GLOB.PREF_NO)
+	default_value = GLOB.PREF_NO
+
+/datum/client_preference/floating_messages
+	description = "Floating chat messages"
+	key = "FLOATING_CHAT"
+	options = list(GLOB.PREF_HIDE, GLOB.PREF_SHOW)
+	default_value = GLOB.PREF_HIDE
 
 /********************
 * General Staff Preferences *

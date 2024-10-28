@@ -36,7 +36,7 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/machinery/door_timer/LateInitialize(mapload)
-	for(var/obj/machinery/door/window/brigdoor/M as anything in SSmachines.get_machinery_of_type(/obj/machinery/door/window/brigdoor))
+	for(var/obj/machinery/door/window/brigdoor/M in SSmachines.machinery)
 		if (M.id == src.id)
 			targets += M
 
@@ -190,7 +190,7 @@
 		else
 			timer_start()
 			if(timetoset > 18000)
-				log_and_message_admins("has started a brig timer over 30 minutes in length!")
+				log_and_message_admins("has started a brig timer over 30 minutes in length!", user)
 		. =  TOPIC_REFRESH
 
 	if (href_list["flash"])

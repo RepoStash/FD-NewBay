@@ -5,6 +5,7 @@
 	appearance_flags = DEFAULT_APPEARANCE_FLAGS
 	anchored = TRUE
 
+
 /obj/structure/sign/double/barsign/examine(mob/user)
 	. = ..()
 	switch(icon_state)
@@ -69,6 +70,7 @@
 
 /obj/structure/sign/double/barsign/proc/get_valid_states()
 	return icon_states(icon) - list(
+		"",
 		"empty",
 		"narsiebistro",
 		"on"

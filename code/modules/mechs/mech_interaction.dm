@@ -48,7 +48,8 @@
 		user.RemoveClickHandler(src)
 		return
 	if(E.hatch_closed)
-		return E.ClickOn(A, params, user)
+		E.ClickOn(A, params, user)
+		return
 	else return ..()
 
 /datum/click_handler/default/mech/OnDblClick(atom/A, params)
@@ -641,7 +642,7 @@
 //[SIERRA-REMOVE]
 	return
 
-/mob/living/exosuit/attack_generic(mob/user, damage, attack_message = "strikes")
+/mob/living/exosuit/attack_generic(mob/user, damage, attack_message = "smashes into")
 	..()
 	if(damage)
 		playsound(loc, body.damage_sound, 40, 1)

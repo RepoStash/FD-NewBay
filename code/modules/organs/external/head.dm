@@ -163,7 +163,7 @@
 					if(istype(M, /datum/sprite_accessory/marking/hair_fade))
 						I.Blend(HI, ICON_AND)
 					I.Blend(color, M.blend)
-					ADD_SORTED(sorted_hair_markings, list(list(M.draw_order, I)), GLOBAL_PROC_REF(cmp_marking_order))
+					ADD_SORTED(sorted_hair_markings, list(list(M.draw_order, I)), /proc/cmp_marking_order)
 			for (var/entry in sorted_hair_markings)
 				HI.Blend(entry[2], ICON_OVERLAY)
 			//TODO : Add emissive blocker here if hair should block it. Else, leave as is

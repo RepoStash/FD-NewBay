@@ -134,7 +134,7 @@
 		occupant = victim
 		if (user != victim)
 			add_fingerprint(victim)
-		GLOB.destroyed_event.register(occupant, src, PROC_REF(occupant_destroyed))
+		GLOB.destroyed_event.register(occupant, src, .proc/occupant_destroyed)
 		update_icon()
 
 /obj/machinery/gibber/proc/occupant_destroyed(mob/_occupant)

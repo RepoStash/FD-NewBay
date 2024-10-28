@@ -111,7 +111,7 @@ SUBSYSTEM_DEF(air)
 	active_edges.Cut()
 
 	// Re-run setup without air settling.
-	Initialize(Uptime(), FALSE)
+	Initialize(uptime(), FALSE)
 
 	// Update next_fire so the MC doesn't try to make up for missed ticks.
 	next_fire = world.time + wait
@@ -142,13 +142,13 @@ Total Zones: [length(zones)]
 Total Edges: [length(edges)]
 Total Active Edges: [length(active_edges) ? SPAN_DANGER("[length(active_edges)]") : "None"]
 Total Unsimulated Turfs: [world.maxx*world.maxy*world.maxz - simulated_turf_count]
-Geometry processing completed in [(Uptime() - start_uptime)/10] seconds!
+Geometry processing completed in [(uptime() - start_uptime)/10] seconds!
 "})
 	if (simulate)
 		report_progress("Settling air...")
-		start_uptime = Uptime()
+		start_uptime = uptime()
 		fire(FALSE, TRUE)
-		report_progress("Air settling completed in [(Uptime() - start_uptime)/10] seconds!")
+		report_progress("Air settling completed in [(uptime() - start_uptime)/10] seconds!")
 
 
 /datum/controller/subsystem/air/fire(resumed = FALSE, no_mc_tick = FALSE)
@@ -268,6 +268,15 @@ Geometry processing completed in [(Uptime() - start_uptime)/10] seconds!
 			CHECK_TICK
 		else if (MC_TICK_CHECK)
 			return
+
+
+/datum/controller/subsystem/air/StartLoadingMap()
+	suspend()
+
+
+/datum/controller/subsystem/air/StopLoadingMap()
+	wake()
+
 
 /datum/controller/subsystem/air/proc/add_zone(zone/z)
 	zones += z

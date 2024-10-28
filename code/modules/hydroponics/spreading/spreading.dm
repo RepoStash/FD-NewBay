@@ -3,7 +3,7 @@
 
 /proc/spacevine_infestation(potency_min=70, potency_max=100, maturation_min=5, maturation_max=15)
 	spawn() //to stop the secrets panel hanging
-		var/turf/T = pick_subarea_turf(/area/hallway , list(GLOBAL_PROC_REF(is_station_turf), GLOBAL_PROC_REF(not_turf_contains_dense_objects)))
+		var/turf/T = pick_subarea_turf(/area/hallway , list(/proc/is_station_turf, /proc/not_turf_contains_dense_objects))
 		if(T)
 			var/datum/seed/seed = SSplants.create_random_seed(1)
 			seed.set_trait(TRAIT_SPREAD,2)             // So it will function properly as vines.
@@ -18,9 +18,9 @@
 			//make vine zero start off fully matured
 			new /obj/vine(T,seed, start_matured = 1)
 
-			log_and_message_admins("Spacevines spawned in \the [get_area(T)]", location = T)
+			log_and_message_admins("Spacevines spawned in \the [get_area(T)]", user = null, location = T)
 			return
-		log_and_message_admins(SPAN_NOTICE("Event: Spacevines failed to find a viable turf."))
+		log_and_message_admins(SPAN_NOTICE("Event: Spacevines failed to find a viable turf."), null)
 
 /obj/dead_plant
 	anchored = TRUE
@@ -157,7 +157,8 @@
 
 	// Apply colour and light from seed datum.
 	if(seed.get_trait(TRAIT_BIOLUM))
-		set_light(3, 0.5, l_color = seed.get_trait(TRAIT_BIOLUM_COLOUR))
+		var/biolum_power = seed.get_potency_curve()
+		set_light(6 * biolum_power, biolum_power, l_color = seed.get_trait(TRAIT_BIOLUM_COLOUR))
 	else
 		set_light(0)
 

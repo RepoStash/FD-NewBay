@@ -45,7 +45,7 @@
 		connected = locate(/obj/machinery/bodyscanner, get_step(src, D))
 		if(connected)
 			break
-		GLOB.destroyed_event.register(connected, src, PROC_REF(unlink_scanner))
+		GLOB.destroyed_event.register(connected, src, .proc/unlink_scanner)
 	update_icon()
 
 /obj/machinery/body_scanconsole/proc/unlink_scanner(obj/machinery/bodyscanner/scanner)

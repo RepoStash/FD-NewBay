@@ -69,7 +69,7 @@ would spawn and follow the beaker, even if it is carried or thrown.
 /datum/effect/steam_spread/start()
 	var/i = 0
 	for(i=0, i<src.number, i++)
-		addtimer(new Callback(src, TYPE_PROC_REF(/datum/effect, spread), i), 0)
+		addtimer(new Callback(src, /datum/effect/proc/spread, i), 0)
 
 /datum/effect/steam_spread/spread(i)
 	set waitfor = 0
@@ -139,7 +139,7 @@ would spawn and follow the beaker, even if it is carried or thrown.
 /datum/effect/spark_spread/start()
 	var/i = 0
 	for(i=0, i<src.number, i++)
-		addtimer(new Callback(src, TYPE_PROC_REF(/datum/effect, spread), i), 0)
+		addtimer(new Callback(src, /datum/effect/proc/spread, i), 0)
 
 /datum/effect/spark_spread/spread(i)
 	set waitfor = 0
@@ -343,7 +343,7 @@ would spawn and follow the beaker, even if it is carried or thrown.
 	for(i=0, i<src.number, i++)
 		if(src.total_smoke > 20)
 			return
-		addtimer(new Callback(src, TYPE_PROC_REF(/datum/effect, spread), i), 0)
+		addtimer(new Callback(src, /datum/effect/proc/spread, i), 0)
 
 /datum/effect/smoke_spread/spread(i)
 	if(holder)

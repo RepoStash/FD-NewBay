@@ -52,6 +52,24 @@ Retain even if empty - the future exists
 /client/proc/RenderIcon(atom)
 	throw EXCEPTION("client::RenderIcon() not available below 515")
 
+/* lists cannot have new procs. But if they could:
+/list/proc/RemoveAll()
+	var/result = 0
+	for (var/entry in args)
+		while (Remove(entry))
+			++result
+	return result
+*/
+
+#define ANIMATION_SLICE 8
+#define ANIMATION_CONTINUE 512
+
+#define JSON_PRETTY_PRINT 1
+
+#define JSON_STRICT 1
+#define JSON_ALLOW_COMMENTS 2
+
+
 #define PROC_REF(X) (.proc/##X)
 #define TYPE_PROC_REF(TYPE, X) (##TYPE.proc/##X)
 #define GLOBAL_PROC_REF(X) (.proc/##X)

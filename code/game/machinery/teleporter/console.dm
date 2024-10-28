@@ -136,7 +136,7 @@
 
 				pad.interlude_chance = interlude_prob
 
-	GLOB.destroyed_event.register(target, src, TYPE_PROC_REF(/obj/machinery/computer/teleporter, lost_target))
+	GLOB.destroyed_event.register(target, src, /obj/machinery/computer/teleporter/proc/lost_target)
 	return TRUE
 
 

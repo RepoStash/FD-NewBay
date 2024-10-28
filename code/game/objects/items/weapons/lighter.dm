@@ -54,7 +54,7 @@
 	set_light(0)
 
 /obj/item/flame/lighter/proc/shutoff_effects(mob/user)
-	user.visible_message(SPAN_NOTICE("[user] quietly shuts off the [src]."))
+	user.visible_message(SPAN_NOTICE("\The [user] quietly shuts off \the [src]."))
 
 /obj/item/flame/lighter/attack_self(mob/living/user)
 	if(!lit)
@@ -94,7 +94,7 @@
 		if(ismob(loc) && prob(10) && reagents.get_reagent_amount(/datum/reagent/fuel) < 1)
 			to_chat(loc, SPAN_WARNING("\The [src]'s flame flickers."))
 			set_light(0)
-			addtimer(new Callback(src, TYPE_PROC_REF(/atom, set_light), 2), 4)
+			addtimer(new Callback(src, .atom/proc/set_light, 2), 4)
 		reagents.remove_reagent(/datum/reagent/fuel, 0.05)
 	else
 		extinguish()

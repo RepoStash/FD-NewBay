@@ -37,24 +37,17 @@
 		screen += skybox
 		rebuild = TRUE
 
-	if(rebuild)
-		skybox.ClearOverlays()
-		skybox.AddOverlays(SSskybox.get_skybox(T.z))
-		screen |= skybox
-		update_skybox_offsets()
-		return
+	var/turf/T = get_turf(eye)
+	if(T)
+		if(rebuild)
+			skybox.ClearOverlays()
+			skybox.AddOverlays(SSskybox.get_skybox(T.z))
+			screen |= skybox
+		skybox.screen_loc = "CENTER:[-224 - T.x],CENTER:[-224 - T.y]"
 
-	var/matrix/M = matrix()
-	var/x_translate = -((T.x/world.maxx)) * skybox.dimension_x
-	var/y_translate = -((T.y/world.maxy)) * skybox.dimension_y
-	M.Translate(x_translate, y_translate)
-	skybox.transform = M
-
-/client/proc/deferred_skybox_update(rebuild)
-	set waitfor = FALSE
-	sleep(1)
-	update_skybox(rebuild)
-
+/mob/Login()
+	..()
+	client.update_skybox(1)
 
 /mob/Move()
 	var/old_z = get_z(src)

@@ -62,16 +62,18 @@
 		color = "#ffffff"
 		alpha = 255
 
-/obj/item/material/shard/use_tool(obj/item/W, mob/living/user, list/click_params)
-	if(isWelder(W) && material.shard_can_repair)
-		var/obj/item/weldingtool/WT = W
-		if (!WT.can_use(1, user))
+
+/obj/item/material/shard/use_tool(obj/item/item, mob/living/user, list/click_params)
+	if(isWelder(item) && material.shard_can_repair)
+		var/obj/item/weldingtool/welder = item
+		if (!welder.can_use(1, user))
 			return TRUE
-		WT.remove_fuel(1, user)
+		welder.remove_fuel(1, user)
 		material.place_sheet(get_turf(src))
 		qdel(src)
 		return TRUE
 	return ..()
+
 
 /obj/item/material/shard/Crossed(atom/movable/movable)
 	if (!isliving(movable))
@@ -160,6 +162,7 @@
 /obj/item/material/shard/shrapnel/copper
 	default_material = MATERIAL_COPPER
 
+
 /obj/item/material/shard/caltrop
 	name = "caltrop"
 	desc = "A savage area denial weapon designed to puncture tire and boot alike."
@@ -169,7 +172,7 @@
 	max_force = 12
 	thrown_force_multiplier = 0.3
 	step_sound = 'sound/obj/item/material/shard/caltrop.ogg'
-	embed_chance = 65
+	embed_chance = 50
 	pierce_thin_footwear = TRUE
 	applies_material_details = FALSE
 

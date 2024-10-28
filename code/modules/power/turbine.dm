@@ -202,7 +202,7 @@
 		if(id_tag == C.comp_id)
 			compressor = C
 	doors = list()
-	for(var/obj/machinery/door/blast/P as anything in SSmachines.get_machinery_of_type(/obj/machinery/door/blast))
+	for(var/obj/machinery/door/blast/P in SSmachines.machinery)
 		if(P.id_tag == id_tag)
 			doors += P
 
