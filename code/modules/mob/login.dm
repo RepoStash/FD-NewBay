@@ -83,7 +83,12 @@
 
 	maybe_send_staffwarns("joined the round")
 
+//	[FD-EDIT]
+	client.view = 7
+/*
 	client.view = get_preference_value(/datum/client_preference/client_view)
+	[/FD-EDIT]
+*/
 	client.images = null				//remove the images such as AIs being unable to see runes
 	client.screen = list()				//remove hud items just in case
 	InitializeHud()

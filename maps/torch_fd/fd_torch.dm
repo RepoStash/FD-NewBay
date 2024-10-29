@@ -21,7 +21,7 @@
 	#include "../torch/torch_machinery.dm"
 	#include "../torch/torch_map_templates.dm"
 	#include "../torch/torch_npcs.dm"
-	#include "../torch/torch_overmap.dm"
+	#include "torch_overmap.dm"
 	#include "../torch/torch_presets.dm"
 	#include "../torch/torch_procs.dm"
 	#include "torch_ranks.dm"
@@ -36,7 +36,7 @@
 	#include "torch_areas.dm"
 	#include "torch_cameras.dm"
 	#include "torch_decals.dm"
-	#include "torch_overmap.dm"
+
 
 	// --- INCLUDES FROM ANOTHER MAPS --- //
 	#include "../sierra/sierra_npcs.dm"
@@ -241,15 +241,17 @@
 	#include "../../mods/sauna_props/_sauna_props.dme"
 	#include "../../mods/wyccbay_optimization/_wyccbay_optimization.dme"
 
-	// #include "../../mods/_maps/sentinel/_map_sentinel.dme" // К чёрту оверрайдит все ранги флота ЦПСС, ломает роль SEA
-	// #include "../../mods/_maps/farfleet/_map_farfleet.dme" // Не совсем работает без карты Стража (инклюд выше)
-	// #include "../../mods/_maps/hand/_map_hand.dme" // Тоже зависим от предметов с карты Стража (инклюд над фарфлитом)
+//	#include "../../mods/_maps/sentinel/_map_sentinel.dme" // К чёрту оверрайдит все ранги флота ЦПСС, ломает роль SEA
+//	#include "../../mods/_maps/farfleet/_map_farfleet.dme" // Не совсем работает без карты Стража (инклюд выше)
+//	#include "../../mods/_maps/hand/_map_hand.dme" // Тоже зависим от предметов с карты Стража (инклюд над фарфлитом)
 
 		// ~NON-UPSTREAM MODS~ //
 
 	#include "../../mods/_fd/runechat/_runechat.dme"
 	#include "../../mods/_fd/fd_assets/_fd_assets.dme"
 	#include "../../mods/_fd/fd_guns/_fd_guns.dme"
+	#include "../../mods/_fd/fd_lore/_fd_lore.dme"
+	#include "../../mods/_fd/fd_species/_fd_species.dme"
 
 	#include "../../mods/_fd/accent_labels/_accent_labels.dme"
 	#include "../../mods/_fd/additional_biomods/_additional_biomods.dme"
@@ -261,8 +263,8 @@
 	#include "../../mods/_fd/complementary_xeno_ablities/_complementary_xeno_ablities.dme"
 	#include "../../mods/_fd/conference_holopads/_conference_holopads.dme"
 	#include "../../mods/_fd/cyberware_mayhem/_cyberware_mayhem.dme"
+	#include "../../mods/_fd/event_tools/_event_tools.dme"
 	#include "../../mods/_fd/expanded_traders/_expanded_traders.dme"
-	#include "../../mods/_fd/fd_species/_fd_species.dme"
 	#include "../../mods/_fd/hestia_missiles/_hestia_missiles.dme"
 	#include "../../mods/_fd/immersive_overmap/_immersive_overmap.dme"
 	#include "../../mods/_fd/junk_heaven/_junk_heaven.dme"
@@ -283,6 +285,7 @@
 	#include "../../mods/_fd/_maps/drone_carrier/_drone_carrier.dme"
 	#include "../../mods/_fd/_maps/facility/_facility.dme"
 	#include "../../mods/_fd/_maps/fluffy_biscuit/_fluffy_biscuit.dme"
+	#include "../../mods/_fd/_maps/farfleet_fd/_map_farfleet.dme"
 	#include "../../mods/_fd/_maps/lighthouse/_lighthouse.dme"
 	#include "../../mods/_fd/_maps/new_blueriver/_new_blueriver.dme"
 	#include "../../mods/_fd/_maps/providence/_providence.dme"
@@ -290,10 +293,13 @@
 	#include "../../mods/_fd/_maps/smugglers_ship/_smugglers_ship.dme"
 	#include "../../mods/_fd/_maps/snow_cage/_snow_cage.dme"
 	#include "../../mods/_fd/_maps/sfv_dropship/_delman.dme"
+//	#include "../../mods/_fd/_maps/sentinel_fd/_sentinel.dme"
 	#include "../../mods/_fd/_maps/trader_ship/_trader_ship.dme"
 	#include "../../mods/_fd/_maps/yacht/_yacht.dme"
 	#include "../../mods/_fd/_maps/gccv_ulyanovsk/_ulyanovsk.dme"
+	#include "../../mods/_fd/_maps/khizriel/_khizriel.dme"
 	#include "../../mods/_fd/_maps/dead_sea/_dead_sea.dme"
+	#include "../../mods/_fd/_maps/kitsune/_kitsune.dme"
 
 
 		// ~EXOPLANET RUINS~ //

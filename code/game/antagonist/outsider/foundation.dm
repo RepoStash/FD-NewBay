@@ -41,4 +41,7 @@ GLOBAL_DATUM_INIT(foundation_agents, /datum/antagonist/foundation, new)
 	var/singleton/hierarchy/outfit/foundation = outfit_by_type(/singleton/hierarchy/outfit/foundation)
 	foundation.equip(player)
 
-	create_id("Foundation Agent", player)
+//	[FD EDIT]
+//	create_id("Foundation Agent", player)
+	create_id("Institute Agent", player)
+//

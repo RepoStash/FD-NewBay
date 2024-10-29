@@ -1,0 +1,9 @@
+#ifndef MODPACK_KITSUNE
+#define MODPACK_KITSUNE
+
+#include "_kitsune.dm"
+
+#include "code/kitsune_areas.dm"
+#include "code/kitsune.dm"
+
+#endif

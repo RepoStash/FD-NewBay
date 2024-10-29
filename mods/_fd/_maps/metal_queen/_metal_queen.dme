@@ -1,0 +1,9 @@
+#ifndef MODPACK_METAL_QUEEN
+#define MODPACK_METAL_QUEEN
+
+#include "_metal_queen.dm"
+
+// Далее просто включай свой код
+// #include "code/something.dm"
+
+#endif

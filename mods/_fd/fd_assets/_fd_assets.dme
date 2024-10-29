@@ -6,6 +6,7 @@
 #include "code/_defines.dm"
 
 #include "code/clothing/badges.dm"
+#include "code/clothing/battlewizards.dm"
 #include "code/clothing/clothing_under.dm"
 #include "code/clothing/ftu_voidsuits.dm"
 
@@ -52,6 +53,7 @@
 #include "code/loadout.dm"
 #include "code/added_branch_outfits.dm"
 #include "code/added_branches.dm"
+#include "code/dionae.dm"
 #include "code/skills.dm"
 #include "code/~TO_MAKE.dm"
 

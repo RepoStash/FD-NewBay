@@ -45,7 +45,7 @@
 
 	slowdown = -0.8 //speed fix?
 
-	darksight_range = 6
+	darksight_range = 7
 	darksight_tint = DARKTINT_GOOD
 	flash_mod = 2
 	total_health = 150
@@ -55,7 +55,6 @@
 	mob_size = MOB_SMALL
 	holder_type = /obj/item/holder/human
 	light_sensitive = 6
-	gluttonous = GLUT_TINY
 	blood_volume = 280
 	hunger_factor = DEFAULT_HUNGER_FACTOR * 1.5
 	thirst_factor = DEFAULT_THIRST_FACTOR * 1.3

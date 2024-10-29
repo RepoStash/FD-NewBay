@@ -808,8 +808,12 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 	if(!user.client)
 		return
+// [FD-EDIT]
 
+/*
 	user.client.view = user.get_preference_value(/datum/client_preference/client_view)
+	[/FD-EDIT]
+*/
 	if(!user.hud_used.hud_shown)
 		user.toggle_zoom_hud()
 

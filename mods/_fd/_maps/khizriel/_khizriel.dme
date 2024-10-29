@@ -1,0 +1,11 @@
+#ifndef MODPACK_KHIZRIEL
+#define MODPACK_KHIZRIEL
+
+#include "_khizriel.dm"
+
+#include "code/_khizriel.dm"
+#include "code/khizriel_areas.dm"
+#include "code/khizriel_jobs.dm"
+#include "code/khizriel_shuttles.dm"
+
+#endif

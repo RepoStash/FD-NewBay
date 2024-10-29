@@ -141,8 +141,8 @@
 	ammo_type = /obj/item/ammo_casing/pistol/rubber
 
 /obj/item/ammo_magazine/smg/iccgn
-	name = "magazine"
-	icon = 'mods/_fd/fd_guns/icons/weapon_cpss_icon.dmi'
+	name = "smg magazine"
+	icon = 'mods/_fd/fd_guns/icons/weapon_gkk_icon.dmi'
 	icon_state = "gsmg3M"
 	max_ammo = 45
 	multiple_sprites = 0

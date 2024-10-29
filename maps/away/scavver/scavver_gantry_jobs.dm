@@ -1,11 +1,11 @@
 /datum/job/submap/scavver_pilot
 	title = "Salvage Pilot"
-	total_positions = 1
+	total_positions = 2
 	outfit_type = /singleton/hierarchy/outfit/job/scavver/pilot
 	supervisors = "The trust of your fellow crew."
 	info = "You are the pilot of your meagre Scavenger Crew. Keep your crew safe, and seek supplies for your rig. \
 	Your weapons are limited; trade, salvage, but avoid conflict as a matter of course."
-	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE)
+	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE,SPECIES_UNATHI,SPECIES_RESOMI,SPECIES_SKRELL,SPECIES_DIONA,SPECIES_VOX,SPECIES_ADHERENT)
 	is_semi_antagonist = TRUE
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,
@@ -43,11 +43,11 @@
 
 /datum/job/submap/scavver_doctor
 	title = "Salvage Doctor"
-	total_positions = 1
+	total_positions = 2
 	outfit_type = /singleton/hierarchy/outfit/job/scavver/doctor
 	supervisors = "The trust of those you heal."
 	info = "You are the doctor aboard your meagre Salvage team. Keep everyone alive. Your weapons are limited; trade, salvage, but avoid conflict as a matter of course."
-	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE)
+	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE,SPECIES_UNATHI,SPECIES_RESOMI,SPECIES_SKRELL,SPECIES_DIONA,SPECIES_VOX,SPECIES_ADHERENT)
 	is_semi_antagonist = TRUE
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,
@@ -85,12 +85,12 @@
 
 /datum/job/submap/scavver_engineer
 	title = "Salvage Engineer"
-	total_positions = 2
+	total_positions = 5
 	outfit_type = /singleton/hierarchy/outfit/job/scavver/engineer
 	supervisors = "The trust of your fellow crew."
 	info = "You are an Engineer aboard your meagre Salvage team. Keep your rig in functional order, upgrade what systems you can, and don't space yourself. \
 	Your weapons are limited; trade, salvage, but avoid conflict as a matter of course."
-	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE)
+	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN,SPECIES_MULE,SPECIES_UNATHI,SPECIES_RESOMI,SPECIES_SKRELL,SPECIES_DIONA,SPECIES_VOX,SPECIES_ADHERENT)
 	is_semi_antagonist = TRUE
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,

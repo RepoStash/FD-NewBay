@@ -1,0 +1,10 @@
+#ifndef MODPACK_SENTINEL_ONFD
+#define MODPACK_SENTINEL_ONFD
+
+#include "_sentinel_onfd.dm"
+
+#include "assets.dm"
+// Далее просто включай свой код
+// #include "code/something.dm"
+
+#endif

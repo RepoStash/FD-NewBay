@@ -79,8 +79,8 @@
 	title = "Ship Merchant"
 	department = "Civilian"
 	department_flag = CIV
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 4
+	spawn_positions = 4
 	supervisors = "the invisible hand of the market"
 	ideal_character_age = 30
 	minimal_player_age = 0

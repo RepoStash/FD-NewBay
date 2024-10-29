@@ -182,8 +182,12 @@
 
 	. = ..()	//calls mob.Login()
 
+//	[FD-EDIT]
+	view = 7
+/*
 	view = get_preference_value(/datum/client_preference/client_view)
-
+	[/FD-EDIT]
+*/
 	GLOB.using_map.map_info(src)
 
 	if (config.event)

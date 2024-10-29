@@ -1160,7 +1160,7 @@
 
 /obj/floor_decal/corner/blood_red/bordercee
 	icon_state = "bordercolorcee"
-
+/*
 /obj/floor_decal/hull
 	name = "hull edges"
 	icon = 'mods/_fd/_maps/gccv_ulyanovsk/icons/ulyanovsk.dmi'
@@ -1170,7 +1170,7 @@
 /obj/floor_decal/hull/corner
 	name = "hull corner"
 	icon_state = "hull_corners"
-
+*/
 /obj/floor_decal/techfloor/blood_red
 	name = "techfloor edges"
 	icon = 'mods/_fd/_maps/gccv_ulyanovsk/icons/ulyanovsk.dmi'

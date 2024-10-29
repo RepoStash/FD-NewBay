@@ -71,11 +71,22 @@ when portals are shortly lived, or when portals are made to be obvious with spec
 	..()
 	if(!AM)
 		return
+
 	if(!counterpart)
 		return
 
-	go_through_portal(AM)
+	if(isliving(AM))
+		var/mob/M = AM
 
+		var/datum/movement_handler/mob/delay/MH = M.GetMovementHandler(/datum/movement_handler/mob/delay)
+		MH.AddDelay(1)
+
+		spawn(M.movement_delay())
+			go_through_portal(M)
+
+		return
+
+	go_through_portal(AM)
 
 /obj/map_effect/portal/proc/go_through_portal(atom/movable/AM)
 	var/turf/T = counterpart.get_focused_turf()
@@ -202,7 +213,7 @@ when portals are shortly lived, or when portals are made to be obvious with spec
 		var/turf/T = P.counterpart.get_focused_turf()
 		P.vis_contents += T
 
-		var/list/things = dview(world.view, T)
+		var/list/things = dview(9, T)
 		for(var/turf/turf in things)
 			if(!(get_dir(turf, T) & GLOB.reverse_dir[P.dir])) //dont grab things behind but sides should be fine
 				if(turf in observed_turfs) // Avoid showing the same turf twice or more for improved performance.
@@ -230,7 +241,7 @@ when portals are shortly lived, or when portals are made to be obvious with spec
 	var/turf/T = counterpart.get_focused_turf()
 	var/list/mobs_to_relay = list()
 	var/list/objs = list()
-	get_mobs_and_objs_in_view_fast(T, world.view, mobs_to_relay, objs, checkghosts = FALSE)
+	get_mobs_and_objs_in_view_fast(T, 9, mobs_to_relay, objs, checkghosts = FALSE)
 
 	for(var/thing in mobs_to_relay)
 		var/mob/mob = thing
@@ -246,7 +257,7 @@ when portals are shortly lived, or when portals are made to be obvious with spec
 	var/turf/T = counterpart.get_focused_turf()
 	var/list/mobs_to_relay = list()
 	var/list/objs = list()
-	get_mobs_and_objs_in_view_fast(T, world.view, mobs_to_relay, objs, checkghosts = FALSE)
+	get_mobs_and_objs_in_view_fast(T, 9, mobs_to_relay, objs, checkghosts = FALSE)
 
 	for(var/thing in mobs_to_relay)
 		var/mob/mob = thing
@@ -262,7 +273,7 @@ when portals are shortly lived, or when portals are made to be obvious with spec
 	var/turf/T = counterpart.get_focused_turf()
 	var/list/mobs_to_relay = list()
 	var/list/objs = list()
-	get_mobs_and_objs_in_view_fast(T, world.view, mobs_to_relay, objs, checkghosts = FALSE)
+	get_mobs_and_objs_in_view_fast(T, 9, mobs_to_relay, objs, checkghosts = FALSE)
 
 	for(var/thing in mobs_to_relay)
 		var/mob/mob = thing

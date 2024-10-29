@@ -29,9 +29,13 @@ GLOBAL_VAR_CONST(PREF_LARGE, "Large")
 GLOBAL_VAR_CONST(PREF_LOW, "Low")
 GLOBAL_VAR_CONST(PREF_MED, "Medium")
 GLOBAL_VAR_CONST(PREF_HIGH, "High")
+/*
+	[FD-REMOVE]
 GLOBAL_VAR_CONST(PREF_CLIENT_VIEW_SMALL, "15x15")
 GLOBAL_VAR_CONST(PREF_CLIENT_VIEW_MEDIUM, "17x15")
 GLOBAL_VAR_CONST(PREF_CLIENT_VIEW_LARGE, "19x15")
+	[/FD-REMOVE]
+*/
 
 var/global/list/_client_preferences
 var/global/list/_client_preferences_by_key
@@ -95,6 +99,8 @@ var/global/list/_client_preferences_by_type
 * Player Preferences *
 *********************/
 
+/*
+	[FD-REMOVE]
 /datum/client_preference/client_view
 	description = "Size of playable zone window"
 	key = "CLIENT_VIEW"
@@ -108,6 +114,8 @@ var/global/list/_client_preferences_by_type
 
 	mob_client.view = new_value
 	mob_client.update_skybox(TRUE)
+	[/FD-REMOVE]
+*/
 
 /datum/client_preference/play_admin_midis
 	description = "Play admin midis"

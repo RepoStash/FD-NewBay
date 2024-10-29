@@ -8,7 +8,8 @@
 	back_type = /obj/machinery/ship_weapon/back_part/disruptor
 	munition_type = /obj/item/ammo_magazine/ammobox/disruptor
 
-	ammo_per_shot = 150
+// So we can shot 5 burst, 'til ammobox is empty
+	ammo_per_shot = 2
 	burst_size = 4
 	fire_interval = 4
 
