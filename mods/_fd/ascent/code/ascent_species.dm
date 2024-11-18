@@ -120,9 +120,6 @@
 		/singleton/emote/exertion/biological/pant
 	)
 
-/datum/species/mantid/skills_from_age(age)
-	. = 0
-
 /datum/species/mantid/handle_sleeping(mob/living/carbon/human/H)
 	return
 
@@ -183,9 +180,6 @@
 		TAG_FACTION =   FACTION_ASCENT_GYNE,
 		TAG_RELIGION =  RELIGION_KHARMAANI
 	)
-
-/datum/species/mantid/gyne/skills_from_age(age)
-	. = 0
 
 /datum/species/mantid/gyne/attempt_grab(mob/living/carbon/human/grabber, mob/living/target)
 	if(grabber != target)
@@ -253,9 +247,6 @@
 		TAG_FACTION =   FACTION_ASCENT_SERPENTID,
 		TAG_RELIGION =  RELIGION_KHARMAANI
 	)
-
-/datum/species/nabber/monarch_worker/skills_from_age(age)
-	. = 0
 
 /datum/species/nabber/monarch_worker/get_bodytype(mob/living/carbon/human/H)
 	return SPECIES_NABBER
@@ -341,9 +332,6 @@
 		)
 	)
 	..()
-
-/datum/species/nabber/monarch_queen/skills_from_age(age)
-	. = 0
 
 /datum/species/nabber/monarch_queen/equip_survival_gear(mob/living/carbon/human/H)
 	return

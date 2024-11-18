@@ -174,13 +174,6 @@
 /datum/species/resomi/get_surgery_overlay_icon(mob/living/carbon/human/H)
 	return 'packs/infinity/icons/mob/human_races/species/resomi/surgery.dmi'
 
-/datum/species/resomi/skills_from_age(age)
-	switch(age)
-		if(0 to 17)		. = 0
-		if(18 to 25)	. = 2
-		if(26 to 35)	. = 6
-		else			. = 0
-
 /datum/species/resomi
 	default_emotes = list(
 		/singleton/emote/audible/chuckle/resomi,
