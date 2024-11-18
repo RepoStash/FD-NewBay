@@ -250,6 +250,7 @@
 				GLOB.using_map.do_interlude_teleport(mob, T, rand(1, 2.5) MINUTES)
 				return
 */	// [/FD]
+/*
 			if (mob != being)
 				var/source_position = being.loc
 				var/other_position = mob.loc
@@ -262,3 +263,4 @@
 				return
 	else
 		to_chat(being, SPAN_WARNING("A wave of energy washes over you, giving you a strange and uneasy feeling..."))
+*/

@@ -28,10 +28,6 @@
 	update_skybox()
 
 /client/proc/update_skybox(rebuild)
-	var/turf/T = get_turf(eye)
-	if(!T)
-		return
-
 	if(!skybox)
 		skybox = new()
 		screen += skybox

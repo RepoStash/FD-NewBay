@@ -49,9 +49,7 @@
 														CULTURE_HUMAN_SPACER, \
 														CULTURE_HUMAN_OFFWORLD, \
 														CULTURE_HUMAN_SOLCOL, \
-														CULTURE_HUMAN_CONFEDC, \
 														CULTURE_HUMAN_CONFEDO, \
-														CULTURE_HUMAN_CONFEDC, \
 														CULTURE_HUMAN_CONFEDO, \
 														CULTURE_HUMAN_GAIAN, \
 														CULTURE_HUMAN_OTHER, \
