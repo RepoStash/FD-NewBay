@@ -65,7 +65,7 @@ var/global/datum/controller/master/Master = new
 
 
 /datum/controller/master/New()
-	Uptime() //Uptime as close to boot as possible to set its statics
+	uptime() //Uptime as close to boot as possible to set its statics
 	// [SIERRA-REMOVE] - RUST_G
 	/*
 	if (!global.diary)
