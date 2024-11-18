@@ -151,7 +151,7 @@
 	playsound(src, 'sound/effects/EMPulse.ogg', 100, TRUE)
 	var/datum/bubble_effect/bluespace_pulse/parent
 	for (var/level in GetConnectedZlevels(z))
-		parent = new (x, y, level, 1, 1, parent, interlude_teleport_chance = interlude_chance)
+		parent = new (x, y, level, 1, 1, parent)
 
 
 /// Creates a blinding flash of light that will blind and deafen those in range, and change turfs to bluespace
@@ -237,20 +237,7 @@
 		for (var/mob/living/mob as anything in mobs_to_switch)
 			if (!(mob.z in zlevels))
 				continue
-/*	// [FD]
-			if (GLOB.using_map.use_bluespace_interlude && prob(interlude_teleport_chance))
-				if (istype(mob, /mob/living/simple_animal) && prob(80))
-					return
-				var/turf/T = pick_area_turf_in_connected_z_levels(
-					list(GLOBAL_PROC_REF(is_not_space_area)),
-					list(GLOBAL_PROC_REF(not_turf_contains_dense_objects), GLOBAL_PROC_REF(IsTurfAtmosSafe)),
-					zlevels[1])
-				if (!T)
-					return
-				GLOB.using_map.do_interlude_teleport(mob, T, rand(1, 2.5) MINUTES)
-				return
-*/	// [/FD]
-/*
+
 			if (mob != being)
 				var/source_position = being.loc
 				var/other_position = mob.loc
@@ -263,4 +250,3 @@
 				return
 	else
 		to_chat(being, SPAN_WARNING("A wave of energy washes over you, giving you a strange and uneasy feeling..."))
-*/
