@@ -5,4 +5,6 @@
 
 #include "whitelist.dm"
 
+#include "shells.dm"
+
 #endif
