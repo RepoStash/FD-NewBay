@@ -72,6 +72,7 @@
 
 /obj/item/stack/package_wrap/use_after(obj/object, mob/user)
 
+
 /obj/item/stack/package_wrap/use_before(atom/target, mob/living/user)
 	if (isobj(target))
 		var/obj/wrapped_object = target
@@ -79,9 +80,6 @@
 			return FALSE
 		if (istype(wrapped_object, /obj/item/smallDelivery) || istype(wrapped_object, /obj/structure/bigDelivery) || istype(wrapped_object, /obj/item/evidencebag))
 			to_chat(user, SPAN_WARNING("\The [wrapped_object] is already wrapped."))
-			return TRUE
-		if (wrapped_object.anchored)
-			to_chat(user, SPAN_WARNING("\The [wrapped_object] is bolted down and can't be wrapped."))
 			return TRUE
 		if (wrapped_object.anchored)
 			to_chat(user, SPAN_WARNING("\The [wrapped_object] is bolted down and can't be wrapped."))

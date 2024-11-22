@@ -66,8 +66,6 @@
 	. = ..()
 
 /obj/aura/web/on_update_icon()
-	. = ..()
-
 	icon_state = "web_[clamp(stacks, 1, 4)]"
 	user.update_icon()
 
@@ -174,12 +172,8 @@
 	if (web)
 		web.remove_webbing(owner)
 
-/mob/living/movement_delay()
+/mob/living/movement_delay(singleton/move_intent/using_intent = move_intent)
 	. = ..()
-
-	if (!auras)
-		return .
-
 	for (var/obj/aura/web/W in auras)
 		var/tally = W.stacks * 2
 		return . + tally

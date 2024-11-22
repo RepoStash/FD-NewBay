@@ -78,6 +78,7 @@
 	spawn(2 SECONDS)
 	CutOverlays(froth)
 
+
 /obj/item/reagent_containers/food/drinks/use_before(mob/M as mob, mob/user as mob)
 	. = FALSE
 	if (!istype(M))

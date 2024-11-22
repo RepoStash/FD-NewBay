@@ -12,7 +12,7 @@
 	corpse_outfits = list(/singleton/hierarchy/outfit/job/torch/ert/hostile/suit)
 
 /obj/item/clothing/suit/armor/bulletproof/armsman
-	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_A, ACCESSORY_SLOT_ARMOR_L, ACCESSORY_SLOT_ARMOR_S)
+	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_ARMS, ACCESSORY_SLOT_ARMOR_LEGS, ACCESSORY_SLOT_ARMOR_STORAGE)
 	accessories = list(
 		/obj/item/clothing/accessory/arm_guards/riot,
 		/obj/item/clothing/accessory/leg_guards/riot,
@@ -266,7 +266,7 @@
 			num_shots = 10
 			fire_desc = "fires a burst"
 			time_last_used_ability = base_attack_cooldown + world.time
-			visible_message(SPAN_MFAUNA("\The [src] pulls up \the machinegun to bear!"))
+			visible_message(SPAN_MFAUNA("\The [src] pulls up a machinegun to bear!"))
 
 	update_icon()
 

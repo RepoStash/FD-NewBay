@@ -8,3 +8,8 @@
 	initial_flooring = /singleton/flooring/reinforced/circuit/red
 	light_range = 1
 	light_color = COLOR_RED
+
+// TODO: Убрать это с Ульяновска, дабы не было ерророк при мерджах.
+
+/turf/simulated/floor/reinforced/airless
+	map_airless = TRUE

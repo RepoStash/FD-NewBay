@@ -140,10 +140,6 @@
 /obj/item/reagent_containers/food/condiment/oliveoil
 	starting_reagents = list(/datum/reagent/oliveoil = 50)
 
-/obj/item/reagent_containers/food/condiment/space_drugs
-	label_text = "Hex"
-	starting_reagents = list(/datum/reagent/drugs/hextro = 50)
-
 /obj/item/reagent_containers/food/condiment/peanutbutter
 	starting_reagents = list(/datum/reagent/nutriment/peanutbutter = 50)
 

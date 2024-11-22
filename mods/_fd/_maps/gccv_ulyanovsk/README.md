@@ -1,6 +1,10 @@
 
 #### Список PRов:
 
+<<<<<<<< HEAD:mods/_fd/_maps/gccv_ulyanovsk/README.md
+========
+- https://github.com/SierraBay/SierraBay12/pull/#724
+>>>>>>>> Merge-Bay:mods/ssgunsetc/README.md
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -8,9 +12,15 @@
 -->
 
 <!-- Название мода. Не важно на русском или на английском. -->
+<<<<<<<< HEAD:mods/_fd/_maps/gccv_ulyanovsk/README.md
 ## Контейнеры в структурах
 
 ID мода: GCCV_ULYANOVSK
+========
+## Sad Ninja Sid tweaks
+
+ID мода: SSGUNSETC
+>>>>>>>> Merge-Bay:mods/ssgunsetc/README.md
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -18,7 +28,11 @@ ID мода: GCCV_ULYANOVSK
 
 ### Описание мода
 
+<<<<<<<< HEAD:mods/_fd/_maps/gccv_ulyanovsk/README.md
 Добавляет в игру корабль ГКК.
+========
+Мод заменяет спрайт дезориентатора на используемый ранее на инфинити
+>>>>>>>> Merge-Bay:mods/ssgunsetc/README.md
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -68,7 +82,11 @@ ID мода: GCCV_ULYANOVSK
 
 ### Авторы:
 
+<<<<<<<< HEAD:mods/_fd/_maps/gccv_ulyanovsk/README.md
 ChemistryOneLove
+========
+SadNinjaSid
+>>>>>>>> Merge-Bay:mods/ssgunsetc/README.md
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.

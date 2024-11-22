@@ -240,7 +240,6 @@
 
 
 /obj/aura/mechshield/on_update_icon()
-	. = ..()
 	if(active)
 	//[SIERRA-ADD] - Mechs-by-Shegar - добавляет степени повреждения энергощита
 		var/percentrage = shields.charge/shields.max_charge * 100
@@ -303,16 +302,6 @@
 		do_attack_effect(target, "smash")
 		if (target.mob_size < user.mob_size) //Damaging attacks overwhelm smaller mobs
 			target.throw_at(get_edge_target_turf(target,get_dir(user, target)),1, 1)
-
-/obj/item/material/hatchet/machete/mech/resolve_attackby(atom/A, mob/user, click_params)
-	//Case 1: Default, you are hitting something that isn't a mob. Just do whatever, this isn't dangerous or op.
-	if (!istype(A, /mob/living))
-		return ..()
-
-	if (user.a_intent == I_HURT)
-		user.visible_message(SPAN_DANGER("\The [user] swings \the [src] at \the [A]!"))
-		playsound(user, 'sound/mecha/mechmove03.ogg', 35, 1)
-		return ..()
 
 /obj/item/material/hatchet/machete/mech/attack_self(mob/living/user)
 	. = ..()
@@ -645,7 +634,6 @@
 	return ..()
 
 /obj/item/mech_equipment/mounted_system/flamethrower/on_update_icon()
-	. = ..()
 	if(owner && holding)
 		var/obj/item/flamethrower/full/mech/FM = holding
 		if(istype(FM))

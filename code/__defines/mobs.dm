@@ -390,6 +390,7 @@
 /// Aura checks for projectile impacts. Generally called by `/obj/item/projectile/proc/attack_mob()`. Results in `/obj/aura/proc/aura_check_bullet()`.
 #define AURA_TYPE_BULLET "Bullet"
 /// Aura checks for physical weapon attacks. Generally called by `/obj/item/proc/use_weapon()`. Results in `/obj/aura/proc/aura_check_weapon()`.
+/// Aura checks for physical weapon attacks. Generally called by `/obj/item/proc/use_weapon()`. Results in `/obj/aura/proc/aura_check_weapon()`.
 #define AURA_TYPE_WEAPON "Weapon"
 /// Aura checks for thrown atom impacts. Generally called by `/mob/living/hitby()`. Results in `/obj/aura/proc/aura_check_thrown()`.
 #define AURA_TYPE_THROWN "Thrown"
@@ -486,7 +487,7 @@
 #define FAKE_INVIS_ALPHA_THRESHOLD 127 // If something's alpha var is at or below this number, certain things will pretend it is invisible.
 
 #define PRONOUNS_THEY_THEM	"they/them"
-#define PRONOUNS_HE_HIM		"he/his"
+#define PRONOUNS_HE_HIM		"he/him"
 #define PRONOUNS_SHE_HER	"she/her"
 #define PRONOUNS_IT_ITS		"it/its"
 #define PRONOUNS_HE_THEY	"he/they"

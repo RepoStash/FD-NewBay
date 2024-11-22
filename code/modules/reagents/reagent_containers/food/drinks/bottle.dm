@@ -492,7 +492,7 @@
 
 
 /obj/item/reagent_containers/food/drinks/bottle/champagne/on_update_icon()
-	. = ..()
+	..()
 	if(is_open_container())
 		if(sabraged)
 			icon_state = "[initial(icon_state)]_sabrage"
@@ -737,7 +737,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/unathijuice/Initialize()
 	. = ..()
-	reagents.add_reagent(/datum/reagent/drink/alien/unathijuice, 100)
+	reagents.add_reagent(/datum/reagent/drink/unathijuice, 100)
 
 
 /obj/item/reagent_containers/food/drinks/bottle/lemonjuice

@@ -40,7 +40,15 @@
 			CULTURE_HUMAN_CETII,
 			CULTURE_HUMAN_SPACER,
 			CULTURE_HUMAN_OFFWORLD,
-			CULTURE_HUMAN_CONFEDC,
+			CULTURE_HUMAN_THEIA,
+			CULTURE_HUMAN_CONFED_TERRA,
+			CULTURE_HUMAN_CONFED_ZEMLYA,
+			CULTURE_HUMAN_CONFED_SESTRIS,
+			CULTURE_HUMAN_CONFED_PUTKARI,
+			CULTURE_HUMAN_CONFED_ALTAIR,
+			CULTURE_HUMAN_CONFED_PENGLAI,
+			CULTURE_HUMAN_CONFED_PROVIDENCE,
+			CULTURE_HUMAN_CONFED_VALY,
 			CULTURE_HUMAN_CONFEDO,
 			CULTURE_HUMAN_FOSTER,
 			CULTURE_HUMAN_PIRXL,
@@ -50,8 +58,6 @@
 			CULTURE_HUMAN_IOLAUS,
 			CULTURE_HUMAN_BRAHE,
 			CULTURE_HUMAN_EOS,
-			CULTURE_HUMAN_CONFEDC,
-			CULTURE_HUMAN_CONFEDO,
 			CULTURE_HUMAN_GAIAN,
 			CULTURE_HUMAN_OTHER
 		)
@@ -383,12 +389,6 @@
 		H.equip_to_slot_or_del(new /obj/item/device/flashlight/flare(H.back), slot_in_backpack)
 	else
 		H.equip_to_slot_or_del(new /obj/item/device/flashlight/flare(H), slot_r_hand)
-
-/datum/species/diona/skills_from_age(age)
-	switch(age)
-		if(101 to 200)	. = 12 // age bracket before this is 46 to 100 . = 8 making this +4
-		if(201 to 300)	. = 16 // + 8
-		else			. = ..()
 
 // Dionaea spawned by hand or by joining will not have any
 // nymphs passed to them. This should take care of that.

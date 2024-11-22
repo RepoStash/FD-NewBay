@@ -236,8 +236,6 @@
 
 	var/sexybits_location	//organ tag where they are located if they can be kicked for increased pain
 
-	var/job_skill_buffs = list()				// A list containing jobs (/datum/job), with values the extra points that job receives.
-
 	var/list/descriptors = list(
 		/datum/mob_descriptor/height = 0,
 		/datum/mob_descriptor/build = 0
@@ -441,8 +439,15 @@ The slots that you can use are found in items_clothing.dm and are the inventory 
 		if(FEMALE)
 			t_him = "her"
 
-	H.visible_message(SPAN_NOTICE("[H] hugs [target] to make [t_him] feel better!"), \
-					SPAN_NOTICE("You hug [target] to make [t_him] feel better!"))
+	// If aiming for the head, try a headpat
+	if (ishuman(target))
+		var/target_zone = check_zone(H.zone_sel.selecting)
+		var/mob/living/carbon/human/h_target = target
+		if (target_zone == BP_HEAD && h_target.get_organ(target_zone))
+			H.visible_message(SPAN_NOTICE("[H] pats [h_target]'s head to make [t_him] feel better!"), SPAN_NOTICE("You pat [h_target]'s head to make [t_him] feel better!"))
+			return
+
+	H.visible_message(SPAN_NOTICE("[H] hugs [target] to make [t_him] feel better!"), SPAN_NOTICE("You hug [target] to make [t_him] feel better!"))
 
 	if(H != target)
 		H.update_personal_goal(/datum/goal/achievement/givehug, TRUE)
@@ -841,13 +846,6 @@ The slots that you can use are found in items_clothing.dm and are the inventory 
 	set src = usr
 
 	show_browser(src, species.get_description(), "window=species;size=700x400")
-
-/datum/species/proc/skills_from_age(age)	//Converts an age into a skill point allocation modifier. Can be used to give skill point bonuses/penalities not depending on job.
-	switch(age)
-		if(0 to 22) 	. = 0
-		if(23 to 30) 	. = 3
-		if(31 to 45)	. = 6
-		else			. = 8
 
 /datum/species/proc/post_organ_rejuvenate(obj/item/organ/org, mob/living/carbon/human/H)
 	return

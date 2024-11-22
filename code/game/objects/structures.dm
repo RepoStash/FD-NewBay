@@ -3,6 +3,8 @@
 	w_class = ITEM_SIZE_NO_CONTAINER
 	layer = STRUCTURE_LAYER
 
+	health_flags = HEALTH_FLAG_STRUCTURE
+
 	var/fragile
 	var/parts
 	var/list/connections = list("0", "0", "0", "0")
@@ -19,7 +21,7 @@
 		if (fragile)
 			return kill_health()
 		damage = max(damage, 10)
-	..()
+	return ..()
 
 /obj/structure/proc/mob_breakout(mob/living/escapee)
 	set waitfor = FALSE
@@ -54,7 +56,7 @@
 		fluid_update()
 
 
-/obj/structure/use_weapon(obj/item/weapon, mob/user, list/click_params)
+/obj/structure/use_weapon(obj/item/weapon, mob/living/user, list/click_params)
 	// Natural Weapon - Passthrough to generic attack
 	if (istype(weapon, /obj/item/natural_weapon))
 		attack_generic(user, weapon.force, pick(weapon.attack_verb), damtype = weapon.damtype, dam_flags = weapon.damage_flags())

@@ -9,7 +9,6 @@ SUBSYSTEM_DEF(mapping)
 	var/list/junkyard_ruins_templates = list()
 	var/list/away_sites_templates = list()
 	var/list/submaps = list()
-	var/list/submap_archetypes = list()
 
 
 /datum/controller/subsystem/mapping/UpdateStat(time)
@@ -17,10 +16,7 @@ SUBSYSTEM_DEF(mapping)
 
 
 /datum/controller/subsystem/mapping/Initialize(start_uptime)
-	// Load templates and build away sites.
 	preloadTemplates()
-	for(var/atype in subtypesof(/singleton/submap_archetype))
-		submap_archetypes[atype] = new atype
 
 
 /datum/controller/subsystem/mapping/Recover()

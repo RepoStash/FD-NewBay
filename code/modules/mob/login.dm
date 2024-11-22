@@ -114,7 +114,7 @@
 	darksight = new()
 	client.screen += darksight
 
-	CreateRenderers()
+	AddDefaultRenderers()
 
 	refresh_client_images()
 	reload_fullscreen() // Reload any fullscreen overlays this mob has.
@@ -128,21 +128,8 @@
 		if(client.get_preference_value(/datum/client_preference/goonchat) == GLOB.PREF_YES)
 			client.chatOutput.start()
 
-	GLOB.logged_in_event.raise_event(src)
-
-	if(mind)
-		if(!mind.learned_spells)
-			mind.learned_spells = list()
-		if(ability_master && ability_master.spell_objects)
-			for(var/obj/screen/ability/spell/screen in ability_master.spell_objects)
-				var/spell/S = screen.spell
-				mind.learned_spells |= S
-
-	client.deferred_skybox_update(TRUE)
-
-	if(ability_master)
-		ability_master.update_abilities(1, src)
-		ability_master.toggle_open(1)
+	if(ability_master && ability_master.ability_objects)
+		ability_master.update_abilities(TRUE, src)
 
 	//set macro to normal incase it was overriden (like cyborg currently does)
 	// [SIERRA-REMOVE] - SSINPUT

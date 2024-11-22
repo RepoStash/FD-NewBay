@@ -222,6 +222,7 @@ var/global/list/tank_gauge_cache = list()
 				to_chat(user, "[SPAN_NOTICE("You carefully weld \the [src] emergency pressure relief valve shut.")][SPAN_WARNING(" \The [src] may now rupture under pressure!")]")
 				SET_FLAGS(tank_flags, TANK_FLAG_WELDED)
 				CLEAR_FLAGS(tank_flags, TANK_FLAG_LEAKING)
+				return TRUE
 			else
 				GLOB.bombers += "[key_name(user)] attempted to weld a [src]. [air_contents.temperature-T0C]"
 				log_and_message_admins("attempted to weld a [src]. [air_contents.temperature-T0C]", user)
@@ -230,8 +231,11 @@ var/global/list/tank_gauge_cache = list()
 				maxintegrity -= rand(2,6)
 				integrity = min(integrity,maxintegrity)
 				air_contents.add_thermal_energy(rand(2000,50000))
+				return TRUE
 		else
 			to_chat(user, SPAN_NOTICE("The emergency pressure relief valve has already been welded."))
+			return TRUE
+	return ..()
 
 /obj/item/tank/attack_self(mob/user as mob)
 	add_fingerprint(user)
@@ -438,7 +442,7 @@ var/global/list/tank_gauge_cache = list()
 	if(pressure > TANK_FRAGMENT_PRESSURE)
 		if(integrity <= 7)
 			if(!istype(loc,/obj/item/device/transfer_valve))
-				log_and_message_admins("Explosive tank rupture! last key to touch the tank was [fingerprintslast].")
+				log_and_message_admins("Explosive tank rupture! last key to touch the tank was [fingerprintslast].", null, src)
 
 			//Give the gas a chance to build up more pressure through reacting
 			air_contents.react()

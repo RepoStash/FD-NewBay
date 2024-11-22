@@ -178,7 +178,7 @@
 		var/damage = get_damage_value()
 
 		if(istype(W, /obj/item/weldingtool) && !WT.can_use(round(damage/75), user))
-			return
+			return TRUE
 
 		if(!get_damage_value())
 			to_chat(user, SPAN_WARNING("\The [src] does not require repairs."))

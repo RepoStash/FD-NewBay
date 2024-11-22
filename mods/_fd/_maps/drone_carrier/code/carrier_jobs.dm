@@ -271,7 +271,6 @@
 	outfit_type = /singleton/hierarchy/outfit/job/silicon/cyborg
 	hud_icon = "hudblank"
 	skill_points = 0
-	no_skill_buffs = TRUE
 
 /datum/job/submap/carrier_cyborg/handle_variant_join(mob/living/carbon/human/H, alt_title)
 	return H && H.Robotize(SSrobots.get_mob_type_by_title(alt_title || title))

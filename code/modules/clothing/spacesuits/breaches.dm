@@ -222,8 +222,8 @@
 			return TRUE
 
 		var/obj/item/weldingtool/WT = W
-		if(!WT.remove_fuel(5) && istype(W, /obj/item/weldingtool))
-			return
+		if(!WT.remove_fuele(5, user, "repair \the [src].") && istype(W, /obj/item/weldingtool))
+			return TRUE
 
 		WT.remove_fuel(5)
 		repair_breaches(DAMAGE_BRUTE, 3, user)

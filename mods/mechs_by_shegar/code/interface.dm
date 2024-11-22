@@ -1,6 +1,6 @@
 #define MECH_UI_STYLE(X) "<span style=\"font-family: 'Small Fonts'; -dm-text-outline: 1 black; font-size: 5px;\">" + X + "</span>"
 
-/obj/screen/movable/exosuit/toggle/menu
+/obj/screen/exosuit/toggle/menu
 	name = "toggle mech menu "
 	icon_state = "small_important"
 	maptext = MECH_UI_STYLE("MENU")
@@ -8,11 +8,11 @@
 	maptext_y = 13
 	height = 12
 
-/obj/screen/movable/exosuit/toggle/menu/toggled()
+/obj/screen/exosuit/toggle/menu/toggled()
 	owner.menu_status = !owner.menu_status
 	owner.refresh_menu_hud()
 
-/obj/screen/movable/exosuit/toggle/megaspeakers
+/obj/screen/exosuit/toggle/megaspeakers
 	name = "Use megaspeakers "
 	icon_state = "small_important"
 	maptext = MECH_UI_STYLE("SPEAK")
@@ -20,7 +20,7 @@
 	maptext_y = 13
 	height = 12
 
-/obj/screen/movable/exosuit/toggle/megaspeakers/toggled()
+/obj/screen/exosuit/toggle/megaspeakers/toggled()
 	if (usr.client)
 		if(usr.client.prefs.muted & MUTE_IC)
 			to_chat(usr, SPAN_WARNING("You cannot speak in IC (muted)."))
@@ -35,7 +35,7 @@
 	owner.visible_message("[FONT_GIANT("\"[]\"")]",10)
 	return
 
-/obj/screen/movable/exosuit/toggle/gps
+/obj/screen/exosuit/toggle/gps
 	name = "Use integrated GPS"
 	icon_state = "small_important"
 	maptext = MECH_UI_STYLE("GPS")
@@ -43,10 +43,10 @@
 	maptext_y = 13
 	height = 12
 
-/obj/screen/movable/exosuit/toggle/gps/toggled()
+/obj/screen/exosuit/toggle/gps/toggled()
 	owner.GPS.attack_self(usr)
 
-/obj/screen/movable/exosuit/toggle/medscan
+/obj/screen/exosuit/toggle/medscan
 	name = "Full scan pilot"
 	icon_state = "small_important"
 	maptext = MECH_UI_STYLE("PLTSCN")
@@ -54,7 +54,7 @@
 	maptext_y = 13
 	height = 12
 
-/obj/screen/movable/exosuit/toggle/medscan/toggled()
+/obj/screen/exosuit/toggle/medscan/toggled()
 	owner.medscan.scan(usr,usr)
 	roboscan(usr,usr)
 

@@ -96,17 +96,9 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("data/iconCache.sav"))
 		if ("analyzeClientData")
 			data = analyzeClientData(arglist(params))
 		if ("swaptodarkmode")
-			// [SIERR-EDIT] - SSINPUT
-			// swaptodarkmode() // SIERRA-EDIT - ORIGINAL
-			owner.prefs.dark_theme = TRUE
-			owner.update_client_theme()
-			// [/SIERRA-EDIT]
+			swaptodarkmode()
 		if ("swaptolightmode")
-			// [SIERR-EDIT] - SSINPUT
-			// swaptolightmode() // SIERRA-EDIT - ORIGINAL
-			owner.prefs.dark_theme = FALSE
-			owner.update_client_theme()
-			// [/SIERRA-EDIT]
+			swaptolightmode()
 		if ("reload")
 			loaded = FALSE
 			start()

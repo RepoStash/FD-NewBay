@@ -484,7 +484,7 @@
 			s.set_up(3, 1, src)
 			s.start()
 			if (prob(75))
-				electrocute_mob(user, get_area(src), src, rand(0.7,1.0))
+				electrocute_mob(user, get_area(src), src, Frand(0.7,1.0))
 		return TRUE
 
 	return ..()
@@ -880,7 +880,7 @@
 				SPAN_DANGER("\The [src] flares brilliantly!"),
 				SPAN_DANGER("You hear a loud crack!")
 			)
-			log_and_message_admins("Rigged light explosion, last touched by [fingerprintslast]")
+			log_and_message_admins("Rigged light explosion, last touched by [fingerprintslast]", null, src)
 			var/turf/T = get_turf(loc)
 			set_status(LIGHT_BROKEN)
 			addtimer(new Callback(GLOBAL_PROC, GLOBAL_PROC_REF(explosion), T, 3, EX_ACT_LIGHT), 0.5 SECONDS)

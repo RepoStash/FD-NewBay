@@ -18,9 +18,9 @@
 			//make vine zero start off fully matured
 			new /obj/vine(T,seed, start_matured = 1)
 
-			log_and_message_admins("Spacevines spawned in \the [get_area(T)]", location = T)
+			log_and_message_admins("Spacevines spawned in \the [get_area(T)]", user = null, location = T)
 			return
-		log_and_message_admins(SPAN_NOTICE("Event: Spacevines failed to find a viable turf."))
+		log_and_message_admins(SPAN_NOTICE("Event: Spacevines failed to find a viable turf."), null)
 
 /obj/dead_plant
 	anchored = TRUE
@@ -157,7 +157,8 @@
 
 	// Apply colour and light from seed datum.
 	if(seed.get_trait(TRAIT_BIOLUM))
-		set_light(3, 0.5, l_color = seed.get_trait(TRAIT_BIOLUM_COLOUR))
+		var/biolum_power = seed.get_potency_curve()
+		set_light(6 * biolum_power, biolum_power, l_color = seed.get_trait(TRAIT_BIOLUM_COLOUR))
 	else
 		set_light(0)
 
