@@ -12,9 +12,6 @@
 	// Runechat messages
 	var/list/seen_messages
 
-	// Runechat messages
-	var/list/seen_messages
-
 	///datum that controls the displaying and hiding of tooltips
 	/// When some kind of staff member, the client's permissions and behaviors
 	var/datum/admins/holder

@@ -90,10 +90,10 @@
 
 /obj/item/card/id
 	var/ipc_gen = null
-
+/*
 /obj/item/card/id/proc/extra_dat()
 	. = list()
-
+*/
 /mob/living/carbon/human/set_id_info(obj/item/card/id/id_card)
 	..()
 	if(is_species(SPECIES_IPC))

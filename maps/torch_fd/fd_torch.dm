@@ -271,7 +271,7 @@
 	#include "../../mods/_fd/landing_eye/_landing_eye.dme"
 	#include "../../mods/_fd/mob_interactions/_mob_interactions.dme"
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
-	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme"
+// 	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme" // Был замерджнут Бэем.
 	#include "../../mods/_fd/old_space_cannons/_old_space_cannons.dme"
 	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
 	#include "../../mods/_fd/random_rooms/_random_rooms.dme"

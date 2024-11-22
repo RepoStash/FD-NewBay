@@ -133,7 +133,7 @@
 	)
 
 	skill_points = 4
-	no_skill_buffs = TRUE
+
 
 	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
 	                    SKILL_HAULING      = SKILL_TRAINED,
