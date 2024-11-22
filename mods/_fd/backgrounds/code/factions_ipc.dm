@@ -134,7 +134,7 @@
 
 //SECOND
 /singleton/cultural_info/faction/ipc/second
-	valid_jobs = list(/datum/job/sea, /datum/job/bridgeofficer,
+	valid_jobs = list(/datum/job/sea, /datum/job/bridgeofficer, /datum/job/chief_engineer,
 		/datum/job/engineer, /datum/job/engineer_trainee, /datum/job/senior_engineer, /datum/job/roboticist,
 		/datum/job/explorer, /*/datum/job/expmed, /datum/job/expeng,*/ /datum/job/nt_pilot,
 		/datum/job/junior_doctor, /datum/job/doctor, /datum/job/medical_trainee, /datum/job/psychiatrist,

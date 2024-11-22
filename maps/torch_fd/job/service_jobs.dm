@@ -134,12 +134,30 @@
 		/datum/mil_rank/fleet/e4,
 		/datum/mil_rank/fleet/e5
 	)
-	min_skill = list(
-		SKILL_BOTANY = SKILL_BASIC,
-		SKILL_CHEMISTRY = SKILL_BASIC,
-		SKILL_COOKING = SKILL_TRAINED
+
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
 	)
-	skill_points = 40
+	skill_points = 52
 	access = list(
 		access_commissary,
 		access_hydroponics,
@@ -154,8 +172,8 @@
 	title = "Crewman"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 9
+	spawn_positions = 9
 	supervisors = "the Chief Steward"
 	loadout_allowed = TRUE
 	minimum_character_age = 0
@@ -198,7 +216,7 @@
 		SKILL_ANATOMY = SKILL_MAX,
 		SKILL_CHEMISTRY = SKILL_MAX
 	)
-	skill_points = 40
+	skill_points = 52
 
 	access = list(
 		access_maint_tunnels, access_emergency_storage,
