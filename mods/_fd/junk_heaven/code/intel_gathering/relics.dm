@@ -454,7 +454,7 @@
 
 	sleep(80)
 
-	for(var/faculty in list(PSI_COERCION, PSI_CONSCIOUSNESS, PSI_METAKINESIS, PSI_PSYCHOKINESIS, PSI_MANIFESTATION, PSI_REDACTION, PSI_ENERGISTICS))
+/*	for(var/faculty in list(PSI_COERCION, PSI_CONSCIOUSNESS, PSI_METAKINESIS, PSI_PSYCHOKINESIS, PSI_MANIFESTATION, PSI_REDACTION, PSI_ENERGISTICS))
 		if(faculty in boosted_faculties)
 			H.set_psi_rank(faculty, boosted_rank, take_larger = TRUE, temporary = TRUE)
 		else
@@ -462,7 +462,7 @@
 	if(H.psi)
 		H.psi.max_stamina = boosted_psipower
 		H.psi.stamina = H.psi.max_stamina
-		H.psi.update(force = TRUE)
+		H.psi.update(force = TRUE)*/
 
 	to_chat(H, SPAN_NOTICE("You experience a brief but powerful wave of deja vu as \the [src] finishes modifying your brain."))
 	verbs |= /obj/item/clothing/glasses/psionic/proc/deintegrate
