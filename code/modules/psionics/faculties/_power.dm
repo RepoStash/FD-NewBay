@@ -19,9 +19,6 @@
 	if(!user.psi)
 		return FALSE
 
-	if(!user.psi.ranks_stat[faculty])
-		return FALSE
-
 	if(faculty && min_rank)
 		var/user_rank = user.psi.get_rank(faculty)
 		if(user_rank < min_rank)

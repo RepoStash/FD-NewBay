@@ -25,7 +25,7 @@
 		var/rating_descriptor
 		if(mind && !psi.suppressed)
 			if(GLOB.paramounts.is_antagonist(mind))
-				use_rating = SPAN_COLOR("#ff0000", "<b>CAN'T CALCULATE: POSSIBLE LEVEL - 5+</b>")
+				use_rating = SPAN_COLOR("#ff0000", "<b>[effective_rating]-Alpha-Plus</b>")
 				rating_descriptor = "This indicates a completely deviant psi complexus, either beyond or outside anything currently recorded. Approach with care."
 			// This space intentionally left blank (for Omega-Minus psi vampires. todo)
 			if(viewer != usr && GLOB.thralls.is_antagonist(mind) && ishuman(viewer))
@@ -36,20 +36,20 @@
 		if(!use_rating)
 			switch(effective_rating)
 				if(1)
-					use_rating = "[effective_rating-1]-Epsilon"
-					rating_descriptor = "This indicates the presence of minor latent psi potential with little or no appentice capabilities."
+					use_rating = "[effective_rating]-Epsilon"
+					rating_descriptor = "This indicates the presence of minor latent psi potential with little or no operant capabilities."
 				if(2)
-					use_rating = "[effective_rating-1]-Gamma"
-					rating_descriptor = "This indicates the presence of minor psi capabilities of the Appentice rank or higher."
-				if(3)
-					use_rating = SPAN_COLOR("#f4f441", "[effective_rating-1]-Delta")
+					use_rating = "[effective_rating]-Gamma"
 					rating_descriptor = "This indicates the presence of minor psi capabilities of the Operant rank or higher."
+				if(3)
+					use_rating = SPAN_COLOR("#f4f441", "[effective_rating]-Delta")
+					rating_descriptor = "This indicates the presence of psi capabilities of the Master rank or higher."
 				if(4)
-					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating-1]-Beta")
-					rating_descriptor = "This indicates the presence of significant psi capabilities of the Master rank or higher."
-				if(5)
-					use_rating = SPAN_COLOR("#ff0000", "[effective_rating-1]-Alpha")
+					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating]-Beta")
 					rating_descriptor = "This indicates the presence of significant psi capabilities of the Grandmaster rank or higher."
+				if(5)
+					use_rating = SPAN_COLOR("#ff0000", "[effective_rating]-Alpha")
+					rating_descriptor = "This indicates the presence of major psi capabilities of the Paramount Grandmaster rank or higher."
 				else
 					use_rating = "[effective_rating]-Lambda"
 					rating_descriptor = "This indicates the presence of trace latent psi capabilities."

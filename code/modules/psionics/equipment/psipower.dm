@@ -6,12 +6,6 @@
 	var/maintain_cost = 3
 	var/mob/living/owner
 
-/obj/item/psychic_power/AltClick(mob/user)
-	if(melee_strikes)
-		swap_stances(user)
-
-	..()
-
 /obj/item/psychic_power/New(mob/living/_owner)
 	owner = _owner
 	if(!istype(owner))

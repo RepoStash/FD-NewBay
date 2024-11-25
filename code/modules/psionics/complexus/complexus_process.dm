@@ -35,60 +35,31 @@
 				cost_modifier -= min(1, max(0.1, (rating-1) / 10))
 			if(!ui)
 				ui = new(owner)
-
-/*				if(owner.client)
+				if(owner.client)
 					owner.client.screen += ui.components
 					owner.client.screen += ui
 			else
 				if(owner.client)
 					owner.client.screen |= ui.components
-					owner.client.screen |= ui*/
-//FD PSIONICS//
-			for(var/faculty in ranks)
-				var/existing_button = FALSE
-				for(var/obj/screen/psi/toggle_faculty/button in ui.components)
-					if(button.faculty_id == faculty)
-						existing_button = button
-				if(ranks[faculty] <= PSI_RANK_LATENT)
-					if(existing_button)
-						ui.components -= existing_button
-						qdel(existing_button)
-					continue
-				if(existing_button)
-					continue
-				var/obj/screen/psi/toggle_faculty/faculty_toggle = new(owner, faculty)
-				ui.components.Insert(2, faculty_toggle)
-				var/obj/screen/psi/toggle_psi_menu/arrow = ui.components[LAZYLEN(ui.components)]
-				faculty_toggle.hidden = arrow.hidden
-			if(owner.client)
-				owner.client.screen |= ui.components
-				owner.client.screen |= ui
+					owner.client.screen |= ui
 			if(!suppressed && owner.client)
 				for(var/thing in SSpsi.all_aura_images)
 					owner.client.images |= thing
-			ui.update_icon()
-//FD PSIONICS//
 
 			var/image/aura_image = get_aura_image()
-			if(rating >= PSI_RANK_GRANDMASTER) // spooky boosters
+			if(rating >= PSI_RANK_PARAMOUNT) // spooky boosters
 				aura_color = "#aaffaa"
 				aura_image.blend_mode = BLEND_SUBTRACT
 			else
 				aura_image.blend_mode = BLEND_ADD
 				if(highest_faculty == PSI_COERCION)
-					aura_color = "#3333cc"
-				else if(highest_faculty == PSI_PSYCHOKINESIS)
 					aura_color = "#cc3333"
+				else if(highest_faculty == PSI_PSYCHOKINESIS)
+					aura_color = "#3333cc"
 				else if(highest_faculty == PSI_REDACTION)
 					aura_color = "#33cc33"
 				else if(highest_faculty == PSI_ENERGISTICS)
-					aura_color = "#cc8221"
-				else if(highest_faculty == PSI_CONSCIOUSNESS)
-					aura_color = "#5233cc"
-				else if(highest_faculty == PSI_METAKINESIS)
 					aura_color = "#cccc33"
-				else if(highest_faculty == PSI_MANIFESTATION)
-					aura_color = "#cc8221"
 			aura_image.pixel_x = -64 - owner.default_pixel_x
 			aura_image.pixel_y = -64 - owner.default_pixel_y
 
@@ -125,7 +96,7 @@
 		if(psi_leech)
 			if(stamina > 10)
 				stamina = max(0, stamina - rand(15,20))
-				//to_chat(owner, SPAN_DANGER("You feel your psi-power leeched away by \the [psi_leech]..."))
+				to_chat(owner, SPAN_DANGER("You feel your psi-power leeched away by \the [psi_leech]..."))
 			else
 				stamina++
 		else if(stamina < max_stamina)
@@ -134,7 +105,7 @@
 			else if(owner.stat == UNCONSCIOUS)
 				stamina = min(max_stamina, stamina + rand(3,5))
 
-		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_REDACTION) >= PSI_RANK_APPRENTICE)
+		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_REDACTION) >= PSI_RANK_OPERANT)
 			attempt_regeneration()
 
 	var/next_aura_size = max(0.1,((stamina/max_stamina)*min(3,rating))/5)
@@ -165,25 +136,25 @@
 	var/mend_prob =     0
 
 	var/use_rank = get_rank(PSI_REDACTION)
-	if(use_rank >= PSI_RANK_GRANDMASTER)
+	if(use_rank >= PSI_RANK_PARAMOUNT)
 		heal_general = TRUE
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 50
 		heal_rate = 7
-	else if(use_rank == PSI_RANK_MASTER)
+	else if(use_rank == PSI_RANK_GRANDMASTER)
 		heal_poison = TRUE
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 20
 		heal_rate = 5
-	else if(use_rank == PSI_RANK_OPERANT)
+	else if(use_rank == PSI_RANK_MASTER)
 		heal_internal = TRUE
 		heal_bleeding = TRUE
 		mend_prob = 10
 		heal_rate = 3
-	else if(use_rank == PSI_RANK_APPRENTICE)
+	else if(use_rank == PSI_RANK_OPERANT)
 		heal_bleeding = TRUE
 		mend_prob = 5
 		heal_rate = 1

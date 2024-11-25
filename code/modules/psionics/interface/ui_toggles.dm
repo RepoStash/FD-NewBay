@@ -8,36 +8,14 @@
 	if(invisibility == 0)
 		icon_state = owner.psi.use_psi_armour ? "psiarmour_on" : "psiarmour_off"
 
-/mob/living/carbon/human
-	var/levitation = FALSE
-
-/mob/living/carbon/human/Life()
-	if(src.levitation)
-		src.psi.spend_power(8)
-	..()
-
 /obj/screen/psi/armour/Click()
 	if(!owner.psi)
 		return
 	owner.psi.use_psi_armour = !owner.psi.use_psi_armour
 	if(owner.psi.use_psi_armour)
 		to_chat(owner, SPAN_NOTICE("You will now use your psionics to deflect or block incoming attacks."))
-		var/mob/living/carbon/human/A = owner
-		if(A.psi.get_rank(PSI_PSYCHOKINESIS) > PSI_RANK_APPRENTICE && A.psi.ranks_stat[PSI_PSYCHOKINESIS] && !A.psi.suppressed)
-			A.levitation = TRUE
-			A.pass_flags |= PASS_FLAG_TABLE
-			A.pixel_y = 8
-			A.overlays += image('icons/screen/psi.dmi', "levitation")
-			A.make_floating(5)
 	else
 		to_chat(owner, SPAN_NOTICE("You will no longer use your psionics to deflect or block incoming attacks."))
-		var/mob/living/carbon/human/A = owner
-		if(A.levitation)
-			A.levitation = FALSE
-			A.pass_flags &= ~PASS_FLAG_TABLE
-			A.pixel_y = 0
-			A.overlays -= image('icons/screen/psi.dmi', "levitation")
-			A.stop_floating()
 	update_icon()
 
 // End psi armour toggle.
@@ -65,42 +43,3 @@
 	else
 		icon_state = "arrow_right"
 // End menu toggle.
-
-// Facility toggle.
-/obj/screen/psi/toggle_faculty
-	var/image/disable_overlay
-	var/faculty_id
-
-/obj/screen/psi/toggle_faculty/New(mob/living/_owner, id)
-	disable_overlay = image(icon, "cooldown")
-	faculty_id = id
-
-	name = "Переключить школу [faculty_id]"
-	icon_state = "[faculty_id]"
-	..(_owner)
-
-/obj/screen/psi/toggle_faculty/on_update_icon()
-	..()
-	if(invisibility != 0)
-		return
-
-	if(owner.psi.ranks_stat[faculty_id])
-		overlays.Cut()
-	else
-		overlays |= disable_overlay
-
-/obj/screen/psi/toggle_faculty/Click()
-	if(!owner.psi)
-		return
-
-	var/faculty_stat = owner.psi.ranks_stat[faculty_id]
-	owner.psi.ranks_stat[faculty_id] = !faculty_stat
-
-	if(faculty_stat)
-		sound_to(owner, sound('sound/effects/psi/power_fail.ogg', volume = 40))
-		to_chat(owner, SPAN_NOTICE("Вы более не будете использовать силы школы [faculty_id]."))
-	else
-		sound_to(owner, sound('sound/effects/psi/power_unlock.ogg', volume = 40))
-		to_chat(owner, SPAN_NOTICE("Вы вновь можете использовать силы школы [faculty_id]."))
-	update_icon()
-// End facility toggle

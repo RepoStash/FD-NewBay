@@ -56,9 +56,6 @@
 		else if(href_list["change_mode"])
 			var/obj/item/implant/psi_control/implant = locate(href_list["change_mode"])
 			if(implant.imp_in && !implant.malfunction)
-				if(!AreConnectedZLevels(z, implant.imp_in.z))
-					to_chat(usr, SPAN_WARNING("Signal to implant was lost"))
-					return 1
 				var/choice = input("Select a new implant mode.", "Psi Dampener") as null|anything in list(PSI_IMPLANT_AUTOMATIC, PSI_IMPLANT_SHOCK, PSI_IMPLANT_WARN, PSI_IMPLANT_LOG, PSI_IMPLANT_DISABLED)
 				if(choice && implant && implant.imp_in && !implant.malfunction)
 					implant.psi_mode = choice
@@ -87,8 +84,6 @@
 	for(var/thing in SSpsi.psi_dampeners)
 		var/obj/item/implant/psi_control/implant = thing
 		if(!implant.imp_in)
-			continue
-		if(!AreConnectedZLevels(z, implant.imp_in.z))
 			continue
 		dat += "<tr><td>[implant.imp_in.name]</td>"
 		if(implant.malfunction)

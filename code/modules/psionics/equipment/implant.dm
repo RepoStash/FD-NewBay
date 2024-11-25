@@ -5,7 +5,7 @@
 
 	var/overload = 0
 	var/max_overload = 100
-	var/psi_mode = PSI_IMPLANT_DISABLED
+	var/psi_mode = PSI_IMPLANT_AUTOMATIC
 
 /obj/item/implant/psi_control/islegal()
 	return TRUE
@@ -106,8 +106,3 @@
 					if(M.psi) M.psi.stunned(5)
 			else if(use_psi_mode == PSI_IMPLANT_WARN)
 				to_chat(imp_in, SPAN_WARNING("Your psi dampener primly informs you it has reported this violation."))
-				//FD PSIONICS//
-				//Probably fixing problem with no actual logs coming to computer, dunno why it even have to be on the top of this block//
-				for(var/report in SSpsi.psi_monitors)
-					var/obj/machinery/psi_monitor/monitor = report
-					monitor.report_violation(src, stress)

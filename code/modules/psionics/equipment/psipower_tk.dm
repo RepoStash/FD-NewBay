@@ -29,7 +29,7 @@
 	else
 		return FALSE
 
-	if(_focus.anchored || (check_paramount && owner.psi.get_rank(PSI_PSYCHOKINESIS) < PSI_RANK_GRANDMASTER))
+	if(_focus.anchored || (check_paramount && owner.psi.get_rank(PSI_PSYCHOKINESIS) < PSI_RANK_PARAMOUNT))
 		focus = _focus
 		. = attack_self(owner)
 		if(!.)

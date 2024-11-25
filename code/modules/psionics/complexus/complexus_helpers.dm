@@ -26,7 +26,6 @@
 /datum/psi_complexus/proc/set_rank(faculty, rank, defer_update, temporary)
 	if(get_rank(faculty) != rank)
 		LAZYSET(ranks, faculty, rank)
-		LAZYSET(ranks_stat, faculty, TRUE)
 		if(!temporary)
 			LAZYSET(base_ranks, faculty, rank)
 		if(!defer_update)
@@ -88,14 +87,6 @@
 	owner.adjustBrainLoss(value)
 	if(ishuman(owner))
 		var/mob/living/carbon/human/pop = owner
-//FD PSIONICS//
-		if(pop.levitation)
-			pop.levitation = FALSE
-			pop.pass_flags &= ~PASS_FLAG_TABLE
-			pop.pixel_y = 0
-			pop.overlays -= image('icons/screen/psi.dmi', "levitation")
-			pop.stop_floating()
-//FD PSIONICS//
 		if(pop.should_have_organ(BP_BRAIN))
 			var/obj/item/organ/internal/brain/sponge = pop.internal_organs_by_name[BP_BRAIN]
 			if(sponge && sponge.damage >= sponge.max_damage)

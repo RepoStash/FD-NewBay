@@ -27,29 +27,11 @@
 		AddOverlays(on_cooldown)
 	else
 		ClearOverlays()
-/*	var/offset = 1
+	var/offset = 1
 	for(var/thing in components)
 		var/obj/screen/psi/component = thing
 		component.update_icon()
-		if(!component.invisibility) component.screen_loc = "EAST-[++offset]:28,CENTER-3:11"*/
-
-//FD PSIONICS//
-	var/length = LAZYLEN(components)
-	var/x_offset = 1
-	var/y_offset = 3
-
-	for(var/thing in components)
-		var/obj/screen/psi/component = thing
-		component.update_icon()
-
-		var/is_menu_toggle = components.Find(component) == length
-		if(x_offset > 3 && !is_menu_toggle)
-			x_offset = y_offset > 4 ? 2 : 1
-			y_offset++
-
-		if(!component.invisibility)
-			component.screen_loc = "EAST-[++x_offset]:28,CENTER-[y_offset]:11"
-//FD PSIONICS//
+		if(!component.invisibility) component.screen_loc = "EAST-[++offset]:28,CENTER-3:11"
 
 /obj/screen/psi/hub/Destroy()
 	STOP_PROCESSING(SSprocessing, src)
@@ -81,13 +63,6 @@
 	owner.psi.suppressed = !owner.psi.suppressed
 	to_chat(owner, SPAN_NOTICE("You are <b>[owner.psi.suppressed ? "now suppressing" : "no longer suppressing"]</b> your psi-power."))
 	if(owner.psi.suppressed)
-		var/mob/living/carbon/human/A = owner
-		if(A.levitation)
-			A.levitation = FALSE
-			A.pass_flags &= ~PASS_FLAG_TABLE
-			A.pixel_y = 0
-			A.overlays -= image('icons/screen/psi.dmi', "levitation")
-			A.stop_floating()
 		owner.psi.cancel()
 		owner.psi.hide_auras()
 	else

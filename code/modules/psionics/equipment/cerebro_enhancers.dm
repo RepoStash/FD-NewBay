@@ -12,7 +12,7 @@
 
 	var/operating = FALSE
 	var/list/boosted_faculties
-	var/boosted_rank = PSI_RANK_GRANDMASTER
+	var/boosted_rank = PSI_RANK_PARAMOUNT
 	var/unboosted_rank = PSI_RANK_MASTER
 	var/max_boosted_faculties = 3
 	var/boosted_psipower = 120
@@ -147,7 +147,7 @@
 
 	sleep(80)
 
-	for(var/faculty in list(PSI_COERCION, PSI_CONSCIOUSNESS, PSI_PSYCHOKINESIS, PSI_MANIFESTATION, PSI_METAKINESIS, PSI_ENERGISTICS, PSI_REDACTION))
+	for(var/faculty in list(PSI_COERCION, PSI_PSYCHOKINESIS, PSI_REDACTION, PSI_ENERGISTICS))
 		if(faculty in boosted_faculties)
 			H.set_psi_rank(faculty, boosted_rank, take_larger = TRUE, temporary = TRUE)
 		else

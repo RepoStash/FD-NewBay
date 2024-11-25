@@ -34,8 +34,6 @@
 	var/mob/living/owner              // Reference to our owner.
 	var/image/_aura_image             // Client image
 
-	var/list/ranks_stat               // Assoc list of psi faculties to their state
-
 /datum/psi_complexus/proc/get_aura_image()
 	if(_aura_image && !istype(_aura_image))
 		var/atom/A = _aura_image
