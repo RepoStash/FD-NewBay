@@ -110,19 +110,18 @@
 		if(health == maxhealth)
 			to_chat(user, SPAN_NOTICE("\The [src] is fully repaired."))
 			return TRUE
-		if(istype(tool, /obj/item/weldingtool) && !WT.isOn())
+		if(!WT.isOn())
 			to_chat(user, SPAN_NOTICE("[tool] should be turned on firstly."))
 			return TRUE
-		if(istype(tool, /obj/item/weldingtool) && !WT.remove_fuel(0,user))
+		if(WT.remove_fuel(0,user))
+			visible_message(SPAN_WARNING("[user] is repairing \the [src]..."))
+			playsound(src, 'sound/items/Welder.ogg', 100, 1)
+			if(do_after(user, max(5, health / 5), src) && WT?.isOn())
+				to_chat(user, SPAN_NOTICE("You finish repairing the damage to [src]."))
+				playsound(src, 'sound/items/Welder2.ogg', 100, 1)
+				health = maxhealth
+		else
 			to_chat(user, SPAN_NOTICE("You need more welding fuel to complete this task."))
-			return TRUE
-		visible_message(SPAN_WARNING("[user] is repairing \the [src]..."))
-		playsound(src, 'sound/items/Welder.ogg', 100, 1)
-		if(do_after(user, max(5, health / 5), src) && WT?.isOn())
-			to_chat(user, SPAN_NOTICE("You finish repairing the damage to [src]."))
-			playsound(src, 'sound/items/Welder2.ogg', 100, 1)
-			health = maxhealth
-
 		update_icon()
 		return TRUE
 
@@ -262,17 +261,18 @@
 /obj/item/barrier/use_tool(obj/item/tool, mob/user, list/click_params)
 	if(health != 200 && isWelder(tool))
 		var/obj/item/weldingtool/WT = tool
-		if(istype(tool, /obj/item/weldingtool) && !WT.isOn())
+		if(!WT.isOn())
 			to_chat(user, SPAN_NOTICE("The [tool] should be turned on firstly."))
 			return TRUE
-		if(istype(tool, /obj/item/weldingtool) && !WT.remove_fuel(0,user))
+		if(WT.remove_fuel(0,user))
+			to_chat(user, SPAN_NOTICE("You start repairing the damage to [src]."))
+			playsound(src, 'sound/items/Welder.ogg', 100, 1)
+			if(do_after(user, max(5, health / 5), src) && WT?.isOn())
+				to_chat(user, SPAN_NOTICE("You finish repairing the damage to [src]."))
+				playsound(src, 'sound/items/Welder2.ogg', 100, 1)
+				health = 200
+			return TRUE
+		else
 			to_chat(user, SPAN_NOTICE("You need more welding fuel to complete this task."))
 			return TRUE
-		to_chat(user, SPAN_NOTICE("You start repairing the damage to [src]."))
-		playsound(src, 'sound/items/Welder.ogg', 100, 1)
-		if(do_after(user, max(5, health / 5), src) && WT?.isOn())
-			to_chat(user, SPAN_NOTICE("You finish repairing the damage to [src]."))
-			playsound(src, 'sound/items/Welder2.ogg', 100, 1)
-			health = 200
-		return TRUE
 	return ..()

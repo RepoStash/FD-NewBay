@@ -198,10 +198,9 @@
 	if(isWelder(I))
 		var/obj/item/weldingtool/WT = I
 
-		if(istype(I, /obj/item/weldingtool) && !WT.remove_fuel(0, user))
-			return
-		damage = 20
-		playsound(loc, 'sound/items/Welder.ogg', 100, 1)
+		if(WT.remove_fuel(0, user))
+			damage = 20
+			playsound(loc, 'sound/items/Welder.ogg', 100, 1)
 
 	if(damage <= 2)
 		return

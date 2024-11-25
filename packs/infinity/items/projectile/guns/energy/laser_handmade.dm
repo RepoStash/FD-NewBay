@@ -186,8 +186,8 @@
 		if(13)
 			if(isWelder(tool))
 				var/obj/item/weldingtool/T = tool
-				if(istype(tool, /obj/item/weldingtool) && !T.remove_fuel(0,user))
-					if(!src || (istype(tool, /obj/item/weldingtool) && !T.isOn())) return TRUE
+				if(T.remove_fuel(0,user))
+					if(!src || !T.isOn()) return TRUE
 					playsound(src.loc, 'sound/items/Welder2.ogg', 100, 1)
 					to_chat(user, SPAN_NOTICE("You weld the cables into places."))
 					buildstate++

@@ -208,7 +208,7 @@
 				playsound(loc, 'sound/items/Welder2.ogg', 50, 1)
 				var/obj/item/weldingtool/WT = tool
 
-				if(!do_after(user, 15 SECONDS, middle) || !user.use_sanity_check(src, tool) || (istype(tool, /obj/item/weldingtool) && !WT.remove_fuel(1, user)) || broken_state != GRAV_NEEDS_WELDING)
+				if(!do_after(user, 15 SECONDS, middle) || !user.use_sanity_check(src, tool) || !WT.remove_fuel(1, user) || broken_state != GRAV_NEEDS_WELDING)
 					return TRUE
 
 				health += 250

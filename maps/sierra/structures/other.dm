@@ -25,16 +25,16 @@
 /obj/item/target/use_tool(obj/item/tool, mob/living/user, list/click_params)
 	if (isWelder(tool))
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.remove_fuel(0, user))
-			return TRUE
-		ClearOverlays()
-		bulletholes.Cut()
-		hp = initial(hp)
-		user.visible_message(
-			SPAN_NOTICE("[user] slices off uneven chunks of aluminium and scorch marks from [src]."),
-			SPAN_NOTICE("You slice off uneven chunks of aluminium and scorch marks from [src]."),
-			SPAN_NOTICE("You hear welding."),
-		)
+		if (welder.remove_fuel(0, user))
+			ClearOverlays()
+			bulletholes.Cut()
+			hp = initial(hp)
+			user.visible_message(
+				SPAN_NOTICE("[user] slices off uneven chunks of aluminium and scorch marks from [src]."),
+				SPAN_NOTICE("You slice off uneven chunks of aluminium and scorch marks from [src]."),
+				SPAN_NOTICE("You hear welding."),
+			)
+		return TRUE
 	return ..()
 
 /obj/item/target/syndicate

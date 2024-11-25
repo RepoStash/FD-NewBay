@@ -88,7 +88,7 @@
 
 	if(hatch_open && (isWelder(tool)))
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !!welder.remove_fuel(5, user))
+		if (!welder.remove_fuel(5, user))
 			to_chat(user, SPAN_WARNING("You need more fuel to complete this task."))
 			return TRUE // uses up 5 fuel.
 
@@ -96,7 +96,7 @@
 		playsound(loc, pick('sound/items/Welder.ogg', 'sound/items/Welder2.ogg'), 50, 1)
 
 		if(do_after(user, 2 SECONDS, src, DO_REPAIR_CONSTRUCT))
-			if(!src || !user || (istype(I, /obj/item/weldingtool) && !welder.remove_fuel(5, user)))
+			if(!src || !user || !welder.remove_fuel(5, user))
 				return TRUE
 
 			to_chat(user, SPAN_NOTICE("You fully disassemble \the [src]. There were no salvageable parts."))
