@@ -216,12 +216,11 @@
 		if (!damage)
 			to_chat(user, SPAN_WARNING("\The [src] doesn't need any repairs."))
 			return TRUE
-		if (istype(tool, /obj/item/weldingtool) && !WT.can_use(1, user))
+		if (!WT.can_use(1, user))
 			return TRUE
 		to_chat(user, SPAN_NOTICE("You start repairing the damage to [src]."))
 		playsound(src, 'sound/items/Welder.ogg', 100, 1)
-		if (do_after(user, max(5, damage / 5), src, DO_REPAIR_CONSTRUCT))
-			if(istype(tool, /obj/item/weldingtool) && !WT.remove_fuel(1, user)) return
+		if (do_after(user, max(5, damage / 5), src, DO_REPAIR_CONSTRUCT) && WT.remove_fuel(1, user))
 			to_chat(user, SPAN_NOTICE("You finish repairing the damage to [src]."))
 			revive_health()
 		return TRUE

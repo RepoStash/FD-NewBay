@@ -134,7 +134,7 @@
 			USE_FEEDBACK_FAILURE("\The [src]'s access panel must be open to repair it.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(5, user, "to repair \the [src]."))
+		if (!welder.can_use(5, user, "to repair \the [src]."))
 			return TRUE
 		welder.remove_fuel(5, user)
 		health = min(maxHealth, health + 10)

@@ -250,7 +250,7 @@
 			USE_FEEDBACK_FAILURE("\The [src]'s reinforcements need to be secured before you can weld them.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(1, user, "to weld \the [src]'s internal reinforcements"))
+		if (!welder.can_use(1, user, "to weld \the [src]'s internal reinforcements"))
 			return TRUE
 		var/current_state = is_reinforced
 		playsound(src, 'sound/items/Welder.ogg', 50, TRUE)
@@ -270,7 +270,7 @@
 		if (current_state != is_reinforced)
 			USE_FEEDBACK_FAILURE("\The [src]'s state has changed.")
 			return TRUE
-		if (istype(tool, /obj/item/weldingtool) && !welder.remove_fuel(1, user))
+		if (!welder.remove_fuel(1, user))
 			return TRUE
 		is_reinforced = is_reinforced == FRAME_REINFORCED_WELDED ? FRAME_REINFORCED_SECURE : FRAME_REINFORCED_WELDED
 		update_icon()

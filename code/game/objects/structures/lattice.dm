@@ -81,7 +81,7 @@
 	// Welder - Deconstruct
 	if (isWelder(tool))
 		var/obj/item/weldingtool/welder = tool
-		if (!welder.remove_fuel(1, user) && (istype(tool, /obj/item/weldingtool)))
+		if (!welder.remove_fuel(1, user))
 			return TRUE
 		deconstruct(user)
 		return TRUE

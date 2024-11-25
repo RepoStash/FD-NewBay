@@ -254,7 +254,7 @@
 			USE_FEEDBACK_FAILURE("\The [src] needs to be unanchored before you can dismantle it.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (!welder.can_use(1, user, "to dismantle \the [src].") && (istype(tool, /obj/item/weldingtool)))
+		if (!welder.can_use(1, user, "to dismantle \the [src]."))
 			return TRUE
 		playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 		user.visible_message(
@@ -269,7 +269,7 @@
 		if (anchored)
 			USE_FEEDBACK_FAILURE("\The [src] needs to be unanchored before you can dismantle it.")
 			return TRUE
-		if (!welder.remove_fuel(1, user) && (istype(tool, /obj/item/weldingtool)))
+		if (!welder.remove_fuel(1, user))
 			return TRUE
 		var/obj/item/stack/material/glass/reinforced/glass = new(loc, 5)
 		transfer_fingerprints_to(glass)

@@ -208,7 +208,7 @@
 		var/obj/item/weldingtool/WT = W
 
 
-		if(!WT.can_use(1,user) && istype(W, /obj/item/weldingtool))
+		if(!WT.can_use(1,user))
 			return TRUE
 
 		to_chat(user, SPAN_NOTICE("Now welding \the [src]."))
@@ -217,7 +217,7 @@
 		if(!do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
 			return TRUE
 
-		if(!src || (!WT.remove_fuel(1, user) && istype(W, /obj/item/weldingtool)))
+		if(!src || !WT.remove_fuel(1, user))
 			return TRUE
 
 		welded = !welded

@@ -555,14 +555,14 @@
 			to_chat(user, SPAN_WARNING("The wire connection is in the way."))
 			return TRUE
 		var/obj/item/weldingtool/WT = W
-		if (istype(W, /obj/item/weldingtool) && !WT.can_use(3, user))
+		if (!WT.can_use(3, user))
 			return TRUE
 		user.visible_message(SPAN_WARNING("\The [user] begins to weld \the [src]."), \
 							"You start welding the APC frame...", \
 							"You hear welding.")
 		playsound(src.loc, 'sound/items/Welder.ogg', 50, 1)
 		if(do_after(user, (W.toolspeed * 5) SECONDS, src, DO_REPAIR_CONSTRUCT) && opened && has_electronics == 0 && !terminal())
-			if(istype(W, /obj/item/weldingtool) && !WT.remove_fuel(3, user))
+			if(!WT.remove_fuel(3, user))
 				return TRUE
 			if (emagged || MACHINE_IS_BROKEN(src) || opened==2)
 				new /obj/item/stack/material/steel(loc)

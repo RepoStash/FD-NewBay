@@ -163,7 +163,7 @@
 			USE_FEEDBACK_FAILURE("\The [src] needs to be anchored to the floor before you can weld it.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(1, user, "to weld \the [src] down."))
+		if (!welder.can_use(1, user, "to weld \the [src] down."))
 			return TRUE
 		playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 		user.visible_message(

@@ -251,7 +251,7 @@
 
 	if(isWelder(W))
 		var/obj/item/weldingtool/WT = W
-		if(istype(W, /obj/item/weldingtool) && !WT.can_use(5, user))
+		if(!WT.can_use(5, user))
 			return TRUE
 		if(!damage)
 			to_chat(user, "\The [src] is already fully repaired.")

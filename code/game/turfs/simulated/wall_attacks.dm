@@ -153,7 +153,7 @@
 	if(locate(/obj/overlay/wallrot) in src)
 		if(isWelder(W))
 			var/obj/item/weldingtool/WT = W
-			if(!WT.can_use(1, user) && istype(W, /obj/item/weldingtool))
+			if(!WT.can_use(1, user))
 				return TRUE
 
 			WT.remove_fuel(1,user)
@@ -172,7 +172,7 @@
 	if(thermite)
 		if(isWelder(W))
 			var/obj/item/weldingtool/WT = W
-			if(!WT.can_use(1, user) && istype(W, /obj/item/weldingtool))
+			if(!WT.can_use(1, user))
 				return TRUE
 			WT.remove_fuel(1, user)
 			thermitemelt(user)

@@ -132,26 +132,25 @@
 /obj/item/mech_component/proc/update_components()
 	return
 
-/obj/item/mech_component/proc/repair_brute_generic(obj/item/W, mob/user)
-	var/obj/item/weldingtool/WT = W
-	if(!IsWelder(W))
+/obj/item/mech_component/proc/repair_brute_generic(obj/item/weldingtool/WT, mob/user)
+	if(!istype(WT))
 		return
 	if(!brute_damage)
 		to_chat(user, SPAN_NOTICE("You inspect \the [src] but find nothing to weld."))
 		return
-	if(istype(W, /obj/item/weldingtool) && !WT.isOn())
+	if(!WT.isOn())
 		to_chat(user, SPAN_WARNING("Turn \the [WT] on, first."))
 		return
-	if(istype(W, /obj/item/weldingtool) && !WT.can_use((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user)) return
-	user.visible_message(
-		SPAN_NOTICE("\The [user] begins welding the damage on \the [src]..."),
-		SPAN_NOTICE("You begin welding the damage on \the [src]...")
-	)
-	var/repair_value = 10 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
-	if(user.do_skilled(1 SECOND, SKILL_DEVICES , src, 0.6) && brute_damage && WT.remove_fuel((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user))
-		repair_brute_damage(repair_value)
-		to_chat(user, SPAN_NOTICE("You mend the damage to \the [src]."))
-		playsound(user.loc, 'sound/items/Welder.ogg', 25, 1)
+	if(WT.can_use((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user))
+		user.visible_message(
+			SPAN_NOTICE("\The [user] begins welding the damage on \the [src]..."),
+			SPAN_NOTICE("You begin welding the damage on \the [src]...")
+		)
+		var/repair_value = 10 * max(user.get_skill_value(SKILL_CONSTRUCTION), user.get_skill_value(SKILL_DEVICES))
+		if(user.do_skilled(1 SECOND, SKILL_DEVICES , src, 0.6) && brute_damage && WT.remove_fuel((SKILL_MAX + 1) - user.get_skill_value(SKILL_CONSTRUCTION), user))
+			repair_brute_damage(repair_value)
+			to_chat(user, SPAN_NOTICE("You mend the damage to \the [src]."))
+			playsound(user.loc, 'sound/items/Welder.ogg', 25, 1)
 
 /obj/item/mech_component/proc/repair_burn_generic(obj/item/stack/cable_coil/CC, mob/user)
 	if(!istype(CC))

@@ -166,8 +166,7 @@
 
 	if(reinf_material && reinf_material.stack_type && isWelder(W))
 		var/obj/item/weldingtool/WT = W
-		if(use(2))
-			if(istype(W, /obj/item/weldingtool) && !WT.remove_fuel(2, user)) return
+		if(WT.remove_fuel(2, user) && use(2))
 			to_chat(user,SPAN_NOTICE("You recover some [reinf_material.use_name] from \the [src]."))
 			reinf_material.place_sheet(get_turf(user), 1)
 		return TRUE

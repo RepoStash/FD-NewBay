@@ -49,7 +49,7 @@
 	// Welding Torch - Remove decal
 	if (isWelder(tool))
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(1, user, "to remove \the [src]."))
+		if (!welder.can_use(1, user, "to remove \the [src]."))
 			return TRUE
 		playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 		user.visible_message(

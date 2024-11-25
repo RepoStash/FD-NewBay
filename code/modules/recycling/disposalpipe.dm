@@ -229,16 +229,14 @@
 	// Welding Tool - Cut pipe
 	if (isWelder(tool))
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(1, user, "to slice \the [src]."))
+		if (!welder.can_use(1, user, "to slice \the [src]."))
 			return TRUE
 		playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 		user.visible_message(
 			SPAN_NOTICE("\The [user] starts slicing \the [src] with \a [tool]."),
 			SPAN_NOTICE("You start slicing \the [src] with \the [tool].")
 		)
-		if (!user.do_skilled((tool.toolspeed * 3) SECONDS, SKILL_CONSTRUCTION, src, do_flags = DO_REPAIR_CONSTRUCT) || !user.use_sanity_check(src, tool))
-			return TRUE
-		if(istype(tool, /obj/item/weldingtool) && !welder.remove_fuel(1,user))
+		if (!user.do_skilled((tool.toolspeed * 3) SECONDS, SKILL_CONSTRUCTION, src, do_flags = DO_REPAIR_CONSTRUCT) || !user.use_sanity_check(src, tool) || !welder.remove_fuel(1, user))
 			return TRUE
 		welded()
 		user.visible_message(

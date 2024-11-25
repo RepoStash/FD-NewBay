@@ -165,24 +165,23 @@
 
 		else if(isWelder(C))
 			var/obj/item/weldingtool/welder = C
-			if((!welder.can_use(2, user) && istype(C, /obj/item/weldingtool)) && (is_plating())) return
-			if(broken || burnt)
-				welder.remove_fuel(2, user)
-				to_chat(user, SPAN_NOTICE("You fix some dents on the broken plating."))
-				playsound(src, 'sound/items/Welder.ogg', 80, 1)
-				icon_state = "plating"
-				burnt = null
-				broken = null
-				return TRUE
-			else
-				welder.remove_fuel(2, user)
-				playsound(src, 'sound/items/Welder.ogg', 80, 1)
-				visible_message(SPAN_NOTICE("\The [user] has started melting the plating's reinforcements!"))
-				if(do_after(user, (C.toolspeed * 5) SECONDS, src, DO_REPAIR_CONSTRUCT))
-					if(welder.isOn() && welder_melt() && istype(C, /obj/item/weldingtool)) return
-					visible_message(SPAN_WARNING("\The [user] has melted the plating's reinforcements! It should be possible to pry it off."))
+			if(welder.can_use(2, user) && (is_plating()))
+				if(broken || burnt)
+					welder.remove_fuel(2, user)
+					to_chat(user, SPAN_NOTICE("You fix some dents on the broken plating."))
 					playsound(src, 'sound/items/Welder.ogg', 80, 1)
-				return TRUE
+					icon_state = "plating"
+					burnt = null
+					broken = null
+					return TRUE
+				else
+					welder.remove_fuel(2, user)
+					playsound(src, 'sound/items/Welder.ogg', 80, 1)
+					visible_message(SPAN_NOTICE("\The [user] has started melting the plating's reinforcements!"))
+					if(do_after(user, (C.toolspeed * 5) SECONDS, src, DO_REPAIR_CONSTRUCT) && welder.isOn() && welder_melt())
+						visible_message(SPAN_WARNING("\The [user] has melted the plating's reinforcements! It should be possible to pry it off."))
+						playsound(src, 'sound/items/Welder.ogg', 80, 1)
+					return TRUE
 
 		else if(istype(C, /obj/item/gun/energy/plasmacutter) && (is_plating()) && !broken && !burnt)
 			var/obj/item/gun/energy/plasmacutter/cutter = C

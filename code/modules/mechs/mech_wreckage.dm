@@ -60,7 +60,7 @@
 			return TRUE
 		if (isWelder(tool))
 			var/obj/item/weldingtool/welder = tool
-			if (istype(tool, /obj/item/weldingtool) && !welder.remove_fuel(1, user))
+			if (!welder.remove_fuel(1, user))
 				return TRUE
 		else if (istype(tool, /obj/item/gun/energy/plasmacutter))
 			var/obj/item/gun/energy/plasmacutter/plasmacutter = tool

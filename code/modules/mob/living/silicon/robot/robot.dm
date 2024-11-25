@@ -798,7 +798,7 @@
 			USE_FEEDBACK_FAILURE("\The [src] has no physical damage to repair.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (istype(tool, /obj/item/weldingtool) && !welder.can_use(1, user, "to repair \the [src]'s physical damage."))
+		if (!welder.can_use(1, user, "to repair \the [src]'s physical damage."))
 			return TRUE
 		playsound(src, 'sound/items/Welder.ogg', 50, TRUE)
 		user.visible_message(

@@ -309,7 +309,7 @@
 	// Welding weapon - Dismantle closet
 	if (isWelder(weapon))
 		var/obj/item/weldingtool/welder = weapon
-		if (!welder.remove_fuel(1, user) && istype(weapon, /obj/item/weldingtool))
+		if (!welder.remove_fuel(1, user))
 			return TRUE
 		slice_into_parts(weapon, user)
 		return TRUE
@@ -344,7 +344,7 @@
 		if (!HAS_FLAGS(setup, CLOSET_CAN_BE_WELDED))
 			USE_FEEDBACK_FAILURE("\The [src] can't be welded shut.")
 			return TRUE
-		if (!welder.can_use(1, user) && istype(tool, /obj/item/weldingtool))
+		if (!welder.can_use(1, user))
 			return TRUE
 		welded = !welded
 		update_icon()

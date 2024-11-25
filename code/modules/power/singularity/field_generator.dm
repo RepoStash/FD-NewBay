@@ -124,28 +124,26 @@ field_generator power level display
 				to_chat(user, SPAN_WARNING("The [src.name] needs to be wrenched to the floor."))
 				return TRUE
 			if(1)
-				if (istype(W, /obj/item/weldingtool) && !WT.can_use(1,user))
-					return TRUE
-				playsound(src.loc, 'sound/items/Welder2.ogg', 50, 1)
-				user.visible_message("[user.name] starts to weld the [src.name] to the floor.", \
-					"You start to weld the [src] to the floor.", \
-					"You hear welding")
-				if (do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
-					if(!src || (istype(W, /obj/item/weldingtool) && !WT.remove_fuel(1, user))) return TRUE
-					state = 2
-					to_chat(user, "You weld the field generator to the floor.")
+				if (WT.can_use(1,user))
+					playsound(src.loc, 'sound/items/Welder2.ogg', 50, 1)
+					user.visible_message("[user.name] starts to weld the [src.name] to the floor.", \
+						"You start to weld the [src] to the floor.", \
+						"You hear welding")
+					if (do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
+						if(!src || !WT.remove_fuel(1, user)) return TRUE
+						state = 2
+						to_chat(user, "You weld the field generator to the floor.")
 				return TRUE
 			if(2)
-				if (istype(W, /obj/item/weldingtool) && !WT.can_use(1,user))
-					return TRUE
-				playsound(src.loc, 'sound/items/Welder2.ogg', 50, 1)
-				user.visible_message("[user.name] starts to cut the [src.name] free from the floor.", \
-					"You start to cut the [src] free from the floor.", \
-					"You hear welding")
-				if (do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
-					if(!src || (istype(W, /obj/item/weldingtool) && !WT.remove_fuel(1, user))) return TRUE
-					state = 1
-					to_chat(user, "You cut the [src] free from the floor.")
+				if (WT.can_use(1,user))
+					playsound(src.loc, 'sound/items/Welder2.ogg', 50, 1)
+					user.visible_message("[user.name] starts to cut the [src.name] free from the floor.", \
+						"You start to cut the [src] free from the floor.", \
+						"You hear welding")
+					if (do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
+						if(!src || !WT.remove_fuel(1, user)) return TRUE
+						state = 1
+						to_chat(user, "You cut the [src] free from the floor.")
 				return TRUE
 	return ..()
 

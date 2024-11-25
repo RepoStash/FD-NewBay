@@ -222,7 +222,7 @@
 			return TRUE
 
 		var/obj/item/weldingtool/WT = W
-		if(!WT.remove_fuel(5) && istype(W, /obj/item/weldingtool))
+		if(!WT.remove_fuel(5))
 			return
 
 		WT.remove_fuel(5)
