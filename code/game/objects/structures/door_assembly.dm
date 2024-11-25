@@ -332,7 +332,7 @@
 		if (glass)
 			var/glass_noun = istext(glass) ? "[glass] plating" : "glass panel"
 			var/obj/item/weldingtool/welder = tool
-			if (!welder.can_use(1, user, "to remove \the [src]'s [glass_noun].") && (istype(tool, /obj/item/weldingtool)))
+			if (!welder.can_use(1, user, "to remove \the [src]'s [glass_noun]."))
 				return TRUE
 			playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 			user.visible_message(
@@ -344,7 +344,7 @@
 			if (!glass)
 				USE_FEEDBACK_FAILURE("\The [src]'s state has changed.")
 				return TRUE
-			if (!welder.remove_fuel(1, user) && (istype(tool, /obj/item/weldingtool)))
+			if (!welder.remove_fuel(1, user))
 				return TRUE
 			var/obj/item/stack/material/stack
 			if (istext(glass))
@@ -366,7 +366,7 @@
 			USE_FEEDBACK_FAILURE("\The [src] must be unanchored before you can dismantle it.")
 			return TRUE
 		var/obj/item/weldingtool/welder = tool
-		if (!welder.can_use(1, user, "to dismantle \the [src].") && (istype(tool, /obj/item/weldingtool)))
+		if (!welder.can_use(1, user, "to dismantle \the [src]."))
 			return TRUE
 		playsound(src, 'sound/items/Welder2.ogg', 50, TRUE)
 		user.visible_message(
@@ -378,7 +378,7 @@
 		if (anchored)
 			USE_FEEDBACK_FAILURE("\The [src] must be unanchored before you can dismantle it.")
 			return TRUE
-		if (!welder.remove_fuel(1, user) && (istype(tool, /obj/item/weldingtool)))
+		if (!welder.remove_fuel(1, user))
 			return TRUE
 		var/obj/item/stack/material/steel/stack = new(loc, 4)
 		transfer_fingerprints_to(stack)

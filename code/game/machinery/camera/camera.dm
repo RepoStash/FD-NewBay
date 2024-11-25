@@ -378,19 +378,19 @@
 
 	return null
 
-/obj/machinery/camera/proc/weld(obj/item/I, mob/user)
+/obj/machinery/camera/proc/weld(obj/item/weldingtool/WT, mob/user)
 
 	if(busy)
 		return 0
-	var/obj/item/weldingtool/WT = I
-	if(!WT.can_use(1, user) && (istype(I, /obj/item/weldingtool))) return TRUE
-	to_chat(user, SPAN_NOTICE("You start to weld \the [src].."))
-	playsound(src.loc, 'sound/items/Welder.ogg', 50, 1)
-	busy = 1
-	if(do_after(user, 10 SECONDS, src, DO_REPAIR_CONSTRUCT) && WT.remove_fuel(1, user))
+
+	if(WT.can_use(1, user))
+		to_chat(user, SPAN_NOTICE("You start to weld \the [src].."))
 		playsound(src.loc, 'sound/items/Welder.ogg', 50, 1)
-		busy = 0
-		return 1
+		busy = 1
+		if(do_after(user, 10 SECONDS, src, DO_REPAIR_CONSTRUCT) && WT.remove_fuel(1, user))
+			playsound(src.loc, 'sound/items/Welder.ogg', 50, 1)
+			busy = 0
+			return 1
 
 	busy = 0
 	return 0

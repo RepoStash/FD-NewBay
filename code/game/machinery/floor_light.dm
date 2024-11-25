@@ -48,7 +48,7 @@ var/global/list/floor_light_cache = list()
 
 	if (isWelder(W) && (health_damaged() || MACHINE_IS_BROKEN(src)))
 		var/obj/item/weldingtool/WT = W
-		if(!WT.can_use(1, user) && (istype(W, /obj/item/weldingtool)))
+		if(!WT.can_use(1, user))
 			return TRUE
 		playsound(src.loc, 'sound/items/Welder.ogg', 50, 1)
 		if(!do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))

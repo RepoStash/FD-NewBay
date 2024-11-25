@@ -227,18 +227,18 @@
 			return TRUE
 
 		var/obj/item/weldingtool/welder = I
-		if(!welder.can_use(2, user) && (istype(I, /obj/item/weldingtool))) return TRUE
-		to_chat(user, SPAN_NOTICE("You start to fix dents and weld \the [repairing] into place."))
-		playsound(src, 'sound/items/Welder.ogg', 100, 1)
-		if(do_after(user, (0.5 * repairing.amount) SECONDS, src, DO_REPAIR_CONSTRUCT) && welder.remove_fuel(2, user))
-			if (!repairing)
-				return TRUE//the materials in the door have been removed before welding was finished.
+		if(welder.can_use(2, user))
+			to_chat(user, SPAN_NOTICE("You start to fix dents and weld \the [repairing] into place."))
+			playsound(src, 'sound/items/Welder.ogg', 100, 1)
+			if(do_after(user, (0.5 * repairing.amount) SECONDS, src, DO_REPAIR_CONSTRUCT) && welder.remove_fuel(2, user))
+				if (!repairing)
+					return TRUE//the materials in the door have been removed before welding was finished.
 
-			to_chat(user, SPAN_NOTICE("You finish repairing the damage to \the [src]."))
-			restore_health(repairing.amount * DOOR_REPAIR_AMOUNT)
-			update_icon()
-			qdel(repairing)
-			repairing = null
+				to_chat(user, SPAN_NOTICE("You finish repairing the damage to \the [src]."))
+				restore_health(repairing.amount * DOOR_REPAIR_AMOUNT)
+				update_icon()
+				qdel(repairing)
+				repairing = null
 		return TRUE
 
 	if(repairing && isCrowbar(I))

@@ -53,20 +53,20 @@
 			to_chat(user, SPAN_WARNING("You need at least two rods to do this."))
 			return TRUE
 
-		if(!WT.remove_fuel(1,user) && (istype(W, /obj/item/weldingtool))) return  TRUE
-		var/obj/item/stack/material/new_item = material.place_sheet(usr.loc)
-		new_item.add_to_stacks(usr)
-		user.visible_message(
-			SPAN_NOTICE("\The [user] welds \the [src] into \a [material.sheet_singular_name]."),
-			SPAN_NOTICE("You weld \the [src] into \a [material.sheet_singular_name].")
-			)
-		var/obj/item/stack/material/rods/R = src
-		src = null
-		var/replace = (user.get_inactive_hand()==R)
-		R.use(2)
-		if (!R && replace)
-			user.put_in_hands(new_item)
-		return TRUE
+		if(WT.remove_fuel(1,user))
+			var/obj/item/stack/material/new_item = material.place_sheet(usr.loc)
+			new_item.add_to_stacks(usr)
+			user.visible_message(
+				SPAN_NOTICE("\The [user] welds \the [src] into \a [material.sheet_singular_name]."),
+				SPAN_NOTICE("You weld \the [src] into \a [material.sheet_singular_name].")
+				)
+			var/obj/item/stack/material/rods/R = src
+			src = null
+			var/replace = (user.get_inactive_hand()==R)
+			R.use(2)
+			if (!R && replace)
+				user.put_in_hands(new_item)
+			return TRUE
 
 	return ..()
 

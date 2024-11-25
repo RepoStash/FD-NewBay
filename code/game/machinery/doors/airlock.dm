@@ -905,7 +905,7 @@ About the new airlock wires panel:
 
 	if(isWelder(item))
 		var/obj/item/weldingtool/WT = item
-		if(!WT.remove_fuel(3,user)  && (istype(item, /obj/item/weldingtool)))
+		if(!WT.remove_fuel(3,user))
 			return 0
 		cut_verb = "cutting"
 		cut_sound = 'sound/items/Welder.ogg'
@@ -1024,7 +1024,7 @@ About the new airlock wires panel:
 
 	if (!repairing && isWelder(C) && operating != DOOR_OPERATING_YES && density)
 		var/obj/item/weldingtool/W = C
-		if(!W.can_use(1, user) && (istype(C, /obj/item/weldingtool)))
+		if(!W.can_use(1, user))
 			return TRUE
 		playsound(src, 'sound/items/Welder.ogg', 50, 1)
 		user.visible_message(SPAN_WARNING("\The [user] begins welding \the [src] [welded ? "open" : "closed"]!"),

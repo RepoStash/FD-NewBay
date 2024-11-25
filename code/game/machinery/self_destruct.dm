@@ -12,7 +12,7 @@
 /obj/machinery/self_destruct/use_tool(obj/item/W, mob/living/user, list/click_params)
 	if(isWelder(W))
 		var/obj/item/weldingtool/WT = W
-		if(damaged && (WT.can_use(5, user) && (istype(W, /obj/item/weldingtool)) ))
+		if(damaged && WT.can_use(5, user))
 			user.visible_message(
 				SPAN_NOTICE("\The [user] begins to repair \the [src]."),
 				SPAN_NOTICE("You begin repairing [src].")

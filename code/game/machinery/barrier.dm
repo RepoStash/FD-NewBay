@@ -43,7 +43,7 @@
 		return TRUE
 	if (isWelder(I))
 		var/obj/item/weldingtool/W = I
-		if (!W.can_use(1, user) && (istype(I, /obj/item/weldingtool)))
+		if (!W.can_use(1, user))
 			return TRUE
 		if (!emagged)
 			to_chat(user, SPAN_WARNING("\The [src]'s locking clamps are not damaged."))

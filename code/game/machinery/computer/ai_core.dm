@@ -356,7 +356,7 @@ var/global/list/empty_playable_ai_cores = list()
 				USE_FEEDBACK_FAILURE("\The [src] needs to be unanchored from the floor before you can dismantle it with \the [tool].")
 				return TRUE
 			var/obj/item/weldingtool/welder = tool
-			if (!welder.can_use(1, user, "to deconstruct \the [src]") && (istype(tool, /obj/item/weldingtool)))
+			if (!welder.can_use(1, user, "to deconstruct \the [src]"))
 				return TRUE
 			user.visible_message(
 				SPAN_NOTICE("\The [user] starst dismantling \the [src] with \a [tool]."),
@@ -365,7 +365,7 @@ var/global/list/empty_playable_ai_cores = list()
 			playsound(src, 'sound/items/Welder.ogg', 50, TRUE)
 			if (!user.do_skilled(SKILL_CONSTRUCTION, 2 SECONDS, src, do_flags = DO_REPAIR_CONSTRUCT) || !user.use_sanity_check(src, tool))
 				return TRUE
-			if (!welder.remove_fuel(1, user) && (istype(tool, /obj/item/weldingtool)))
+			if (!welder.remove_fuel(1, user))
 				return TRUE
 			new /obj/item/stack/material/plasteel(loc, 4)
 			user.visible_message(

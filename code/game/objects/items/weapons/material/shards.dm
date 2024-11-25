@@ -65,6 +65,7 @@
 /obj/item/material/shard/use_tool(obj/item/W, mob/living/user, list/click_params)
 	if(isWelder(W) && material.shard_can_repair)
 		var/obj/item/weldingtool/WT = W
+
 		if(!WT.remove_fuel(1, user) && (istype(W, /obj/item/weldingtool))) return
 		material.place_sheet(get_turf(src))
 		qdel(src)

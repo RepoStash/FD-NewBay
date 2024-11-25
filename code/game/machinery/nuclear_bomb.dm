@@ -84,7 +84,7 @@ var/global/bomb_set
 			if(0)
 				if(isWelder(O))
 					var/obj/item/weldingtool/WT = O
-					if(!WT.can_use(5, user) && (istype(O, /obj/item/weldingtool)))
+					if(!WT.can_use(5, user))
 						return TRUE
 
 					user.visible_message(
@@ -93,7 +93,7 @@ var/global/bomb_set
 					)
 
 					if(do_after(user, (O.toolspeed * 4) SECONDS, src, DO_REPAIR_CONSTRUCT))
-						if(!src || !user || (!WT.remove_fuel(5, user) && (istype(O, /obj/item/weldingtool)))) return TRUE
+						if(!src || !user || !WT.remove_fuel(5, user)) return TRUE
 						user.visible_message(
 							SPAN_NOTICE("\The [user] cuts through the bolt covers on \the [src]."),
 							SPAN_NOTICE("You cut through the bolt covers on \the [src].")
@@ -120,7 +120,7 @@ var/global/bomb_set
 			if(2)
 				if(isWelder(O))
 					var/obj/item/weldingtool/WT = O
-					if(!WT.can_use(5, user) && (istype(O, /obj/item/weldingtool)))
+					if(!WT.can_use(5, user))
 						return TRUE
 
 					user.visible_message(
@@ -129,7 +129,7 @@ var/global/bomb_set
 					)
 
 					if(do_after(user, (O.toolspeed * 4) SECONDS, src, DO_REPAIR_CONSTRUCT))
-						if(!src || !user || (!WT.remove_fuel(5, user) && (istype(O, /obj/item/weldingtool)))) return TRUE
+						if(!src || !user || !WT.remove_fuel(5, user)) return TRUE
 						user.visible_message(
 							SPAN_NOTICE("\The [user] cuts apart the anchoring system sealant on \the [src]."),
 							SPAN_NOTICE("You cut apart the anchoring system's sealant.")
