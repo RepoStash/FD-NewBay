@@ -258,7 +258,7 @@
 		to_chat(user, SPAN_DANGER("\The [src] is welded shut!"))
 		return TRUE
 
-	if(isCrowbar(C) || istype(C,/obj/item/material/twohanded/fireaxe) || istype(C,/obj/item/psychic_power/psiaxe))
+	if(isCrowbar(C) || istype(C,/obj/item/material/twohanded/fireaxe))
 		if(operating)
 			return TRUE
 

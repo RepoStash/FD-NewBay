@@ -886,7 +886,7 @@
 	var/chopped = FALSE
 
 /obj/structure/flora/tree/grim/brown/use_tool(obj/item/W, mob/user)
-	if(istype(W,/obj/item/material/hatchet) || istype(W,/obj/item/psychic_power/psiaxe) || istype(W,/obj/item/psychic_power/psiblade))
+	if(istype(W,/obj/item/material/hatchet))
 		if(!chopped)
 			visible_message("<span class='notice'>\The [user] starts chopping \the [src]</span>")
 			if( do_after(user, 50) )

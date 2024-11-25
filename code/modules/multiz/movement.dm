@@ -86,10 +86,6 @@
 	//First do species check
 	if(species && species.can_overcome_gravity(src))
 		return 1
-//FD PSIONICS//
-	if(levitation)
-		return 1
-//FD PSIONICS/
 	else
 		if (isturf(loc))
 			var/turf/T = loc
@@ -220,10 +216,6 @@
 
 /mob/living/carbon/human/can_fall(anchor_bypass = FALSE, turf/location_override = loc)
 	if(..())
-//FD PSIONICS//
-		if(levitation)
-			return FALSE
-//FD PSIONICS/
 		return species.can_fall(src)
 
 /atom/movable/proc/handle_fall(turf/landing)
