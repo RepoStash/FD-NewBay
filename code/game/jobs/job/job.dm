@@ -49,15 +49,13 @@
 	var/list/species_branch_rank_cache_ = list()
 	var/list/psi_faculties                // Starting psi faculties, if any.
 	var/psi_latency_chance = 0            // Chance of an additional psi latency, if any.
-	var/give_psionic_implant_on_join = FALSE // If psionic, will be implanted for control.
+	var/give_psionic_implant_on_join = TRUE // If psionic, will be implanted for control.
 
 	var/use_species_whitelist // If set, restricts the job to players with the given species whitelist. This does NOT restrict characters joining as the job to the species itself.
 
 	var/required_language
 
 	var/faction = MOB_FACTION_CREW
-
-	var/global/psi_allowed_species = list(/datum/species/human,/datum/species/human/vatgrown,/datum/species/human/tritonian,/datum/species/human/gravworlder,/datum/species/human/spacer)
 
 /datum/job/New()
 
@@ -73,50 +71,6 @@
 /datum/job/dd_SortValue()
 	return title
 
-// [FD-ADD]
-/datum/job/proc/give_psi(mob/living/carbon/human/H)
-	if(!(all_species[H.client.prefs.species].type in psi_allowed_species))
-		return
-
-	if(psi_latency_chance && prob(psi_latency_chance))
-		H.set_psi_rank(pick(PSI_COERCION, PSI_REDACTION, PSI_ENERGISTICS, PSI_PSYCHOKINESIS, PSI_CONSCIOUSNESS, PSI_MANIFESTATION, PSI_METAKINESIS), 1, defer_update = TRUE)
-
-	var/list/psi_abilities_by_name = H.client.prefs.psi_abilities
-
-	if(!H.client.prefs.psi_threat_level)
-		return
-
-	var/list/person_psi_faculties = list()
-	person_psi_faculties |= psi_faculties
-
-	for(var/faculty_name in psi_abilities_by_name)
-		var/singleton/psionic_faculty/faculty = SSpsi.faculties_by_name[faculty_name]
-		var/faculty_id = faculty.id
-		person_psi_faculties |= list("[faculty_id]" = psi_abilities_by_name[faculty_name] - 1)
-
-	for(var/psi in person_psi_faculties)
-		if(person_psi_faculties[psi] > 0)
-			H.set_psi_rank(psi, person_psi_faculties[psi], take_larger = TRUE, defer_update = TRUE)
-
-	H.psi.update()
-
-	give_psionic_implant_on_join ||= (H.client.prefs.psi_openness && H.client.prefs.psi_status < 4)
-
-	if(!give_psionic_implant_on_join)
-		return
-
-	var/obj/item/implant/psi_control/imp = new
-	imp.implanted(H)
-	imp.forceMove(H)
-	imp.imp_in = H
-	imp.implanted = TRUE
-	var/obj/item/organ/external/affected = H.get_organ(BP_HEAD)
-	if(affected)
-		affected.implants += imp
-		imp.part = affected
-	to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
-// [/FD-ADD]
-
 /datum/job/proc/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
 
 	if (required_language)
@@ -127,7 +81,24 @@
 		H.add_language(LANGUAGE_SPACER)
 		H.set_default_language(all_languages[LANGUAGE_SPACER])
 
-	give_psi(H)
+	if(psi_latency_chance && prob(psi_latency_chance))
+		H.set_psi_rank(pick(PSI_COERCION, PSI_REDACTION, PSI_ENERGISTICS, PSI_PSYCHOKINESIS), 1, defer_update = TRUE)
+	if(islist(psi_faculties))
+		for(var/psi in psi_faculties)
+			H.set_psi_rank(psi, psi_faculties[psi], take_larger = TRUE, defer_update = TRUE)
+	if(H.psi)
+		H.psi.update()
+		if(give_psionic_implant_on_join)
+			var/obj/item/implant/psi_control/imp = new
+			imp.implanted(H)
+			imp.forceMove(H)
+			imp.imp_in = H
+			imp.implanted = TRUE
+			var/obj/item/organ/external/affected = H.get_organ(BP_HEAD)
+			if(affected)
+				affected.implants += imp
+				imp.part = affected
+			to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
 
 	var/singleton/hierarchy/outfit/outfit = get_outfit(H, alt_title, branch, grade)
 	if(outfit) . = outfit.equip(H, title, alt_title)
