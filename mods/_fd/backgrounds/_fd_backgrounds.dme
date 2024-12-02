@@ -9,4 +9,13 @@
 #include "code/locations_humankind.dm"
 #include "code/locations_ipc.dm"
 
+//Vox stuff
+#include "code/vox/code.dm"
+
+#include "code/vox/culture.dm"
+#include "code/vox/factions.dm"
+#include "code/vox/location.dm"
+#include "code/vox/religion.dm"
+
+
 #endif
