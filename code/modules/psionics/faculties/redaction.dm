@@ -12,6 +12,10 @@
 /singleton/psionic_power/redaction/proc/check_dead(mob/living/target)
 	if(!istype(target))
 		return FALSE
+
+	if(!isliving(target))
+		return FALSE // No more ressurect of COOKIE! :(
+
 	if(target.stat == DEAD || (target.status_flags & FAKEDEATH))
 		return TRUE
 	return FALSE

@@ -13,6 +13,9 @@
 	if (!.)
 		return FALSE
 
+	if(!isliving(target)) // No more Telepathy with doors :(
+		return FALSE
+
 	if (!istype(target))
 		to_chat(user, SPAN_WARNING("Вы не можете пробиться в сознание [target]."))
 		return FALSE
@@ -46,11 +49,13 @@
 
 	to_chat(usr, SPAN_NOTICE("<b>Вы пытаетесь установить контакт с сознанием [linked_soul], дабы донести до него следующее: <i>[phrase]</i></b>"))
 	to_chat(linked_soul, SPAN_OCCULT("<b>Вы слышите отчётливый голос [usr] в своей голове, он говорит вам: <i>[phrase]</i></b>"))
+	log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | PsyBound \] [usr] говорит [linked_soul]: <i>[phrase]</i></b>"))
 	var/option =  alert(linked_soul, "Вы хотите ответить этому зову?", "Обратная связь", "Да", "Нет")
 	switch(option)
 		if("Да")
 			var/answer =  input(linked_soul, "Что вы хотите передать в ответ?", "Связаться", "...") as null|text
 			to_chat(usr, SPAN_OCCULT("<b>[linked_soul] отвечает вам: <i>[answer]</i></b>"))
+			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | PsyBound \] [linked_soul] говорит [usr]: <i>[answer]</i></b>"))
 		else
 			return
 
@@ -78,6 +83,7 @@
 						user.space = 1
 						user.verbs += /mob/living/proc/ContactSoulmate
 						to_chat(user, SPAN_NOTICE("<b>Вы ощущаете, как ваше сознание становится единым целым с сознанием [target]</b>"))
+						log_and_message_admins("<b> \[ALLAXETIA | PsyBound \] [user] соединил свой разум с [target]]")
 						return 0
 					else
 						to_chat(user, SPAN_NOTICE("<b>[target] отказался от вашего предложения.</b>"))
@@ -89,6 +95,7 @@
 					user.space = 0
 					to_chat(user, SPAN_NOTICE("<b>Вы раз и навсегда рвёте ваши узы с [target]!</b>"))
 					to_chat(target, SPAN_WARNING("Вы ощущаете странную потерю..."))
+					log_and_message_admins("<b> \[ALLAXETIA | PsyBound \] [user] разорвал узы своего разума с [target]]")
 					return 0
 				else
 					to_chat(user, SPAN_NOTICE("<b>У вас нет никаких уз с [target]!</b>"))
@@ -102,6 +109,7 @@
 
 				var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
 				to_chat(user, SPAN_NOTICE("<b>Вы пытаетесь установить контакт с сознанием [target], дабы донести до него следующее: <i>[phrase]</i></b>"))
+				log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Telepathy \] [user] говорит [target]: <i>[phrase]</i></b>"))
 				if(target.psi)
 					var/con_rank_target = target.psi.get_rank(PSI_CONSCIOUSNESS)
 					if(con_rank_target >= con_rank_user)
@@ -112,6 +120,7 @@
 							if("Да")
 								var/answer =  input(user, "Что вы хотите передать в ответ?", "Связаться", "...") as null|text
 								to_chat(user, SPAN_OCCULT("<b>[target] отвечает вам: <i>[answer]</i></b>"))
+								log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Telepathy \] [target] отвечает [user]: <i>[phrase]</i></b>"))
 							else
 								return 0
 					else
@@ -128,6 +137,7 @@
 
 		var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
 		to_chat(user, SPAN_NOTICE("<b>Вы пытаетесь установить контакт с сознанием [target], дабы донести до него следующее: <i>[phrase]</i></b>"))
+		log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Telepathy \] [user] говорит [target]: <i>[phrase]</i></b>"))
 		if(target.psi)
 			var/con_rank_target = target.psi.get_rank(PSI_CONSCIOUSNESS)
 			if(con_rank_target >= con_rank_user)
@@ -138,6 +148,7 @@
 						if("Да")
 							var/answer =  input(target, "Что вы хотите передать в ответ?", "Связаться", "...") as null|text
 							to_chat(user, SPAN_OCCULT("<b>[target] отвечает вам: <i>[answer]</i></b>"))
+							log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Telepathy \] [target] отвечает [user]: <i>[phrase]</i></b>"))
 						else
 							return
 			else
@@ -173,6 +184,7 @@
 		var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
 		var/started_mindread = world.time
 		to_chat(user, SPAN_NOTICE("<b>Вы погружаетесь в глубины сознания [target], ища ответ на вопрос: <i>[question]</i></b>"))
+		log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Read Mind \] [user] читает разум [target], ища ответ на вопрос: <i>[question]</i></b>"))
 		var/option = alert(target, "Кто-то пытается проникнуть в ваше сознание, дабы получить доступ к его воспоминаниям! Вы позволите этому случиться?", "Выбирай!", "Да", "Нет")
 		if (!option)
 			if(target.psi)
@@ -191,6 +203,7 @@
 				to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе!</b>"))
 				to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания, но ваше сопротивление повлекло за собой куда больше проблем. Ваша голова просто раскалывается.</b>"))
 				return
+			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Read Mind \] [user] встретил сопротивление со стороны [target]!</b>"))
 		if(option == "Yes")
 			to_chat(target, SPAN_NOTICE("<b>Некто пытается получить ответ на вопрос: <i>[question]</i></b>"))
 		if(option == "No")
@@ -210,14 +223,17 @@
 				to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе!</b>"))
 				to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания, но ваше сопротивление повлекло за собой куда больше проблем. Ваша голова просто раскалывается.</b>"))
 				return
+			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Read Mind \] [user] встретил сопротивление со стороны [target]!</b>"))
 
 
 		var/answer =  input(target, question, "Чтение мыслей") as null|text
 		if(!answer || world.time > started_mindread + 60 SECONDS || user.stat != CONSCIOUS || target.stat == DEAD)
 			to_chat(user, SPAN_NOTICE("<b>Вам не удалось добиться чего-либо полезного от [target].</b>"))
+			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Read Mind \] [user] не получил ответов от [target]!</b>"))
 		else
 			to_chat(user, SPAN_NOTICE("<b>В поисках ответов в голове [target], вы нахоите следующее: <i>[answer]</i></b>"))
-		msg_admin_attack("[key_name(user)] использует чтение мыслей на [key_name(target)] с вопросом \"[question]\" и [answer?"следующим ответом \"[answer]\".":"не получил никакого ответа."]")
+		log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | Read Mind \] [user] нашел в разуме [target] ответ: <i>[answer]</i></b>"))
+//		msg_admin_attack("[key_name(user)] использует чтение мыслей на [key_name(target)] с вопросом \"[question]\" и [answer?"следующим ответом \"[answer]\".":"не получил никакого ответа."]")
 		return TRUE
 
 /singleton/psionic_power/consciousness/focus
@@ -274,6 +290,8 @@
 		to_chat(user, SPAN_NOTICE("Вы покидаете разум [target], получив желаемое."))
 		to_chat(target, SPAN_DANGER("[user] наконец покидает ваше сознание, узнав желаемое."))
 		target.show_psi_assay(user)
+
+		log_and_message_admins(SPAN_OCCULT("\[ALLAXETIA | Assay \] [user] ищет Пси-Потенциал в разуме [target]"))
 		return TRUE
 
 /singleton/psionic_power/consciousness/absorb
@@ -296,6 +314,7 @@
 			return 0
 		if(target.psi)
 			var/con_rank_target = target.psi.get_rank(PSI_CONSCIOUSNESS)
+			log_and_message_admins(SPAN_DANGER("<b> \[ALLAXETIA | Absorb \] [user] атакует разум [target]!</b>"))
 			if(con_rank_user > con_rank_target)
 				sound_to(user, 'sound/effects/psi/power_fail.ogg')
 				if(prob(30))
@@ -366,11 +385,11 @@
 		src.alpha = 200
 	spawn(3 SECONDS)
 		src.alpha = 255
-	if(src.psi)
+/*	if(src.psi)
 		var/con_rank_user = src.psi.get_rank(PSI_CONSCIOUSNESS)
 		if(con_rank_user == PSI_RANK_GRANDMASTER)
 			src.RemoveMovementHandler(/datum/movement_handler/mob/incorporeal)
-
+*/
 /singleton/psionic_power/consciousness/invis/invoke(mob/living/user, mob/living/target)
 	var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
 	if(user.zone_sel.selecting != BP_EYES || user.a_intent != I_HELP)
@@ -382,6 +401,7 @@
 
 	if(istype(target, /mob/living/carbon) && target != user && con_rank_user >= PSI_RANK_MASTER)
 		if(do_after(user, 30))
+			log_and_message_admins("<b> \[ALLAXETIA | Invis \] [user] сделал невидимым [target]!</b>")
 			user.visible_message(SPAN_WARNING("[user] касается [target] и тот исчезает на глазах!"))
 			target.alpha = 200
 			spawn(1 SECONDS)
@@ -410,8 +430,9 @@
 			user.alpha = 25
 		spawn(5 SECONDS)
 			user.alpha = 10
-		if(con_rank_user == PSI_RANK_GRANDMASTER)
+/*		if(con_rank_user == PSI_RANK_GRANDMASTER)
 			user.AddMovementHandler(/datum/movement_handler/mob/incorporeal)
+*/
 		user.run_timer_invisibility()
 		return TRUE
 
@@ -432,6 +453,7 @@
 		return FALSE
 	. = ..()
 	if(.)
+		log_and_message_admins(SPAN_DANGER("<b> \[ALLAXETIA | Hallucinations \] [user] вызвал галлюцинации у [target]!</b>"))
 		new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "eye_opening")
 		playsound(target.loc, 'sound/hallucinations/far_noise.ogg', 15, 1)
 		target.hallucination(rand(10,20) * con_rank_user, 100)
@@ -525,6 +547,7 @@
 	. = ..()
 	if(.)
 		if(do_after(user, 10))
+			log_and_message_admins(SPAN_DANGER("<b> \[ALLAXETIA | Copies \] [user] размножился на [amount] копий!</b>"))
 			to_chat(user, SPAN_WARNING("Ты разделяешь своё подсознание на [amount] копий"))
 			for(var/i = 1 to amount)
 				var/mob/living/simple_animal/hostile/mirror_shade/MS = new(pick(get_adjacent_open_turfs(user)), user)

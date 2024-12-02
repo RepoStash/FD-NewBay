@@ -2,9 +2,9 @@
 	title = "Chief Steward"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 1
-	spawn_positions = 1
-	minimum_character_age = list(SPECIES_HUMAN = 28)
+	total_positions = 0
+	spawn_positions = 0
+	minimum_character_age = 0
 	ideal_character_age = 35
 	economic_power = 6
 	minimal_player_age = 7
@@ -47,8 +47,8 @@
 	title = "Chaplain"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	minimum_character_age = list(SPECIES_HUMAN = 24)
 	ideal_character_age = 40
 	economic_power = 6
@@ -76,8 +76,8 @@
 	title = "Sanitation Technician"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Chief Steward"
 	minimum_character_age = list(SPECIES_HUMAN = 20)
 	ideal_character_age = 20
@@ -93,7 +93,6 @@
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor,
 		/datum/mil_rank/fleet/e2,
-		/datum/mil_rank/ec/e3,
 		/datum/mil_rank/fleet/e3,
 		/datum/mil_rank/fleet/e4
 	)
@@ -110,9 +109,9 @@
 	title = "Steward"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 2
-	spawn_positions = 2
-	minimum_character_age = list(SPECIES_HUMAN = 20)
+	total_positions = 1
+	spawn_positions = 1
+	minimum_character_age = 0
 	supervisors = "the Chief Steward"
 	alt_titles = list(
 		"Bartender",
@@ -127,6 +126,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor,
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/ec/e3,
 		/datum/mil_rank/ec/e5,
 		/datum/mil_rank/fleet/e2,
@@ -134,11 +134,30 @@
 		/datum/mil_rank/fleet/e4,
 		/datum/mil_rank/fleet/e5
 	)
-	min_skill = list(
-		SKILL_BOTANY = SKILL_BASIC,
-		SKILL_CHEMISTRY = SKILL_BASIC,
-		SKILL_COOKING = SKILL_TRAINED
+
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
 	)
+	skill_points = 52
 	access = list(
 		access_commissary,
 		access_hydroponics,
@@ -153,22 +172,51 @@
 	title = "Crewman"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = 9
+	spawn_positions = 9
 	supervisors = "the Chief Steward"
-	minimum_character_age = list(SPECIES_HUMAN = 20)
+	loadout_allowed = TRUE
+	minimum_character_age = 0
 	ideal_character_age = 20
-	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/service/crewman
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/service/crewman/fleet
+		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/service/crewman/fleet,
+		/datum/mil_branch/scga = /singleton/hierarchy/outfit/job/torch/crew/service/crewman/army,
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/ec/e3,
 		/datum/mil_rank/fleet/e2,
 		/datum/mil_rank/fleet/e3,
-		/datum/mil_rank/fleet/e4
+		/datum/mil_rank/fleet/e4,
+		/datum/mil_rank/scga/e2,
+		/datum/mil_rank/scga/e3,
+		/datum/mil_rank/scga/e4
 	)
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
+	)
+	skill_points = 52
 
 	access = list(
 		access_maint_tunnels, access_emergency_storage,

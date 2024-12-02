@@ -1093,6 +1093,23 @@
 	spawn(122 SECONDS)
 		visible_message(SPAN_WARNING("Издали слышны разговоры пришельцев и топот..."))
 	spawn(125 SECONDS)
+		ISay("Да чтоб вас- не шевелись, поняла?!")
+	spawn(132 SECONDS)
+		dir = turn(dir,-90)
+		dir = turn(dir,-90)
+		ISay("Я с ними разберусь...")
+	spawn(136 SECONDS)
+		visible_message(SPAN_NOTICE("[src] перехватывает винтовку по-крепче."))
+		forceMove(get_step(src, WEST))
+	spawn(137 SECONDS)
+		forceMove(get_step(src, WEST))
+	spawn(138 SECONDS)
+		forceMove(get_step(src, WEST))
+	spawn(139 SECONDS)
+		alpha = 0
+	spawn(140 SECONDS)
+		visible_message(SPAN_WARNING("Из коридора доносится стрёкот пушек..."))
+	spawn(142 SECONDS)
 		qdel(src)
 
 /mob/living/simple_animal/holo_npc/nancy
@@ -1137,5 +1154,183 @@
 	spawn(110 SECONDS)
 		visible_message(SPAN_NOTICE("[src] хнычет."))
 		ISay("П-папа-")
-	spawn(125 SECONDS)
+	spawn(117 SECONDS)
+		visible_message(SPAN_DANGER("[src] закатывает глаза в агонии."))
+	spawn(142 SECONDS)
 		qdel(src)
+
+/mob/living/simple_animal/holo_npc/alien1
+	name = "Unknown Alien"
+	desc = "Обычный алат в экзокостюме."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "ascent"
+	icon_living = "ascent"
+	icon_dead = "ascent"
+	color = "#a1209b"
+
+/mob/living/simple_animal/holo_npc/alien1/start_thinking()
+	dir = turn(dir,-90)
+	ISay("ℸ⍑╎∷ℸ ̣ || ℸ ̣ ⍑∷ᒷᒷ ʖᔑ⊣ᓭ 𝙹⎓ ᒲᒷᔑℸ ̣  𝙹リʖ𝙹ᔑ∷↸") //"Итого, 33 мешка с мясом на борту"
+	spawn(6 SECONDS)
+		dir = turn(dir,-90)
+		ISay("╎ ℸ ̣ ⍑╎リꖌ ℸ ̣ ⍑ᔑℸ ̣ 'ᓭ ᔑꖎꖎ ⎓𝙹∷ ℸ ̣ 𝙹↸ᔑ||") // "Кажется, за сегодня это вся партия"
+	spawn(14 SECONDS)
+		ISay("╎ℸ ̣ 'ᓭ リ𝙹リᒷ 𝙹⎓ 𝙹⚍∷ ʖ⚍ᓭ╎リᒷᓭᓭ") // "Это не нашего ума дело"
+	spawn(18 SECONDS)
+		ISay("ᒲ|| ᔑ↸⍊╎ᓵᒷ ℸ ̣ 𝙹 ||𝙹⚍ ╎ᓭ ℸ ̣ 𝙹 ℸ ̣ ⍑╎リꖌ ꖎᒷᓭᓭ") // "Мой тебе совет - задумывайся о подобном меньше"
+	spawn(20 SECONDS)
+		ISay("𝙹∷ ||𝙹⚍ ∴╎ꖎꖎ リᒷ⍊ᒷ∷ ʖᒷᓵ𝙹ᒲᒷ 𝙹リᒷ 𝙹⎓ ⍑ᒷ∷'ᓭ") // "Иначе ты никогда не станешь одним из её приближённых"
+	spawn(30 SECONDS)
+		ISay("ℸ ̣ 𝙹 ℸ ̣ ⍑ᒷ ᔑᒲ╎リ𝙹ᓭ") // "В Амин[о/у]с"
+
+//Аминос - самая огромная и защищённая тюрьма, известная в галактике. Туда, Восхождение отправляет тех, кто представляет особую угрозу обществу или посягается на сами основы мироздания.
+//Никто кроме самих Аскентов - никогда не был внутри Аминоса по свой воле. Это место - огромный тюремный город, в котором не всегда справедливо осуждённые каждый день вынуждены мириться с
+//тем положением, в котором они оказались. По окончанию войны, все выжившие представители человечества, попавшие в руки захватчиков - в первую очередь отправлялись в Аминос, где их трёкратно
+//обрабатывали до того состояния, в котором какие-либо идеи о сопротивлении напрочь выветрятся из их головы. А затем, под предлогом "искупления" - выставлялись на массовую продажу.
+//Учитывая репутацию, закрепившуюся за людьми - никто особо не возражал подобному.
+
+	spawn(32 SECONDS)
+		qdel(src)
+
+/mob/living/simple_animal/holo_npc/alien2
+	name = "Unknown Alien"
+	desc = "Обычный алат в экзокостюме."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "ascent"
+	icon_living = "ascent"
+	icon_dead = "ascent"
+	color = "#a1209b"
+
+/mob/living/simple_animal/holo_npc/alien2/start_thinking()
+	spawn(10 SECONDS)
+		ISay("⎓𝙹∷ ∴⍑ᔑℸ ̣  ∷ᒷᔑᓭ𝙹リ ⊣||リᒷ ᒷ⍊ᒷリ リᒷᒷ↸ ℸ ̣ ⍑ᒷᒲ リ𝙹∴") //"Для чего они вообще пондаобились Гиине СЕЙЧАС?"
+	spawn(24 SECONDS)
+		ISay("╎ ⋮⚍ᓭℸ ̣  ∴𝙹リ↸ᒷ∷ リ𝙹リᒷ ℸ ̣ ⍑ᒷ ꖎᒷᓭᓭ") // "Мне просто интересно, ничего более"
+	spawn(26)
+		ISay("ℸ ̣ 𝙹 ∴⍑ᒷ∷ᒷ ∴ᒷ ⊣𝙹╎リ⊣ ᔑℸ ̣ ꖎᒷᔑᓭℸ ̣") // "Хотя бы, куда мы летим?"
+
+	spawn(32 SECONDS)
+		qdel(src)
+
+// ЕСЛИ НУЖНО ЧТОБЫ НПС БЫЛИ "ЖИВЫМИ"
+
+/obj/structure/scene_starter
+	name = "orb"
+	desc = "orb"
+	icon = 'packs/infinity/icons/mob/hologram.dmi'
+	icon_state = "Vega"
+	density = FALSE
+	anchored = TRUE
+	invisibility = 50
+	var/scene_zone = 20
+
+/obj/structure/scene_starter/proc/start()
+	for(var/mob/living/simple_animal/npc_alive/mobs in orange(scene_zone, src))
+		mobs.start_scene()
+
+/mob/living/simple_animal/npc_alive
+	name = "TEST"
+	desc = "TEST"
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "unk"
+	icon_living = "unk"
+	icon_dead = "unk"
+	response_help = "tries to poke"
+	response_disarm = "shoves"
+	response_harm = "hits"
+	speed = 4
+	movement_cooldown = 0
+	maxHealth = 999999
+	health = 999999
+	a_intent = I_HELP
+	faction = "holo"
+	status_flags = GODMODE
+	does_spin = FALSE
+	anchored = TRUE
+	mob_size = MOB_MEDIUM
+
+/mob/living/simple_animal/npc_alive/proc/start_scene()
+	return
+
+/mob/living/simple_animal/npc_alive/partisan1
+	name = "Soldier"
+	desc = "Его ноги слетели с орбиты, а из черепа торчит какой-то прут. Но он, по-крайней мере, умер быстро, да?..."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_legs"
+	icon_living = "partisan_legs"
+	icon_dead = "partisan_legs"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan1/start_scene()
+	ISay("М-мама...")
+	spawn(4 SECONDS)
+		ISay("М-мамочка, мнн-не холодно...")
+		visible_message(SPAN_DANGER("[src] дрожит."))
+	spawn(8 SECONDS)
+		ISay("Мам, м-мне о-ч-ччень холодно...")
+	spawn(13 SECONDS)
+		visible_message(SPAN_DANGER("[src] хнычет."))
+		ISay("Мама...п-пожалуйста...М-мама-а...")
+	spawn(17 SECONDS)
+		visible_message(SPAN_DANGER("[src] хнычет."))
+		ISay("Н-не хочу...мамм-ма, я н-не...")
+	spawn(19 SECONDS)
+		visible_message(SPAN_DANGER("[src] опускает голову."))
+
+/mob/living/simple_animal/npc_alive/partisan2
+	name = "Soldier"
+	desc = "Да у него мозги наружу..."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_headgib"
+	icon_living = "partisan_headgib"
+	icon_dead = "partisan_headgib"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan2/start_scene()
+	ISay("Х-хКкхх-ххх-...")
+	visible_message(SPAN_DANGER("[src] неестественно дёргается."))
+	spawn(6 SECONDS)
+		visible_message(SPAN_DANGER("[src] отхаркивает кровь."))
+		ISay("ГлКхх-КХА-Кх...")
+	spawn(9 SECONDS)
+		ISay("ВоОу-Кхттхх...ды-ы-ы..")
+		visible_message(SPAN_DANGER("[src] ворочет головой в конвульсиях."))
+	spawn(12 SECONDS)
+		visible_message(SPAN_DANGER("[src] замирает..."))
+
+/mob/living/simple_animal/npc_alive/partisan3
+	name = "Soldier"
+	desc = "Её тело прибито к стене множеством металлических прутьев. Кто бы не сделал это - он явно желал ей долгой и мучительной смерти."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_punctured"
+	icon_living = "partisan_punctured"
+	icon_dead = "partisan_punctured"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan3/start_scene()
+	visible_message(SPAN_DANGER("[src] тяжело дышит."))
+	spawn(4 SECONDS)
+		visible_message(SPAN_DANGER("[src] сплёвывает кровь на пол."))
+	spawn(9 SECONDS)
+		ISay("С-Серый...Кх-х..- Малой-")
+	spawn(11 SECONDS)
+		visible_message(SPAN_DANGER("[src] очень тяжело кашляет!"))
+	spawn(13 SECONDS)
+		ISay("Я д-должна...я обеща...ла..-КХА-КХА-КХА!")
+	spawn(16 SECONDS)
+		ISay("Они...ведь...доверились...")
+		visible_message(SPAN_DANGER("[src], от усталости, опускает голову вниз, более не в силах поддерживать её."))
+	spawn(19 SECONDS)
+		ISay("...мне-")

@@ -267,6 +267,7 @@
 	#include "../../mods/_fd/expanded_traders/_expanded_traders.dme"
 	#include "../../mods/_fd/hestia_missiles/_hestia_missiles.dme"
 	#include "../../mods/_fd/immersive_overmap/_immersive_overmap.dme"
+	#include "../../mods/_fd/immersive_sounds/_immersive_sounds.dme"
 	#include "../../mods/_fd/junk_heaven/_junk_heaven.dme"
 	#include "../../mods/_fd/landing_eye/_landing_eye.dme"
 	#include "../../mods/_fd/mob_interactions/_mob_interactions.dme"
@@ -299,6 +300,10 @@
 	#include "../../mods/_fd/_maps/khizriel/_khizriel.dme"
 	#include "../../mods/_fd/_maps/dead_sea/_dead_sea.dme"
 	#include "../../mods/_fd/_maps/kitsune/_kitsune.dme"
+	#include "../../mods/_fd/_maps/prison_ship/_prison_ship.dme"
+	#include "../../mods/_fd/_maps/a_destroyer/_a_destroyer.dme"
+	#include "../../mods/_fd/_maps/capsule/_capsule.dme"
+
 
 
 		// ~EXOPLANET RUINS~ //
@@ -313,6 +318,11 @@
 	#include "../random_ruins/exoplanet_ruins/shelters/shelters_alt.dm"
 	#include "../random_ruins/exoplanet_ruins/warehouse/warehouse.dm"
 
+	#include "../../mods/_fd/_maps/lab_campaign/_lab_campaign.dme"
+
+//УДАЛИТЬ ПОСЛЕ ЗАПУСКА
+	#include "../../mods/_fd/_maps/perci_nightmare/_perci_nightmare.dme"
+//УДАЛИТЬ ПОСЛЕ ЗАПУСКА
 
 	#define using_map_DATUM /datum/map/torch
 

@@ -1,0 +1,8 @@
+#ifndef MODPACK_CAPSULE
+#define MODPACK_CAPSULE
+
+#include "_capsule.dm"
+
+#include "code/capsule.dm"
+
+#endif

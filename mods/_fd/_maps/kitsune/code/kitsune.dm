@@ -115,12 +115,12 @@
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 
 /datum/job/submap/kitsune_captain
-	title = "Commanding Officer"
+	title = "Kitsune Commander"
 	department = "Command"
 	department_flag = COM
 	economic_power = 12
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "SCG Admiralty"
 	ideal_character_age = 35
 	minimal_player_age = 0
@@ -143,10 +143,10 @@
 	skill_points = 40
 
 /datum/job/submap/kitsune_roboticist
-	title = "Roboticist"
+	title = "Kitsune Robotech"
 	supervisors = "Your husband"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	economic_power = 12
 	minimal_player_age = 14
 	minimum_character_age = 0
@@ -184,11 +184,11 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/submap/kitsune_pilot
-	title = "Pilot"
+	title = "Kitsune Pilot"
 	department = "Command"
 	department_flag = COM
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Your Wife"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 0
@@ -227,13 +227,15 @@
 							 /datum/computer_file/program/deck_management)
 
 /datum/job/submap/kitsune_exec
-	title = "Executive Officer"
+	title = "Kitsune Executive Officer"
 	supervisors = "the Commanding Officer"
 	department = "Command"
 	department_flag = COM
 	minimal_player_age = 0
 	economic_power = 14
 	minimum_character_age = 0
+	total_positions = 0
+	spawn_positions = 0
 	loadout_allowed = TRUE
 	ideal_character_age = 45
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/XO
@@ -263,11 +265,11 @@
 
 
 /datum/job/submap/kitsune_chief
-	title = "Chief"
+	title = "Kitsune Chief"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	minimum_character_age = 0
 	ideal_character_age = 35
 	economic_power = 6
@@ -294,11 +296,11 @@
 	access = list(access_kitchen)
 
 /datum/job/submap/kitsune_crew
-	title = "Crewman"
+	title = "Kitsune Crewman"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 16
-	spawn_positions = 16
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Commanding Officer"
 	minimum_character_age = 0
 	loadout_allowed = TRUE

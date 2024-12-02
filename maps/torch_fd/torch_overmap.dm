@@ -1,8 +1,9 @@
 // --- ORIGINAL TORCH INFO -- \\
 
 /obj/overmap/visitable/ship/torch
-	name = "SEV Torch"
-	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
+	name = "...𒊒𒁍..."
+	desc = "ℸ ̣⍑ᓭ ̣ᒷ ᒷᔑ↸ℸ| リ𝙹 ╎∷∷ℸ ⍑ᔑʖ ̣  ∷ᔑ|𝙹ᒷᒲ⊣ℸʖ⎓𝙹"
+	color = "#7500bd"
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
@@ -318,4 +319,4 @@
 
 /obj/overmap/visitable/ship/torch
 //	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
-	desc = "A frankensteined HNS Mako-class corvette, modified into a frigate, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
+	desc = "ℸ ̣⍑ᓭ ̣ᒷ ᒷᔑ↸ℸ| リ𝙹 ╎∷∷ℸ ⍑ᔑʖ ̣  ∷ᔑ|𝙹ᒷᒲ⊣ℸʖ⎓𝙹"

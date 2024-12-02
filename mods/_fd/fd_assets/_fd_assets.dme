@@ -52,15 +52,20 @@
 #include "code/fullscreen.dm"
 #include "code/loadout.dm"
 #include "code/added_branch_outfits.dm"
-#include "code/added_branches.dm"
+// #include "code/added_branches.dm"
 #include "code/dionae.dm"
+#include "code/psistuff.dm"
 #include "code/skills.dm"
 #include "code/~TO_MAKE.dm"
 
+#include "customs/doctoralex/memes.dm"
 #include "customs/kanaris/item.dm"
 #include "customs/kanaris/weapon.dm"
+#include "customs/lobster/null-clock.dm"
 #include "customs/zakterar/leather_folder.dm"
 #include "customs/zakterar/oversizejacket.dm"
+#include "customs/gero/shothammer.dm"
+#include "customs/nest/psi_items.dm"
 
 #include "eventstuff/admintools.dm"
 

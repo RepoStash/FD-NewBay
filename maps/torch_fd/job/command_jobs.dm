@@ -1,24 +1,44 @@
 /datum/job/captain
 	title = "Commanding Officer"
 	supervisors = "the Sol Central Government and the Sol Code of Uniform Justice"
-	minimal_player_age = 14
+	minimal_player_age = 0
 	economic_power = 16
-	minimum_character_age = list(SPECIES_HUMAN = 40)
+	minimum_character_age = 0
 	ideal_character_age = 50
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps
+		/datum/mil_branch/expeditionary_corps,
+		/datum/mil_branch/fleet
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/ec/o6
+		/datum/mil_rank/ec/o6,
+		/datum/mil_rank/fleet/o6 = /singleton/hierarchy/outfit/job/torch/crew/command/CO/fleet,
+		/datum/mil_rank/fleet/o7 = /singleton/hierarchy/outfit/job/torch/crew/command/CO/fleet
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_TRAINED,
-	                    SKILL_PILOT       = SKILL_TRAINED)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX)
-	skill_points = 30
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
+	)
+	skill_points = 52
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
 							 /datum/computer_file/program/card_mod,
@@ -26,7 +46,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/captain/get_description_blurb()
-	return "You are the Commanding Officer. You are the top dog. You are an experienced professional officer in control of an entire ship, and ultimately responsible for all that happens onboard. Your job is to make sure [GLOB.using_map.full_name] fulfils its space exploration mission. Delegate to your Executive Officer, your department heads, and your Senior Enlisted Advisor to effectively manage the ship, and listen to and trust their expertise."
+	return "You are the Commanding Officer. You are the top dog. You are an experienced professional officer in control of an entire ship, and ultimately responsible for all that happens onboard. Your job is to make sure [GLOB.using_map.full_name] survives it's journey."
 
 /datum/job/captain/post_equip_rank(mob/person, alt_title)
 	var/sound/announce_sound = (GAME_STATE <= RUNLEVEL_SETUP)? null : sound('sound/misc/boatswain.ogg', volume=20)
@@ -40,7 +60,7 @@
 	department_flag = COM
 	minimal_player_age = 14
 	economic_power = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = 0
 	ideal_character_age = 45
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/XO
 	allowed_branches = list(
@@ -52,13 +72,10 @@
 		/datum/mil_rank/fleet/o4,
 		/datum/mil_rank/fleet/o5
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_TRAINED,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_PILOT       = SKILL_BASIC)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
-	skill_points = 30
+	skill_points = 52 // 30
 
 	access = list(
 		access_security, access_brig, access_armory, access_forensics_lockers, access_heads, access_medical, access_morgue, access_tox, access_tox_storage,
@@ -91,28 +108,23 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 60
+	total_positions = 1
+	spawn_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/research/cso
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps
+		/datum/mil_branch/expeditionary_corps,
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/ec/o3,
 		/datum/mil_rank/ec/o5
 	)
 
-
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_TRAINED,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_FINANCE     = SKILL_TRAINED,
-	                    SKILL_BOTANY      = SKILL_BASIC,
-	                    SKILL_ANATOMY     = SKILL_BASIC,
-	                    SKILL_DEVICES     = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_TRAINED)
-
 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_DEVICES     = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
-	skill_points = 30
+	skill_points = 52 // 30
 
 	access = list(
 		access_tox, access_tox_storage, access_emergency_storage, access_teleporter, access_bridge, access_rd,
@@ -138,28 +150,46 @@
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 14
 	minimal_player_age = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = 0
 	ideal_character_age = 48
+	total_positions = 1
+	spawn_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/cmo
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/cmo/fleet
+		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/cmo/fleet,
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/fleet/o3,
 		/datum/mil_rank/fleet/o4,
 		/datum/mil_rank/ec/o3
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_MEDICAL     = SKILL_EXPERIENCED,
-	                    SKILL_ANATOMY     = SKILL_EXPERIENCED,
-	                    SKILL_CHEMISTRY   = SKILL_BASIC,
-						SKILL_DEVICES     = SKILL_TRAINED)
 
-	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
-	                    SKILL_ANATOMY     = SKILL_MAX,
-	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 26
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
+	)
+	skill_points = 52 //30
 
 	access = list(
 		access_medical, access_morgue, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
@@ -182,32 +212,47 @@
 	title = "Chief Engineer"
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 12
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = 0
 	ideal_character_age = 40
 	minimal_player_age = 14
+	total_positions = 1
+	spawn_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/chief_engineer
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet
+		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet,
+		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/ec/o3,
 		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3
 	)
-	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_BASIC,
-	                    SKILL_COMPUTER     = SKILL_TRAINED,
-	                    SKILL_EVA          = SKILL_TRAINED,
-	                    SKILL_CONSTRUCTION = SKILL_TRAINED,
-	                    SKILL_ELECTRICAL   = SKILL_TRAINED,
-	                    SKILL_ATMOS        = SKILL_TRAINED,
-	                    SKILL_ENGINES      = SKILL_EXPERIENCED)
 
-	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
-	                    SKILL_ELECTRICAL   = SKILL_MAX,
-	                    SKILL_ATMOS        = SKILL_MAX,
-	                    SKILL_ENGINES      = SKILL_MAX)
-	skill_points = 30
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
+	)
+	skill_points = 52 //30
 
 	access = list(
 		access_engine, access_engine_equip, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
@@ -239,6 +284,8 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 35
+	total_positions = 0
+	spawn_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/cos
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -287,6 +334,8 @@
 	selection_color = "#2f2f7f"
 	economic_power = 16
 	minimal_player_age = 0
+	total_positions = 0
+	spawn_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/representative
 	allowed_branches = list(/datum/mil_branch/solgov)
 	allowed_ranks = list(/datum/mil_rank/sol/gov)
@@ -310,8 +359,8 @@
 	title = "Senior Enlisted Advisor"
 	department = "Support"
 	department_flag = SPT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Commanding Officer and the Executive Officer"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 14
@@ -359,8 +408,8 @@
 	title = "Bridge Officer"
 	department = "Support"
 	department_flag = SPT
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 1
+	spawn_positions = 1
 	supervisors = "the Commanding Officer and heads of staff"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 0
@@ -369,18 +418,20 @@
 	ideal_character_age = 24
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/bridgeofficer
 	allowed_branches = list(
+		/datum/mil_branch/civilian,
 		/datum/mil_branch/expeditionary_corps,
 		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/bridgeofficer/fleet
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/ec/o1,
 		/datum/mil_rank/fleet/o1
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_PILOT       = SKILL_TRAINED)
+	min_skill = list(   SKILL_BUREAUCRACY = SKILL_TRAINED,
+	                    SKILL_PILOT       = SKILL_MAX)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 20
+	skill_points = 52
 
 
 	access = list(

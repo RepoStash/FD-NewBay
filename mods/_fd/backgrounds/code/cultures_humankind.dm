@@ -9,7 +9,7 @@
 #define CULTURE_HUMAN_VENUSIAN_FD       "Venusian, Zoner"
 #define CULTURE_HUMAN_VENUSLOW_FD       "Venusian, Surfacer"
 #define CULTURE_HUMAN_BELTER_FD         "Belter, Ceres"
-#define CULTURE_HUMAN_PLUTO_FD          "Plutonian"
+#define CULTURE_HUMAN_PLUTO_FD          "Plutonec"
 #define CULTURE_HUMAN_EARTH_FD          "Earther"
 #define CULTURE_HUMAN_CETI_FD           "Cetite"
 #define CULTURE_HUMAN_FOSTER_FD         "Fostersman"

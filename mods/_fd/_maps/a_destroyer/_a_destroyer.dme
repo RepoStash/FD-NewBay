@@ -1,0 +1,8 @@
+#ifndef MODPACK_A_DESTROYER
+#define MODPACK_A_DESTROYER
+
+#include "_a_destroyer.dm"
+
+#include "code/a_destroyer.dm"
+
+#endif

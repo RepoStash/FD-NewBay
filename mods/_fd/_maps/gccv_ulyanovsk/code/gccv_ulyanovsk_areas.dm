@@ -3,6 +3,7 @@
 	icon_state = "green"
 	req_access = list(access_iccg)
 	requires_power = FALSE // FOR DEBUGGING
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED // this is the fucking flying bar of plasteel
 
 /area/turbolift/ulyanovsk1
 	name = "lift 1 (thirt deck)"
@@ -15,13 +16,13 @@
 	name = "lift 1 (second deck)"
 	lift_floor_label = "Deck 2"
 	lift_floor_name = "Second Deck"
-	lift_announce_str = "Arriving at Second Deck: Yahoo!"
+	lift_announce_str = "Arriving at Second Deck: Medbay, Engineering, Cryo."
 
 /area/turbolift/ulyanovsk1/deck1
 	name = "lift 1 (first deck)"
 	lift_floor_label = "Deck 1"
 	lift_floor_name = "First Deck"
-	lift_announce_str = "Arriving at Command Deck: Bridge."
+	lift_announce_str = "Arriving at Command Deck: CIC, SO, E.V.A."
 
 /area/turbolift/ulyanovsk2
 	name = "lift 2 (thirt deck)"
@@ -34,13 +35,13 @@
 	name = "lift 2 (second deck)"
 	lift_floor_label = "Deck 2"
 	lift_floor_name = "Second Deck"
-	lift_announce_str = "Arriving at Second Deck: Yahoo!"
+	lift_announce_str = "Arriving at Second Deck: Medbay, Engineering, Cryo."
 
 /area/turbolift/ulyanovsk2/deck1
 	name = "lift 2 (first deck)"
 	lift_floor_label = "Deck 1"
 	lift_floor_name = "First Deck"
-	lift_announce_str = "Arriving at Command Deck: Bridge."
+	lift_announce_str = "Arriving at Command Deck: CIC, SO, E.V.A."
 
 /area/turbolift/ulyanovsk3
 	name = "lift 3 (thirt deck)"
@@ -53,13 +54,13 @@
 	name = "lift 3 (second deck)"
 	lift_floor_label = "Deck 2"
 	lift_floor_name = "Second Deck"
-	lift_announce_str = "Arriving at Second Deck: Yahoo!"
+	lift_announce_str = "Arriving at Second Deck: Medbay, Engineering, Cryo."
 
 /area/turbolift/ulyanovsk3/deck1
 	name = "lift 3 (first deck)"
 	lift_floor_label = "Deck 1"
 	lift_floor_name = "First Deck"
-	lift_announce_str = "Arriving at Command Deck: Bridge."
+	lift_announce_str = "Arriving at Command Deck: CIC, SO, E.V.A."
 
 /// DECK 1
 
@@ -152,6 +153,7 @@
 
 /area/map_template/gccv_ulyanovsk/deck1/command/defence
 	name = "\improper GCCV - Ulyanovsk - Defence"
+	icon_state = "ul_def"
 	req_access = list(access_iccg_com)
 
 // SPECIAL OPERATIONS
