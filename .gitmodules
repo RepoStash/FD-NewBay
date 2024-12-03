@@ -1,3 +1,4 @@
 [submodule "psimod"]
 	path = psi-reimagined
 	url = https://github.com/VoiceInYourHead/psi-reimagined
+	branch = main
