@@ -1,4 +1,4 @@
 [submodule "psimod"]
 	path = campaign-mods
-	url = https://github.com/VoiceInYourHead/campaign-mods
+	url = https://github.com/VoiceInYourHead/psi-reimagined
 	branch = main
