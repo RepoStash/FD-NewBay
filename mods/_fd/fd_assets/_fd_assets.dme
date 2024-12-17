@@ -71,6 +71,7 @@
 #include "customs/gero/shothammer.dm"
 #include "customs/nest/psi_items.dm"
 #include "customs/tech/tech_box.dm"
+#include "customs/tech/tech_fox.dm"
 #include "customs/access/cards.dm"
 #include "customs/evil/evil_box.dm"
 
