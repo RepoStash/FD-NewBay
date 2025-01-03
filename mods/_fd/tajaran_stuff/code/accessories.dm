@@ -8,6 +8,7 @@
 	item_icons = list(slot_belt_str = 'mods/_fd/tajaran_stuff/icons/onmob/onmob_suit.dmi')
 	slot = ACCESSORY_SLOT_INSIGNIA // Adding again in case we want to change it in the future.
 	slot_flags = SLOT_TIE | SLOT_BELT
+	item_flags = ITEM_FLAG_IS_BELT
 
 /obj/item/clothing/accessory/tajaran/tradition
 	name = "tradition cape"
