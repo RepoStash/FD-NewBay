@@ -267,6 +267,7 @@
 	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
 	#include "../../mods/_fd/resomi_fd/_resomi.dme"
 	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
+	#include "../../mods/_fd/tartakans/_tartakans.dme"
 
 	#include "../../mods/_fd/_maps/airfield/_airfield.dme"
 	#include "../../mods/_fd/_maps/ares/_ares.dme"
