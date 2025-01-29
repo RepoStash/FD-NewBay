@@ -1,6 +1,7 @@
 // Это - заглушка. Она не должна стать ПОСТОЯННОЙ. Её нужно будет заменить НОРМАЛЬНЫМ полноценным кодом расы, а не замаскированным симпл мобом!
 
 #define SPECIES_COCKROACH       "Tartakan"
+#define LANGUAGE_COCKROACH "Pesh-Ab"
 
 /datum/species/tartakan
 	name = SPECIES_COCKROACH
@@ -53,8 +54,21 @@
 		"Your overheated skin itches."
 		)
 	cold_discomfort_level = 190
+	poison_types = list(GAS_PHORON = TRUE)
 
 	hud_type = /datum/hud_data/tartakan
+
+	strength = STR_HIGH
+	min_age = 10
+	max_age = 200
+
+	speech_sounds = list(
+		'mods/_fd/tartakans/sounds/talk1.ogg',
+		'mods/_fd/tartakans/sounds/talk2.ogg',
+		'mods/_fd/tartakans/sounds/talk3.ogg',
+		'mods/_fd/tartakans/sounds/talk4.ogg'
+	)
+	speech_chance = 50
 
 /datum/hud_data/tartakan
 
@@ -82,6 +96,7 @@
 	spawn (20)
 		fix_icons()
 	set_species(SPECIES_COCKROACH)
+	add_language(LANGUAGE_COCKROACH)
 
 /mob/living/carbon/human/tartakan/Move()
 	..()
@@ -109,5 +124,19 @@
 		SH.icon = 'mods/_fd/tartakans/icons/mob.dmi'
 	SH.dir = dir
 
-/mob/living/carbon/human/tartakan/get_pressure_weakness()
-	return 0
+/datum/language/tartakan
+	name = LANGUAGE_COCKROACH
+	desc = "The traditional vocal language, used by tartakan's. Composed from different-tone buzzling and rattling."
+	speech_verb = "жужжит"
+	ask_verb = "трещит"
+	exclaim_verb = "звенит"
+	colour = "rough"
+	key = "k"
+	flags = WHITELISTED
+	syllables = list("bzz","shh","bzzZzzZZ","BZZZz","sHHh","trRRrk","krkrkr","BzZ","Shh","KrrrrrT")
+	shorthand = "PA"
+	has_written_form = FALSE
+
+/datum/language/tartakan/get_random_name()
+	var/new_name = "[pick(list("Karton","Buger","Krisp","Hisset","Roacher","Wass","Shellard","Inston","Hopper"))]"
+	return new_name

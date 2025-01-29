@@ -3,7 +3,7 @@
 /obj/sprite_helper
 	icon = null
 	icon_state = ""
-	layer = MOB_LAYER+0.1
+	layer = MOB_LAYER-0.1
 	density = FALSE
 
 /obj/sprite_helper/New()
