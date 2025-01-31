@@ -1,0 +1,8 @@
+#ifndef MODPACK_BIODOME
+#define MODPACK_BIODOME
+
+#include "_biodome.dm"
+
+#include "code/biodome.dm"
+
+#endif

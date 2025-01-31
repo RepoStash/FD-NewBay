@@ -1,0 +1,8 @@
+#ifndef MODPACK_PRISON_SHIP
+#define MODPACK_PRISON_SHIP
+
+#include "_prison_ship.dm"
+
+#include "code/prison_ship.dm"
+
+#endif

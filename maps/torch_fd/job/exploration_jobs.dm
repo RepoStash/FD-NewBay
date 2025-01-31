@@ -2,8 +2,8 @@
 	title = "Pathfinder"
 	department = "Exploration"
 	department_flag = EXP
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Chief Science Officer"
 	selection_color = "#68099e"
 	minimal_player_age = 1
@@ -46,8 +46,8 @@
 	supervisors = "the Pathfinder"
 	department = "Exploration"
 	department_flag = EXP
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	selection_color = "#68099e"
 	economic_power = 8
 	minimal_player_age = 0
@@ -82,8 +82,8 @@
 	title = "Explorer"
 	department = "Exploration"
 	department_flag = EXP
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Pathfinder"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
@@ -117,8 +117,8 @@
 	title = "Exploration Medic"
 	department = "Exploration"
 	department_flag = EXP
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 19)
@@ -169,8 +169,8 @@
 	title = "Exploration Engineer"
 	department = "Exploration"
 	department_flag = EXP
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 19)

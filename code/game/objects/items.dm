@@ -809,7 +809,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 	if(!user.client)
 		return
 // [FD-EDIT]
-
+	user.client.view = 7
 /*
 	user.client.view = user.get_preference_value(/datum/client_preference/client_view)
 	[/FD-EDIT]

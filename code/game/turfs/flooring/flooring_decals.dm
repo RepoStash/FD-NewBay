@@ -23,7 +23,7 @@ var/global/list/floor_decals = list()
 	if(supplied_dir) set_dir(supplied_dir)
 	var/turf/T = get_turf(src)
 	if(istype(T, /turf/simulated/floor) || istype(T, /turf/unsimulated/floor))
-		layer = T.is_plating() ? DECAL_PLATING_LAYER : DECAL_LAYER
+		layer = T.is_plating() ? DECAL_PLATING_LAYER : layer // previosly 'layer' was 'DECAL_LAYER', edited by FD
 		var/cache_key = "[alpha]-[color]-[dir]-[icon_state]-[plane]-[layer]-[detail_overlay]-[detail_color]"
 		if(!floor_decals[cache_key])
 			var/image/I = image(icon = src.icon, icon_state = src.icon_state, dir = src.dir)

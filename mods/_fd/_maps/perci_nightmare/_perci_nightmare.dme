@@ -1,0 +1,8 @@
+#ifndef MODPACK_PERCI
+#define MODPACK_PERCI
+
+#include "_perci_nightmare.dm"
+
+#include "code/perci_nightmare.dm"
+
+#endif

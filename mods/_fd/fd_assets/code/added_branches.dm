@@ -266,3 +266,28 @@
 		/datum/mil_rank/scga/e5,
 		/datum/mil_rank/civ/contractor
 	)
+
+/datum/mil_branch/fleet
+
+	spawn_rank_types = list(
+		/datum/mil_rank/fleet/e2,
+		/datum/mil_rank/fleet/e3,
+		/datum/mil_rank/fleet/e4,
+		/datum/mil_rank/fleet/e5,
+		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/fleet/e7,
+		/datum/mil_rank/fleet/e8,
+		/datum/mil_rank/fleet/e9,
+		/datum/mil_rank/fleet/e9_alt1,
+		/datum/mil_rank/fleet/o1,
+		/datum/mil_rank/fleet/o2,
+		/datum/mil_rank/fleet/o3,
+		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/fleet/o5,
+		/datum/mil_rank/fleet/o6,
+		/datum/mil_rank/fleet/o7,
+		/datum/mil_rank/fleet/o8,
+		/datum/mil_rank/fleet/o9,
+		/datum/mil_rank/fleet/o10,
+		/datum/mil_rank/fleet/o10_alt
+	)

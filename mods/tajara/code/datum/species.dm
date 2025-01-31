@@ -4,12 +4,24 @@
 	icobase = 'mods/tajara/icons/tajara_body/body.dmi'
 	deform =  'mods/tajara/icons/tajara_body/deformed_body.dmi'
 	preview_icon = 'mods/tajara/icons/tajara_body/preview.dmi'
-	tail = "tajtail"
+	tail = "t"
 	tail_animation = 'mods/tajara/icons/tajara_body/tail.dmi'
 	default_head_hair_style = "Tajaran Ears"
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/claws, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp)
 
-
+	has_limbs = list(
+		BP_CHEST =  list("path" = /obj/item/organ/external/chest),
+		BP_GROIN =  list("path" = /obj/item/organ/external/groin),
+		BP_HEAD =   list("path" = /obj/item/organ/external/head),
+		BP_L_ARM =  list("path" = /obj/item/organ/external/arm/assashit),
+		BP_L_HAND = list("path" = /obj/item/organ/external/hand/assashit),
+		BP_R_ARM =  list("path" = /obj/item/organ/external/arm/right/assashit),
+		BP_R_HAND = list("path" = /obj/item/organ/external/hand/right/assashit),
+		BP_R_LEG =  list("path" = /obj/item/organ/external/leg/right/assashit),
+		BP_L_LEG =  list("path" = /obj/item/organ/external/leg/assashit),
+		BP_L_FOOT = list("path" = /obj/item/organ/external/foot/assashit),
+		BP_R_FOOT = list("path" = /obj/item/organ/external/foot/right/assashit)
+		)
 
 
 	darksight_range = 7
@@ -60,7 +72,9 @@
 		/singleton/emote/human/qwag,
 		/singleton/emote/human/fastsway,
 		/singleton/emote/human/swag,
-		/singleton/emote/human/stopsway
+		/singleton/emote/human/stopsway,
+		/singleton/emote/audible/cat_purr,
+		/singleton/emote/audible/cat_purr/long
 		)
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
@@ -146,6 +160,9 @@
 			RELIGION_OTHER
 		)
 	)
+
+/datum/species/tajaran/get_tail(mob/living/carbon/human/H)
+	return tail + copytext(H.gender, 1, 2)
 
 /obj/item/organ/internal/eyes/taj
 	name = "tajara eyes"

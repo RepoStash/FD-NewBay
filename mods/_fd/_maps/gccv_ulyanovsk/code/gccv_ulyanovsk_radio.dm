@@ -37,4 +37,5 @@
 /obj/item/device/radio/headset/map_preset/ulyanovsk
 	preset_name = "Ulyanovsk"
 	encryption_key = /obj/item/device/encryptionkey/map_preset/ulyanovsk
+	icon = 'mods/_fd/_maps/gccv_ulyanovsk/icons/ulyanovsk.dmi'
 	icon_state = "gcc_headset"

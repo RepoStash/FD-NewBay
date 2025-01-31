@@ -1,8 +1,9 @@
 // --- ORIGINAL TORCH INFO -- \\
 
 /obj/overmap/visitable/ship/torch
-	name = "SEV Torch"
-	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
+	name = "...𒊒𒁍..."
+	desc = "ℸ ̣⍑ᓭ ̣ᒷ ᒷᔑ↸ℸ| リ𝙹 ╎∷∷ℸ ⍑ᔑʖ ̣  ∷ᔑ|𝙹ᒷᒲ⊣ℸʖ⎓𝙹"
+	color = "#7500bd"
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
@@ -12,7 +13,8 @@
 		/obj/overmap/visitable/ship/landable/aquila,
 		/obj/overmap/visitable/ship/landable/guppy,
 		/obj/overmap/visitable/ship/landable/butterfly,
-		/obj/overmap/visitable/ship/landable/bubble
+		/obj/overmap/visitable/ship/landable/bubble,
+		/obj/overmap/visitable/ship/landable/mekubal
 	)
 
 	initial_restricted_waypoints = list(
@@ -21,6 +23,8 @@
 		"Aquila" = list("nav_hangar_aquila"),
 		"Bubble" = list("nav_hangar_bubble"),
 		"Butterfly" = list ("nav_hangar_butterfly"),
+		"GCNV Mekubal" = list ("nav_hangar_mekubal"),
+
 
 		"Skrellian Scout" = list("nav_skrellscout_dock"), //restricts Skrell Scoutship specific docking waypoint on deck 4 portside
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_altdock"),
@@ -31,7 +35,9 @@
 		"SRV Venerable Catfish" = list("nav_verne_5"), //docking location for verne shuttle
 		"Cyclopes" = list("nav_merc_dock"),
 		"ICGNV Hound" = list("nav_hound_dock"),
-		"SFV Arbiter" = list("nav_sfv_arbiter_dock")
+		"SFV Arbiter" = list("nav_sfv_arbiter_dock"),
+
+		"SFV Hotaru" = list("nav_torch_hotaru", "nav_torch_hotaru_fore")
 	)
 
 	initial_generic_waypoints = list(
@@ -43,6 +49,7 @@
 		"nav_bridge_charon",
 		"nav_bridge_guppy",
 		"nav_bridge_aquila",
+		"nav_bridge_mekubal",
 
 		//start First Deck
 		"nav_merc_deck1",
@@ -52,6 +59,7 @@
 		"nav_deck4_charon",
 		"nav_deck4_guppy",
 		"nav_deck4_aquila",
+		"nav_deck4_mekubal",
 
 		//start Second Deck
 		"nav_merc_deck2",
@@ -61,6 +69,7 @@
 		"nav_deck3_charon",
 		"nav_deck3_guppy",
 		"nav_deck3_aquila",
+		"nav_deck3_mekubal",
 
 		//start Third Deck
 		"nav_merc_deck3",
@@ -70,6 +79,7 @@
 		"nav_deck2_charon",
 		"nav_deck2_guppy",
 		"nav_deck2_aquila",
+		"nav_deck2_mekubal",
 
 		//start Forth Deck
 		"nav_merc_deck4",
@@ -79,6 +89,7 @@
 		"nav_deck1_charon",
 		"nav_deck1_guppy",
 		"nav_deck1_aquila",
+		"nav_deck1_mekubal",
 		"nav_vox_raider_dock",
 
 		//start Hanger Deck
@@ -123,6 +134,23 @@
 		/obj/overmap/visitable/ship/landable/bubble
 	)
 
+/obj/overmap/visitable/ship/landable/mekubal
+	name = "GCNV Mekubal"
+	desc = "An ART-74 modular heavy fighter, broadcasting GCNV codes and the callsign \"GCCV Ulyanovsk-2\"."
+	shuttle = "GCNV Mekubal"
+	vessel_mass = 14000
+	max_speed = 1/(1 SECONDS)
+	burn_delay = 0.5 SECONDS //spammable, but expensive
+	fore_dir = EAST
+	vessel_size = SHIP_SIZE_SMALL
+	known_ships = list(
+		/obj/overmap/visitable/ship/torch,
+		/obj/overmap/visitable/ship/landable/exploration_shuttle,
+		/obj/overmap/visitable/ship/landable/guppy,
+		/obj/overmap/visitable/ship/landable/butterfly,
+		/obj/overmap/visitable/ship/landable/bubble
+	)
+
 /obj/overmap/visitable/ship/landable/guppy
 	name = "Guppy"
 	desc = "An SSE-U3 utility pod, broadcasting SCGEC codes and the callsign \"Torch-3 Guppy\"."
@@ -145,6 +173,10 @@
 	name = "aquila control console"
 	shuttle_tag = "Aquila"
 	req_access = list(access_aquila_helm)
+
+/obj/machinery/computer/shuttle_control/explore/mekubal
+	name = "mekubal control console"
+	shuttle_tag = "GCNV Mekubal"
 
 /obj/machinery/computer/shuttle_control/explore/exploration_shuttle
 	name = "shuttle control console"
@@ -316,4 +348,4 @@
 
 /obj/overmap/visitable/ship/torch
 //	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
-	desc = "A frankensteined HNS Mako-class corvette, modified into a frigate, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
+	desc = "ℸ ̣⍑ᓭ ̣ᒷ ᒷᔑ↸ℸ| リ𝙹 ╎∷∷ℸ ⍑ᔑʖ ̣  ∷ᔑ|𝙹ᒷᒲ⊣ℸʖ⎓𝙹"

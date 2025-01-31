@@ -104,6 +104,18 @@
 		/datum/mob_descriptor/body_length = -2
 		)
 
+	default_emotes = list(
+		/singleton/emote/audible/ascent_hiss,
+		/singleton/emote/audible/ascent_purr,
+		/singleton/emote/audible/ascent_snarl,
+		/singleton/emote/visible/ascent_dazzle,
+		/singleton/emote/visible/ascent_flicker,
+		/singleton/emote/visible/ascent_glimmer,
+		/singleton/emote/visible/ascent_glint,
+		/singleton/emote/visible/ascent_pulse,
+		/singleton/emote/visible/ascent_shine,
+	)
+
 	pain_emotes_with_pain_level = list(
 			list(/singleton/emote/visible/ascent_shine, /singleton/emote/visible/ascent_dazzle) = 80,
 			list(/singleton/emote/visible/ascent_glimmer, /singleton/emote/visible/ascent_pulse) = 50,
@@ -159,9 +171,9 @@
 
 	spawn_flags =             SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_IS_WHITELISTED//INF
 
-	pixel_offset_x =        -4
+	pixel_offset_x =         -4
 	antaghud_offset_y =      18
-	antaghud_offset_x =      4
+	antaghud_offset_x =       4
 
 	bump_flag =               HEAVY
 	push_flags =              ALLMOBS
@@ -235,7 +247,8 @@
 	icobase = 'icons/mob/human_races/species/nabber/body_msw.dmi'
 	deform = 'icons/mob/human_races/species/nabber/body_msw.dmi'
 	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_IS_WHITELISTED
-	appearance_flags = 0
+	appearance_flags = SPECIES_APPEARANCE_HAS_SKIN_COLOR | SPECIES_APPEARANCE_HAS_EYE_COLOR
+	base_color = COLOR_WHITE
 	base_skin_colours = null
 	has_organ = list(
 		BP_BRAIN =             /obj/item/organ/internal/brain/insectoid/nabber,
@@ -252,6 +265,12 @@
 		TAG_HOMEWORLD = HOME_SYSTEM_KHARMAANI,
 		TAG_FACTION =   FACTION_ASCENT_SERPENTID,
 		TAG_RELIGION =  RELIGION_KHARMAANI
+	)
+
+	default_emotes = list(
+		/singleton/emote/audible/ascent_hiss,
+		/singleton/emote/audible/ascent_purr,
+		/singleton/emote/audible/ascent_snarl,
 	)
 
 /datum/species/nabber/monarch_worker/skills_from_age(age)
@@ -289,7 +308,8 @@
 	breath_pressure = 21
 	blood_volume = 600
 
-	appearance_flags = 0
+	appearance_flags = SPECIES_APPEARANCE_HAS_SKIN_COLOR | SPECIES_APPEARANCE_HAS_EYE_COLOR
+	base_color = COLOR_WHITE
 	base_skin_colours = null
 	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_IS_WHITELISTED
 
@@ -301,7 +321,7 @@
 		BP_HEART =             /obj/item/organ/internal/heart/open,
 		BP_STOMACH =           /obj/item/organ/internal/stomach,
 		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller,
-		BP_VOICE =    /obj/item/organ/internal/voicebox/nabber/ascent
+		BP_VOICE =             /obj/item/organ/internal/voicebox/nabber/ascent
 		)
 
 	has_limbs = list(
@@ -323,13 +343,18 @@
 		/datum/mob_descriptor/body_length = -1
 		)
 
-
 	force_cultural_info = list(
 		TAG_CULTURE =   CULTURE_ASCENT,
 		TAG_HOMEWORLD = HOME_SYSTEM_KHARMAANI,
 		TAG_FACTION =   FACTION_ASCENT_SERPENTID,
 		TAG_RELIGION =  RELIGION_KHARMAANI
 		)
+
+	default_emotes = list(
+		/singleton/emote/audible/ascent_hiss,
+		/singleton/emote/audible/ascent_purr,
+		/singleton/emote/audible/ascent_snarl,
+	)
 
 /datum/species/nabber/monarch_queen/New()
 	equip_adjust = list(

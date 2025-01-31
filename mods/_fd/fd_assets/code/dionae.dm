@@ -73,7 +73,7 @@
 
 
 /obj/overlay/diona/decorator // Some sort of just nice wall
-	name = "organic wall"
+	name = "organic floor"
 	icon_state = "dionadecorator"
 	density = FALSE
 	mouse_opacity = TRUE

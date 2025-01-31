@@ -130,6 +130,7 @@
 				if(target.psi)
 					target.psi.stamina = min(target.psi.max_stamina, target.psi.stamina + rand(15,20))
 				return 1
+		log_and_message_admins("\[CATASTELLIA | Emote Amply] [user] заставляет ощущать [target] [chosen_option]")
 
 /singleton/psionic_power/coercion/agony
 	name =          "Agony"
@@ -151,6 +152,7 @@
 		var/cn_rank = user.psi.get_rank(PSI_COERCION)
 		new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "blue_electricity_constant")
 		target.stun_effect_act(0, cn_rank * 30, user.zone_sel.selecting)
+		log_and_message_admins("\[CATASTELLIA | Agony] [user] заставил АГОНИЗИРОВАТЬ[target] ")
 		return TRUE
 
 /singleton/psionic_power/coercion/spasm
@@ -181,6 +183,7 @@
 		if(prob(cn_rank * 20) && target.r_hand && target.r_hand.simulated && target.unEquip(target.r_hand))
 			target.visible_message("<span class='danger'>[target] невольно роняет предмет, находившийся в его правой руке!</span>")
 		new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "white_electricity_constant")
+		log_and_message_admins("\[CATASTELLIA | Spasm] [user] заставляет [target] быть скованным в приступе СПАЗМА")
 		return TRUE
 
 /singleton/psionic_power/coercion/mind_control
@@ -240,7 +243,7 @@
 
 	to_chat(user, "<span class='danger'>Вы вторгаетесь в сознание [target], ощущая частичный контроль над его телом!</span>")
 	to_chat(target, "<span class='danger'>Ваши стены наконец пали, и вы потеряли контроль над своим телом!</span>")
-
+	log_and_message_admins("\[CATASTELLIA | Mind Control] [user] ВЗЯЛ ПОД КОНТРОЛЬ [target]")
 	return TRUE
 
 /singleton/psionic_power/coercion/mind_control/proc/can_use(mob/living/user, mob/living/target)

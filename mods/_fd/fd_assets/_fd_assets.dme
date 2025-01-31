@@ -14,11 +14,14 @@
 #include "code/machinery/autoaccess_machinery.dm"
 #include "code/machinery/big_engine.dm"
 #include "code/machinery/light_types.dm"
+#include "code/machinery/lighting.dm"
 #include "code/machinery/supply_console.dm"
 #include "code/machinery/telescreen_consoles.dm"
 #include "code/machinery/turret.dm"
 
+#include "code/mobs/Defiler.dm"
 #include "code/mobs/mobs.dm"
+#include "code/mobs/psi_spiders.dm"
 #include "code/mobs/pureevil.dm"
 
 #include "code/obj/items/encryption_key_boxes.dm"
@@ -37,6 +40,7 @@
 #include "code/structures/secure_lockers.dm"
 #include "code/structures/shooting_range.dm"
 #include "code/structures/wallframe_types.dm"
+#include "code/structures/tent.dm"
 
 #include "code/turfs/turfs.dm"
 #include "code/turfs/wall_paint.dm"
@@ -47,21 +51,39 @@
 #include "code/weapons/rsh21.dm"
 #include "code/weapons/sledgehammer.dm"
 
+#include "code/accessory.dm"
 #include "code/fd_sofa_override.dm"
 #include "code/floor_decals.dm"
 #include "code/fullscreen.dm"
 #include "code/loadout.dm"
 #include "code/added_branch_outfits.dm"
-#include "code/added_branches.dm"
+// #include "code/added_branches.dm"
 #include "code/dionae.dm"
+#include "code/psistuff.dm"
 #include "code/skills.dm"
+#include "code/ssinput_vent_fix.dm"
 #include "code/~TO_MAKE.dm"
 
+#include "customs/doctoralex/memes.dm"
 #include "customs/kanaris/item.dm"
 #include "customs/kanaris/weapon.dm"
+#include "customs/lobster/null-clock.dm"
+#include "customs/zakterar/leather_folder.dm"
+#include "customs/zakterar/oversizejacket.dm"
+#include "customs/gero/shothammer.dm"
+#include "customs/nest/psi_items.dm"
+#include "customs/tech/tech_box.dm"
+#include "customs/tech/tech_fox.dm"
+#include "customs/vipo/dice.dm"
+#include "customs/access/cards.dm"
+#include "customs/evil/evil_box.dm"
+#include "customs/lozari/custom_exosuit.dm"
+#include "customs/colonel\mantle.dm"
+
 
 #include "eventstuff/admintools.dm"
 
 #include "code\trauma\code.dm"
+#include "code/awards/awards2024.dm"
 
 #endif

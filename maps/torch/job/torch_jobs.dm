@@ -33,7 +33,8 @@
 		/datum/job/cyborg,
 		/datum/job/chaplain,
 		/datum/job/assistant,
-		/datum/job/merchant
+		/datum/job/merchant,
+		/datum/job/new_crew
 	)
 
 	access_modify_region = list(

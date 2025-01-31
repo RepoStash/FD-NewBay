@@ -17,7 +17,7 @@
 	icon = 'icons/obj/augment.dmi'
 	icon_state = "popout_shotgun"
 	item_state = "coilgun"
-	max_shells = 1
+	max_shells = 2
 	w_class = ITEM_SIZE_HUGE
 	force = 5
 	obj_flags =  OBJ_FLAG_CONDUCTIBLE

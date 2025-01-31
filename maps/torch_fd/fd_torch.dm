@@ -121,6 +121,7 @@
 	#include "job/security_jobs.dm"
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
+	#include "job/posttorch/misc_job.dm"
 
 	#include "../torch/outfits/scgec.dm"
 	#include "../torch/robot/module_flying_surveyor.dm"
@@ -178,6 +179,7 @@
 	#include "../torch/loadout/loadout_uniform.dm"
 	#include "../torch/loadout/loadout_xeno.dm"
 	#include "../torch/loadout/~defines.dm"
+	#include "loadout/overrides.dm"
 
 	// --- MAP FILES --- //
 
@@ -236,6 +238,7 @@
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/music_player/_music_player.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
+	#include "../../mods/pixelshift/_pixelshift.dme"
 	#include "../../mods/screentips/_screentips.dme"
 	#include "../../mods/tajara/_tajara.dme"
 	#include "../../mods/sauna_props/_sauna_props.dme"
@@ -267,6 +270,7 @@
 	#include "../../mods/_fd/expanded_traders/_expanded_traders.dme"
 	#include "../../mods/_fd/hestia_missiles/_hestia_missiles.dme"
 	#include "../../mods/_fd/immersive_overmap/_immersive_overmap.dme"
+	#include "../../mods/_fd/immersive_sounds/_immersive_sounds.dme"
 	#include "../../mods/_fd/junk_heaven/_junk_heaven.dme"
 	#include "../../mods/_fd/landing_eye/_landing_eye.dme"
 	#include "../../mods/_fd/marines_explosion/_marines_explosion.dme"
@@ -274,7 +278,9 @@
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
 	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme"
 	#include "../../mods/_fd/old_space_cannons/_old_space_cannons.dme"
+	#include "../../mods/_fd/skrell_resprite/_skrell_resprite.dme"
 	#include "../../mods/_fd/structure_storage/_structure_storage.dme"
+	#include "../../mods/_fd/v_posters/_v_posters.dme"
 	#include "../../mods/_fd/random_rooms/_random_rooms.dme"
 	#include "../../mods/_fd/resomi_fd/_resomi.dme"
 
@@ -300,6 +306,13 @@
 	#include "../../mods/_fd/_maps/khizriel/_khizriel.dme"
 	#include "../../mods/_fd/_maps/dead_sea/_dead_sea.dme"
 	#include "../../mods/_fd/_maps/kitsune/_kitsune.dme"
+	#include "../../mods/_fd/_maps/prison_ship/_prison_ship.dme"
+	#include "../../mods/_fd/_maps/a_destroyer/_a_destroyer.dme"
+	#include "../../mods/_fd/_maps/capsule/_capsule.dme"
+	#include "../../mods/_fd/_maps/biodome/_biodome.dme"
+	#include "../../mods/_fd/_maps/cascade/_cascade.dme"
+	#include "../../mods/_fd/_maps/new_year_house/_new_year_house.dme"
+
 
 
 		// ~EXOPLANET RUINS~ //
@@ -314,6 +327,11 @@
 	#include "../random_ruins/exoplanet_ruins/shelters/shelters_alt.dm"
 	#include "../random_ruins/exoplanet_ruins/warehouse/warehouse.dm"
 
+	#include "../../mods/_fd/_maps/lab_campaign/_lab_campaign.dme"
+
+//УДАЛИТЬ ПОСЛЕ ЗАПУСКА
+	#include "../../mods/_fd/_maps/perci_nightmare/_perci_nightmare.dme"
+//УДАЛИТЬ ПОСЛЕ ЗАПУСКА
 
 	#define using_map_DATUM /datum/map/torch
 
