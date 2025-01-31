@@ -70,6 +70,17 @@
 	)
 	speech_chance = 50
 
+/datum/species/tartakan/handle_post_spawn(mob/living/carbon/human/tartakan/H)
+	H.ai_holder = new /datum/ai_holder/human/tartakan (H)
+
+/datum/ai_holder/human/tartakan
+	base_wander_delay = 2
+	wander_chance = 55
+	wander_when_pulled = TRUE
+	violent_breakthrough = FALSE
+	flee_from_allies = TRUE
+	lose_target_timeout = 30 SECONDS
+
 /datum/hud_data/tartakan
 
 	gear = list(
@@ -87,6 +98,26 @@
 	icon = 'mods/_fd/tartakans/icons/mob.dmi'
 	icon_state = "example_male"
 
+	var/outfits = list(/singleton/hierarchy/outfit/tartakan,
+						/singleton/hierarchy/outfit/tartakan/alt1,
+						/singleton/hierarchy/outfit/tartakan/alt2,
+						/singleton/hierarchy/outfit/tartakan/alt3,
+						/singleton/hierarchy/outfit/tartakan/alt4,
+						/singleton/hierarchy/outfit/tartakan/alt5,
+						/singleton/hierarchy/outfit/tartakan/alt6,
+						/singleton/hierarchy/outfit/tartakan/alt7,
+						/singleton/hierarchy/outfit/tartakan/alt8,
+						/singleton/hierarchy/outfit/tartakan/alt10,
+						/singleton/hierarchy/outfit/tartakan/alt11,
+						/singleton/hierarchy/outfit/tartakan/alt12,
+						/singleton/hierarchy/outfit/tartakan/alt13,
+						/singleton/hierarchy/outfit/tartakan/alt14,
+						/singleton/hierarchy/outfit/tartakan/alt15,
+						/singleton/hierarchy/outfit/tartakan/alt16,
+						/singleton/hierarchy/outfit/tartakan/alt17,
+						/singleton/hierarchy/outfit/tartakan/alt18,
+						)
+
 /obj/sprite_helper/tartakan
 	icon = 'mods/_fd/tartakans/icons/mob.dmi' // ВСТАВИТЬ СЮДА СПРАЙТ ТАРТАКАНА
 	icon_state = "example_male"
@@ -97,6 +128,11 @@
 		fix_icons()
 	set_species(SPECIES_COCKROACH)
 	add_language(LANGUAGE_COCKROACH)
+	equip_outfit(src)
+
+/mob/living/carbon/human/tartakan/proc/equip_outfit(mob/living/carbon/human/tartakan/M)
+	var/singleton/hierarchy/outfit/outfit = outfit_by_type(pickweight(outfits))
+	outfit.equip(M)
 
 /mob/living/carbon/human/tartakan/Move()
 	..()
