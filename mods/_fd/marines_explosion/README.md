@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- https://github.com/SierraBay/SierraBay12/pull/#####
+- https://github.com/RepoStash/FD-NewBay/pull/76
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -19,8 +19,7 @@ ID мода: MARINES_EXPLOSION
 
 ### Описание мода
 
-Этот мод служит примером для разработчиков и существует лишь для того,
-чтобы его можно было легко скопировать и вставить в другое место.
+Этот мод переносит Мариновские взрывы на Бэй.
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -28,7 +27,10 @@ ID мода: MARINES_EXPLOSION
 
 ### Изменения *кор кода*
 
-- `code/modules/mob/living.dm`: `proc/overriden_proc`, `var/overriden_var`
+- `code/modules/admin/admin_verbs.dm`
+  - `var/global/list/admin_verbs_fun`
+  - `var/global/list/admin_verbs_hideable`
+
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -38,10 +40,23 @@ ID мода: MARINES_EXPLOSION
 -->
 
 ### Оверрайды
+<!-- Общие оверрайды -->
+- `code/overrides/override`:
+  - `/atom`:                    `proc/ex_act`
+  - `/mob/living/carbon/human`: `proc/ex_act`
+  - `/obj/overlay/bmark`:       `var/anchored`
 
+<!-- Оверрайды модов -->
+- `code/overrides/missile_override.dm`:
+  - `/obj/item/missile_equipment/payload/explosive`:    `proc/on_trigger`
+  - `/obj/item/missile_equipment/payload/antimissile`:  `proc/on_trigger`
+  - `/obj/item/missile_equipment/payload/nuclear`:      `proc/on_trigger`
+  - `/obj/item/missile_equipment/payload/void`:         `proc/on_trigger`
+  - `/obj/item/missile_equipment/payload/big_nuclear`:  `proc/on_trigger`
+
+<!--
 - `mods/_master_files/sound/my_cool_sound.ogg`
 - `mods/_master_files/code/my_modular_override.dm`: `proc/overriden_proc`, `var/overriden_var`
-<!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
 
@@ -50,8 +65,9 @@ ID мода: MARINES_EXPLOSION
 
 ### Дефайны
 
-- `code/__defines/~mods/marines_explosion.dm`: `MARINES_EXPLOSION_SPEED_MULTIPLIER`, `MARINES_EXPLOSION_SPEED_BASE`
+- Отсутствуют
 <!--
+  - `code/__defines/~mods/marines_explosion.dm`: `MARINES_EXPLOSION_SPEED_MULTIPLIER`, `MARINES_EXPLOSION_SPEED_BASE`
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
   И то же самое, если ты используешь дефайны, определённые другим модом.
@@ -71,7 +87,7 @@ ID мода: MARINES_EXPLOSION
 
 ### Авторы:
 
-Твой никнейм
+BlackCrystal, Chaplain Maximum, Danilcus
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.
