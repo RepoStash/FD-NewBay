@@ -3,6 +3,15 @@
 	desc = "An incredibly dangerous warhead. Detonates when the missile is triggered."
 	icon_state = "diffuse"
 
+	matter = list(
+		MATERIAL_PLASTEEL = 100000,
+		MATERIAL_ALUMINIUM = 50000,
+		MATERIAL_PLATINUM = 50000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000,
+		//крутой_материал
+	)
+
 /obj/item/missile_equipment/payload/void/on_trigger(atom/triggerer)
 	var/list/relevant_z = GetConnectedZlevels(loc.z)
 

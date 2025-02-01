@@ -4,6 +4,14 @@
 	desc = "A simple but powerful and modular booster that can be fitted in most missiles. This one comes with an embedded targeting computer."
 	icon_state = "target"
 
+	matter = list(
+		MATERIAL_PLASTEEL = 100000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_PLATINUM = 20000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000
+	)
+
 	cooldown = 5
 
 	var/target
@@ -53,6 +61,14 @@
 
 	fuel = 40
 
+	matter = list(
+		MATERIAL_TITANIUM = 100000,
+		MATERIAL_STEEL = 50000,
+		MATERIAL_PLATINUM = 20000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000
+	)
+
 /obj/item/missile_equipment/thruster/hunter/is_target_valid(obj/overmap/O)
 	return istype(O, /obj/overmap/missile)
 
@@ -69,6 +85,14 @@
 	icon_state = "dumbfire"
 	min_speed = 30 //FD
 
+	matter = list(
+		MATERIAL_PLASTEEL = 50000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_ALUMINIUM = 50000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000
+	)
+
 /obj/item/missile_equipment/thruster/point/on_touch_map_edge(obj/overmap/missile/P)
 	var/turf/turf_location = get_turf(src)
 	var/obj/overmap/visitable/ship/ship = waypoint_sector(turf_location)
@@ -79,6 +103,13 @@
 	desc = "The standard fare missile booster, but with planetary flight capabilities."
 	icon_state = "planet"
 	min_speed = 25 //bos
+
+	matter = list(
+		MATERIAL_PLASTEEL = 100000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000
+	)
 
 	var/turf/planetary_target
 
