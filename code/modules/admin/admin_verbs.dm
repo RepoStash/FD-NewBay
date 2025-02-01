@@ -105,6 +105,7 @@ var/global/list/admin_verbs_admin = list(
 // 	[FD-ADD]
 	/client/proc/remove_slot_crew_full,
 	/client/proc/allow_to_join,
+	/client/proc/drop_bomb_marine,
 
 //	[/FD-ADD]
 	/datum/admins/proc/togglemoderequirementchecks,
@@ -124,7 +125,7 @@ var/global/list/admin_verbs_fun = list(
 	/client/proc/object_talk,
 	/datum/admins/proc/cmd_admin_dress,
 	/client/proc/cmd_admin_gib_self,
-	/client/proc/drop_bomb,
+//	/client/proc/drop_bomb, // [FD-REMOVE / marine_explosion]
 	/client/proc/cinematic,
 	/client/proc/cmd_admin_add_freeform_ai_law,
 	/client/proc/cmd_admin_add_random_ai_law,
@@ -261,7 +262,7 @@ var/global/list/admin_verbs_hideable = list(
 	/client/proc/object_talk,
 	/datum/admins/proc/cmd_admin_dress,
 	/client/proc/cmd_admin_gib_self,
-	/client/proc/drop_bomb,
+//	/client/proc/drop_bomb, // [FD-REMOVE / marine_explosion]
 	/client/proc/cinematic,
 	/client/proc/cmd_admin_add_freeform_ai_law,
 	/client/proc/cmd_admin_add_random_ai_law,

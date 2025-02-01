@@ -30,7 +30,7 @@
 		* If two explosions meet, they will either merge into an amplified
 		or weakened explosion
 */
-
+/*
 #define EXPLOSION_FALLOFF_SHAPE_LINEAR				0
 #define EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL			1
 #define EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL_HALF	2
@@ -46,7 +46,7 @@
 
 /// how much it takes to gib a mob
 #define EXPLOSION_THRESHOLD_GIB 200
-
+*/
 /datum/automata_cell/explosion
 	// Explosions only spread outwards and don't need to know their neighbors to propagate properly
 	neighbor_type = NEIGHBORS_NONE
@@ -153,13 +153,13 @@
 		resistance += max(0, A.get_explosion_resistance())
 
 	// Blow stuff up
-	invoke_async(in_turf, /atom.proc/ex_act, power, direction)
+	invoke_async(in_turf, TYPE_PROC_REF(/atom, ex_act), power, direction)
 	for(var/atom/A in in_turf)
 		if(A in exploded_atoms)
 			continue
 		if(A.gc_destroyed)
 			continue
-		invoke_async(A, /atom.proc/ex_act, power, direction)
+		invoke_async(A, TYPE_PROC_REF(/atom, ex_act), power, direction)
 		exploded_atoms += A
 		log_explosion(A, src)
 
@@ -246,7 +246,7 @@ as having entered the turf.
 	if(A.gc_destroyed)
 		return
 
-	invoke_async(A, /atom.proc/ex_act, power, null)
+	invoke_async(A, TYPE_PROC_REF(/atom, ex_act), power, null)
 	log_explosion(A, src)
 
 // I'll admit most of the code from here on out is basically just copypasta from DOREC
@@ -406,7 +406,7 @@ as having entered the turf.
 			else
 				P.attack_mob(M, 0, 50)
 
-
+/*
 #undef EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL_HALF
 #undef EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL
 #undef EXPLOSION_FALLOFF_SHAPE_LINEAR
@@ -420,3 +420,4 @@ as having entered the turf.
 #undef EXPLOSION_THRESHOLD_HIGH
 
 #undef EXPLOSION_THRESHOLD_GIB
+*/
