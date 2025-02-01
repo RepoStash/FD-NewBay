@@ -1,5 +1,5 @@
 /obj/overmap/visitable/ship/tartakan
-	name = "Huge space-station"
+	name = "Cartel Borracho - Station"
 	desc = ""
 	icon = 'mods/_fd/_maps/tartakan/icons/tartakan.dmi'
 	icon_state = "tartakan"
@@ -44,84 +44,84 @@
 	area_usage_test_exempted_root_areas = list(/area/ship/tartakan)
 
 /obj/shuttle_landmark/tartakan/nav1
-	name = "Tartakan Station - Guest Dock A"
+	name = "Cartel Borracho - Guest Dock A"
 	landmark_tag = "nav_tartakan_1"
 
 /obj/shuttle_landmark/tartakan/nav2
-	name = "Tartakan Station - Guest Dock B"
+	name = "Cartel Borracho - Guest Dock B"
 	landmark_tag = "nav_tartakan_1"
 
 /area/ship/tartakan
-	name = "\improper Tartakan Station"
+	name = "\improper Cartel Borracho"
 
 /area/ship/tartakan/cargo_dorm
-	name = "\improper Tartakan Station - Cargo Dorms"
+	name = "\improper Cartel Borracho - Cargo Dorms"
 
 /area/ship/tartakan/factory_dorm
-	name = "\improper Tartakan Station - Factory Dorms"
+	name = "\improper Cartel Borracho - Factory Dorms"
 
 /area/ship/tartakan/cargo_port_west
-	name = "\improper Tartakan Station - Cargo Port A"
+	name = "\improper Cartel Borracho - Cargo Port A"
 
 /area/ship/tartakan/cargo_port_north
-	name = "\improper Tartakan Station - Cargo Port C"
+	name = "\improper Cartel Borracho - Cargo Port C"
 
 /area/ship/tartakan/cargo_port_east
-	name = "\improper Tartakan Station - Cargo Port B"
+	name = "\improper Cartel Borracho - Cargo Port B"
 
 /area/ship/tartakan/cargo_port_south
-	name = "\improper Tartakan Station - Cargo Port D"
+	name = "\improper Cartel Borracho - Cargo Port D"
 
 /area/ship/tartakan/engineering_lower
-	name = "\improper Tartakan Station - 2nd Deck Engineering"
+	name = "\improper Cartel Borracho - 2nd Deck Engineering"
 
 /area/ship/tartakan/atmospherics
-	name = "\improper Tartakan Station - 2nd Deck Atmospherics"
+	name = "\improper Cartel Borracho - 2nd Deck Atmospherics"
 
 /area/ship/tartakan/cargo
-	name = "\improper Tartakan Station - Cargo Compartment"
+	name = "\improper Cartel Borracho - Cargo Compartment"
 
 /area/ship/tartakan/factory
-	name = "\improper Tartakan Station - Factory Compartment"
+	name = "\improper Cartel Borracho - Factory Compartment"
 
 /area/ship/tartakan/zavod1
-	name = "\improper Tartakan Station - Main Factory"
+	name = "\improper Cartel Borracho - Main Factory"
 
 /area/ship/tartakan/zavod2
-	name = "\improper Tartakan Station - Chem Factory"
+	name = "\improper Cartel Borracho - Chem Factory"
 
 /area/ship/tartakan/hall_lower
-	name = "\improper Tartakan Station - 2nd Deck Hall"
+	name = "\improper Cartel Borracho - 2nd Deck Hall"
 
 /area/ship/tartakan/hall_higher
-	name = "\improper Tartakan Station - 1st Deck Hall"
+	name = "\improper Cartel Borracho - 1st Deck Hall"
 
 /area/ship/tartakan/engineering_higher
-	name = "\improper Tartakan Station - 1st Deck Engineering"
+	name = "\improper Cartel Borracho - 1st Deck Engineering"
 
 /area/ship/tartakan/main_store
-	name = "\improper Tartakan Station - Main Store"
+	name = "\improper Cartel Borracho - Main Store"
 
 /area/ship/tartakan/east_wing
-	name = "\improper Tartakan Station - East Wing"
+	name = "\improper Cartel Borracho - East Wing"
 
 /area/ship/tartakan/west_wing
-	name = "\improper Tartakan Station - West Wing"
+	name = "\improper Cartel Borracho - West Wing"
 
 /area/ship/tartakan/north_checkpoint
-	name = "\improper Tartakan Station - Dock A Checkpoint"
+	name = "\improper Cartel Borracho - Dock A Checkpoint"
 
 /area/ship/tartakan/south_checkpoint
-	name = "\improper Tartakan Station - Dock B Checkpoint"
+	name = "\improper Cartel Borracho - Dock B Checkpoint"
 
 /area/ship/tartakan/cryo
-	name = "\improper Tartakan Station - Cryostasis Storage"
+	name = "\improper Cartel Borracho - Cryostasis Storage"
 
 /area/ship/tartakan/store_one
-	name = "\improper Tartakan Station - Store One"
+	name = "\improper Cartel Borracho - Store One"
 
 /area/ship/tartakan/store_two
-	name = "\improper Tartakan Station - Store Two"
+	name = "\improper Cartel Borracho - Store Two"
 
 /area/ship/tartakan/store_three
-	name = "\improper Tartakan Station - Store Three"
+	name = "\improper Cartel Borracho - Store Three"
