@@ -1642,7 +1642,7 @@
 "Ig" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/overlay/diona/floor,/turf/simulated/floor/plating,/area/hallway/primary/fourthdeck/aft)
 "Ik" = (/obj/random/trash,/turf/simulated/floor/tiled,/area/hallway/primary/fourthdeck/aft)
 "Ip" = (/obj/overlay/diona/decorator{color = "#a19e74"},/obj/overlay/diona/floor{color = "#a19e74"},/turf/simulated/floor/plating,/area/maintenance/fourthdeck/aft)
-"IA" = (/obj/floor_decal/corner/blue/border,/obj/structure/closet,/obj/item/clothing/suit/scga/hooded/wintercoat,/obj/item/gun/projectile/revolver/medium/captain,/obj/item/ammo_magazine/speedloader,/turf/simulated/floor/tiled/dark/monotile,/area/command/captainmess)
+"IA" = (/obj/floor_decal/corner/blue/border,/obj/structure/closet,/obj/item/clothing/suit/scga/hooded/wintercoat,/obj/item/ammo_magazine/speedloader,/turf/simulated/floor/tiled/dark/monotile,/area/command/captainmess)
 "IB" = (/obj/paint/dark_blue_gray,/obj/structure/sign/double/icarus_solgovflag/right,/turf/simulated/wall/r_titanium,/area/ship/capsule/interior)
 "IP" = (/obj/overlay/diona/floor,/obj/overlay/diona/wall,/turf/simulated/floor/plating,/area/maintenance/fourthdeck/starboard)
 "IT" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/hallway/primary/fourthdeck/fore)
