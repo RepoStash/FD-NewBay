@@ -19,7 +19,18 @@ var/global/list/obj/bump_teleporter/BUMP_TELEPORTERS = list()
 	BUMP_TELEPORTERS -= src
 	return ..()
 
-/obj/bump_teleporter/Bumped(atom/user)
+/obj/bump_teleporter/Crossed(atom/movable/thing)
+
+	if(!id_target)
+		//user.loc = src.loc	//Stop at teleporter location, there is nowhere to teleport to.
+		return
+
+	for(var/obj/bump_teleporter/BT in BUMP_TELEPORTERS)
+		if(BT.id == src.id_target)
+			thing.forceMove(BT.loc)	//Teleport to location with correct id.
+			return
+
+/*/obj/bump_teleporter/Bumped(atom/user)
 	if(!ismob(user))
 		//user.loc = src.loc	//Stop at teleporter location
 		return
@@ -31,4 +42,4 @@ var/global/list/obj/bump_teleporter/BUMP_TELEPORTERS = list()
 	for(var/obj/bump_teleporter/BT in BUMP_TELEPORTERS)
 		if(BT.id == src.id_target)
 			usr.forceMove(BT.loc)	//Teleport to location with correct id.
-			return
+			return*/

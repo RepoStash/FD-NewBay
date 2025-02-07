@@ -1,0 +1,10 @@
+#ifndef MODPACK_TARTAKANS
+#define MODPACK_TARTAKANS
+
+#include "_tartakans.dm"
+
+#include "code/clothing.dm"
+#include "code/species.dm"
+#include "code/sprite_helper.dm"
+
+#endif

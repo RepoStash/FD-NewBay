@@ -92,8 +92,8 @@
 
 /datum/job/officer
 	title = "Armsman"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 10
+	spawn_positions = 10
 	supervisors = "the Chief of Security"
 	economic_power = 4
 	minimal_player_age = 7

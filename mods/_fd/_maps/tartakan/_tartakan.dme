@@ -1,0 +1,8 @@
+#ifndef MODPACK_TARTAKAN
+#define MODPACK_TARTAKAN
+
+#include "_tartakan.dm"
+
+#include "code/tartakan.dm"
+
+#endif

@@ -55,9 +55,9 @@
 	var/required_language
 
 	var/faction = MOB_FACTION_CREW
-
-	var/global/psi_allowed_species = list(/datum/species/human,/datum/species/human/vatgrown,/datum/species/human/tritonian,/datum/species/human/gravworlder,/datum/species/human/spacer)
-
+// [FD-ADD]
+	var/global/psi_allowed_species = list(/datum/species/human,/datum/species/human/vatgrown,/datum/species/human/tritonian,/datum/species/human/gravworlder,/datum/species/human/spacer, /datum/species/tajaran)
+// [/FD-ADD]
 /datum/job/New()
 
 	if(prob(100-availablity_chance))	//Close positions, blah blah.

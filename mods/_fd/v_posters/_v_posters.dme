@@ -1,0 +1,6 @@
+#ifndef MODPACK_V_POSTERS
+#define MODPACK_V_POSTERS
+
+#include "code/v_posters.dm"
+
+#endif

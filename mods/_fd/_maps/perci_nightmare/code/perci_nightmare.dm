@@ -18,51 +18,14 @@
 /area/perci
 	requires_power = FALSE
 
-/obj/structure/scene_starter
-	name = "orb"
-	desc = "orb"
-	icon = 'packs/infinity/icons/mob/hologram.dmi'
-	icon_state = "Vega"
-	density = FALSE
-	anchored = TRUE
-	invisibility = 50
-
-/obj/structure/scene_starter/proc/start()
-	for(var/mob/living/simple_animal/npc_perci/mobs in orange(20, src))
-		mobs.start_scene()
-
-/mob/living/simple_animal/npc_perci
-	name = "TEST"
-	desc = "TEST"
-	icon = 'mods/_fd/_maps/perci_nightmare/icons/npc.dmi'
-	icon_state = "unk"
-	icon_living = "unk"
-	icon_dead = "unk"
-	response_help = "tries to poke"
-	response_disarm = "shoves"
-	response_harm = "hits"
-	speed = 4
-	movement_cooldown = 0
-	maxHealth = 999999
-	health = 999999
-	a_intent = I_HELP
-	faction = "holo"
-	status_flags = GODMODE
-	does_spin = FALSE
-	anchored = TRUE
-	mob_size = MOB_MEDIUM
-
-/mob/living/simple_animal/npc_perci/proc/start_scene()
-	return
-
-/mob/living/simple_animal/npc_perci/doctor1
+/mob/living/simple_animal/npc_alive/doctor1
 	name = "Unknown"
 	desc = "Неизвестная личность в медицинском халате и прочих врачебных принадлежностях...почему я не могу рассмотреть его лицо?"
 	icon_state = "perci_doctor2"
 	icon_living = "perci_doctor2"
 	icon_dead = "perci_doctor2"
 
-/mob/living/simple_animal/npc_perci/doctor1/start_scene()
+/mob/living/simple_animal/npc_alive/doctor1/start_scene()
 	ISay("Коммандер Эндсли, вы уверены?")
 	forceMove(get_step(src, SOUTH))
 	spawn(2 SECONDS)
@@ -145,14 +108,14 @@
 	spawn(116 SECONDS)
 		ISay("Главное не закрывай глаза, всё будет-")
 
-/mob/living/simple_animal/npc_perci/doctor2
+/mob/living/simple_animal/npc_alive/doctor2
 	name = "Unknown"
 	desc = "Неизвестная личность в медицинском халате и прочих врачебных принадлежностях...почему я не могу рассмотреть его лицо?"
 	icon_state = "perci_doctor1"
 	icon_living = "perci_doctor1"
 	icon_dead = "perci_doctor1"
 
-/mob/living/simple_animal/npc_perci/doctor2/start_scene()
+/mob/living/simple_animal/npc_alive/doctor2/start_scene()
 	dir = turn(dir,90)
 	spawn(38 SECONDS)
 		dir = turn(dir,-180)
@@ -238,14 +201,14 @@
 		forceMove(get_step(src, NORTH))
 		ISay("Скорее, помогите мне переместить его в палату!")
 
-/mob/living/simple_animal/npc_perci/martin
+/mob/living/simple_animal/npc_alive/martin
 	name = "Martin Endsley"
 	desc = "Дядя...что с твоим лицом? Почему я- не могу вспомнить его?"
 	icon_state = "perci_martin"
 	icon_living = "perci_martin"
 	icon_dead = "perci_martin"
 
-/mob/living/simple_animal/npc_perci/martin/start_scene()
+/mob/living/simple_animal/npc_alive/martin/start_scene()
 	forceMove(get_step(src, SOUTH))
 	spawn(2 SECONDS)
 		visible_message(SPAN_WARNING("Мои руки чешутся и горят..."))

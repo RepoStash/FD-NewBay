@@ -17,7 +17,7 @@
 	harm_intent_damage = 12
 	faction = "Ascent"
 	natural_weapon = /obj/item/natural_weapon/dweller_tail
-	ai_holder = /datum/ai_holder/simple_animal/melee/ascent_larva
+	ai_holder = /datum/ai_holder/simple_animal/melee/hit_and_run/ascent_larva
 
 /datum/ai_holder/simple_animal/melee/hit_and_run/ascent_larva
 	retaliate = TRUE

@@ -134,9 +134,9 @@
 	icon = 'mods/_fd/_maps/small_exoplanet_1/icons/turf_floor_grim.dmi'
 	icon_state = "dirt"
 
-/turf/simulated/floor/exoplanet/grim_dirt/New()
+/*/turf/simulated/floor/exoplanet/grim_dirt/New()
 	..()
-	icon_state = "dirt_[rand(1, 16)]"
+	icon_state = "dirt_[rand(1, 16)]"*/
 
 /turf/simulated/floor/exoplanet/wet_stone
 	name = "wet stone pile"
@@ -297,10 +297,6 @@
 	desc = "Just an old, molded bricky plate."
 	icon = 'mods/_fd/_maps/small_exoplanet_1/icons/turf_floor_grim.dmi'
 	icon_state = "ceramic_cross"
-
-/turf/simulated/floor/exoplanet/grim_ceramic_indoor/New()
-	..()
-	icon_state = "ceramic_cross_[rand(1, 4)]"
 
 /turf/simulated/floor/exoplanet/grim_ceramic_indoor2
 	name = "ceramic tile"

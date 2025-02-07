@@ -8,5 +8,6 @@
 
 #include "code/accessory.dm"
 #include "code/suit.dm"
+#include "code/weapons.dm"
 
 #endif

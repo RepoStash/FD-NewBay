@@ -11,11 +11,14 @@
 
 /obj/structure/holo_starter/attack_hand(mob/user)
 	if(do_after(user, 5 SECONDS, src, DO_PUBLIC_UNIQUE | DO_BAR_OVER_USER))
-		for(var/obj/holo_spawner/mobs in orange(10, src))
-			if(mobs.character_id == cutscene_id)
-				if(mobs.next_play > 0)
-					continue
-				mobs.start_scene()
+		start_playing()
+
+/obj/structure/holo_starter/proc/start_playing()
+	for(var/obj/holo_spawner/mobs in orange(10, src))
+		if(mobs.character_id == cutscene_id)
+			if(mobs.next_play > 0)
+				continue
+			mobs.start_scene()
 
 /obj/holo_spawner
 	name = "ТЫ НЕ ДОЛЖЕН ЭТОГО ВИДЕТЬ"
@@ -113,26 +116,10 @@
 /mob/living/simple_animal/holo_npc/ai_announcer/start_thinking()
 	alpha = 0
 	invisibility = 50
-/*	spawn(2 SECOND)
-		alpha = 0
-	spawn(3 SECONDS)
-		alpha = 0
-	spawn(4 SECOND)
-		alpha = 0
-	spawn(5 SECONDS)
-		alpha = 0*/
 
 	spawn(195 SECOND)
 		invisibility = 0
 		animate(src, 5 SECONDS, alpha = 150)
-/*	spawn(196 SECONDS)
-		alpha = 80
-	spawn(197 SECOND)
-		alpha = 100
-	spawn(198 SECOND)
-		alpha = 120
-	spawn(199 SECOND)
-		alpha = 150*/
 
 	spawn(200 SECONDS)
 		ISay("|ВНИМАНИЕ| ЗАФИКСИРОВАНЫ СЕРЬЁЗНЫЕ СТРУКТУРНЫЕ ПОВРЕЖДЕНИЯ.")
@@ -1211,3 +1198,126 @@
 
 	spawn(32 SECONDS)
 		qdel(src)
+
+// ЕСЛИ НУЖНО ЧТОБЫ НПС БЫЛИ "ЖИВЫМИ"
+
+/obj/structure/scene_starter
+	name = "orb"
+	desc = "orb"
+	icon = 'packs/infinity/icons/mob/hologram.dmi'
+	icon_state = "Vega"
+	density = FALSE
+	anchored = TRUE
+	invisibility = 50
+	var/scene_zone = 20
+
+/obj/structure/scene_starter/proc/start()
+	for(var/mob/living/simple_animal/npc_alive/mobs in orange(scene_zone, src))
+		mobs.start_scene()
+
+/mob/living/simple_animal/npc_alive
+	name = "TEST"
+	desc = "TEST"
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "unk"
+	icon_living = "unk"
+	icon_dead = "unk"
+	response_help = "tries to poke"
+	response_disarm = "shoves"
+	response_harm = "hits"
+	speed = 4
+	movement_cooldown = 0
+	maxHealth = 999999
+	health = 999999
+	a_intent = I_HELP
+	faction = "holo"
+	status_flags = GODMODE
+	does_spin = FALSE
+	anchored = TRUE
+	mob_size = MOB_MEDIUM
+
+/mob/living/simple_animal/npc_alive/proc/start_scene()
+	return
+
+/mob/living/simple_animal/npc_alive/partisan1
+	name = "Soldier"
+	desc = "Его ноги слетели с орбиты, а из черепа торчит какой-то прут. Но он, по-крайней мере, умер быстро, да?..."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_legs"
+	icon_living = "partisan_legs"
+	icon_dead = "partisan_legs"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan1/start_scene()
+	ISay("М-мама...")
+	spawn(4 SECONDS)
+		ISay("М-мамочка, мнн-не холодно...")
+		visible_message(SPAN_DANGER("[src] дрожит."))
+	spawn(8 SECONDS)
+		ISay("Мам, м-мне о-ч-ччень холодно...")
+	spawn(13 SECONDS)
+		visible_message(SPAN_DANGER("[src] хнычет."))
+		ISay("Мама...п-пожалуйста...М-мама-а...")
+	spawn(17 SECONDS)
+		visible_message(SPAN_DANGER("[src] хнычет."))
+		ISay("Н-не хочу...мамм-ма, я н-не...")
+	spawn(19 SECONDS)
+		visible_message(SPAN_DANGER("[src] опускает голову."))
+
+/mob/living/simple_animal/npc_alive/partisan2
+	name = "Soldier"
+	desc = "Да у него мозги наружу..."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_headgib"
+	icon_living = "partisan_headgib"
+	icon_dead = "partisan_headgib"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan2/start_scene()
+	ISay("Х-хКкхх-ххх-...")
+	visible_message(SPAN_DANGER("[src] неестественно дёргается."))
+	spawn(6 SECONDS)
+		visible_message(SPAN_DANGER("[src] отхаркивает кровь."))
+		ISay("ГлКхх-КХА-Кх...")
+	spawn(9 SECONDS)
+		ISay("ВоОу-Кхттхх...ды-ы-ы..")
+		visible_message(SPAN_DANGER("[src] ворочет головой в конвульсиях."))
+	spawn(12 SECONDS)
+		visible_message(SPAN_DANGER("[src] замирает..."))
+
+/mob/living/simple_animal/npc_alive/partisan3
+	name = "Soldier"
+	desc = "Её тело прибито к стене множеством металлических прутьев. Кто бы не сделал это - он явно желал ей долгой и мучительной смерти."
+	icon = 'mods/_fd/event_tools/icons/holo_npc.dmi'
+	icon_state = "partisan_punctured"
+	icon_living = "partisan_punctured"
+	icon_dead = "partisan_punctured"
+
+	density = FALSE
+	anchored = TRUE
+	pass_flags = PASS_FLAG_TABLE|PASS_FLAG_GLASS|PASS_FLAG_GRILLE
+	mob_size = MOB_SMALL
+
+/mob/living/simple_animal/npc_alive/partisan3/start_scene()
+	visible_message(SPAN_DANGER("[src] тяжело дышит."))
+	spawn(4 SECONDS)
+		visible_message(SPAN_DANGER("[src] сплёвывает кровь на пол."))
+	spawn(9 SECONDS)
+		ISay("С-Серый...Кх-х..- Малой-")
+	spawn(11 SECONDS)
+		visible_message(SPAN_DANGER("[src] очень тяжело кашляет!"))
+	spawn(13 SECONDS)
+		ISay("Я д-должна...я обеща...ла..-КХА-КХА-КХА!")
+	spawn(16 SECONDS)
+		ISay("Они...ведь...доверились...")
+		visible_message(SPAN_DANGER("[src], от усталости, опускает голову вниз, более не в силах поддерживать её."))
+	spawn(19 SECONDS)
+		ISay("...мне-")

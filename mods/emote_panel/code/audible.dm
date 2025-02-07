@@ -179,7 +179,7 @@
 /singleton/emote/audible/cat_purr
 	key = "purr"
 	emote_message_3p = "USER мурчит."
-	emote_sound = 'mods/emote_panel/sound/cat_purr.ogg'
+	emote_sound = list('mods/emote_panel/sound/cat_purr.ogg', 'mods/emote_panel/sound/cat-purring.ogg')
 
 /singleton/emote/audible/cat_purr/long
 	key = "purrl"

@@ -4,6 +4,8 @@
 	minimal_player_age = 0
 	economic_power = 16
 	minimum_character_age = 0
+	total_positions = 0
+	spawn_positions = 0
 	ideal_character_age = 50
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
@@ -62,6 +64,8 @@
 	economic_power = 14
 	minimum_character_age = 0
 	ideal_character_age = 45
+	total_positions = 0
+	spawn_positions = 0
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/XO
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -90,7 +94,7 @@
 		access_emergency_armory, access_sec_guard, access_gun, access_expedition_shuttle, access_guppy, access_seneng, access_senmed, access_senadv,
 		access_explorer, access_pathfinder, access_pilot, access_commissary, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron,
 		access_petrov_toxins, access_petrov_chemistry, access_petrov_control, access_petrov_maint, access_rd, access_petrov_rd, access_torch_fax, access_torch_helm,
-		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci, access_research_storage
+		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci, access_research_storage, access_research_security
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
@@ -133,7 +137,7 @@
 		access_expedition_shuttle, access_guppy, access_hangar, access_petrov, access_petrov_helm, access_guppy_helm,
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_rd,
 		access_petrov_control, access_petrov_maint, access_pathfinder, access_explorer, access_eva, access_solgov_crew,
-		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_torch_fax, access_radio_comm,
+		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_torch_fax, access_radio_comm, access_research_security,
 		access_radio_sci, access_radio_exp, access_research_storage
 	)
 
@@ -278,34 +282,49 @@
 	return "You are the Chief Engineer. You manage the Engineering Department. You are responsible for the Senior engineer, who is your right hand and (should be) an experienced, skilled engineer. Delegate to and listen to them. Manage your engineers, ensure vessel power stays on, breaches are patched and problems are fixed. Advise the CO on engineering matters. You are also responsible for the maintenance and control of any vessel synthetics. You are an experienced engineer with a wealth of theoretical knowledge. You should also know vessel regulations to a reasonable degree."
 
 /datum/job/hos
-	title = "Chief of Security"
+	title = "Armsman Squad Leader"
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 10
 	minimal_player_age = 14
-	minimum_character_age = list(SPECIES_HUMAN = 25)
+	minimum_character_age = 0
 	ideal_character_age = 35
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/cos
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/cos/fleet
+		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/command/cos/fleet,
+		/datum/mil_branch/scga
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o3,
 		/datum/mil_rank/fleet/o2,
-		/datum/mil_rank/fleet/o3
+		/datum/mil_rank/fleet/o3,
+		/datum/mil_rank/scga/e6
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_TRAINED,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_COMBAT      = SKILL_BASIC,
-	                    SKILL_WEAPONS     = SKILL_TRAINED,
-	                    SKILL_FORENSICS   = SKILL_BASIC)
-
-	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
-	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
-	skill_points = 28
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MAX,
+		SKILL_FINANCE = SKILL_MAX,
+		SKILL_EVA = SKILL_MAX,
+		SKILL_PILOT = SKILL_MAX,
+		SKILL_HAULING = SKILL_MAX,
+		SKILL_COMPUTER = SKILL_MAX,
+		SKILL_BOTANY = SKILL_MAX,
+		SKILL_COOKING = SKILL_MAX,
+		SKILL_COMBAT = SKILL_MAX,
+		SKILL_WEAPONS = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX,
+		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_ELECTRICAL = SKILL_MAX,
+		SKILL_ATMOS = SKILL_MAX,
+		SKILL_ENGINES = SKILL_MAX,
+		SKILL_DEVICES = SKILL_MAX,
+		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_CHEMISTRY = SKILL_MAX
+	)
+	skill_points = 52
 
 	access = list(
 		access_security, access_brig, access_armory, access_forensics_lockers,
@@ -395,7 +414,7 @@
 		access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_janitor,
 		access_kitchen, access_cargo, access_RC_announce, access_keycard_auth, access_aquila, access_guppy_helm,
 		access_solgov_crew, access_gun, access_expedition_shuttle, access_guppy, access_senadv, access_hangar, access_torch_fax,
-		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_serv, access_radio_sup, access_radio_exp
+		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_serv, access_radio_sup, access_radio_exp, access_research_security
 		)
 
 	software_on_spawn = list(/datum/computer_file/program/camera_monitor,

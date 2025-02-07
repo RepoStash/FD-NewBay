@@ -89,8 +89,8 @@
 
 /datum/job/doctor
 	title = "Medical Technician"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 5
+	spawn_positions = 5
 	supervisors = "physicians and the Chief Medical Officer"
 	economic_power = 7
 	minimum_character_age = 0

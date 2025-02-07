@@ -55,7 +55,7 @@
 		if("Да")
 			var/answer =  input(linked_soul, "Что вы хотите передать в ответ?", "Связаться", "...") as null|text
 			to_chat(usr, SPAN_OCCULT("<b>[linked_soul] отвечает вам: <i>[answer]</i></b>"))
-			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | PsyBound \] [linked_soul] говорит [usr]: <i>[phrase]</i></b>"))
+			log_and_message_admins(SPAN_OCCULT("<b> \[ALLAXETIA | PsyBound \] [linked_soul] говорит [usr]: <i>[answer]</i></b>"))
 		else
 			return
 
@@ -372,8 +372,10 @@
 
 /mob/living/proc/run_timer_invisibility()
 	var/invis_timer = 30
+	var/con_rank_user = psi.get_rank(PSI_CONSCIOUSNESS)
+
 	set waitfor = 0
-	var/T = invis_timer
+	var/T = invis_timer*con_rank_user
 	while(T > 0)
 		sleep(1 SECOND)
 		T--
@@ -385,11 +387,11 @@
 		src.alpha = 200
 	spawn(3 SECONDS)
 		src.alpha = 255
-	if(src.psi)
+/*	if(src.psi)
 		var/con_rank_user = src.psi.get_rank(PSI_CONSCIOUSNESS)
 		if(con_rank_user == PSI_RANK_GRANDMASTER)
 			src.RemoveMovementHandler(/datum/movement_handler/mob/incorporeal)
-
+*/
 /singleton/psionic_power/consciousness/invis/invoke(mob/living/user, mob/living/target)
 	var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
 	if(user.zone_sel.selecting != BP_EYES || user.a_intent != I_HELP)
@@ -430,8 +432,9 @@
 			user.alpha = 25
 		spawn(5 SECONDS)
 			user.alpha = 10
-		if(con_rank_user == PSI_RANK_GRANDMASTER)
+/*		if(con_rank_user == PSI_RANK_GRANDMASTER)
 			user.AddMovementHandler(/datum/movement_handler/mob/incorporeal)
+*/
 		user.run_timer_invisibility()
 		return TRUE
 

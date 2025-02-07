@@ -8,7 +8,7 @@
 	if(!user || !user.client || user.client.get_preference_value(/datum/client_preference/accent_tags) != GLOB.PREF_SHOW)
 		return ""
 
-	if(!accent_tag_cache)
+	if(!accent_tag_cache && client)
 		var/culture = client.prefs.cultural_info[TAG_CULTURE]
 		accent_tag_cache = culture
 

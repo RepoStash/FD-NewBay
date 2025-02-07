@@ -172,8 +172,8 @@
 	title = "Crewman"
 	department = "Service"
 	department_flag = SRV
-	total_positions = 9
-	spawn_positions = 9
+	total_positions = -1
+	spawn_positions = -1
 	supervisors = "the Chief Steward"
 	loadout_allowed = TRUE
 	minimum_character_age = 0

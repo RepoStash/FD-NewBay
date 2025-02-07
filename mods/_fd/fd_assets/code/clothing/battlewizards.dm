@@ -23,6 +23,11 @@
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC)
 	light_overlay = "explorer_light"
 
+/obj/item/clothing/head/helmet/space/void/battlewizards/Initialize()
+	. = ..()
+	sprite_sheets[SPECIES_TAJARA] = 'mods/_fd/fd_assets/icons/onmob/clothing_suit_cat.dmi'
+	sprite_sheets_obj[SPECIES_TAJARA] = 'mods/_fd/fd_assets/icons/obj/clothing_head.dmi'
+
 /obj/item/clothing/head/helmet/space/void/battlewizards/captain
 	desc = "An advanced helmet designed for work in special operations. This one have more unique style."
 	icon_state = "rig0-battlemagscaptain"
@@ -59,6 +64,8 @@
 /obj/item/clothing/suit/space/void/battlewizards/Initialize()
 	. = ..()
 	slowdown_per_slot[slot_wear_suit] = 1
+	sprite_sheets[SPECIES_TAJARA] = 'mods/_fd/fd_assets/icons/onmob/clothing_suit_cat.dmi'
+	sprite_sheets_obj[SPECIES_TAJARA] = 'mods/_fd/fd_assets/icons/obj/clothing_suit.dmi'
 
 /obj/item/clothing/suit/space/void/battlewizards/captain
 	desc = "An advanced suit that protects against injuries during special operations. This one have cool jacket."

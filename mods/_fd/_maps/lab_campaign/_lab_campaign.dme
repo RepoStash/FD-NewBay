@@ -1,0 +1,8 @@
+#ifndef MODPACK_ASCENT_LAB
+#define MODPACK_ASCENT_LAB
+
+#include "_lab_campaign.dm"
+
+#include "code/lab_campaign.dm"
+
+#endif
