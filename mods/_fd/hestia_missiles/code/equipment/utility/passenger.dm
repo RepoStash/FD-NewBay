@@ -4,6 +4,13 @@
 	desc = "A very tight and extremely uncomfortable pod that just barely fits in missiles. Can hold one passenger."
 	icon_state = "passenger"
 
+	matter = list(
+		MATERIAL_PLASTEEL = 50000,
+		MATERIAL_STEEL = 50000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000
+	)
+
 	var/hatch_open = FALSE
 
 /obj/item/missile_equipment/passenger/proc/get_passenger()

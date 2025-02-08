@@ -28,5 +28,10 @@
 #include "code/storage_crates.dm"
 #include "code/targeting_console.dm"
 #include "code/visitable.dm"
+#include "code/crafting/missile_craft.dm"
+#include "code/crafting/fabricator.dm"
+#include "code/crafting/designs.dm"
+#include "code/crafting/plutonium.dm"
+
 
 #endif

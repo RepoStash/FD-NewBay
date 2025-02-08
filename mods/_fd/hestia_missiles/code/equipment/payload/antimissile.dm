@@ -3,6 +3,14 @@
 	name = "PREDATOR missile disabler system"
 	desc = "An advanced concotion of technology intended to detect and detonate in close proximity of another projectile in order to disable it."
 	icon_state = "antimissile"
+	matter = list(
+		MATERIAL_STEEL = 100000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_PLATINUM = 20000,
+		MATERIAL_SILVER = 20000,
+		MATERIAL_GOLD = 20000,
+		MATERIAL_PHORON = 10000
+	)
 
 	cooldown = 3
 

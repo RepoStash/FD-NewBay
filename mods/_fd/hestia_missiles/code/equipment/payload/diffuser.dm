@@ -4,6 +4,14 @@
 	desc = "A one time use device designed to emit a strong, lasting strobe of antiphase EM waves. It can diffuse large shield sections for a long period of time, possibly causing massive damage to them as well."
 	icon_state = "diffuse"
 
+	matter = list(
+		MATERIAL_STEEL = 100000,
+		MATERIAL_ALUMINIUM = 50000,
+		MATERIAL_GOLD = 20000,
+		MATERIAL_DIAMOND = 20000,
+		MATERIAL_URANIUM = 30000
+	)
+
 	var/diffuse_range = 60
 	var/diffuse_duration = 120
 	var/damage_induced = 600 //Two will certainly take out a 9MJ shield.

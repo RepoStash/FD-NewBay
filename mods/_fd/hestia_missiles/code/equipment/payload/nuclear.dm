@@ -3,6 +3,16 @@
 	desc = "An incredibly dangerous warhead. Detonates when the missile is triggered."
 	icon_state = "ion"
 
+	matter = list(
+		MATERIAL_PLASTEEL = 100000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_PLATINUM = 20000,
+		MATERIAL_GOLD = 20000,
+		MATERIAL_PLUTONIUM = 40000,
+		MATERIAL_URANIUM = 50000,
+		MATERIAL_DEUTERIUM = 30000
+	)
+
 /obj/item/missile_equipment/payload/nuclear/on_trigger(atom/triggerer)
 	var/list/relevant_z = GetConnectedZlevels(loc.z)
 
@@ -29,6 +39,17 @@
 	name = "nuclear warhead"
 	desc = "An incredibly dangerous warhead. Detonates when the missile is triggered."
 	icon_state = "nuclear"
+
+	matter = list(
+		MATERIAL_PLASTEEL = 100000,
+		MATERIAL_TITANIUM = 50000,
+		MATERIAL_PLATINUM = 20000,
+		MATERIAL_GOLD = 20000,
+		MATERIAL_URANIUM = 60000,
+		MATERIAL_DEUTERIUM = 30000,
+		MATERIAL_TRITIUM = 30000,
+		MATERIAL_PLUTONIUM = 60000
+	)
 
 /obj/item/missile_equipment/payload/big_nuclear/on_trigger(atom/triggerer)
 	var/list/relevant_z = GetConnectedZlevels(loc.z)
