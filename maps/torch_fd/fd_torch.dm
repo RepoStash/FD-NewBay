@@ -273,6 +273,7 @@
 	#include "../../mods/_fd/immersive_sounds/_immersive_sounds.dme"
 	#include "../../mods/_fd/junk_heaven/_junk_heaven.dme"
 	#include "../../mods/_fd/landing_eye/_landing_eye.dme"
+	#include "../../mods/_fd/marines_explosion/_marines_explosion.dme"
 	#include "../../mods/_fd/mob_interactions/_mob_interactions.dme"
 	#include "../../mods/_fd/multitile_vehicles/_multitile_vehicles.dme"
 	#include "../../mods/_fd/polaris_portals/_polaris_portals.dme"
