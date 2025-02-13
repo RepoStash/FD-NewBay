@@ -1,0 +1,9 @@
+#ifndef MODPACK_TAJARAN_CLOTH
+#define MODPACK_TAJARAN_CLOTH
+
+#include "_tajaran_stuff.dm"
+
+// Далее просто включай свой код
+// #include "code/something.dm"
+
+#endif
