@@ -79,7 +79,7 @@
 #include "customs/evil/evil_box.dm"
 #include "customs/lozari/custom_exosuit.dm"
 #include "customs/colonel\mantle.dm"
-
+#include "customs/ruina/channel_prefabs.dm"
 
 #include "eventstuff/admintools.dm"
 

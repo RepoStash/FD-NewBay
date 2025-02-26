@@ -3341,6 +3341,7 @@
 #include "maps\_maps.dm"
 #include "mods\_modpack.dm"
 #include "mods\global_modpacks.dm"
+#include "mods\_fd\fd_assets\customs\ruina\channel_prefabs.dm"
 #include "mods\_master_files\code\_onclick\click.dm"
 #include "mods\_master_files\code\game\world.dm"
 #include "mods\_master_files\code\game\gamemodes\ert.dm"
