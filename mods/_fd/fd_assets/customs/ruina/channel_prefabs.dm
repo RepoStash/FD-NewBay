@@ -32,3 +32,5 @@ world/New()
     name = "freedom radio encryption key"
     icon_state = "cypherkey"
     channels = list("Freedom" = 1)
+
+#undef COMMS_COLOR_FREEDOM
