@@ -1,0 +1,73 @@
+#ifndef MODPACK_MARINES_EXPLOSION
+#define MODPACK_MARINES_EXPLOSION
+
+#include "_marines_explosion.dm"
+
+
+// 			[DEFINES]			\\
+
+
+#define EXPLOSION_FALLOFF_SHAPE_LINEAR				0
+#define EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL			1
+#define EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL_HALF	2
+
+#define EXPLOSION_MAX_POWER 5000
+
+//Explosion level thresholds. Upper bounds
+#define EXPLOSION_THRESHOLD_VLOW 50
+#define EXPLOSION_THRESHOLD_LOW 100
+#define EXPLOSION_THRESHOLD_MLOW 150
+#define EXPLOSION_THRESHOLD_MEDIUM 200
+#define EXPLOSION_THRESHOLD_HIGH 300
+
+/// how much it takes to gib a mob
+#define EXPLOSION_THRESHOLD_GIB 200
+
+// No neighbors
+#define NEIGHBORS_NONE		0
+// Cardinal neighborhood
+#define NEIGHBORS_CARDINAL	1
+// Ordinal neighborhood
+#define NEIGHBORS_ORDINAL	2
+// Note that NEIGHBORS_CARDINAL | NEIGHBORS_ORDINALS gives you all 8 surrounding neighbors
+
+
+// 			[INCLUDES]			\\
+
+
+#include "code/autocell_ss.dm"
+#include "code/auto_cell.dm"
+
+#include "code/assets.dm"
+#include "code/explosion.dm"
+#include "code/explosion_resistances.dm"
+
+#include "code/overrides/admin_tools.dm"
+#include "code/overrides/override.dm"
+#include "code/overrides/missile_override.dm"
+// #include "code/vomit_wave.dm"
+
+
+// 			[UNDEFS]			\\
+
+
+#undef NEIGHBORS_NONE
+#undef NEIGHBORS_CARDINAL
+#undef NEIGHBORS_ORDINAL
+
+// some explosion stuff
+#undef EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL_HALF
+#undef EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL
+#undef EXPLOSION_FALLOFF_SHAPE_LINEAR
+
+#undef EXPLOSION_MAX_POWER
+
+#undef EXPLOSION_THRESHOLD_VLOW
+#undef EXPLOSION_THRESHOLD_LOW
+#undef EXPLOSION_THRESHOLD_MLOW
+#undef EXPLOSION_THRESHOLD_MEDIUM
+#undef EXPLOSION_THRESHOLD_HIGH
+
+#undef EXPLOSION_THRESHOLD_GIB
+
+#endif

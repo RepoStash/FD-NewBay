@@ -1,0 +1,7 @@
+#ifndef MODPACK_SKRELL_RESPRITE
+#define MODPACK_SKRELL_RESPRITE
+
+#include "code/skrell_acessory.dm"
+#include "code/skrell_fade.dm"
+
+#endif

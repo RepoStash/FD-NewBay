@@ -717,6 +717,13 @@
 
 
 
+
+/obj/structure/table/ul_plasteel
+	icon_state = "reinf_preview"
+	color = COLOR_GRAY40
+	material = MATERIAL_PLASTEEL
+	reinforced = MATERIAL_PLASTEEL
+
 /obj/machinery/rotating_alarm/door // like SM Alarm, but MY :3
 	name = "door alarm"
 	desc = "An industrial rotating alarm light. This one is used to monitor door state."

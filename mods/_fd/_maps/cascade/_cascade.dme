@@ -1,0 +1,7 @@
+#ifndef MODPACK_CASCADE
+#define MODPACK_CASCADE
+
+#include "_cascade.dm"
+#include "code/cascade.dm"
+
+#endif

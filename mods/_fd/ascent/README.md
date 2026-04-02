@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- Отсутствуют
+- https://github.com/RepoStash/FD-NewBay/pull/67
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -33,7 +33,8 @@ ID мода: ASCENT
   - `/datum/reagent/toxin/bromide/affect_ingest()`
   - `/datum/reagent/toxin/methyl_bromide/affect_touch()`
   - `/datum/reagent/toxin/methyl_bromide/affect_ingest()`
-
+- `code/yummy_organs.dm`:
+  - `/obj/item/reagent_containers/food/snacks/organ/use_before()`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -79,8 +80,9 @@ ID мода: ASCENT
 
 ### Авторы:
 
-Unknown
->https://github.com/Baystation12/Baystation12/commit/b5b3f37e9c15a8ac69be658187c1d5a79df85a34
+Danilcus
+>Unknown
+https://github.com/Baystation12/Baystation12/commit/b5b3f37e9c15a8ac69be658187c1d5a79df85a34
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.

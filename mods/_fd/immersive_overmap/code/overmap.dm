@@ -32,6 +32,14 @@
 	colors = list("#321945")
 	color = "#321945"
 
+/obj/overmap/event/a_beacon
+	colors = list("#8e52b9")
+	color = "#8e52b9"
+	icon = 'mods/_fd/immersive_overmap/icons/new_overmap.dmi'
+	icon_state = "ascent"
+	name = "ascent beacon"
+	desc = "Better not to interfere with these..."
+
 GLOBAL_LIST_EMPTY(bluespace_gates)
 
 /obj/bluespace_rift

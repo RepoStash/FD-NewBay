@@ -87,7 +87,7 @@ Revised by CPU_Blanc.
 							continue
 						if(H.map_range >= 0)
 							var/obj/overmap/targetOM = map_sectors["[H.z]"]
-							if(targetOM == baseOM || ((targetOM in range(baseOM,map_range)) && (baseOM in range(targetOM,H.map_range))))
+							if(targetOM == baseOM || (get_dist(baseOM, targetOM) <= map_range))
 								holopadlist["[H.loc.loc.name]"] = H
 						else if(H.z in zlevels)
 							holopadlist["[H.loc.loc.name]"] = H

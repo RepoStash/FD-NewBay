@@ -81,3 +81,10 @@
 	name = OUTFIT_JOB_NAME("Deck Technician - Army")
 	uniform = /obj/item/clothing/under/scga/utility/urban/supply
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+//Death of Hope Special - Fleet CO
+/singleton/hierarchy/outfit/job/torch/crew/command/CO/fleet
+	name = OUTFIT_JOB_NAME("Commanding Officer - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/command
+	shoes = /obj/item/clothing/shoes/dutyboots
+	head = /obj/item/clothing/head/beret/solgov/fleet/command

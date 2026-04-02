@@ -136,5 +136,5 @@
 	time = 50
 
 /material/plasteel/generate_recipes(reinforce_material)
-	..()
+	. = ..()
 	. += new/datum/stack_recipe/furniture/mag_tables(src)

@@ -796,12 +796,22 @@ Ccomp's first proc.
 	set name = "Change View Range"
 	set desc = "switches between 1x and custom views"
 
+//	[FD-EDIT]
+	if(view == 7)
+		view = input("Select view range:", "FUCK YE", 7) in list(1,2,4,6,7,8,10,12,13,14,18,24,30,128)
+	else
+		view = 7
+
+	log_and_message_admins("changed their view range to [view].")
+/*
 	if(view == get_preference_value(/datum/client_preference/client_view))
 		view = input("Select view range:", "FUCK YE", 7) in list(1,2,4,6,7,8,10,12,13,14,18,24,30,128)
 	else
 		view = get_preference_value(/datum/client_preference/client_view)
 
 	log_and_message_admins("changed their view range to [view].")
+	[/FD-EDIT]
+*/
 
 /client/proc/admin_call_shuttle()
 

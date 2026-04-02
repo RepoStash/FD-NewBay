@@ -55,7 +55,7 @@
 
 /obj/item/projectile/bullet/huge_caliber/rocket
 	name ="rocket"
-	damage = 50
+	damage = 80
 	pew_spread = 9
 	explosion_radius = 2
 
@@ -63,14 +63,14 @@
 	explosion_radius = 4
 
 /obj/item/projectile/bullet/huge_caliber/rocket/aphe
-	damage = 80
+	damage = 110
 	armor_penetration = 100
 	penetrating = 5
 	penetration_modifier = 2
 	explosion_radius = 3
 
 /obj/item/projectile/bullet/huge_caliber/rocket/tandem
-	damage = 60
+	damage = 90
 	armor_penetration = 100
 	penetrating = 5
 	penetration_modifier = 2

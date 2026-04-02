@@ -59,3 +59,22 @@
 
 	if(istype(loc, /obj/item/clothing/suit/space/void/exploration) || istype(loc, /obj/item/clothing/suit/space/void/atmos/alt/sol/expo) )
 		return overlay_image(accessory_icons[slot], "shoulder_cape_fat", color, RESET_COLOR)
+
+
+/obj/item/clothing/accessory/scarf/shouldercape/old_cloak
+	name = "old shoulder cloak"
+	desc = "Harshly used cloak, which obviously had seen some serious shit..."
+	icon = 'mods/_fd/bruno_items/icons/old_cloak.dmi'
+	accessory_icons = list(
+		slot_w_uniform_str = 'mods/_fd/bruno_items/icons/old_cloak.dmi',
+		slot_wear_suit_str = 'mods/_fd/bruno_items/icons/old_cloak.dmi')
+	icon_state = "onmob_old_cloak"
+	item_state = "old_cloak"
+	slot = ACCESSORY_SLOT_INSIGNIA
+	slot_flags = SLOT_TIE
+
+/obj/item/clothing/accessory/scarf/shouldercape/old_cloak/get_mob_overlay(mob/user_mob, slot)
+	. = ..()
+
+	if(istype(loc, /obj/item/clothing/suit/space/void/exploration) || istype(loc, /obj/item/clothing/suit/space/void/atmos/alt/sol/expo) )
+		return overlay_image(accessory_icons[slot], "onmob_old_cloak", color, RESET_COLOR)

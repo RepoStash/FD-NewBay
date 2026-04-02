@@ -4,7 +4,7 @@
 #define CULTURE_HUMAN_LUNARICH_FD       "Luna, Upper Class"
 #define CULTURE_HUMAN_VENUSIAN_FD       "Venusian, Zoner"
 #define CULTURE_HUMAN_BELTER_FD         "Belter, Ceres"
-#define CULTURE_HUMAN_PLUTO_FD          "Plutonian"
+#define CULTURE_HUMAN_PLUTO_FD          "Plutonec"
 
 #define HOME_SYSTEM_LUNA_FD       "Luna"
 #define HOME_SYSTEM_MARS_FD       "Mars"

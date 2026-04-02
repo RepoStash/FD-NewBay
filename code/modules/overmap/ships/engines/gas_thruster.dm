@@ -89,6 +89,7 @@
 	controller = new(src)
 	update_nearby_tiles(need_rebuild=1)
 
+/obj/machinery/atmospherics/unary/engine/LateInitialize(mapload, ...)
 	for(var/ship in SSshuttle.ships)
 		var/obj/overmap/visitable/ship/S = ship
 		if(S.check_ownership(src))

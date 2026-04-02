@@ -1,0 +1,13 @@
+#ifndef MODPACK_IMMERSIVE_SOUNDS
+#define MODPACK_IMMERSIVE_SOUNDS
+
+#include "_immersive_sounds.dm"
+
+#include "code/machinery.dm"
+
+#include "code/vent_pump.dm"
+#include "code/vent_scrubber.dm"
+#include "code/dev_console.dm"
+#include "code/telecomunications.dm"
+
+#endif

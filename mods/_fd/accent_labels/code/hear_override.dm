@@ -1,7 +1,7 @@
 /mob/on_hear_say(message)
 	var/name_verb_pos = findtext_char(message, ",")
-	for(var/mob/living/speaker as() in GLOB.alive_mobs)
-		if(!findtext(message, speaker.name, 1, name_verb_pos))
+	for(var/mob/living/speaker as anything in GLOB.alive_mobs)
+		if(!findtext_char(message, speaker.name, 1, name_verb_pos))
 			continue
 		message = "[speaker.get_accent_tag(src)]" + message
 		break
@@ -9,8 +9,8 @@
 
 /mob/living/silicon/on_hear_say(message)
 	var/name_verb_pos = findtext_char(message, ",")
-	for(var/mob/living/speaker as() in GLOB.alive_mobs)
-		if(!findtext(message, speaker.name, 1, name_verb_pos))
+	for(var/mob/living/speaker as anything in GLOB.alive_mobs)
+		if(!findtext_char(message, speaker.name, 1, name_verb_pos))
 			continue
 		message = "[speaker.get_accent_tag(src)]" + message
 		break

@@ -32,6 +32,11 @@ ID мода: FD_SPECIES
 
 - Мулов
 
+Убирает ограничения для:
+
+- ИПС (Веймед)
+
+Маскирует веймед-ИПС под людей
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -43,6 +48,8 @@ ID мода: FD_SPECIES
 - `code\modules\species\station\station.dm`: `var/spawn_flags`
 - `mods\tajara\code\datum\species.dm`: `var/spawn_flags`
 - `code\modules\species\station\human_subspecies.dm`: `var/spawn_flags`
+
+- `code\modules\mob\living\carbon\human\examine.dm`: `proc/examine`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -53,7 +60,12 @@ ID мода: FD_SPECIES
 
 ### Оверрайды
 
-Отсутствуют
+- `code\modules\organs\robolimbs.dm`: `var/species_cannot_use`
+- `mods\ipc_mods\code\machine.dm`: `var/genders`, `var/appearance_flags`
+- `code\modules\sprite_accessories\_accessory.dm`: `var/species_allowed`
+- `code\modules\sprite_accessories\_accessory_hair.dm`: `var/species_allowed`
+- `code\modules\sprite_accessories\accessory_human.dm`: `var/species_allowed`
+- `code\modules\sprite_accessories\accessory_hair_fade.dm`: `var/species_allowed`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -85,6 +97,7 @@ ID мода: FD_SPECIES
 ### "Авторы:"
 
 Chaplain Maximum
+CheBuRek017 & XeroXOffice & xDanilcusx
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.

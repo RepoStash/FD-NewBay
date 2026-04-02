@@ -1,0 +1,12 @@
+#ifndef MODPACK_NEW_YEAR_FD
+#define MODPACK_NEW_YEAR_FD
+
+#include "_new_year_house.dm"
+
+#include "code/jobs.dm"
+#include "code/new_year_house.dm"
+#include "code/the_walls_are_crawling.dm"
+#include "code/train.dm"
+#include "code/psi_trailer.dm"
+
+#endif

@@ -210,3 +210,23 @@
 
 /area/centcom/test
 	name = "\improper Observatory Testing Facility"
+
+/area/mekubal/crew
+	name = "\improper Crew Area"
+
+/area/mekubal/airlock
+	name = "\improper Dock"
+
+/area/mekubal/hall
+	name = "\improper Hallway"
+
+/area/mekubal/power
+	name = "\improper Engineering"
+/area/mekubal/battery_right
+	name = "\improper Right Cannon Battery"
+
+/area/mekubal/battery_left
+	name = "\improper Left Cannon Battery"
+
+/area/mekubal/cockpit
+	name = "\improper Cockpit"

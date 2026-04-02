@@ -50,3 +50,19 @@
 	docking_controller = "aegis_shuttle_dock_airlock"
 
 */
+
+
+/obj/machinery/computer/ship/helm/ulyanovsk
+	accellimit = 0.005
+	req_access = list(access_iccg)
+
+/obj/machinery/computer/ship/helm/ulyanovsk/command
+	req_access = list(access_iccg_com)
+
+/obj/item/stock_parts/circuitboard/helm/ulyanovsk
+	name = "C.B. (helm control console) - GCCV Ulyanovsk"
+	build_path = /obj/machinery/computer/ship/helm/ulyanovsk
+
+/obj/item/stock_parts/circuitboard/helm/ulyanovsk/command
+	name = "C.B. (helm control console) - GCCV Ulyanovsk (Command)"
+	build_path = /obj/machinery/computer/ship/helm/ulyanovsk/command

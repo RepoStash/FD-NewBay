@@ -1,0 +1,60 @@
+"cy" = (/obj/structure/cable/blue{icon_state = "1-2"},/obj/decal/cleanable/dirt{icon = 'icons/turf/flooring/tiles.dmi'; icon_state = "broken1"},/turf/simulated/floor,/area/map_template/bs_device)
+"cZ" = (/obj/structure/fd/bs_vines,/obj/structure/cable/white{icon_state = "5-10"},/turf/simulated/floor,/area/map_template/bs_device)
+"dv" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/decal/cleanable/ash,/turf/simulated/floor,/area/map_template/bs_device)
+"dJ" = (/turf/simulated/wall/growth,/area/map_template/bs_device)
+"fa" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/decal/cleanable/dirt{icon = 'icons/turf/flooring/tiles.dmi'; icon_state = "broken1"},/turf/simulated/floor,/area/map_template/bs_device)
+"fg" = (/obj/structure/fd/bs_crystal,/obj/structure/cable/pink{dir = 8},/obj/structure/showcase{color = "#FF00FF"; density = 0; desc = "Not first."; icon = 'mods/_fd/_maps/small_exoplanet_1/icons/fabric_symbols.dmi'; icon_state = "4"; layer = 2.24; name = "runic symbol"; pixel_x = -32; pixel_y = 0},/obj/structure/cable/white{icon_state = "32-6"},/obj/structure/cable/white{icon_state = "32-5"},/turf/simulated/floor/bluegrid,/area/map_template/bs_device)
+"fi" = (/obj/decal/cleanable/molten_item,/turf/unsimulated/floor/bluespace,/area/map_template/bs_device)
+"fX" = (/obj/structure/cable/blue{icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"jD" = (/obj/item/stack/material/rods,/turf/simulated/floor,/area/map_template/bs_device)
+"nK" = (/obj/structure/fd/bs_crystal,/obj/structure/cable/blue,/obj/structure/showcase{color = "#4682B4"; density = 0; desc = "Last."; icon = 'mods/_fd/_maps/small_exoplanet_1/icons/fabric_symbols.dmi'; icon_state = "9"; layer = 2.21; name = "runic symbol"; pixel_x = 0; pixel_y = -32},/obj/structure/cable/white{icon_state = "32-9"},/obj/structure/cable/white{icon_state = "32-5"},/turf/simulated/floor/bluegrid,/area/map_template/bs_device)
+"nR" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/map_template/bs_device)
+"oG" = (/obj/decal/cleanable/remains,/turf/simulated/floor,/area/map_template/bs_device)
+"pZ" = (/obj/structure/cable/white{icon_state = "5-10"},/turf/simulated/floor,/area/map_template/bs_device)
+"rv" = (/obj/decal/cleanable/dirt{icon = 'icons/turf/flooring/tiles.dmi'; icon_state = "broken1"},/obj/item/stack/material/rods,/turf/simulated/floor,/area/map_template/bs_device)
+"rE" = (/obj/decal/cleanable/dirt{icon = 'icons/turf/flooring/tiles.dmi'; icon_state = "broken1"},/turf/simulated/floor,/area/map_template/bs_device)
+"rH" = (/obj/structure/fd/bs_spikes,/obj/structure/cable/white{icon_state = "5-10"},/turf/simulated/floor,/area/map_template/bs_device)
+"sd" = (/obj/decal/cleanable/dirt{icon = 'icons/turf/flooring/tiles.dmi'; icon_state = "broken1"},/obj/structure/cable/white{icon_state = "5-10"; dir = 4},/turf/simulated/floor,/area/map_template/bs_device)
+"sq" = (/obj/structure/fd/bs_vines,/obj/structure/cable/pink{dir = 4; icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"uM" = (/obj/decal/cleanable/ash,/turf/simulated/floor,/area/map_template/bs_device)
+"yP" = (/obj/structure/cable/white{icon_state = "5-10"; dir = 4},/turf/simulated/floor,/area/map_template/bs_device)
+"zF" = (/obj/structure/fd/bs_crystal,/obj/structure/cable/orange{icon_state = "0-2"},/obj/structure/showcase{color = "#FF8C00"; density = 0; desc = "After pink."; icon = 'mods/_fd/_maps/small_exoplanet_1/icons/fabric_symbols.dmi'; icon_state = "6"; layer = 2.24; name = "runic symbol"; pixel_x = 1; pixel_y = 33},/obj/structure/cable/white{icon_state = "32-6"},/obj/structure/cable/white{icon_state = "32-10"},/turf/simulated/floor/bluegrid,/area/map_template/bs_device)
+"zH" = (/turf/template_noop,/area/space)
+"Bo" = (/obj/structure/fd/bs_vines,/turf/simulated/floor,/area/map_template/bs_device)
+"BH" = (/obj/decal/cleanable/generic,/turf/simulated/floor,/area/map_template/bs_device)
+"BV" = (/obj/structure/cable/pink{dir = 4; icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"CC" = (/obj/structure/fd/bs_spikes,/obj/structure/cable/white{icon_state = "5-10"; dir = 4},/turf/simulated/floor,/area/map_template/bs_device)
+"CT" = (/obj/decal/cleanable/generic,/obj/item/stack/material/rods,/turf/simulated/floor,/area/map_template/bs_device)
+"ES" = (/obj/decal/cleanable/filth,/turf/simulated/floor,/area/map_template/bs_device)
+"Fe" = (/obj/structure/fd/body/bluespace_infected,/turf/simulated/floor,/area/map_template/bs_device)
+"Fx" = (/turf/simulated/floor,/area/map_template/bs_device)
+"HL" = (/obj/item/wirecutters{pixel_x = -12; pixel_y = 16},/turf/simulated/floor,/area/map_template/bs_device)
+"Ic" = (/obj/structure/fd/bs_spikes,/turf/simulated/floor,/area/map_template/bs_device)
+"IV" = (/obj/structure/fd/bs_vines,/obj/structure/cable/orange{icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"LL" = (/obj/item/stack/material/rods,/turf/template_noop,/area/space)
+"Oc" = (/obj/structure/fd/bs_vines,/obj/structure/cable/blue{icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"RI" = (/obj/structure/fd/bs_vines,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/map_template/bs_device)
+"RO" = (/obj/decal/cleanable/filth,/obj/structure/cable/white{icon_state = "5-10"; dir = 4},/turf/simulated/floor,/area/map_template/bs_device)
+"SG" = (/turf/unsimulated/floor/bluespace,/area/map_template/bs_device)
+"TK" = (/obj/item/fd/quest_item/cell{name = "UNSTABLE BLUESPACE DEVICE"; desc = null; anchored = 1},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/orange,/obj/structure/cable/pink{dir = 4},/obj/structure/cable/blue{dir = 1},/obj/particle_emitter/sparks,/turf/simulated/floor/selfestructgrid,/area/map_template/bs_device)
+"Us" = (/obj/decal/cleanable/remains,/obj/structure/cable/white{icon_state = "5-10"},/turf/simulated/floor,/area/map_template/bs_device)
+"UV" = (/obj/structure/cable/orange{icon_state = "1-2"},/turf/simulated/floor,/area/map_template/bs_device)
+"Va" = (/obj/structure/fd/bs_vines,/obj/structure/cable/white{icon_state = "5-10"; dir = 4},/turf/simulated/floor,/area/map_template/bs_device)
+"Vt" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/decal/cleanable/filth,/turf/simulated/floor,/area/map_template/bs_device)
+"Yy" = (/obj/structure/fd/bs_crystal,/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/structure/showcase{color = "#32CD32"; density = 0; desc = "Before pink."; icon = 'mods/_fd/_maps/small_exoplanet_1/icons/fabric_symbols.dmi'; icon_state = "5"; layer = 2.24; name = "runic symbol"; pixel_x = 33; pixel_y = 1},/obj/structure/cable/white{icon_state = "32-10"},/obj/structure/cable/white{icon_state = "32-9"},/turf/simulated/floor/bluegrid,/area/map_template/bs_device)
+
+(1,1,1) = {"
+LLzHLLzHLLzHdJdJdJzHzHzHLLzHzH
+zHzHzHzHzHdJdJzFdJdJzHLLzHLLzH
+zHzHLLzHjDdJrHdvVadJdJLLzHzHzH
+zHLLzHFxCTcZSGIVuMsdBHrvzHLLzH
+zHzHdJfiUsuMrEVtIcSGCCoGjDLLzH
+zHdJdJpZrEIcBoUVBoIcrEVadJdJzH
+zHdJfgBVsqBVBVTKfanRRIfaYydJzH
+zHdJdJVarEFeHLfXIcBoIcpZdJdJzH
+zHzHdJdJROIcIccyESSGcZdJdJzHzH
+zHLLzHFxjDsdBofXoGrHuMFxzHLLzH
+zHLLLLLLBHSGyPOcpZrEjDLLLLzHzH
+zHzHzHzHLLdJdJnKdJdJLLzHLLLLzH
+zHzHLLLLzHzHdJdJdJzHzHLLzHLLzH
+"}

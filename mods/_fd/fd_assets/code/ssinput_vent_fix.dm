@@ -1,0 +1,5 @@
+/obj/machinery/atmospherics/relaymove(mob/living/user, direction)
+	if(direction in GLOB.cardinalz)
+		return ..(user, direction)
+	var/new_direction = turn(direction, 45)
+	return ..(user, new_direction)

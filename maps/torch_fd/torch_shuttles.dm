@@ -480,3 +480,47 @@ TORCH_ESCAPE_POD(17)
 //Makes the deck management program use hangar access
 /datum/nano_module/deck_management
 	default_access = list(access_hangar, access_cargo, access_heads)
+
+/datum/shuttle/autodock/overmap/mekubal
+	name = "GCNV Mekubal"
+	move_time = 30
+	shuttle_area = list(/area/mekubal/cockpit, /area/mekubal/power, /area/mekubal/crew, /area/mekubal/airlock, /area/mekubal/hall, /area/mekubal/battery_left, /area/mekubal/battery_right)
+	current_location = "nav_hangar_mekubal"
+	landmark_transition = "nav_transit_mekubal"
+	dock_target = "mekubal_shuttle"
+	range = 2
+	logging_home_tag = "nav_hangar_mekubal"
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
+
+//создаёт рантайм :3
+//не бейте :c
+
+/obj/shuttle_landmark/torch/hangar/mekubal
+	name = "Mekubal Hangar"
+	landmark_tag = "nav_hangar_mekubal"
+	docking_controller = "mekubal_shuttle_dock_airlock"
+	base_turf = /turf/simulated/floor/reinforced
+
+/obj/shuttle_landmark/torch/deck1/mekubal
+	name = "Space near Forth Deck"
+	landmark_tag = "nav_deck1_mekubal"
+
+/obj/shuttle_landmark/torch/deck2/mekubal
+	name = "Space near Third Deck"
+	landmark_tag = "nav_deck2_mekubal"
+
+/obj/shuttle_landmark/torch/deck3/mekubal
+	name = "Space near Second Deck"
+	landmark_tag = "nav_deck3_mekubal"
+
+/obj/shuttle_landmark/torch/deck4/mekubal
+	name = "Space near First Deck"
+	landmark_tag = "nav_deck4_mekubal"
+
+/obj/shuttle_landmark/torch/deck5/mekubal
+	name = "Space near Bridge"
+	landmark_tag = "nav_bridge_mekubal"
+
+/obj/shuttle_landmark/transit/torch/mekubal
+	name = "In transit"
+	landmark_tag = "nav_transit_mekubal"

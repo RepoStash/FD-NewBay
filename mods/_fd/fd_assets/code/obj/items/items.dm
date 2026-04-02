@@ -18,3 +18,7 @@
 	icon = 'mods/_fd/fd_assets/icons/obj/items/oddities.dmi'
 	icon_state = "coin_gold"
 	max_amount = 10
+
+/obj/item/photo/map
+	img = 'mods/_fd/fd_assets/icons/map_highfleet.png'
+	photo_size = 10

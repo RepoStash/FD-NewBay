@@ -18,6 +18,7 @@
 
 /obj/item/organ/internal/cell/Process()
 	..()
+	if(isnull(owner)) return
 	var/cost = get_power_drain()
 	if(!checked_use(cost) && owner.isSynthetic())
 		if(owner.species.name == SPECIES_IPC)

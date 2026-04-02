@@ -13,6 +13,7 @@
 #include "code/ascent_emotes.dm"
 #include "code/ascent_id.dm"
 #include "code/ascent_languages.dm"
+#include "code/ascent_larva.dm"
 #include "code/ascent_machines.dm"
 #include "code/ascent_mobs.dm"
 #include "code/ascent_organs.dm"
@@ -28,6 +29,7 @@
 #include "code/culture_ascent.dm"
 #include "code/location_ascent.dm"
 #include "code/religion_ascent.dm"
+#include "code/yummy_organs.dm"
 #include "code/~ascent.dm"
 
 #endif
